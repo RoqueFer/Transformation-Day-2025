@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_939bf8022bafbb308a9e6a5edf4cf28b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_939bf8022bafbb308a9e6a5edf4cf28b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_939bf8022bafbb308a9e6a5edf4cf28b = L.map(
+                "map_939bf8022bafbb308a9e6a5edf4cf28b",
+                {
+                    center: [-24.5, -47.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_386cea15709221bfbde5c50293b9d136 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_386cea15709221bfbde5c50293b9d136.addTo(map_939bf8022bafbb308a9e6a5edf4cf28b);
+        
+    
+            var heat_map_6f0faa0ec595a4d11908d738a67cc694 = L.heatLayer(
+                [[-27.59, -48.54, 9], [-27.24, -48.63, 6], [-26.91, -48.67, 7], [-26.48, -48.84, 8], [-26.13, -49.12, 5], [-25.42, -49.27, 10], [-25.09, -49.95, 4], [-24.78, -48.35, 7], [-24.18, -47.15, 5], [-23.88, -46.8, 6], [-23.55, -46.63, 10], [-23.45, -46.53, 8], [-23.21, -45.88, 9], [-23.0, -45.55, 7], [-22.74, -45.19, 6], [-22.5, -44.1, 7], [-22.87, -43.33, 8], [-22.9, -43.17, 10]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 30,
+  "blur": 20,
+  "gradient": {
+  0.2: "blue",
+  0.4: "green",
+  0.6: "yellow",
+  1: "red",
+},
+}
+            );
+        
+    
+            heat_map_6f0faa0ec595a4d11908d738a67cc694.addTo(map_939bf8022bafbb308a9e6a5edf4cf28b);
+        
+    
+            var marker_c268dc1dcc4f2eea0e169aeed0aa2882 = L.marker(
+                [-27.59, -48.54],
+                {
+}
+            ).addTo(map_939bf8022bafbb308a9e6a5edf4cf28b);
+        
+    
+            var icon_9f9a12f5b44e33243d732517c7d41604 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e375f66fadf7d7e09215efe406a1110 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9479c4c92ebcb39f0cce85bcc60ec26 = $(`<div id="html_b9479c4c92ebcb39f0cce85bcc60ec26" style="width: 100.0%; height: 100.0%;"><b>Florianópolis</b><br>Score: 9</div>`)[0];
+                popup_5e375f66fadf7d7e09215efe406a1110.setContent(html_b9479c4c92ebcb39f0cce85bcc60ec26);
+            
+        
+
+        marker_c268dc1dcc4f2eea0e169aeed0aa2882.bindPopup(popup_5e375f66fadf7d7e09215efe406a1110)
+        ;
+
+        
+    
+    
+                marker_c268dc1dcc4f2eea0e169aeed0aa2882.setIcon(icon_9f9a12f5b44e33243d732517c7d41604);
+            
+    
+            var marker_7db3f0cc19a45a7f579da8f1af73bf5a = L.marker(
+                [-25.42, -49.27],
+                {
+}
+            ).addTo(map_939bf8022bafbb308a9e6a5edf4cf28b);
+        
+    
+            var icon_e36ced3799fdcd68f36896debb48c6a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_040d2593be7f7eee45639dff9861789a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e11963848d21271790d16505d1aa0bf0 = $(`<div id="html_e11963848d21271790d16505d1aa0bf0" style="width: 100.0%; height: 100.0%;"><b>Curitiba</b><br>Score: 10</div>`)[0];
+                popup_040d2593be7f7eee45639dff9861789a.setContent(html_e11963848d21271790d16505d1aa0bf0);
+            
+        
+
+        marker_7db3f0cc19a45a7f579da8f1af73bf5a.bindPopup(popup_040d2593be7f7eee45639dff9861789a)
+        ;
+
+        
+    
+    
+                marker_7db3f0cc19a45a7f579da8f1af73bf5a.setIcon(icon_e36ced3799fdcd68f36896debb48c6a7);
+            
+    
+            var marker_d106ad19a379c6fbb43934c00fc15d42 = L.marker(
+                [-23.55, -46.63],
+                {
+}
+            ).addTo(map_939bf8022bafbb308a9e6a5edf4cf28b);
+        
+    
+            var icon_200ece7bffeff430245870091bcc9933 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62bb1f79f76262d2872742cc22e03543 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_105518a24e6507d1c2c7c9ba1a5724d3 = $(`<div id="html_105518a24e6507d1c2c7c9ba1a5724d3" style="width: 100.0%; height: 100.0%;"><b>São Paulo</b><br>Score: 10</div>`)[0];
+                popup_62bb1f79f76262d2872742cc22e03543.setContent(html_105518a24e6507d1c2c7c9ba1a5724d3);
+            
+        
+
+        marker_d106ad19a379c6fbb43934c00fc15d42.bindPopup(popup_62bb1f79f76262d2872742cc22e03543)
+        ;
+
+        
+    
+    
+                marker_d106ad19a379c6fbb43934c00fc15d42.setIcon(icon_200ece7bffeff430245870091bcc9933);
+            
+    
+            var marker_27922244cf32961a5e1852d84a3787b6 = L.marker(
+                [-22.9, -43.17],
+                {
+}
+            ).addTo(map_939bf8022bafbb308a9e6a5edf4cf28b);
+        
+    
+            var icon_dd721c19b12f192500b2349dc81c812d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6179e2f1845f2593fdf3c319b095afd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ef65c18a5d73d508db96e39884c6654 = $(`<div id="html_4ef65c18a5d73d508db96e39884c6654" style="width: 100.0%; height: 100.0%;"><b>Rio de Janeiro</b><br>Score: 10</div>`)[0];
+                popup_6179e2f1845f2593fdf3c319b095afd8.setContent(html_4ef65c18a5d73d508db96e39884c6654);
+            
+        
+
+        marker_27922244cf32961a5e1852d84a3787b6.bindPopup(popup_6179e2f1845f2593fdf3c319b095afd8)
+        ;
+
+        
+    
+    
+                marker_27922244cf32961a5e1852d84a3787b6.setIcon(icon_dd721c19b12f192500b2349dc81c812d);
+            
+</script>
+</html>
