@@ -1,7 +1,3 @@
-Com certeza. Um bom README.md é a porta de entrada para qualquer projeto. Com base em todo o nosso histórico e nos arquivos que você forneceu, gerei um README.md completo que explica a estrutura, o objetivo e como interagir com o projeto.
-
-Você pode copiar e colar o texto abaixo diretamente em um arquivo README.md na raiz do seu repositório no GitHub.
-
 🗺️ Análise de Potencial para Eletropostos - Renault Transformation Day 2025
 
 Este projeto foi desenvolvido como parte do desafio "Mobilize" do Renault Transformation Day 2025. O objetivo principal é realizar uma análise de dados geoespaciais e de tráfego para identificar os melhores locais para a instalação de novos pontos de recarga para veículos elétricos. A análise foca em criar um "Score de Potencial" para PIs (Pontos de Interesse) ao longo de rotas estratégicas, como Curitiba -> São Paulo.
