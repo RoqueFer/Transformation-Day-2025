@@ -1,0 +1,1089 @@
+[
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "https://eveletroposto.eco.br/",
+      "Comments": null,
+      "PhonePrimaryContact": "+55 41 99816 0590",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 3805,
+      "Title": "EV Eletroposto (Brasil)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": false,
+    "DateLastVerified": "2024-09-02T01:59:00Z",
+    "ID": 302563,
+    "UUID": "77CDDBFA-B929-476B-B824-99EAB06A63E2",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 3805,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": "R$2,59/kWh",
+    "AddressInfo": {
+      "ID": 302950,
+      "Title": "Ev Eletroposto Restaurante Serra Da Graciosa",
+      "AddressLine1": "R. Doraci Ribeiro Prestes, 45",
+      "AddressLine2": null,
+      "Town": "Quatro Barras",
+      "StateOrProvince": "PR",
+      "Postcode": "83420000",
+      "CountryID": 36,
+      "Country": {
+        "ISOCode": "BR",
+        "ContinentCode": "SA",
+        "ID": 36,
+        "Title": "Brazil"
+      },
+      "Latitude": -25.318308965398444,
+      "Longitude": -49.01801328361768,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": 0.4489496281044897,
+      "DistanceUnit": 1
+    },
+    "Connections": [
+      {
+        "ID": 568346,
+        "ConnectionTypeID": 33,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration FF",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 33,
+          "Title": "CCS (Type 2)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 30,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Carregador DC CCS2 de 30 KW. Aplicativos EV eletroposto: Apple Store (iPhone) - https://apps.apple.com/br/app/ev-eletroposto/id6497407741 Apple Store (Android) - https://play.google.com/store/apps/details?id=br.com.eveletroposto.app Cartão de crédito der erro usar o PIX que libera na hora.  Senha do Wi-Fi do restaurante: restaurante  Sinal de internet é péssimo. O Wi-Fi salva para poder usar.",
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-09-02T01:59:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2024-08-13T01:44:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "https://ezvolt.com.br",
+      "Comments": "OCPI with Data Sharing Agreement",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 30,
+        "Title": "Partially Automated (Ad-Hoc Import)"
+      },
+      "IsRestrictedEdit": true,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under CC0 by data sharing agreement",
+      "DateLastImported": "2025-09-05T08:08:35.563Z",
+      "ID": 40,
+      "Title": "EZVolt"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "https://ezvolt.com.br/",
+      "Comments": null,
+      "PhonePrimaryContact": "+55 21 3900-7077",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": "contato@ezvolt.com.br",
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 3564,
+      "Title": "EZVolt"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2025-09-05T08:09:00Z",
+    "ID": 459069,
+    "UUID": "1111627C-8423-4D48-B514-66A6AD3C3E4B",
+    "ParentChargePointID": null,
+    "DataProviderID": 40,
+    "DataProvidersReference": "0194b34b-1f23-700f-931f-04789b209364",
+    "OperatorID": 3564,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 459458,
+      "Title": "NetPark - Eldorado Business Tower",
+      "AddressLine1": "Av. Dra. Ruth Cardoso, 8501 - Pinheiros, São Paulo - SP, 05425-070",
+      "AddressLine2": null,
+      "Town": "Pinheiros",
+      "StateOrProvince": null,
+      "Postcode": "",
+      "CountryID": 36,
+      "Country": {
+        "ISOCode": "BR",
+        "ContinentCode": "SA",
+        "ID": 36,
+        "Title": "Brazil"
+      },
+      "Latitude": -23.573492,
+      "Longitude": -46.697787,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": 0.18842454462597782,
+      "DistanceUnit": 1
+    },
+    "Connections": [
+      {
+        "ID": 771657,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 771658,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 771659,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 771660,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 771661,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 771662,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 771663,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": null,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2025-07-03T06:13:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "https://ezvolt.com.br",
+      "Comments": "OCPI with Data Sharing Agreement",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 30,
+        "Title": "Partially Automated (Ad-Hoc Import)"
+      },
+      "IsRestrictedEdit": true,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under CC0 by data sharing agreement",
+      "DateLastImported": "2025-09-05T08:08:35.563Z",
+      "ID": 40,
+      "Title": "EZVolt"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "https://ezvolt.com.br/",
+      "Comments": null,
+      "PhonePrimaryContact": "+55 21 3900-7077",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": "contato@ezvolt.com.br",
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 3564,
+      "Title": "EZVolt"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2025-09-05T08:09:00Z",
+    "ID": 459071,
+    "UUID": "D6BEA3C7-7BA0-400A-82BC-AA2CAAC9A61E",
+    "ParentChargePointID": null,
+    "DataProviderID": 40,
+    "DataProvidersReference": "01974c56-8a66-7bbc-9a82-a2f186d20bef",
+    "OperatorID": 3564,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 459460,
+      "Title": "Netpark - Arquiteto Roberto Bratke",
+      "AddressLine1": "R. dos Pinheiros, 1673 - Pinheiros, São Paulo - SP",
+      "AddressLine2": null,
+      "Town": "São Paulo",
+      "StateOrProvince": null,
+      "Postcode": "",
+      "CountryID": 36,
+      "Country": {
+        "ISOCode": "BR",
+        "ContinentCode": "SA",
+        "ID": 36,
+        "Title": "Brazil"
+      },
+      "Latitude": -23.567441,
+      "Longitude": -46.69369,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": 0.617143279735065,
+      "DistanceUnit": 1
+    },
+    "Connections": [
+      {
+        "ID": 771665,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": null,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2025-07-03T06:13:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "https://ezvolt.com.br",
+      "Comments": "OCPI with Data Sharing Agreement",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 30,
+        "Title": "Partially Automated (Ad-Hoc Import)"
+      },
+      "IsRestrictedEdit": true,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under CC0 by data sharing agreement",
+      "DateLastImported": "2025-09-05T08:08:35.563Z",
+      "ID": 40,
+      "Title": "EZVolt"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "https://ezvolt.com.br/",
+      "Comments": null,
+      "PhonePrimaryContact": "+55 21 3900-7077",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": "contato@ezvolt.com.br",
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 3564,
+      "Title": "EZVolt"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": false,
+      "IsUserSelectable": true,
+      "ID": 100,
+      "Title": "Not Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2025-09-05T08:09:00Z",
+    "ID": 459072,
+    "UUID": "B17BA950-E39B-4818-9C67-8CA655AC0FA6",
+    "ParentChargePointID": null,
+    "DataProviderID": 40,
+    "DataProvidersReference": "a7b57ded-5131-49ff-96a6-b3d08fcd32e1",
+    "OperatorID": 3564,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 459461,
+      "Title": "HOUSI - Bela Cintra",
+      "AddressLine1": " R. Bela Cintra, 1425 - Cerqueira César, São Paulo - SP, 01415-001",
+      "AddressLine2": null,
+      "Town": "São Paulo",
+      "StateOrProvince": null,
+      "Postcode": "",
+      "CountryID": 36,
+      "Country": {
+        "ISOCode": "BR",
+        "ContinentCode": "SA",
+        "ID": 36,
+        "Title": "Brazil"
+      },
+      "Latitude": -23.558693,
+      "Longitude": -46.664027,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": 0.4172334658156379,
+      "DistanceUnit": 1
+    },
+    "Connections": [
+      {
+        "ID": 771666,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 100,
+        "StatusType": {
+          "IsOperational": false,
+          "IsUserSelectable": true,
+          "ID": 100,
+          "Title": "Not Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": null,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2025-07-03T06:13:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "https://ezvolt.com.br",
+      "Comments": "OCPI with Data Sharing Agreement",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 30,
+        "Title": "Partially Automated (Ad-Hoc Import)"
+      },
+      "IsRestrictedEdit": true,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under CC0 by data sharing agreement",
+      "DateLastImported": "2025-09-05T08:08:35.563Z",
+      "ID": 40,
+      "Title": "EZVolt"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "https://ezvolt.com.br/",
+      "Comments": null,
+      "PhonePrimaryContact": "+55 21 3900-7077",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": "contato@ezvolt.com.br",
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 3564,
+      "Title": "EZVolt"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2025-09-05T08:09:00Z",
+    "ID": 459073,
+    "UUID": "BA62E4C1-3E2D-43B4-9BE8-5D7ACC53502A",
+    "ParentChargePointID": null,
+    "DataProviderID": 40,
+    "DataProvidersReference": "c8ebf810-9795-40b2-a236-109988a35bb9",
+    "OperatorID": 3564,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 459462,
+      "Title": "Hotel Renaissance São Paulo",
+      "AddressLine1": "Alameda Santos, 2233 - Jardim Paulista, São Paulo - SP, 01419-002",
+      "AddressLine2": null,
+      "Town": "São Paulo",
+      "StateOrProvince": null,
+      "Postcode": "",
+      "CountryID": 36,
+      "Country": {
+        "ISOCode": "BR",
+        "ContinentCode": "SA",
+        "ID": 36,
+        "Title": "Brazil"
+      },
+      "Latitude": -23.55865,
+      "Longitude": -46.662117,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": 0.6114492568831595,
+      "DistanceUnit": 1
+    },
+    "Connections": [
+      {
+        "ID": 771667,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 7,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": null,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2025-07-03T06:13:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "https://ezvolt.com.br",
+      "Comments": "OCPI with Data Sharing Agreement",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 30,
+        "Title": "Partially Automated (Ad-Hoc Import)"
+      },
+      "IsRestrictedEdit": true,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under CC0 by data sharing agreement",
+      "DateLastImported": "2025-09-05T08:08:35.563Z",
+      "ID": 40,
+      "Title": "EZVolt"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "https://ezvolt.com.br/",
+      "Comments": null,
+      "PhonePrimaryContact": "+55 21 3900-7077",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": "contato@ezvolt.com.br",
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 3564,
+      "Title": "EZVolt"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2025-09-05T08:09:00Z",
+    "ID": 459074,
+    "UUID": "DF560D1B-2704-4286-823C-061D367B49A9",
+    "ParentChargePointID": null,
+    "DataProviderID": 40,
+    "DataProvidersReference": "29a074af-0629-4946-92d2-f0dcec992bf8",
+    "OperatorID": 3564,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 459463,
+      "Title": "Cond. Haddock Offices",
+      "AddressLine1": "Alameda Santos, 2326 - Jardim Paulista, São Paulo - SP, Brasil",
+      "AddressLine2": null,
+      "Town": "São Paulo",
+      "StateOrProvince": null,
+      "Postcode": "",
+      "CountryID": 36,
+      "Country": {
+        "ISOCode": "BR",
+        "ContinentCode": "SA",
+        "ID": 36,
+        "Title": "Brazil"
+      },
+      "Latitude": -23.55792,
+      "Longitude": -46.662059,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": 0.7968227531724184,
+      "DistanceUnit": 1
+    },
+    "Connections": [
+      {
+        "ID": 771668,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 22,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 771669,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 220,
+        "PowerKW": 22,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": null,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2025-07-03T06:13:00Z",
+    "SubmissionStatusTypeID": 200
+  }
+]
