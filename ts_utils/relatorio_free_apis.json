@@ -1,77 +1,25 @@
 {
   "resumo": {
-    "waypoints": 608,
-    "postosEncontrados": 642,
-    "postosUnicos": 41,
-    "dataProcessamento": "2025-09-19T17:47:19.100Z"
+    "batches": 25,
+    "postosEncontrados": 1,
+    "postosUnicos": 1,
+    "dataProcessamento": "2025-10-08T15:55:58.652Z"
   },
   "configuracao": {
     "origem": "Curitiba [-49.2733, -25.4284]",
     "destino": "São Paulo [-46.6333, -23.5505]",
-    "waypointStep": 10,
-    "raioKm": 4.5,
-    "concurrent": 10
+    "waypointStep": 25,
+    "batchSize": 10,
+    "raioKm": 1.5,
+    "concurrent": 2
   },
   "estatisticas": {
     "porFonte": {
-      "OpenStreetMap": 14,
-      "OpenChargeMap": 27
+      "OpenStreetMap": 1
     },
     "porRede": [
       [
-        "EZVolt",
-        14
-      ],
-      [
         "Rede não informada",
-        7
-      ],
-      [
-        "(Unknown Operator)",
-        6
-      ],
-      [
-        "Tupinambá",
-        3
-      ],
-      [
-        "Enel X",
-        2
-      ],
-      [
-        "Enel",
-        1
-      ],
-      [
-        "Curitiba e Copel",
-        1
-      ],
-      [
-        "Posto Bolinha",
-        1
-      ],
-      [
-        "Curitiba Eco Elétrico",
-        1
-      ],
-      [
-        "Go Eletric",
-        1
-      ],
-      [
-        "EV Eletroposto (Brasil)",
-        1
-      ],
-      [
-        "Porsche Smart Mobility GmbH",
-        1
-      ],
-      [
-        "movE driver",
-        1
-      ],
-      [
-        "ChargePoint",
         1
       ]
     ]
