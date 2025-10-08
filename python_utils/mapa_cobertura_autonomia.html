@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f7e0a46fa636e55faecc90a0a7ffbd42 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f7e0a46fa636e55faecc90a0a7ffbd42" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f7e0a46fa636e55faecc90a0a7ffbd42 = L.map(
+                "map_f7e0a46fa636e55faecc90a0a7ffbd42",
+                {
+                    center: [-25.0, -48.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_89d62e37f48872c9f5b7e182142df427 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_89d62e37f48872c9f5b7e182142df427.addTo(map_f7e0a46fa636e55faecc90a0a7ffbd42);
+        
+    
+            var feature_group_2a2d578a1c4a19776ecfc295d33b4785 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_a9da3aa113f8d4edfcd16cd5d3aeafd2 = L.circle(
+                [-27.59, -48.54],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 220000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            circle_a9da3aa113f8d4edfcd16cd5d3aeafd2.bindTooltip(
+                `<div>
+                     Alcance de 220 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_23e8bf6dd02a96c50bf00e71bbc60bfc = L.marker(
+                [-27.59, -48.54],
+                {
+}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            var beautify_icon_7a10d62b83d84c189140113d8103c7a5 = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "blue",
+  "textColor": "blue",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_23e8bf6dd02a96c50bf00e71bbc60bfc.setIcon(beautify_icon_7a10d62b83d84c189140113d8103c7a5);
+        
+    
+        var popup_3e3ebff93c2efae47a18ba442d05c8a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13a6ae092425856da6e5d7ce21d35ce9 = $(`<div id="html_13a6ae092425856da6e5d7ce21d35ce9" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Florianópolis, SC</div>`)[0];
+                popup_3e3ebff93c2efae47a18ba442d05c8a0.setContent(html_13a6ae092425856da6e5d7ce21d35ce9);
+            
+        
+
+        marker_23e8bf6dd02a96c50bf00e71bbc60bfc.bindPopup(popup_3e3ebff93c2efae47a18ba442d05c8a0)
+        ;
+
+        
+    
+    
+                marker_23e8bf6dd02a96c50bf00e71bbc60bfc.setIcon(beautify_icon_7a10d62b83d84c189140113d8103c7a5);
+            
+    
+            var circle_88f75ff87e18f2225ff6ef7c4b791281 = L.circle(
+                [-26.29, -48.84],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 220000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            circle_88f75ff87e18f2225ff6ef7c4b791281.bindTooltip(
+                `<div>
+                     Alcance de 220 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_215c25e13cc112325a312e7496570b90 = L.marker(
+                [-26.29, -48.84],
+                {
+}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            var beautify_icon_42595b6dee7e63d97031f6a946342db3 = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "blue",
+  "textColor": "blue",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_215c25e13cc112325a312e7496570b90.setIcon(beautify_icon_42595b6dee7e63d97031f6a946342db3);
+        
+    
+        var popup_1befbcbc519f5ba96a5fde78f8743a32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3c0cd5d33b9a05c7687d4d4eb5aa246 = $(`<div id="html_b3c0cd5d33b9a05c7687d4d4eb5aa246" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Joinville, SC</div>`)[0];
+                popup_1befbcbc519f5ba96a5fde78f8743a32.setContent(html_b3c0cd5d33b9a05c7687d4d4eb5aa246);
+            
+        
+
+        marker_215c25e13cc112325a312e7496570b90.bindPopup(popup_1befbcbc519f5ba96a5fde78f8743a32)
+        ;
+
+        
+    
+    
+                marker_215c25e13cc112325a312e7496570b90.setIcon(beautify_icon_42595b6dee7e63d97031f6a946342db3);
+            
+    
+            var circle_2c9f5e40f3aba757779a3d2ed5894239 = L.circle(
+                [-25.42, -49.27],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 220000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            circle_2c9f5e40f3aba757779a3d2ed5894239.bindTooltip(
+                `<div>
+                     Alcance de 220 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4f274daa2bdda0e1d2a3446ca204eb03 = L.marker(
+                [-25.42, -49.27],
+                {
+}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            var beautify_icon_17c276c9c8d207eacdf6c4d7da3d2cec = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "blue",
+  "textColor": "blue",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_4f274daa2bdda0e1d2a3446ca204eb03.setIcon(beautify_icon_17c276c9c8d207eacdf6c4d7da3d2cec);
+        
+    
+        var popup_91a5b0cf05d57ec3251f36941d54a6ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca68b9773169d43753a8c97ace6cc361 = $(`<div id="html_ca68b9773169d43753a8c97ace6cc361" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Curitiba, PR</div>`)[0];
+                popup_91a5b0cf05d57ec3251f36941d54a6ea.setContent(html_ca68b9773169d43753a8c97ace6cc361);
+            
+        
+
+        marker_4f274daa2bdda0e1d2a3446ca204eb03.bindPopup(popup_91a5b0cf05d57ec3251f36941d54a6ea)
+        ;
+
+        
+    
+    
+                marker_4f274daa2bdda0e1d2a3446ca204eb03.setIcon(beautify_icon_17c276c9c8d207eacdf6c4d7da3d2cec);
+            
+    
+            var circle_b7f08645c5457318ace9d5a9c7eeedc9 = L.circle(
+                [-24.78, -48.35],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 220000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            circle_b7f08645c5457318ace9d5a9c7eeedc9.bindTooltip(
+                `<div>
+                     Alcance de 220 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c3e702611cc90ccc5da8cf3d8df2f363 = L.marker(
+                [-24.78, -48.35],
+                {
+}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            var beautify_icon_47b1f1386fa78c195827c0d60d22a250 = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "blue",
+  "textColor": "blue",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_c3e702611cc90ccc5da8cf3d8df2f363.setIcon(beautify_icon_47b1f1386fa78c195827c0d60d22a250);
+        
+    
+        var popup_89a472a3d00a21671cc7240284f92506 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6526db713490c02bf33316a56cd6c820 = $(`<div id="html_6526db713490c02bf33316a56cd6c820" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Registro, SP</div>`)[0];
+                popup_89a472a3d00a21671cc7240284f92506.setContent(html_6526db713490c02bf33316a56cd6c820);
+            
+        
+
+        marker_c3e702611cc90ccc5da8cf3d8df2f363.bindPopup(popup_89a472a3d00a21671cc7240284f92506)
+        ;
+
+        
+    
+    
+                marker_c3e702611cc90ccc5da8cf3d8df2f363.setIcon(beautify_icon_47b1f1386fa78c195827c0d60d22a250);
+            
+    
+            var circle_ebe005cb9b2fd66aaf81e411cf52d235 = L.circle(
+                [-23.55, -46.63],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 220000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            circle_ebe005cb9b2fd66aaf81e411cf52d235.bindTooltip(
+                `<div>
+                     Alcance de 220 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dc0b93a7ddc0c790aac66f8c4f3d302a = L.marker(
+                [-23.55, -46.63],
+                {
+}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            var beautify_icon_f5bce626457704136f1748c34846e8ec = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "blue",
+  "textColor": "blue",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_dc0b93a7ddc0c790aac66f8c4f3d302a.setIcon(beautify_icon_f5bce626457704136f1748c34846e8ec);
+        
+    
+        var popup_8db36b321411070ef56bd9dec4477c03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67d54aec4aed19c8eb6ac0387afa4d92 = $(`<div id="html_67d54aec4aed19c8eb6ac0387afa4d92" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>São Paulo, SP</div>`)[0];
+                popup_8db36b321411070ef56bd9dec4477c03.setContent(html_67d54aec4aed19c8eb6ac0387afa4d92);
+            
+        
+
+        marker_dc0b93a7ddc0c790aac66f8c4f3d302a.bindPopup(popup_8db36b321411070ef56bd9dec4477c03)
+        ;
+
+        
+    
+    
+                marker_dc0b93a7ddc0c790aac66f8c4f3d302a.setIcon(beautify_icon_f5bce626457704136f1748c34846e8ec);
+            
+    
+            var circle_b825855670328219789772314bae1a20 = L.circle(
+                [-23.21, -45.88],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 220000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            circle_b825855670328219789772314bae1a20.bindTooltip(
+                `<div>
+                     Alcance de 220 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_07b179313c5c66fcd078ffd0fde1f89c = L.marker(
+                [-23.21, -45.88],
+                {
+}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            var beautify_icon_ee012ebe658dc32aabb2b8ce3e3da8bc = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "blue",
+  "textColor": "blue",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_07b179313c5c66fcd078ffd0fde1f89c.setIcon(beautify_icon_ee012ebe658dc32aabb2b8ce3e3da8bc);
+        
+    
+        var popup_f894bb7944d31ccfa68d681d1fa35c54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39ddccd34d3ed079ed92ba9c3e891fbb = $(`<div id="html_39ddccd34d3ed079ed92ba9c3e891fbb" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>São José dos Campos, SP</div>`)[0];
+                popup_f894bb7944d31ccfa68d681d1fa35c54.setContent(html_39ddccd34d3ed079ed92ba9c3e891fbb);
+            
+        
+
+        marker_07b179313c5c66fcd078ffd0fde1f89c.bindPopup(popup_f894bb7944d31ccfa68d681d1fa35c54)
+        ;
+
+        
+    
+    
+                marker_07b179313c5c66fcd078ffd0fde1f89c.setIcon(beautify_icon_ee012ebe658dc32aabb2b8ce3e3da8bc);
+            
+    
+            var circle_83b923a96245aed8f99168734bc4d421 = L.circle(
+                [-22.5, -44.1],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 220000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            circle_83b923a96245aed8f99168734bc4d421.bindTooltip(
+                `<div>
+                     Alcance de 220 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5acfed2f3b0ef2fa78f82e45e565b8fc = L.marker(
+                [-22.5, -44.1],
+                {
+}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            var beautify_icon_12baa21182c7c6af39901ac9bd845e61 = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "blue",
+  "textColor": "blue",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_5acfed2f3b0ef2fa78f82e45e565b8fc.setIcon(beautify_icon_12baa21182c7c6af39901ac9bd845e61);
+        
+    
+        var popup_829244e6e68fa40f443d3d3f2c7a7981 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b864e0dd8ea1b7ea835c66e4cfabac4a = $(`<div id="html_b864e0dd8ea1b7ea835c66e4cfabac4a" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Barra Mansa, RJ</div>`)[0];
+                popup_829244e6e68fa40f443d3d3f2c7a7981.setContent(html_b864e0dd8ea1b7ea835c66e4cfabac4a);
+            
+        
+
+        marker_5acfed2f3b0ef2fa78f82e45e565b8fc.bindPopup(popup_829244e6e68fa40f443d3d3f2c7a7981)
+        ;
+
+        
+    
+    
+                marker_5acfed2f3b0ef2fa78f82e45e565b8fc.setIcon(beautify_icon_12baa21182c7c6af39901ac9bd845e61);
+            
+    
+            var circle_78dcc7f1c3ce76fada48144de8dc1e32 = L.circle(
+                [-22.9, -43.17],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 220000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            circle_78dcc7f1c3ce76fada48144de8dc1e32.bindTooltip(
+                `<div>
+                     Alcance de 220 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c5a641234d2373a67694cb7872db4200 = L.marker(
+                [-22.9, -43.17],
+                {
+}
+            ).addTo(feature_group_2a2d578a1c4a19776ecfc295d33b4785);
+        
+    
+            var beautify_icon_aca5d092623eecb1063bbcda24de6a1c = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "blue",
+  "textColor": "blue",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_c5a641234d2373a67694cb7872db4200.setIcon(beautify_icon_aca5d092623eecb1063bbcda24de6a1c);
+        
+    
+        var popup_448dbf2045dcdea011b60f7dd4b99369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f660dadb8ea4cf737e2180cb78e94a3f = $(`<div id="html_f660dadb8ea4cf737e2180cb78e94a3f" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Rio de Janeiro, RJ</div>`)[0];
+                popup_448dbf2045dcdea011b60f7dd4b99369.setContent(html_f660dadb8ea4cf737e2180cb78e94a3f);
+            
+        
+
+        marker_c5a641234d2373a67694cb7872db4200.bindPopup(popup_448dbf2045dcdea011b60f7dd4b99369)
+        ;
+
+        
+    
+    
+                marker_c5a641234d2373a67694cb7872db4200.setIcon(beautify_icon_aca5d092623eecb1063bbcda24de6a1c);
+            
+    
+            feature_group_2a2d578a1c4a19776ecfc295d33b4785.addTo(map_f7e0a46fa636e55faecc90a0a7ffbd42);
+        
+    
+            var feature_group_a96526dad54fdedf3d55bda675ee95ef = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_94bb015f663b7c33fc55771c594aea7c = L.circle(
+                [-27.59, -48.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 340000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            circle_94bb015f663b7c33fc55771c594aea7c.bindTooltip(
+                `<div>
+                     Alcance de 340 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72e425dec481ce70d3b07b8784930850 = L.marker(
+                [-27.59, -48.54],
+                {
+}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            var beautify_icon_669f60f43dd6115f1497a48bf9c51646 = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "red",
+  "textColor": "red",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_72e425dec481ce70d3b07b8784930850.setIcon(beautify_icon_669f60f43dd6115f1497a48bf9c51646);
+        
+    
+        var popup_5bb04c0b8ed493aaf4382a942cc0d151 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86136558201d29da3c7006ca567fe6a2 = $(`<div id="html_86136558201d29da3c7006ca567fe6a2" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Florianópolis, SC</div>`)[0];
+                popup_5bb04c0b8ed493aaf4382a942cc0d151.setContent(html_86136558201d29da3c7006ca567fe6a2);
+            
+        
+
+        marker_72e425dec481ce70d3b07b8784930850.bindPopup(popup_5bb04c0b8ed493aaf4382a942cc0d151)
+        ;
+
+        
+    
+    
+                marker_72e425dec481ce70d3b07b8784930850.setIcon(beautify_icon_669f60f43dd6115f1497a48bf9c51646);
+            
+    
+            var circle_8d95d48957eb8ff6899168dc18123d25 = L.circle(
+                [-26.29, -48.84],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 340000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            circle_8d95d48957eb8ff6899168dc18123d25.bindTooltip(
+                `<div>
+                     Alcance de 340 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_14cacf03fd4bedb8262c49b9d42db878 = L.marker(
+                [-26.29, -48.84],
+                {
+}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            var beautify_icon_a74f1c2b4a3c958b90ecfcd72791156a = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "red",
+  "textColor": "red",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_14cacf03fd4bedb8262c49b9d42db878.setIcon(beautify_icon_a74f1c2b4a3c958b90ecfcd72791156a);
+        
+    
+        var popup_9f9d6809132b8c3570b8c624b2566d68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35ba2f0577b2032a0344a9b085f4d63f = $(`<div id="html_35ba2f0577b2032a0344a9b085f4d63f" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Joinville, SC</div>`)[0];
+                popup_9f9d6809132b8c3570b8c624b2566d68.setContent(html_35ba2f0577b2032a0344a9b085f4d63f);
+            
+        
+
+        marker_14cacf03fd4bedb8262c49b9d42db878.bindPopup(popup_9f9d6809132b8c3570b8c624b2566d68)
+        ;
+
+        
+    
+    
+                marker_14cacf03fd4bedb8262c49b9d42db878.setIcon(beautify_icon_a74f1c2b4a3c958b90ecfcd72791156a);
+            
+    
+            var circle_47ccfc303bb9d13f370ee82744b334f8 = L.circle(
+                [-25.42, -49.27],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 340000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            circle_47ccfc303bb9d13f370ee82744b334f8.bindTooltip(
+                `<div>
+                     Alcance de 340 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_56c997ce5b45ceb1435ed8aa4196ec17 = L.marker(
+                [-25.42, -49.27],
+                {
+}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            var beautify_icon_c8b1f0f933a56248a348792e31239166 = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "red",
+  "textColor": "red",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_56c997ce5b45ceb1435ed8aa4196ec17.setIcon(beautify_icon_c8b1f0f933a56248a348792e31239166);
+        
+    
+        var popup_bd1f19b84a13fa580428d3199c578fe0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b41175c7e3b7aefa2ca3eb27b43f274 = $(`<div id="html_2b41175c7e3b7aefa2ca3eb27b43f274" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Curitiba, PR</div>`)[0];
+                popup_bd1f19b84a13fa580428d3199c578fe0.setContent(html_2b41175c7e3b7aefa2ca3eb27b43f274);
+            
+        
+
+        marker_56c997ce5b45ceb1435ed8aa4196ec17.bindPopup(popup_bd1f19b84a13fa580428d3199c578fe0)
+        ;
+
+        
+    
+    
+                marker_56c997ce5b45ceb1435ed8aa4196ec17.setIcon(beautify_icon_c8b1f0f933a56248a348792e31239166);
+            
+    
+            var circle_cafcc863650f45be055a58be97dd61c5 = L.circle(
+                [-24.78, -48.35],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 340000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            circle_cafcc863650f45be055a58be97dd61c5.bindTooltip(
+                `<div>
+                     Alcance de 340 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2cfcb265457245a22cae211a9e2dad0a = L.marker(
+                [-24.78, -48.35],
+                {
+}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            var beautify_icon_db61efa939e7f1c8640d97cc7e7994cd = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "red",
+  "textColor": "red",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_2cfcb265457245a22cae211a9e2dad0a.setIcon(beautify_icon_db61efa939e7f1c8640d97cc7e7994cd);
+        
+    
+        var popup_2292fc8851ae5f745cb8804f0b77fb95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd2a8a003e556b485af92f918365b956 = $(`<div id="html_fd2a8a003e556b485af92f918365b956" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Registro, SP</div>`)[0];
+                popup_2292fc8851ae5f745cb8804f0b77fb95.setContent(html_fd2a8a003e556b485af92f918365b956);
+            
+        
+
+        marker_2cfcb265457245a22cae211a9e2dad0a.bindPopup(popup_2292fc8851ae5f745cb8804f0b77fb95)
+        ;
+
+        
+    
+    
+                marker_2cfcb265457245a22cae211a9e2dad0a.setIcon(beautify_icon_db61efa939e7f1c8640d97cc7e7994cd);
+            
+    
+            var circle_371fdf11ab300a7136915914bfa32c53 = L.circle(
+                [-23.55, -46.63],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 340000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            circle_371fdf11ab300a7136915914bfa32c53.bindTooltip(
+                `<div>
+                     Alcance de 340 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a1eb07cae583c5c51514d3c6b015c0a7 = L.marker(
+                [-23.55, -46.63],
+                {
+}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            var beautify_icon_84fa44549800866d1cf5f09d1f293b5d = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "red",
+  "textColor": "red",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_a1eb07cae583c5c51514d3c6b015c0a7.setIcon(beautify_icon_84fa44549800866d1cf5f09d1f293b5d);
+        
+    
+        var popup_6ef752ba7bc508cc1b0f840d4294afdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_295e76ad637923096bf0731dfca5855e = $(`<div id="html_295e76ad637923096bf0731dfca5855e" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>São Paulo, SP</div>`)[0];
+                popup_6ef752ba7bc508cc1b0f840d4294afdd.setContent(html_295e76ad637923096bf0731dfca5855e);
+            
+        
+
+        marker_a1eb07cae583c5c51514d3c6b015c0a7.bindPopup(popup_6ef752ba7bc508cc1b0f840d4294afdd)
+        ;
+
+        
+    
+    
+                marker_a1eb07cae583c5c51514d3c6b015c0a7.setIcon(beautify_icon_84fa44549800866d1cf5f09d1f293b5d);
+            
+    
+            var circle_c114bafd23f0b71a7f25caf5f9c60d38 = L.circle(
+                [-23.21, -45.88],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 340000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            circle_c114bafd23f0b71a7f25caf5f9c60d38.bindTooltip(
+                `<div>
+                     Alcance de 340 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8fbe1c53fab17653e309713d3f66deed = L.marker(
+                [-23.21, -45.88],
+                {
+}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            var beautify_icon_789ab1bbf4d4652601fc7debfd603a1a = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "red",
+  "textColor": "red",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_8fbe1c53fab17653e309713d3f66deed.setIcon(beautify_icon_789ab1bbf4d4652601fc7debfd603a1a);
+        
+    
+        var popup_e3e2ad46ba5f021b5986a369b4a57f4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_542b0a0b6b50ad5e33e068421c51d8bf = $(`<div id="html_542b0a0b6b50ad5e33e068421c51d8bf" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>São José dos Campos, SP</div>`)[0];
+                popup_e3e2ad46ba5f021b5986a369b4a57f4c.setContent(html_542b0a0b6b50ad5e33e068421c51d8bf);
+            
+        
+
+        marker_8fbe1c53fab17653e309713d3f66deed.bindPopup(popup_e3e2ad46ba5f021b5986a369b4a57f4c)
+        ;
+
+        
+    
+    
+                marker_8fbe1c53fab17653e309713d3f66deed.setIcon(beautify_icon_789ab1bbf4d4652601fc7debfd603a1a);
+            
+    
+            var circle_df25f924771fc34585bc2da92a330f6e = L.circle(
+                [-22.5, -44.1],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 340000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            circle_df25f924771fc34585bc2da92a330f6e.bindTooltip(
+                `<div>
+                     Alcance de 340 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8dbea20cf7f6307724ec0f975ba02379 = L.marker(
+                [-22.5, -44.1],
+                {
+}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            var beautify_icon_9ac941492379e0dff50ae21de2e87c64 = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "red",
+  "textColor": "red",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_8dbea20cf7f6307724ec0f975ba02379.setIcon(beautify_icon_9ac941492379e0dff50ae21de2e87c64);
+        
+    
+        var popup_7eba2641c077276b94d0cac81c49b49d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a987fcde20cf5a6468a0c18ec3e164a = $(`<div id="html_9a987fcde20cf5a6468a0c18ec3e164a" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Barra Mansa, RJ</div>`)[0];
+                popup_7eba2641c077276b94d0cac81c49b49d.setContent(html_9a987fcde20cf5a6468a0c18ec3e164a);
+            
+        
+
+        marker_8dbea20cf7f6307724ec0f975ba02379.bindPopup(popup_7eba2641c077276b94d0cac81c49b49d)
+        ;
+
+        
+    
+    
+                marker_8dbea20cf7f6307724ec0f975ba02379.setIcon(beautify_icon_9ac941492379e0dff50ae21de2e87c64);
+            
+    
+            var circle_22cdede4fcc440d402acb3a54b167e41 = L.circle(
+                [-22.9, -43.17],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 340000, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            circle_22cdede4fcc440d402acb3a54b167e41.bindTooltip(
+                `<div>
+                     Alcance de 340 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dcd04c97af81de48e23736be86254e26 = L.marker(
+                [-22.9, -43.17],
+                {
+}
+            ).addTo(feature_group_a96526dad54fdedf3d55bda675ee95ef);
+        
+    
+            var beautify_icon_6bd09d1d9b2b697ed9c4e3fdd75d7f0c = new L.BeautifyIcon.icon(
+                {
+  "icon": "plug",
+  "iconShape": "marker",
+  "borderWidth": 3,
+  "borderColor": "red",
+  "textColor": "red",
+  "backgroundColor": "#FFFFFF",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+}
+            )
+            marker_dcd04c97af81de48e23736be86254e26.setIcon(beautify_icon_6bd09d1d9b2b697ed9c4e3fdd75d7f0c);
+        
+    
+        var popup_824dfc63b660e9ec2dab1c6dc7b8d6be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27eb10a2af53683c45f72550222a2e2e = $(`<div id="html_27eb10a2af53683c45f72550222a2e2e" style="width: 100.0%; height: 100.0%;"><b>Eletroposto Proposto</b><br>Rio de Janeiro, RJ</div>`)[0];
+                popup_824dfc63b660e9ec2dab1c6dc7b8d6be.setContent(html_27eb10a2af53683c45f72550222a2e2e);
+            
+        
+
+        marker_dcd04c97af81de48e23736be86254e26.bindPopup(popup_824dfc63b660e9ec2dab1c6dc7b8d6be)
+        ;
+
+        
+    
+    
+                marker_dcd04c97af81de48e23736be86254e26.setIcon(beautify_icon_6bd09d1d9b2b697ed9c4e3fdd75d7f0c);
+            
+    
+            feature_group_a96526dad54fdedf3d55bda675ee95ef.addTo(map_f7e0a46fa636e55faecc90a0a7ffbd42);
+        
+    
+            var layer_control_14f3c23db570664a92de14ca038ef5fb_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_89d62e37f48872c9f5b7e182142df427,
+                },
+                overlays :  {
+                    "Perfil Urbano/Regional (Autonomia 280km)" : feature_group_2a2d578a1c4a19776ecfc295d33b4785,
+                    "Perfil Viagem/Premium (Autonomia 430km)" : feature_group_a96526dad54fdedf3d55bda675ee95ef,
+                },
+            };
+            let layer_control_14f3c23db570664a92de14ca038ef5fb = L.control.layers(
+                layer_control_14f3c23db570664a92de14ca038ef5fb_layers.base_layers,
+                layer_control_14f3c23db570664a92de14ca038ef5fb_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_f7e0a46fa636e55faecc90a0a7ffbd42);
+
+        
+</script>
+</html>

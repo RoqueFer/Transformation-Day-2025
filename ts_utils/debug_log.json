@@ -1,0 +1,2875 @@
+{
+  "stats": {
+    "totalRequests": 122,
+    "successfulRequests": 122,
+    "failedRequests": 0,
+    "timeoutErrors": 0,
+    "httpErrors": 0,
+    "networkErrors": 0,
+    "otherErrors": 0,
+    "retriesUsed": 0
+  },
+  "results": [
+    {
+      "i": 0,
+      "postos": [],
+      "coords": [
+        -25.428379,
+        -49.273245
+      ],
+      "success": true
+    },
+    {
+      "i": 1,
+      "postos": [],
+      "coords": [
+        -25.424327,
+        -49.256839
+      ],
+      "success": true
+    },
+    {
+      "i": 2,
+      "postos": [],
+      "coords": [
+        -25.420465,
+        -49.239607
+      ],
+      "success": true
+    },
+    {
+      "i": 3,
+      "postos": [],
+      "coords": [
+        -25.409848,
+        -49.221116
+      ],
+      "success": true
+    },
+    {
+      "i": 4,
+      "postos": [],
+      "coords": [
+        -25.39476,
+        -49.210929
+      ],
+      "success": true
+    },
+    {
+      "i": 5,
+      "postos": [],
+      "coords": [
+        -25.387516,
+        -49.177946
+      ],
+      "success": true
+    },
+    {
+      "i": 6,
+      "postos": [],
+      "coords": [
+        -25.370992,
+        -49.12658
+      ],
+      "success": true
+    },
+    {
+      "i": 7,
+      "postos": [],
+      "coords": [
+        -25.356543,
+        -49.068381
+      ],
+      "success": true
+    },
+    {
+      "i": 8,
+      "postos": [],
+      "coords": [
+        -25.338609,
+        -49.037874
+      ],
+      "success": true
+    },
+    {
+      "i": 9,
+      "postos": [
+        {
+          "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+              "IsProviderEnabled": true,
+              "ID": 1,
+              "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+          },
+          "OperatorInfo": {
+            "WebsiteURL": "https://eveletroposto.eco.br/",
+            "Comments": null,
+            "PhonePrimaryContact": "+55 41 99816 0590",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3805,
+            "Title": "EV Eletroposto (Brasil)"
+          },
+          "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+          },
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+          },
+          "UserComments": null,
+          "PercentageSimilarity": null,
+          "MediaItems": null,
+          "IsRecentlyVerified": false,
+          "DateLastVerified": "2024-09-02T01:59:00Z",
+          "ID": 302563,
+          "UUID": "77CDDBFA-B929-476B-B824-99EAB06A63E2",
+          "ParentChargePointID": null,
+          "DataProviderID": 1,
+          "DataProvidersReference": null,
+          "OperatorID": 3805,
+          "OperatorsReference": null,
+          "UsageTypeID": 4,
+          "UsageCost": "R$2,59/kWh",
+          "AddressInfo": {
+            "ID": 302950,
+            "Title": "Ev Eletroposto Restaurante Serra Da Graciosa",
+            "AddressLine1": "R. Doraci Ribeiro Prestes, 45",
+            "AddressLine2": null,
+            "Town": "Quatro Barras",
+            "StateOrProvince": "PR",
+            "Postcode": "83420000",
+            "CountryID": 36,
+            "Country": {
+              "ISOCode": "BR",
+              "ContinentCode": "SA",
+              "ID": 36,
+              "Title": "Brazil"
+            },
+            "Latitude": -25.318308965398444,
+            "Longitude": -49.01801328361768,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 0.4489496281044897,
+            "DistanceUnit": 1
+          },
+          "Connections": [
+            {
+              "ID": 568346,
+              "ConnectionTypeID": 33,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-3 Configuration FF",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 33,
+                "Title": "CCS (Type 2)"
+              },
+              "Reference": null,
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 3,
+              "Level": {
+                "Comments": "40KW and Higher",
+                "IsFastChargeCapable": true,
+                "ID": 3,
+                "Title": "Level 3:  High (Over 40kW)"
+              },
+              "Amps": null,
+              "Voltage": null,
+              "PowerKW": 30,
+              "CurrentTypeID": 30,
+              "CurrentType": {
+                "Description": "Direct Current",
+                "ID": 30,
+                "Title": "DC"
+              },
+              "Quantity": 1,
+              "Comments": null
+            }
+          ],
+          "NumberOfPoints": 1,
+          "GeneralComments": "Carregador DC CCS2 de 30 KW. Aplicativos EV eletroposto: Apple Store (iPhone) - https://apps.apple.com/br/app/ev-eletroposto/id6497407741 Apple Store (Android) - https://play.google.com/store/apps/details?id=br.com.eveletroposto.app Cartão de crédito der erro usar o PIX que libera na hora.  Senha do Wi-Fi do restaurante: restaurante  Sinal de internet é péssimo. O Wi-Fi salva para poder usar.",
+          "DatePlanned": null,
+          "DateLastConfirmed": null,
+          "StatusTypeID": 50,
+          "DateLastStatusUpdate": "2024-09-02T01:59:00Z",
+          "MetadataValues": null,
+          "DataQualityLevel": 1,
+          "DateCreated": "2024-08-13T01:44:00Z",
+          "SubmissionStatusTypeID": 200
+        }
+      ],
+      "coords": [
+        -25.314307,
+        -49.017422
+      ],
+      "success": true
+    },
+    {
+      "i": 10,
+      "postos": [],
+      "coords": [
+        -25.306263,
+        -48.995919
+      ],
+      "success": true
+    },
+    {
+      "i": 11,
+      "postos": [],
+      "coords": [
+        -25.305299,
+        -48.948811
+      ],
+      "success": true
+    },
+    {
+      "i": 12,
+      "postos": [],
+      "coords": [
+        -25.288638,
+        -48.933316
+      ],
+      "success": true
+    },
+    {
+      "i": 13,
+      "postos": [],
+      "coords": [
+        -25.247695,
+        -48.905463
+      ],
+      "success": true
+    },
+    {
+      "i": 14,
+      "postos": [],
+      "coords": [
+        -25.223276,
+        -48.905864
+      ],
+      "success": true
+    },
+    {
+      "i": 15,
+      "postos": [],
+      "coords": [
+        -25.201718,
+        -48.895905
+      ],
+      "success": true
+    },
+    {
+      "i": 16,
+      "postos": [],
+      "coords": [
+        -25.184538,
+        -48.883679
+      ],
+      "success": true
+    },
+    {
+      "i": 17,
+      "postos": [],
+      "coords": [
+        -25.175624,
+        -48.870425
+      ],
+      "success": true
+    },
+    {
+      "i": 18,
+      "postos": [],
+      "coords": [
+        -25.154751,
+        -48.861153
+      ],
+      "success": true
+    },
+    {
+      "i": 19,
+      "postos": [],
+      "coords": [
+        -25.126828,
+        -48.857208
+      ],
+      "success": true
+    },
+    {
+      "i": 20,
+      "postos": [],
+      "coords": [
+        -25.111887,
+        -48.846894
+      ],
+      "success": true
+    },
+    {
+      "i": 21,
+      "postos": [],
+      "coords": [
+        -25.108947,
+        -48.827241
+      ],
+      "success": true
+    },
+    {
+      "i": 22,
+      "postos": [],
+      "coords": [
+        -25.11148,
+        -48.811286
+      ],
+      "success": true
+    },
+    {
+      "i": 23,
+      "postos": [],
+      "coords": [
+        -25.109955,
+        -48.795897
+      ],
+      "success": true
+    },
+    {
+      "i": 24,
+      "postos": [],
+      "coords": [
+        -25.111705,
+        -48.764652
+      ],
+      "success": true
+    },
+    {
+      "i": 25,
+      "postos": [],
+      "coords": [
+        -25.106667,
+        -48.740666
+      ],
+      "success": true
+    },
+    {
+      "i": 26,
+      "postos": [],
+      "coords": [
+        -25.1002,
+        -48.695609
+      ],
+      "success": true
+    },
+    {
+      "i": 27,
+      "postos": [],
+      "coords": [
+        -25.098206,
+        -48.659686
+      ],
+      "success": true
+    },
+    {
+      "i": 28,
+      "postos": [],
+      "coords": [
+        -25.082616,
+        -48.613249
+      ],
+      "success": true
+    },
+    {
+      "i": 29,
+      "postos": [],
+      "coords": [
+        -25.066351,
+        -48.579262
+      ],
+      "success": true
+    },
+    {
+      "i": 30,
+      "postos": [],
+      "coords": [
+        -25.057248,
+        -48.555252
+      ],
+      "success": true
+    },
+    {
+      "i": 31,
+      "postos": [],
+      "coords": [
+        -25.035182,
+        -48.535916
+      ],
+      "success": true
+    },
+    {
+      "i": 32,
+      "postos": [],
+      "coords": [
+        -25.019854,
+        -48.515301
+      ],
+      "success": true
+    },
+    {
+      "i": 33,
+      "postos": [],
+      "coords": [
+        -24.981378,
+        -48.504273
+      ],
+      "success": true
+    },
+    {
+      "i": 34,
+      "postos": [],
+      "coords": [
+        -24.967382,
+        -48.477538
+      ],
+      "success": true
+    },
+    {
+      "i": 35,
+      "postos": [],
+      "coords": [
+        -24.965958,
+        -48.462674
+      ],
+      "success": true
+    },
+    {
+      "i": 36,
+      "postos": [],
+      "coords": [
+        -24.967688,
+        -48.448125
+      ],
+      "success": true
+    },
+    {
+      "i": 37,
+      "postos": [],
+      "coords": [
+        -24.96442,
+        -48.425483
+      ],
+      "success": true
+    },
+    {
+      "i": 38,
+      "postos": [],
+      "coords": [
+        -24.971734,
+        -48.404871
+      ],
+      "success": true
+    },
+    {
+      "i": 39,
+      "postos": [],
+      "coords": [
+        -24.969504,
+        -48.360947
+      ],
+      "success": true
+    },
+    {
+      "i": 40,
+      "postos": [],
+      "coords": [
+        -24.942562,
+        -48.3092
+      ],
+      "success": true
+    },
+    {
+      "i": 41,
+      "postos": [],
+      "coords": [
+        -24.894801,
+        -48.238573
+      ],
+      "success": true
+    },
+    {
+      "i": 42,
+      "postos": [],
+      "coords": [
+        -24.879971,
+        -48.209292
+      ],
+      "success": true
+    },
+    {
+      "i": 43,
+      "postos": [],
+      "coords": [
+        -24.863016,
+        -48.214531
+      ],
+      "success": true
+    },
+    {
+      "i": 44,
+      "postos": [],
+      "coords": [
+        -24.85147,
+        -48.210366
+      ],
+      "success": true
+    },
+    {
+      "i": 45,
+      "postos": [],
+      "coords": [
+        -24.844421,
+        -48.211425
+      ],
+      "success": true
+    },
+    {
+      "i": 46,
+      "postos": [],
+      "coords": [
+        -24.830436,
+        -48.209509
+      ],
+      "success": true
+    },
+    {
+      "i": 47,
+      "postos": [],
+      "coords": [
+        -24.81436,
+        -48.208468
+      ],
+      "success": true
+    },
+    {
+      "i": 48,
+      "postos": [],
+      "coords": [
+        -24.796657,
+        -48.208512
+      ],
+      "success": true
+    },
+    {
+      "i": 49,
+      "postos": [],
+      "coords": [
+        -24.7794,
+        -48.201853
+      ],
+      "success": true
+    },
+    {
+      "i": 50,
+      "postos": [],
+      "coords": [
+        -24.787066,
+        -48.17698
+      ],
+      "success": true
+    },
+    {
+      "i": 51,
+      "postos": [],
+      "coords": [
+        -24.759501,
+        -48.16463
+      ],
+      "success": true
+    },
+    {
+      "i": 52,
+      "postos": [],
+      "coords": [
+        -24.742944,
+        -48.132158
+      ],
+      "success": true
+    },
+    {
+      "i": 53,
+      "postos": [],
+      "coords": [
+        -24.730093,
+        -48.105384
+      ],
+      "success": true
+    },
+    {
+      "i": 54,
+      "postos": [],
+      "coords": [
+        -24.721678,
+        -48.076215
+      ],
+      "success": true
+    },
+    {
+      "i": 55,
+      "postos": [],
+      "coords": [
+        -24.69561,
+        -47.999245
+      ],
+      "success": true
+    },
+    {
+      "i": 56,
+      "postos": [],
+      "coords": [
+        -24.663998,
+        -47.972833
+      ],
+      "success": true
+    },
+    {
+      "i": 57,
+      "postos": [],
+      "coords": [
+        -24.649211,
+        -47.930265
+      ],
+      "success": true
+    },
+    {
+      "i": 58,
+      "postos": [],
+      "coords": [
+        -24.623626,
+        -47.896622
+      ],
+      "success": true
+    },
+    {
+      "i": 59,
+      "postos": [],
+      "coords": [
+        -24.598208,
+        -47.876017
+      ],
+      "success": true
+    },
+    {
+      "i": 60,
+      "postos": [],
+      "coords": [
+        -24.568262,
+        -47.877359
+      ],
+      "success": true
+    },
+    {
+      "i": 61,
+      "postos": [],
+      "coords": [
+        -24.503024,
+        -47.847125
+      ],
+      "success": true
+    },
+    {
+      "i": 62,
+      "postos": [],
+      "coords": [
+        -24.458025,
+        -47.814685
+      ],
+      "success": true
+    },
+    {
+      "i": 63,
+      "postos": [],
+      "coords": [
+        -24.422809,
+        -47.777617
+      ],
+      "success": true
+    },
+    {
+      "i": 64,
+      "postos": [],
+      "coords": [
+        -24.398626,
+        -47.731318
+      ],
+      "success": true
+    },
+    {
+      "i": 65,
+      "postos": [],
+      "coords": [
+        -24.385649,
+        -47.71535
+      ],
+      "success": true
+    },
+    {
+      "i": 66,
+      "postos": [],
+      "coords": [
+        -24.367505,
+        -47.694168
+      ],
+      "success": true
+    },
+    {
+      "i": 67,
+      "postos": [],
+      "coords": [
+        -24.356177,
+        -47.665887
+      ],
+      "success": true
+    },
+    {
+      "i": 68,
+      "postos": [],
+      "coords": [
+        -24.333102,
+        -47.603631
+      ],
+      "success": true
+    },
+    {
+      "i": 69,
+      "postos": [],
+      "coords": [
+        -24.314621,
+        -47.521581
+      ],
+      "success": true
+    },
+    {
+      "i": 70,
+      "postos": [],
+      "coords": [
+        -24.288352,
+        -47.459374
+      ],
+      "success": true
+    },
+    {
+      "i": 71,
+      "postos": [],
+      "coords": [
+        -24.277804,
+        -47.418478
+      ],
+      "success": true
+    },
+    {
+      "i": 72,
+      "postos": [],
+      "coords": [
+        -24.257849,
+        -47.376347
+      ],
+      "success": true
+    },
+    {
+      "i": 73,
+      "postos": [],
+      "coords": [
+        -24.226992,
+        -47.363488
+      ],
+      "success": true
+    },
+    {
+      "i": 74,
+      "postos": [],
+      "coords": [
+        -24.197613,
+        -47.366722
+      ],
+      "success": true
+    },
+    {
+      "i": 75,
+      "postos": [],
+      "coords": [
+        -24.17237,
+        -47.341461
+      ],
+      "success": true
+    },
+    {
+      "i": 76,
+      "postos": [],
+      "coords": [
+        -24.157818,
+        -47.326069
+      ],
+      "success": true
+    },
+    {
+      "i": 77,
+      "postos": [],
+      "coords": [
+        -24.14734,
+        -47.298794
+      ],
+      "success": true
+    },
+    {
+      "i": 78,
+      "postos": [],
+      "coords": [
+        -24.142797,
+        -47.27198
+      ],
+      "success": true
+    },
+    {
+      "i": 79,
+      "postos": [],
+      "coords": [
+        -24.123232,
+        -47.271069
+      ],
+      "success": true
+    },
+    {
+      "i": 80,
+      "postos": [],
+      "coords": [
+        -24.115422,
+        -47.269789
+      ],
+      "success": true
+    },
+    {
+      "i": 81,
+      "postos": [],
+      "coords": [
+        -24.109034,
+        -47.268528
+      ],
+      "success": true
+    },
+    {
+      "i": 82,
+      "postos": [],
+      "coords": [
+        -24.102074,
+        -47.256658
+      ],
+      "success": true
+    },
+    {
+      "i": 83,
+      "postos": [],
+      "coords": [
+        -24.089645,
+        -47.256949
+      ],
+      "success": true
+    },
+    {
+      "i": 84,
+      "postos": [],
+      "coords": [
+        -24.081375,
+        -47.251485
+      ],
+      "success": true
+    },
+    {
+      "i": 85,
+      "postos": [],
+      "coords": [
+        -24.067267,
+        -47.240272
+      ],
+      "success": true
+    },
+    {
+      "i": 86,
+      "postos": [],
+      "coords": [
+        -24.05709,
+        -47.22063
+      ],
+      "success": true
+    },
+    {
+      "i": 87,
+      "postos": [],
+      "coords": [
+        -24.050978,
+        -47.200715
+      ],
+      "success": true
+    },
+    {
+      "i": 88,
+      "postos": [],
+      "coords": [
+        -24.037458,
+        -47.18931
+      ],
+      "success": true
+    },
+    {
+      "i": 89,
+      "postos": [],
+      "coords": [
+        -24.020532,
+        -47.171541
+      ],
+      "success": true
+    },
+    {
+      "i": 90,
+      "postos": [],
+      "coords": [
+        -24.002995,
+        -47.155745
+      ],
+      "success": true
+    },
+    {
+      "i": 91,
+      "postos": [],
+      "coords": [
+        -23.986578,
+        -47.148251
+      ],
+      "success": true
+    },
+    {
+      "i": 92,
+      "postos": [],
+      "coords": [
+        -23.967762,
+        -47.132233
+      ],
+      "success": true
+    },
+    {
+      "i": 93,
+      "postos": [],
+      "coords": [
+        -23.954635,
+        -47.107231
+      ],
+      "success": true
+    },
+    {
+      "i": 94,
+      "postos": [],
+      "coords": [
+        -23.936685,
+        -47.08079
+      ],
+      "success": true
+    },
+    {
+      "i": 95,
+      "postos": [],
+      "coords": [
+        -23.940216,
+        -47.044888
+      ],
+      "success": true
+    },
+    {
+      "i": 96,
+      "postos": [],
+      "coords": [
+        -23.932429,
+        -47.008807
+      ],
+      "success": true
+    },
+    {
+      "i": 97,
+      "postos": [],
+      "coords": [
+        -23.914129,
+        -46.989177
+      ],
+      "success": true
+    },
+    {
+      "i": 98,
+      "postos": [],
+      "coords": [
+        -23.88576,
+        -46.976299
+      ],
+      "success": true
+    },
+    {
+      "i": 99,
+      "postos": [],
+      "coords": [
+        -23.855822,
+        -46.940506
+      ],
+      "success": true
+    },
+    {
+      "i": 100,
+      "postos": [],
+      "coords": [
+        -23.831143,
+        -46.928286
+      ],
+      "success": true
+    },
+    {
+      "i": 101,
+      "postos": [],
+      "coords": [
+        -23.802241,
+        -46.917587
+      ],
+      "success": true
+    },
+    {
+      "i": 102,
+      "postos": [],
+      "coords": [
+        -23.773796,
+        -46.913518
+      ],
+      "success": true
+    },
+    {
+      "i": 103,
+      "postos": [],
+      "coords": [
+        -23.724498,
+        -46.892609
+      ],
+      "success": true
+    },
+    {
+      "i": 104,
+      "postos": [],
+      "coords": [
+        -23.71879,
+        -46.882526
+      ],
+      "success": true
+    },
+    {
+      "i": 105,
+      "postos": [],
+      "coords": [
+        -23.697463,
+        -46.865767
+      ],
+      "success": true
+    },
+    {
+      "i": 106,
+      "postos": [],
+      "coords": [
+        -23.674897,
+        -46.856572
+      ],
+      "success": true
+    },
+    {
+      "i": 107,
+      "postos": [],
+      "coords": [
+        -23.651666,
+        -46.847341
+      ],
+      "success": true
+    },
+    {
+      "i": 108,
+      "postos": [],
+      "coords": [
+        -23.634577,
+        -46.828811
+      ],
+      "success": true
+    },
+    {
+      "i": 109,
+      "postos": [],
+      "coords": [
+        -23.616391,
+        -46.824987
+      ],
+      "success": true
+    },
+    {
+      "i": 110,
+      "postos": [],
+      "coords": [
+        -23.592965,
+        -46.80608
+      ],
+      "success": true
+    },
+    {
+      "i": 111,
+      "postos": [],
+      "coords": [
+        -23.584637,
+        -46.786756
+      ],
+      "success": true
+    },
+    {
+      "i": 112,
+      "postos": [],
+      "coords": [
+        -23.586013,
+        -46.760202
+      ],
+      "success": true
+    },
+    {
+      "i": 113,
+      "postos": [],
+      "coords": [
+        -23.584667,
+        -46.737544
+      ],
+      "success": true
+    },
+    {
+      "i": 114,
+      "postos": [],
+      "coords": [
+        -23.576071,
+        -46.72077
+      ],
+      "success": true
+    },
+    {
+      "i": 115,
+      "postos": [],
+      "coords": [
+        -23.574116,
+        -46.709309
+      ],
+      "success": true
+    },
+    {
+      "i": 116,
+      "postos": [
+        {
+          "DataProvider": {
+            "WebsiteURL": "https://ezvolt.com.br",
+            "Comments": "OCPI with Data Sharing Agreement",
+            "DataProviderStatusType": {
+              "IsProviderEnabled": true,
+              "ID": 30,
+              "Title": "Partially Automated (Ad-Hoc Import)"
+            },
+            "IsRestrictedEdit": true,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under CC0 by data sharing agreement",
+            "DateLastImported": "2025-09-05T08:08:35.563Z",
+            "ID": 40,
+            "Title": "EZVolt"
+          },
+          "OperatorInfo": {
+            "WebsiteURL": "https://ezvolt.com.br/",
+            "Comments": null,
+            "PhonePrimaryContact": "+55 21 3900-7077",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "contato@ezvolt.com.br",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3564,
+            "Title": "EZVolt"
+          },
+          "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+          },
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+          },
+          "UserComments": null,
+          "PercentageSimilarity": null,
+          "MediaItems": null,
+          "IsRecentlyVerified": true,
+          "DateLastVerified": "2025-09-05T08:09:00Z",
+          "ID": 459069,
+          "UUID": "1111627C-8423-4D48-B514-66A6AD3C3E4B",
+          "ParentChargePointID": null,
+          "DataProviderID": 40,
+          "DataProvidersReference": "0194b34b-1f23-700f-931f-04789b209364",
+          "OperatorID": 3564,
+          "OperatorsReference": null,
+          "UsageTypeID": 4,
+          "UsageCost": null,
+          "AddressInfo": {
+            "ID": 459458,
+            "Title": "NetPark - Eldorado Business Tower",
+            "AddressLine1": "Av. Dra. Ruth Cardoso, 8501 - Pinheiros, São Paulo - SP, 05425-070",
+            "AddressLine2": null,
+            "Town": "Pinheiros",
+            "StateOrProvince": null,
+            "Postcode": "",
+            "CountryID": 36,
+            "Country": {
+              "ISOCode": "BR",
+              "ContinentCode": "SA",
+              "ID": 36,
+              "Title": "Brazil"
+            },
+            "Latitude": -23.573492,
+            "Longitude": -46.697787,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 0.18842454462597782,
+            "DistanceUnit": 1
+          },
+          "Connections": [
+            {
+              "ID": 771657,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            },
+            {
+              "ID": 771658,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            },
+            {
+              "ID": 771659,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            },
+            {
+              "ID": 771660,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            },
+            {
+              "ID": 771661,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            },
+            {
+              "ID": 771662,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            },
+            {
+              "ID": 771663,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            }
+          ],
+          "NumberOfPoints": null,
+          "GeneralComments": null,
+          "DatePlanned": null,
+          "DateLastConfirmed": null,
+          "StatusTypeID": 50,
+          "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+          "MetadataValues": null,
+          "DataQualityLevel": 1,
+          "DateCreated": "2025-07-03T06:13:00Z",
+          "SubmissionStatusTypeID": 200
+        },
+        {
+          "DataProvider": {
+            "WebsiteURL": "https://ezvolt.com.br",
+            "Comments": "OCPI with Data Sharing Agreement",
+            "DataProviderStatusType": {
+              "IsProviderEnabled": true,
+              "ID": 30,
+              "Title": "Partially Automated (Ad-Hoc Import)"
+            },
+            "IsRestrictedEdit": true,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under CC0 by data sharing agreement",
+            "DateLastImported": "2025-09-05T08:08:35.563Z",
+            "ID": 40,
+            "Title": "EZVolt"
+          },
+          "OperatorInfo": {
+            "WebsiteURL": "https://ezvolt.com.br/",
+            "Comments": null,
+            "PhonePrimaryContact": "+55 21 3900-7077",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "contato@ezvolt.com.br",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3564,
+            "Title": "EZVolt"
+          },
+          "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+          },
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+          },
+          "UserComments": null,
+          "PercentageSimilarity": null,
+          "MediaItems": null,
+          "IsRecentlyVerified": true,
+          "DateLastVerified": "2025-09-05T08:09:00Z",
+          "ID": 459071,
+          "UUID": "D6BEA3C7-7BA0-400A-82BC-AA2CAAC9A61E",
+          "ParentChargePointID": null,
+          "DataProviderID": 40,
+          "DataProvidersReference": "01974c56-8a66-7bbc-9a82-a2f186d20bef",
+          "OperatorID": 3564,
+          "OperatorsReference": null,
+          "UsageTypeID": 4,
+          "UsageCost": null,
+          "AddressInfo": {
+            "ID": 459460,
+            "Title": "Netpark - Arquiteto Roberto Bratke",
+            "AddressLine1": "R. dos Pinheiros, 1673 - Pinheiros, São Paulo - SP",
+            "AddressLine2": null,
+            "Town": "São Paulo",
+            "StateOrProvince": null,
+            "Postcode": "",
+            "CountryID": 36,
+            "Country": {
+              "ISOCode": "BR",
+              "ContinentCode": "SA",
+              "ID": 36,
+              "Title": "Brazil"
+            },
+            "Latitude": -23.567441,
+            "Longitude": -46.69369,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 0.617143279735065,
+            "DistanceUnit": 1
+          },
+          "Connections": [
+            {
+              "ID": 771665,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            }
+          ],
+          "NumberOfPoints": null,
+          "GeneralComments": null,
+          "DatePlanned": null,
+          "DateLastConfirmed": null,
+          "StatusTypeID": 50,
+          "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+          "MetadataValues": null,
+          "DataQualityLevel": 1,
+          "DateCreated": "2025-07-03T06:13:00Z",
+          "SubmissionStatusTypeID": 200
+        }
+      ],
+      "coords": [
+        -23.571838,
+        -46.697385
+      ],
+      "success": true
+    },
+    {
+      "i": 117,
+      "postos": [],
+      "coords": [
+        -23.565657,
+        -46.680348
+      ],
+      "success": true
+    },
+    {
+      "i": 118,
+      "postos": [
+        {
+          "DataProvider": {
+            "WebsiteURL": "https://ezvolt.com.br",
+            "Comments": "OCPI with Data Sharing Agreement",
+            "DataProviderStatusType": {
+              "IsProviderEnabled": true,
+              "ID": 30,
+              "Title": "Partially Automated (Ad-Hoc Import)"
+            },
+            "IsRestrictedEdit": true,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under CC0 by data sharing agreement",
+            "DateLastImported": "2025-09-05T08:08:35.563Z",
+            "ID": 40,
+            "Title": "EZVolt"
+          },
+          "OperatorInfo": {
+            "WebsiteURL": "https://ezvolt.com.br/",
+            "Comments": null,
+            "PhonePrimaryContact": "+55 21 3900-7077",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "contato@ezvolt.com.br",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3564,
+            "Title": "EZVolt"
+          },
+          "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+          },
+          "StatusType": {
+            "IsOperational": false,
+            "IsUserSelectable": true,
+            "ID": 100,
+            "Title": "Not Operational"
+          },
+          "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+          },
+          "UserComments": null,
+          "PercentageSimilarity": null,
+          "MediaItems": null,
+          "IsRecentlyVerified": true,
+          "DateLastVerified": "2025-09-05T08:09:00Z",
+          "ID": 459072,
+          "UUID": "B17BA950-E39B-4818-9C67-8CA655AC0FA6",
+          "ParentChargePointID": null,
+          "DataProviderID": 40,
+          "DataProvidersReference": "a7b57ded-5131-49ff-96a6-b3d08fcd32e1",
+          "OperatorID": 3564,
+          "OperatorsReference": null,
+          "UsageTypeID": 4,
+          "UsageCost": null,
+          "AddressInfo": {
+            "ID": 459461,
+            "Title": "HOUSI - Bela Cintra",
+            "AddressLine1": " R. Bela Cintra, 1425 - Cerqueira César, São Paulo - SP, 01415-001",
+            "AddressLine2": null,
+            "Town": "São Paulo",
+            "StateOrProvince": null,
+            "Postcode": "",
+            "CountryID": 36,
+            "Country": {
+              "ISOCode": "BR",
+              "ContinentCode": "SA",
+              "ID": 36,
+              "Title": "Brazil"
+            },
+            "Latitude": -23.558693,
+            "Longitude": -46.664027,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 0.4172334658156379,
+            "DistanceUnit": 1
+          },
+          "Connections": [
+            {
+              "ID": 771666,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 100,
+              "StatusType": {
+                "IsOperational": false,
+                "IsUserSelectable": true,
+                "ID": 100,
+                "Title": "Not Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            }
+          ],
+          "NumberOfPoints": null,
+          "GeneralComments": null,
+          "DatePlanned": null,
+          "DateLastConfirmed": null,
+          "StatusTypeID": 100,
+          "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+          "MetadataValues": null,
+          "DataQualityLevel": 1,
+          "DateCreated": "2025-07-03T06:13:00Z",
+          "SubmissionStatusTypeID": 200
+        },
+        {
+          "DataProvider": {
+            "WebsiteURL": "https://ezvolt.com.br",
+            "Comments": "OCPI with Data Sharing Agreement",
+            "DataProviderStatusType": {
+              "IsProviderEnabled": true,
+              "ID": 30,
+              "Title": "Partially Automated (Ad-Hoc Import)"
+            },
+            "IsRestrictedEdit": true,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under CC0 by data sharing agreement",
+            "DateLastImported": "2025-09-05T08:08:35.563Z",
+            "ID": 40,
+            "Title": "EZVolt"
+          },
+          "OperatorInfo": {
+            "WebsiteURL": "https://ezvolt.com.br/",
+            "Comments": null,
+            "PhonePrimaryContact": "+55 21 3900-7077",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "contato@ezvolt.com.br",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3564,
+            "Title": "EZVolt"
+          },
+          "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+          },
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+          },
+          "UserComments": null,
+          "PercentageSimilarity": null,
+          "MediaItems": null,
+          "IsRecentlyVerified": true,
+          "DateLastVerified": "2025-09-05T08:09:00Z",
+          "ID": 459073,
+          "UUID": "BA62E4C1-3E2D-43B4-9BE8-5D7ACC53502A",
+          "ParentChargePointID": null,
+          "DataProviderID": 40,
+          "DataProvidersReference": "c8ebf810-9795-40b2-a236-109988a35bb9",
+          "OperatorID": 3564,
+          "OperatorsReference": null,
+          "UsageTypeID": 4,
+          "UsageCost": null,
+          "AddressInfo": {
+            "ID": 459462,
+            "Title": "Hotel Renaissance São Paulo",
+            "AddressLine1": "Alameda Santos, 2233 - Jardim Paulista, São Paulo - SP, 01419-002",
+            "AddressLine2": null,
+            "Town": "São Paulo",
+            "StateOrProvince": null,
+            "Postcode": "",
+            "CountryID": 36,
+            "Country": {
+              "ISOCode": "BR",
+              "ContinentCode": "SA",
+              "ID": 36,
+              "Title": "Brazil"
+            },
+            "Latitude": -23.55865,
+            "Longitude": -46.662117,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 0.6114492568831595,
+            "DistanceUnit": 1
+          },
+          "Connections": [
+            {
+              "ID": 771667,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 7,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            }
+          ],
+          "NumberOfPoints": null,
+          "GeneralComments": null,
+          "DatePlanned": null,
+          "DateLastConfirmed": null,
+          "StatusTypeID": 50,
+          "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+          "MetadataValues": null,
+          "DataQualityLevel": 1,
+          "DateCreated": "2025-07-03T06:13:00Z",
+          "SubmissionStatusTypeID": 200
+        },
+        {
+          "DataProvider": {
+            "WebsiteURL": "https://ezvolt.com.br",
+            "Comments": "OCPI with Data Sharing Agreement",
+            "DataProviderStatusType": {
+              "IsProviderEnabled": true,
+              "ID": 30,
+              "Title": "Partially Automated (Ad-Hoc Import)"
+            },
+            "IsRestrictedEdit": true,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under CC0 by data sharing agreement",
+            "DateLastImported": "2025-09-05T08:08:35.563Z",
+            "ID": 40,
+            "Title": "EZVolt"
+          },
+          "OperatorInfo": {
+            "WebsiteURL": "https://ezvolt.com.br/",
+            "Comments": null,
+            "PhonePrimaryContact": "+55 21 3900-7077",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "contato@ezvolt.com.br",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3564,
+            "Title": "EZVolt"
+          },
+          "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+          },
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+          },
+          "UserComments": null,
+          "PercentageSimilarity": null,
+          "MediaItems": null,
+          "IsRecentlyVerified": true,
+          "DateLastVerified": "2025-09-05T08:09:00Z",
+          "ID": 459074,
+          "UUID": "DF560D1B-2704-4286-823C-061D367B49A9",
+          "ParentChargePointID": null,
+          "DataProviderID": 40,
+          "DataProvidersReference": "29a074af-0629-4946-92d2-f0dcec992bf8",
+          "OperatorID": 3564,
+          "OperatorsReference": null,
+          "UsageTypeID": 4,
+          "UsageCost": null,
+          "AddressInfo": {
+            "ID": 459463,
+            "Title": "Cond. Haddock Offices",
+            "AddressLine1": "Alameda Santos, 2326 - Jardim Paulista, São Paulo - SP, Brasil",
+            "AddressLine2": null,
+            "Town": "São Paulo",
+            "StateOrProvince": null,
+            "Postcode": "",
+            "CountryID": 36,
+            "Country": {
+              "ISOCode": "BR",
+              "ContinentCode": "SA",
+              "ID": 36,
+              "Title": "Brazil"
+            },
+            "Latitude": -23.55792,
+            "Longitude": -46.662059,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 0.6197957164723017,
+            "DistanceUnit": 1
+          },
+          "Connections": [
+            {
+              "ID": 771668,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 22,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            },
+            {
+              "ID": 771669,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 22,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            }
+          ],
+          "NumberOfPoints": null,
+          "GeneralComments": null,
+          "DatePlanned": null,
+          "DateLastConfirmed": null,
+          "StatusTypeID": 50,
+          "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+          "MetadataValues": null,
+          "DataQualityLevel": 1,
+          "DateCreated": "2025-07-03T06:13:00Z",
+          "SubmissionStatusTypeID": 200
+        }
+      ],
+      "coords": [
+        -23.558452,
+        -46.668112
+      ],
+      "success": true
+    },
+    {
+      "i": 119,
+      "postos": [
+        {
+          "DataProvider": {
+            "WebsiteURL": "https://ezvolt.com.br",
+            "Comments": "OCPI with Data Sharing Agreement",
+            "DataProviderStatusType": {
+              "IsProviderEnabled": true,
+              "ID": 30,
+              "Title": "Partially Automated (Ad-Hoc Import)"
+            },
+            "IsRestrictedEdit": true,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under CC0 by data sharing agreement",
+            "DateLastImported": "2025-09-05T08:08:35.563Z",
+            "ID": 40,
+            "Title": "EZVolt"
+          },
+          "OperatorInfo": {
+            "WebsiteURL": "https://ezvolt.com.br/",
+            "Comments": null,
+            "PhonePrimaryContact": "+55 21 3900-7077",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "contato@ezvolt.com.br",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3564,
+            "Title": "EZVolt"
+          },
+          "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+          },
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+          },
+          "UserComments": null,
+          "PercentageSimilarity": null,
+          "MediaItems": null,
+          "IsRecentlyVerified": true,
+          "DateLastVerified": "2025-09-05T08:09:00Z",
+          "ID": 459074,
+          "UUID": "DF560D1B-2704-4286-823C-061D367B49A9",
+          "ParentChargePointID": null,
+          "DataProviderID": 40,
+          "DataProvidersReference": "29a074af-0629-4946-92d2-f0dcec992bf8",
+          "OperatorID": 3564,
+          "OperatorsReference": null,
+          "UsageTypeID": 4,
+          "UsageCost": null,
+          "AddressInfo": {
+            "ID": 459463,
+            "Title": "Cond. Haddock Offices",
+            "AddressLine1": "Alameda Santos, 2326 - Jardim Paulista, São Paulo - SP, Brasil",
+            "AddressLine2": null,
+            "Town": "São Paulo",
+            "StateOrProvince": null,
+            "Postcode": "",
+            "CountryID": 36,
+            "Country": {
+              "ISOCode": "BR",
+              "ContinentCode": "SA",
+              "ID": 36,
+              "Title": "Brazil"
+            },
+            "Latitude": -23.55792,
+            "Longitude": -46.662059,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 0.7968227531724184,
+            "DistanceUnit": 1
+          },
+          "Connections": [
+            {
+              "ID": 771668,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 22,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            },
+            {
+              "ID": 771669,
+              "ConnectionTypeID": 25,
+              "ConnectionType": {
+                "FormalName": "IEC 62196-2 Type 2",
+                "IsDiscontinued": false,
+                "IsObsolete": false,
+                "ID": 25,
+                "Title": "Type 2 (Socket Only)"
+              },
+              "Reference": "1",
+              "StatusTypeID": 50,
+              "StatusType": {
+                "IsOperational": true,
+                "IsUserSelectable": true,
+                "ID": 50,
+                "Title": "Operational"
+              },
+              "LevelID": 2,
+              "Level": {
+                "Comments": "Over 2 kW, usually non-domestic socket type",
+                "IsFastChargeCapable": false,
+                "ID": 2,
+                "Title": "Level 2 : Medium (Over 2kW)"
+              },
+              "Amps": 32,
+              "Voltage": 220,
+              "PowerKW": 22,
+              "CurrentTypeID": 10,
+              "CurrentType": {
+                "Description": "Alternating Current - Single Phase",
+                "ID": 10,
+                "Title": "AC (Single-Phase)"
+              },
+              "Quantity": 1,
+              "Comments": null
+            }
+          ],
+          "NumberOfPoints": null,
+          "GeneralComments": null,
+          "DatePlanned": null,
+          "DateLastConfirmed": null,
+          "StatusTypeID": 50,
+          "DateLastStatusUpdate": "2025-09-05T08:09:00Z",
+          "MetadataValues": null,
+          "DataQualityLevel": 1,
+          "DateCreated": "2025-07-03T06:13:00Z",
+          "SubmissionStatusTypeID": 200
+        }
+      ],
+      "coords": [
+        -23.552,
+        -46.657654
+      ],
+      "success": true
+    },
+    {
+      "i": 120,
+      "postos": [],
+      "coords": [
+        -23.547667,
+        -46.644416
+      ],
+      "success": true
+    },
+    {
+      "i": 121,
+      "postos": [],
+      "coords": [
+        -23.55216,
+        -46.634007
+      ],
+      "success": true
+    }
+  ],
+  "sampledWaypoints": [
+    [
+      -49.273245,
+      -25.428379
+    ],
+    [
+      -49.256839,
+      -25.424327
+    ],
+    [
+      -49.239607,
+      -25.420465
+    ],
+    [
+      -49.221116,
+      -25.409848
+    ],
+    [
+      -49.210929,
+      -25.39476
+    ],
+    [
+      -49.177946,
+      -25.387516
+    ],
+    [
+      -49.12658,
+      -25.370992
+    ],
+    [
+      -49.068381,
+      -25.356543
+    ],
+    [
+      -49.037874,
+      -25.338609
+    ],
+    [
+      -49.017422,
+      -25.314307
+    ],
+    [
+      -48.995919,
+      -25.306263
+    ],
+    [
+      -48.948811,
+      -25.305299
+    ],
+    [
+      -48.933316,
+      -25.288638
+    ],
+    [
+      -48.905463,
+      -25.247695
+    ],
+    [
+      -48.905864,
+      -25.223276
+    ],
+    [
+      -48.895905,
+      -25.201718
+    ],
+    [
+      -48.883679,
+      -25.184538
+    ],
+    [
+      -48.870425,
+      -25.175624
+    ],
+    [
+      -48.861153,
+      -25.154751
+    ],
+    [
+      -48.857208,
+      -25.126828
+    ],
+    [
+      -48.846894,
+      -25.111887
+    ],
+    [
+      -48.827241,
+      -25.108947
+    ],
+    [
+      -48.811286,
+      -25.11148
+    ],
+    [
+      -48.795897,
+      -25.109955
+    ],
+    [
+      -48.764652,
+      -25.111705
+    ],
+    [
+      -48.740666,
+      -25.106667
+    ],
+    [
+      -48.695609,
+      -25.1002
+    ],
+    [
+      -48.659686,
+      -25.098206
+    ],
+    [
+      -48.613249,
+      -25.082616
+    ],
+    [
+      -48.579262,
+      -25.066351
+    ],
+    [
+      -48.555252,
+      -25.057248
+    ],
+    [
+      -48.535916,
+      -25.035182
+    ],
+    [
+      -48.515301,
+      -25.019854
+    ],
+    [
+      -48.504273,
+      -24.981378
+    ],
+    [
+      -48.477538,
+      -24.967382
+    ],
+    [
+      -48.462674,
+      -24.965958
+    ],
+    [
+      -48.448125,
+      -24.967688
+    ],
+    [
+      -48.425483,
+      -24.96442
+    ],
+    [
+      -48.404871,
+      -24.971734
+    ],
+    [
+      -48.360947,
+      -24.969504
+    ],
+    [
+      -48.3092,
+      -24.942562
+    ],
+    [
+      -48.238573,
+      -24.894801
+    ],
+    [
+      -48.209292,
+      -24.879971
+    ],
+    [
+      -48.214531,
+      -24.863016
+    ],
+    [
+      -48.210366,
+      -24.85147
+    ],
+    [
+      -48.211425,
+      -24.844421
+    ],
+    [
+      -48.209509,
+      -24.830436
+    ],
+    [
+      -48.208468,
+      -24.81436
+    ],
+    [
+      -48.208512,
+      -24.796657
+    ],
+    [
+      -48.201853,
+      -24.7794
+    ],
+    [
+      -48.17698,
+      -24.787066
+    ],
+    [
+      -48.16463,
+      -24.759501
+    ],
+    [
+      -48.132158,
+      -24.742944
+    ],
+    [
+      -48.105384,
+      -24.730093
+    ],
+    [
+      -48.076215,
+      -24.721678
+    ],
+    [
+      -47.999245,
+      -24.69561
+    ],
+    [
+      -47.972833,
+      -24.663998
+    ],
+    [
+      -47.930265,
+      -24.649211
+    ],
+    [
+      -47.896622,
+      -24.623626
+    ],
+    [
+      -47.876017,
+      -24.598208
+    ],
+    [
+      -47.877359,
+      -24.568262
+    ],
+    [
+      -47.847125,
+      -24.503024
+    ],
+    [
+      -47.814685,
+      -24.458025
+    ],
+    [
+      -47.777617,
+      -24.422809
+    ],
+    [
+      -47.731318,
+      -24.398626
+    ],
+    [
+      -47.71535,
+      -24.385649
+    ],
+    [
+      -47.694168,
+      -24.367505
+    ],
+    [
+      -47.665887,
+      -24.356177
+    ],
+    [
+      -47.603631,
+      -24.333102
+    ],
+    [
+      -47.521581,
+      -24.314621
+    ],
+    [
+      -47.459374,
+      -24.288352
+    ],
+    [
+      -47.418478,
+      -24.277804
+    ],
+    [
+      -47.376347,
+      -24.257849
+    ],
+    [
+      -47.363488,
+      -24.226992
+    ],
+    [
+      -47.366722,
+      -24.197613
+    ],
+    [
+      -47.341461,
+      -24.17237
+    ],
+    [
+      -47.326069,
+      -24.157818
+    ],
+    [
+      -47.298794,
+      -24.14734
+    ],
+    [
+      -47.27198,
+      -24.142797
+    ],
+    [
+      -47.271069,
+      -24.123232
+    ],
+    [
+      -47.269789,
+      -24.115422
+    ],
+    [
+      -47.268528,
+      -24.109034
+    ],
+    [
+      -47.256658,
+      -24.102074
+    ],
+    [
+      -47.256949,
+      -24.089645
+    ],
+    [
+      -47.251485,
+      -24.081375
+    ],
+    [
+      -47.240272,
+      -24.067267
+    ],
+    [
+      -47.22063,
+      -24.05709
+    ],
+    [
+      -47.200715,
+      -24.050978
+    ],
+    [
+      -47.18931,
+      -24.037458
+    ],
+    [
+      -47.171541,
+      -24.020532
+    ],
+    [
+      -47.155745,
+      -24.002995
+    ],
+    [
+      -47.148251,
+      -23.986578
+    ],
+    [
+      -47.132233,
+      -23.967762
+    ],
+    [
+      -47.107231,
+      -23.954635
+    ],
+    [
+      -47.08079,
+      -23.936685
+    ],
+    [
+      -47.044888,
+      -23.940216
+    ],
+    [
+      -47.008807,
+      -23.932429
+    ],
+    [
+      -46.989177,
+      -23.914129
+    ],
+    [
+      -46.976299,
+      -23.88576
+    ],
+    [
+      -46.940506,
+      -23.855822
+    ],
+    [
+      -46.928286,
+      -23.831143
+    ],
+    [
+      -46.917587,
+      -23.802241
+    ],
+    [
+      -46.913518,
+      -23.773796
+    ],
+    [
+      -46.892609,
+      -23.724498
+    ],
+    [
+      -46.882526,
+      -23.71879
+    ],
+    [
+      -46.865767,
+      -23.697463
+    ],
+    [
+      -46.856572,
+      -23.674897
+    ],
+    [
+      -46.847341,
+      -23.651666
+    ],
+    [
+      -46.828811,
+      -23.634577
+    ],
+    [
+      -46.824987,
+      -23.616391
+    ],
+    [
+      -46.80608,
+      -23.592965
+    ],
+    [
+      -46.786756,
+      -23.584637
+    ],
+    [
+      -46.760202,
+      -23.586013
+    ],
+    [
+      -46.737544,
+      -23.584667
+    ],
+    [
+      -46.72077,
+      -23.576071
+    ],
+    [
+      -46.709309,
+      -23.574116
+    ],
+    [
+      -46.697385,
+      -23.571838
+    ],
+    [
+      -46.680348,
+      -23.565657
+    ],
+    [
+      -46.668112,
+      -23.558452
+    ],
+    [
+      -46.657654,
+      -23.552
+    ],
+    [
+      -46.644416,
+      -23.547667
+    ],
+    [
+      -46.634007,
+      -23.55216
+    ]
+  ],
+  "config": {
+    "WAYPOINT_STEP": 50,
+    "MAX_CONCURRENT": 10,
+    "RADIUS_KM": 0.8,
+    "FETCH_TIMEOUT_MS": 10000,
+    "MAX_RETRIES": 3
+  }
+}

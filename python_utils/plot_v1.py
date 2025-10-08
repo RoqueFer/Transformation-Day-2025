@@ -10,18 +10,17 @@ AUTONOMIA_KM = 350
 
 try:
     # Correção: Caminhos relativos para carregar os dados da pasta raiz
-    with open('resources\waypoints_curitiba_sao_paulo.json', 'r') as f:
+    with open('..//resources//waypoints_curitiba_sao_paulo.json', 'r') as f:
         waypoints_data = json.load(f)
     print("Arquivo 'resources\waypoints_curitiba_sao_paulo.json' carregado.")
 
-    df_eletropostos = pd.read_json('resources\plugshare.json')
+    df_eletropostos = pd.read_json('..//ts_utils//eletropostos_free_apis.json')
     print(f"Carregados {len(df_eletropostos)} eletropostos do 'plugshare.json'.")
 
 except FileNotFoundError as e:
     print(f"ERRO: Arquivo não encontrado! -> {e}")
     print("Certifique-se de que este script está na pasta 'python_utils' e os arquivos de dados na pasta principal.")
     sys.exit()
-
 
 # --- 2. PREPARAÇÃO DOS DADOS PARA O MAPA ---
 
@@ -99,7 +98,7 @@ folium.LayerControl().add_to(mapa)
 
 # --- 4. SALVAR O MAPA ---
 
-output_filename = 'mapa_com_autonomia_e_rota.html'
+output_filename = '..//results//mapa_com_autonomia_e_rota.html'
 mapa.save(output_filename)
 print(f"\nSUCESSO! Mapa salvo como '{output_filename}'.")
 print("Abra este arquivo em seu navegador para ver o resultado interativo.")

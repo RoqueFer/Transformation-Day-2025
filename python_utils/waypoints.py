@@ -43,7 +43,7 @@ try:
     # Você pode salvar esses waypoints em um arquivo se quiser
     with open('waypoints_curitiba_sao_paulo.json', 'w') as f:
         json.dump(waypoints, f)
-    print("\nWaypoints salvos em 'waypoints_curitiba_sao_paulo.json'")
+    print("\nWaypoints salvos em 'resources/waypoints_curitiba_sao_paulo.json'")
 
     print('consultando eletropostos no trajeto...')
 
