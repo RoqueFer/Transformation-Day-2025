@@ -13,5 +13,35 @@
     "access": "Público",
     "source": "OpenStreetMap",
     "distanceFromRoute": 0.09097011652260818
+  },
+  {
+    "id": "osm_12574503669",
+    "name": "Eletroposto OSM",
+    "latitude": -25.4298313,
+    "longitude": -49.2780987,
+    "address": "Endereço não informado",
+    "network": "Rede não informada",
+    "connectorType": [
+      "Tipo não especificado"
+    ],
+    "power": "Potência não informada",
+    "access": "Público",
+    "source": "OpenStreetMap",
+    "distanceFromRoute": 0.5134738042392235
+  },
+  {
+    "id": "osm_10970973175",
+    "name": "Eletroposto OSM",
+    "latitude": -25.4360275,
+    "longitude": -49.2570994,
+    "address": "Endereço não informado",
+    "network": "Rede não informada",
+    "connectorType": [
+      "Tipo não especificado"
+    ],
+    "power": "Potência não informada",
+    "access": "Público",
+    "source": "OpenStreetMap",
+    "distanceFromRoute": 1.2534894653787063
   }
 ]

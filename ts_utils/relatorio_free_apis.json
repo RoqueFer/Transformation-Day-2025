@@ -1,9 +1,9 @@
 {
   "resumo": {
     "batches": 25,
-    "postosEncontrados": 1,
-    "postosUnicos": 1,
-    "dataProcessamento": "2025-10-08T15:55:58.652Z"
+    "postosEncontrados": 4,
+    "postosUnicos": 3,
+    "dataProcessamento": "2025-10-08T16:05:03.619Z"
   },
   "configuracao": {
     "origem": "Curitiba [-49.2733, -25.4284]",
@@ -15,12 +15,12 @@
   },
   "estatisticas": {
     "porFonte": {
-      "OpenStreetMap": 1
+      "OpenStreetMap": 3
     },
     "porRede": [
       [
         "Rede não informada",
-        1
+        3
       ]
     ]
   }
