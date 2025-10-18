@@ -1,0 +1,16 @@
+# Ignorar outputs de mapas e dados
+*.html
+*.json
+*.csv
+
+# Des-ignorar (manter) arquivos de dados específicos
+!data/raw/plugshare.json
+!data/raw/vtd_data.csv
+!data/processed/
+
+# Ignorar pastas de ambiente virtual Python
+venv/
+__pycache__/
+
+# Ignorar arquivos de sistema
+.DS_Store
