@@ -1,0 +1,43 @@
+{
+  "api_keys": {
+    "ocm_api_key": "813110e4-2f26-4b74-9fc8-da2269128a94"
+  },
+  "routes_to_analyze": [
+    {
+      "name": "brasilia_campo_grande",
+      "start_city": "brasilia",
+      "end_city": "campo_grande"
+    }
+  ],
+  "cities": {
+    "brasilia": {
+      "api_coords": "-47.9292,-15.7801",
+      "map_coords": [-15.7801, -47.9292]
+    },
+    "campo_grande": {
+      "api_coords": "-54.6295,-20.4428",
+      "map_coords": [-20.4428, -54.6295]
+    }
+  },
+  "vehicles": [
+    {
+      "modelo": "Renault Megane E-Tech",
+      "autonomia_km": 337,
+      "cor": "red"
+    }
+  ],
+  "analysis_params": {
+    "poi_search_radius_km": 15,
+    "score_weights": {
+      "fluxo": 0.6,
+      "distancia": 0.4
+    }
+  },
+  "file_paths": {
+    "vtd_data": "data/raw/vtd_data.csv",
+    "existing_stations": "data/raw/plugshare.json",
+    "pois_on_route": "data/processed/pois_na_rota.csv",
+    "analysis_result": "output/resultado_analise_pontos.csv",
+    "output_map": "output/mapa_analise_final.html"
+  }
+}

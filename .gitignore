@@ -1,6 +1,5 @@
 # Ignorar outputs de mapas e dados
 *.html
-*.json
 *.csv
 
 # Des-ignorar (manter) arquivos de dados específicos

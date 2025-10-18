@@ -5,14 +5,12 @@ def load_data(poi_path, stations_path, vtd_path):
     """Carrega todos os arquivos de dados necessários."""
     df_pois = pd.read_csv(poi_path)
     df_eletropostos = pd.read_json(stations_path)
-    # Lógica para carregar VTD simplificada
     df_vtd = pd.read_csv(vtd_path)
     return df_pois, df_eletropostos, df_vtd
 
 def calculate_potential_score(df_pois, df_eletropostos, df_vtd, weights):
     """Calcula o Score de Potencial para cada POI."""
-
-    # 1. Calcular distância mínima até um concorrente
+    
     def get_min_distance(poi_lat, poi_lon, df_stations):
         distances = [
             haversine((poi_lat, poi_lon), (lat, lon), unit=Unit.KILOMETERS)
@@ -26,31 +24,19 @@ def calculate_potential_score(df_pois, df_eletropostos, df_vtd, weights):
         axis=1
     )
 
-    # 2. Atribuir fluxo de veículos (Lógica simplificada - a ser melhorada)
-    # Esta é a parte mais frágil que discutimos. Por enquanto, vamos manter
-    # uma lógica simples para o código funcionar.
-    def assign_traffic_flow(latitude, df_vtd):
-         # Para este exemplo, vamos pegar o valor médio de tráfego do arquivo.
-         # O ideal seria uma lógica mais complexa aqui.
-        return df_vtd.iloc[5, 2] # Exemplo: media da rota CWB -> SP
-
     print("Vinculando dados de fluxo de veículos...")
-    df_pois['fluxo_veiculos'] = df_pois.apply(
-        lambda row: assign_traffic_flow(row['latitude'], df_vtd),
-        axis=1
-    )
+    df_pois['fluxo_veiculos'] = df_vtd.iloc[5, 2] # Lógica simplificada mantida
 
-    # 3. Normalização e Cálculo do Score
     df_pois['fluxo_norm'] = (df_pois['fluxo_veiculos'] - df_pois['fluxo_veiculos'].min()) / \
                             (df_pois['fluxo_veiculos'].max() - df_pois['fluxo_veiculos'].min())
     df_pois['dist_norm'] = (df_pois['dist_concorrente_km'] - df_pois['dist_concorrente_km'].min()) / \
                            (df_pois['dist_concorrente_km'].max() - df_pois['dist_concorrente_km'].min())
 
-    df_pois['score_potencial'] = (df_pois['fluxo_norm'] * weights['traffic_flow']) + \
-                                 (df_pois['dist_norm'] * weights['distance_from_competitor'])
-
-    # Classifica os POIs pelo score
+    # CORREÇÃO: Usando as chaves 'fluxo' e 'distancia' do seu JSON
+    df_pois['score_potencial'] = (df_pois['fluxo_norm'] * weights['fluxo']) + \
+                                 (df_pois['dist_norm'] * weights['distancia'])
+    
     df_ranked = df_pois.sort_values(by='score_potencial', ascending=False)
-
+    
     print("Cálculo de score finalizado.")
     return df_ranked
