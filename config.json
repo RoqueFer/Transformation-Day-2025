@@ -6,7 +6,12 @@
     {
       "name": "brasilia_campo_grande",
       "start_city": "brasilia",
-      "end_city": "campo_grande"
+      "end_city": "campo_grande",
+      "snv_ufs": ["DF", "GO", "MS"],
+      "snv_brs": ["060", "364", "163"],
+      "snv_start_uf": "DF",
+      "snv_start_br": "060",
+      "snv_end_city_name": "CAMPO GRANDE"
     }
   ],
   "cities": {
@@ -34,8 +39,8 @@
     }
   },
   "file_paths": {
-    "vmd_data": "data/raw/VMDa 2023.xlsx",
-    "vmd_metadata": "data/raw/VMDa 2023.xlsx",
+    "snv_data_excel": "data/raw/VMDa 2023.xlsx",
+    "snv_data_sheet": "SNV202401A",
     "existing_stations": "data/raw/plugshare.json",
     "pois_on_route": "data/processed/pois_na_rota.csv",
     "analysis_result": "output/resultado_analise_pontos.csv",

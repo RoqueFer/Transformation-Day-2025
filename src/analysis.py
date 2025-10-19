@@ -1,16 +1,6 @@
 import pandas as pd
 from haversine import haversine, Unit
 
-def load_intermediate_data(poi_path, stations_path):
-    """
-    Carrega os dados de POIs e estações, que são entradas para a análise de score.
-    A lógica de VTD foi movida para um módulo separado.
-    """
-    print("Carregando POIs e estações existentes...")
-    df_pois = pd.read_csv(poi_path)
-    df_eletropostos = pd.read_json(stations_path)
-    return df_pois, df_eletropostos
-
 def calculate_potential_score(df_pois, df_eletropostos, vmd_medio_rota, weights):
     """Calcula o Score de Potencial para cada POI."""
     
@@ -30,7 +20,6 @@ def calculate_potential_score(df_pois, df_eletropostos, vmd_medio_rota, weights)
     print("Vinculando dados de fluxo de veículos...")
     df_pois['fluxo_veiculos'] = vmd_medio_rota
     
-    # Prevenção de divisão por zero
     fluxo_range = df_pois['fluxo_veiculos'].max() - df_pois['fluxo_veiculos'].min()
     df_pois['fluxo_norm'] = 1.0 if fluxo_range == 0 else (df_pois['fluxo_veiculos'] - df_pois['fluxo_veiculos'].min()) / fluxo_range
     
