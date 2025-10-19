@@ -5,7 +5,7 @@ def load_data(poi_path, stations_path, vtd_path):
     """Carrega todos os arquivos de dados necessários."""
     df_pois = pd.read_csv(poi_path)
     df_eletropostos = pd.read_json(stations_path)
-    df_vtd = pd.read_csv(vtd_path)
+    df_vtd = pd.read_csv(vtd_path, encoding='latin-1', header=None)
     return df_pois, df_eletropostos, df_vtd
 
 def calculate_potential_score(df_pois, df_eletropostos, df_vtd, weights):
