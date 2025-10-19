@@ -2,9 +2,6 @@ import requests
 import pandas as pd
 import time
 
-# Nota: As URLs e chaves de API foram removidas daqui.
-# Elas virão do arquivo de configuração!
-
 def get_route_waypoints(start_coords, end_coords):
     """Busca os waypoints de uma rota usando a API OSRM."""
     url = f"http://router.project-osrm.org/route/v1/driving/{start_coords};{end_coords}?overview=full&geometries=geojson"
@@ -20,46 +17,66 @@ def get_route_waypoints(start_coords, end_coords):
         print(f"--> ERRO ao buscar rota: {e}")
         return []
 
-def find_pois_on_route(waypoints, radius_m):
-    """Busca por POIs (postos, restaurantes, hotéis) ao longo de uma rota."""
+def find_pois_on_route(waypoints, radius_km):
+    """
+    Busca POIs usando uma única consulta de bounding box para máxima eficiência.
+    """
+    if not waypoints:
+        return pd.DataFrame()
+
+    print("\nOtimizando a busca de POIs com uma única consulta de área...")
+
+    buffer = radius_km / 111
+    min_lon = min(lon for lon, lat in waypoints) - buffer
+    max_lon = max(lon for lon, lat in waypoints) + buffer
+    min_lat = min(lat for lon, lat in waypoints) - buffer
+    max_lat = max(lat for lon, lat in waypoints) + buffer
+    bbox_str = f"{min_lat},{min_lon},{max_lat},{max_lon}"
+
     overpass_url = "http://overpass-api.de/api/interpreter"
-    pois_encontrados = {}
-    poi_queries = {
-        "posto_combustivel": 'node["amenity"="fuel"]',
-        "restaurante": 'node["amenity"="restaurant"]',
-        "hotel": 'node["tourism"~"hotel|motel"]'
-    }
+    
+    # ***** CORREÇÃO APLICADA AQUI *****
+    # A sintaxe correta do Overpass QL não usa chaves {} na bounding box.
+    # Passamos a string diretamente dentro dos parênteses do filtro.
+    poi_query = f"""
+    [out:json][timeout:180];
+    (
+      node["amenity"~"fuel|restaurant"]({bbox_str});
+      node["tourism"~"hotel|motel"]({bbox_str});
+    );
+    out body;
+    >;
+    out skel qt;
+    """
 
-    # Amostra os waypoints para não fazer muitas requisições
-    waypoints_to_check = waypoints[::20]
+    try:
+        print(f"Executando consulta massiva de POIs. Isso pode levar até 2 minutos...")
+        response = requests.post(overpass_url, data=poi_query, timeout=180)
+        response.raise_for_status()
+        data = response.json()
+        print(f"API respondeu com {len(data.get('elements', []))} elementos.")
 
-    print(f"Buscando POIs em {len(waypoints_to_check)} pontos da rota...")
-    for i, (lon, lat) in enumerate(waypoints_to_check):
-        full_query = "[out:json];("
-        for query_part in poi_queries.values():
-            full_query += f'{query_part}(around:{radius_m},{lat},{lon});'
-        full_query += ");out body;>;out skel qt;"
+    except requests.RequestException as e:
+        print(f"--> ERRO CRÍTICO ao consultar Overpass API: {e}")
+        print("--> Não foi possível obter os POIs. A análise de score será imprecisa.")
+        return pd.DataFrame()
 
-        try:
-            response = requests.post(overpass_url, data=full_query, timeout=30)
-            response.raise_for_status()
-            data = response.json()
-            for element in data.get('elements', []):
-                if element['id'] not in pois_encontrados:
-                    # Simplificando a extração de dados
-                    poi_info = {
-                        "id": element['id'],
-                        "latitude": element.get('lat'),
-                        "longitude": element.get('lon'),
-                        "nome": element.get('tags', {}).get('name', 'Sem nome'),
-                        "tipo": element.get('tags', {}).get('amenity', element.get('tags', {}).get('tourism'))
-                    }
-                    pois_encontrados[element['id']] = poi_info
-        except requests.RequestException as e:
-            print(f"--> Aviso: erro ao consultar Overpass API: {e}")
-        time.sleep(1)
+    pois_encontrados = []
+    for element in data.get('elements', []):
+        if 'tags' in element:
+            poi_info = {
+                "id": element.get('id'),
+                "latitude": element.get('lat'),
+                "longitude": element.get('lon'),
+                "nome": element.get('tags', {}).get('name', 'Sem nome'),
+                "tipo": (element.get('tags', {}).get('amenity') or 
+                         element.get('tags', {}).get('tourism', 'desconhecido'))
+            }
+            pois_encontrados.append(poi_info)
 
-    # Converte o dicionário para uma lista e depois para um DataFrame
-    df_pois = pd.DataFrame(list(pois_encontrados.values()))
-    print(f"Busca finalizada. Total de {len(df_pois)} POIs únicos encontrados.")
+    df_pois = pd.DataFrame(pois_encontrados)
+    if not df_pois.empty:
+        df_pois = df_pois.drop_duplicates(subset='id').reset_index(drop=True)
+    
+    print(f"Busca finalizada. Total de {len(df_pois)} POIs únicos encontrados na área da rota.")
     return df_pois
