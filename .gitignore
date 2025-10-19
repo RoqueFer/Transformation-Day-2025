@@ -1,6 +1,5 @@
 # Ignorar outputs de mapas e dados
 *.html
-*.csv
 
 # Des-ignorar (manter) arquivos de dados específicos
 !data/raw/plugshare.json
