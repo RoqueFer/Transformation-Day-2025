@@ -34,7 +34,8 @@
     }
   },
   "file_paths": {
-    "vtd_data": "data/raw/vtd_data.xlsx",
+    "vmd_data": "data/raw/VMDa 2023.xlsx",
+    "vmd_metadata": "data/raw/VMDa 2023.xlsx",
     "existing_stations": "data/raw/plugshare.json",
     "pois_on_route": "data/processed/pois_na_rota.csv",
     "analysis_result": "output/resultado_analise_pontos.csv",
