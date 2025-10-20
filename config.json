@@ -4,39 +4,102 @@
   },
   "routes_to_analyze": [
     {
-      "name": "brasilia_campo_grande",
-      "start_city": "brasilia",
-      "end_city": "campo_grande",
-      "snv_ufs": ["DF", "GO", "MS"],
-      "snv_brs": ["060", "364", "163"],
-      "snv_start_uf": "DF",
-      "snv_start_br": "060",
-      "snv_end_city_name": "CAMPO GRANDE"
+      "name": "rio_sao_paulo",
+      "start_city": "rio_de_janeiro", "end_city": "sao_paulo",
+      "snv_ufs": ["RJ", "SP"], "snv_brs": ["116"],
+      "snv_start_uf": "RJ", "snv_start_br": "116", "snv_end_city_name": "SAO PAULO"
+    },
+    {
+      "name": "sao_paulo_curitiba",
+      "start_city": "sao_paulo", "end_city": "curitiba",
+      "snv_ufs": ["SP", "PR"], "snv_brs": ["116"],
+      "snv_start_uf": "SP", "snv_start_br": "116", "snv_end_city_name": "CURITIBA"
+    },
+    {
+      "name": "curitiba_florianopolis",
+      "start_city": "curitiba", "end_city": "florianopolis",
+      "snv_ufs": ["PR", "SC"], "snv_brs": ["116", "376", "101"],
+      "snv_start_uf": "PR", "snv_start_br": "116", "snv_end_city_name": "FLORIANOPOLIS"
+    },
+    {
+      "name": "rio_belo_horizonte",
+      "start_city": "rio_de_janeiro", "end_city": "belo_horizonte",
+      "snv_ufs": ["RJ", "MG"], "snv_brs": ["040"],
+      "snv_start_uf": "RJ", "snv_start_br": "040", "snv_end_city_name": "BELO HORIZONTE"
+    },
+    {
+      "name": "belo_horizonte_vitoria",
+      "start_city": "belo_horizonte", "end_city": "vitoria",
+      "snv_ufs": ["MG", "ES"], "snv_brs": ["381", "262"],
+      "snv_start_uf": "MG", "snv_start_br": "381", "snv_end_city_name": "VITORIA"
     }
   ],
   "cities": {
-    "brasilia": {
-      "api_coords": "-47.9292,-15.7801",
-      "map_coords": [-15.7801, -47.9292]
-    },
-    "campo_grande": {
-      "api_coords": "-54.6295,-20.4428",
-      "map_coords": [-20.4428, -54.6295]
-    }
+    "brasilia": {"api_coords": "-47.9292,-15.7801", "map_coords": [-15.7801, -47.9292]},
+    "campo_grande": {"api_coords": "-54.6295,-20.4428", "map_coords": [-20.4428, -54.6295]},
+    "rio_de_janeiro": {"api_coords": "-43.1729,-22.9068", "map_coords": [-22.9068, -43.1729]},
+    "sao_paulo": {"api_coords": "-46.6333,-23.5505", "map_coords": [-23.5505, -46.6333]},
+    "curitiba": {"api_coords": "-49.2733,-25.4284", "map_coords": [-25.4284, -49.2733]},
+    "florianopolis": {"api_coords": "-48.5489,-27.5935", "map_coords": [-27.5935, -48.5489]},
+    "belo_horizonte": {"api_coords": "-43.9345,-19.9167", "map_coords": [-19.9167, -43.9345]},
+    "vitoria": {"api_coords": "-40.2918,-20.2976", "map_coords": [-20.2976, -40.2918]}
   },
   "vehicles": [
-    {
+      {
       "modelo": "Renault Megane E-Tech",
       "autonomia_km": 337,
       "cor": "red"
+    },
+    {
+      "modelo": "BYD - Dolphin mini",
+      "autonomia_km": 250,
+      "cor": "blue"
+    },
+    {
+      "modelo": "BYD - Dolphin",
+      "autonomia_km": 260,
+      "cor": "yellow"
+    },
+    {
+      "modelo": "BYD - Yuan Pro",
+      "autonomia_km": 250,
+      "cor": "orange"
+    },
+    {
+      "modelo": "Renault - Kwid E-tech",
+      "autonomia_km": 180,
+      "cor": "green"
+    },
+    {
+      "modelo": "JAC - e-JS1",
+      "autonomia_km": 197,
+      "cor": "black"
+    },
+    {
+      "modelo": "Caoa Chery - iCar",
+      "autonomia_km": 197,
+      "cor": "black"
+    },
+    {
+      "modelo": "GWM - Ora 03 Skin",
+      "autonomia_km": 232,
+      "cor": "black"
+    },
+    {
+      "modelo": "BYD - Dolphin Plus",
+      "autonomia_km": 250,
+      "cor": "black"
+    },
+    {
+      "modelo": "Fiat - 500e",
+      "autonomia_km": 227,
+      "cor": "black"
     }
+
   ],
   "analysis_params": {
     "poi_search_radius_km": 15,
-    "score_weights": {
-      "fluxo": 0.6,
-      "distancia": 0.4
-    }
+    "score_weights": { "fluxo": 0.6, "distancia": 0.4 }
   },
   "file_paths": {
     "snv_data_excel": "data/raw/VMDa 2023.xlsx",
