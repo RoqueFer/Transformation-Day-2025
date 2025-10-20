@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import time
+import requests
 
 def get_route_waypoints(start_coords, end_coords):
     """Busca os waypoints de uma rota usando a API OSRM."""
@@ -80,3 +81,36 @@ def find_pois_on_route(waypoints, radius_km):
     
     print(f"Busca finalizada. Total de {len(df_pois)} POIs únicos encontrados na área da rota.")
     return df_pois
+
+def find_charging_stations_on_route(waypoints, api_key):
+    """
+    Busca por eletropostos (concorrentes) ao longo da rota usando a API do OpenChargeMap.
+    """
+    print("\nBuscando eletropostos existentes (concorrentes) via API...")
+    postos_encontrados = {}
+    headers = {"X-API-Key": api_key}
+    
+    # Amostra a rota para não fazer requisições demais
+    for i, (lon, lat) in enumerate(waypoints[::50]): # Verifica a cada ~50km
+        ocm_url = (
+            f"https://api.openchargemap.io/v3/poi/?output=json&countrycode=BR"
+            f"&latitude={lat}&longitude={lon}&distance=25&distanceunit=KM"
+        )
+        try:
+            req = requests.get(ocm_url, headers=headers, timeout=20)
+            req.raise_for_status()
+            for posto in req.json():
+                # Adiciona apenas se tiver informações de endereço válidas
+                if posto.get('AddressInfo', {}).get('Latitude') and posto.get('AddressInfo', {}).get('Longitude'):
+                    postos_encontrados[posto["ID"]] = {
+                        "name": posto['AddressInfo'].get('Title', 'Sem nome'),
+                        "latitude": posto['AddressInfo']['Latitude'],
+                        "longitude": posto['AddressInfo']['Longitude']
+                    }
+        except requests.RequestException as e:
+            print(f"--> Aviso: erro ao consultar API de eletropostos: {e}")
+        time.sleep(0.5) # Pausa para não sobrecarregar a API
+
+    df_stations = pd.DataFrame(list(postos_encontrados.values()))
+    print(f"Busca finalizada. {len(df_stations)} eletropostos concorrentes encontrados.")
+    return df_stations
