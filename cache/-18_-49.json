@@ -1,0 +1,274 @@
+[
+  {
+    "id": "ocm_459277",
+    "name": "Posto Alvorada ",
+    "latitude": -18.133497465215328,
+    "longitude": -49.28516020489417,
+    "address": "BR 153, Km 670, Goiatuba, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460534",
+    "name": "ZAP CHARGE SERRA PARK",
+    "latitude": -17.77127058738111,
+    "longitude": -48.7558673310661,
+    "address": "Rua Piaui Qdp8 Lt 14A - ESPLANADA , Rio Quente , goias ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459136",
+    "name": "Petrobras - Hot Petro Auto Posto",
+    "latitude": -17.71477,
+    "longitude": -48.677712,
+    "address": "GO-213, 55, CALDAS NOVAS – GO, Caldas Novas ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460058",
+    "name": "GDC Mobi",
+    "latitude": -17.73504021923816,
+    "longitude": -48.623825486304305,
+    "address": "Av Sebastião Dayrell De Lima, 267 Brasileia, Betkm",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461935",
+    "name": "Maria Fumaça",
+    "latitude": -17.726769,
+    "longitude": -48.62768,
+    "address": "R. São Genaro, 1000, Solar de Caldas, Caldas Novas, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306489",
+    "name": "BR-153",
+    "latitude": -18.421580212336238,
+    "longitude": -49.19422573985224,
+    "address": "BR-153, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_272660",
+    "name": "Lagoa Eco Towers Resort",
+    "latitude": -17.694871297406465,
+    "longitude": -48.588163801572705,
+    "address": "Avenida Princesa Isabel, Quadra A5, Lote 03A, Caldas Novas,  GO",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461934",
+    "name": "Lagoa Eco Towers",
+    "latitude": -17.694226,
+    "longitude": -48.587424,
+    "address": "Avenida Princesa Isabel, Setor Lagoa Quente, Caldas Novas, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266710",
+    "name": "SAU 5 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -18.41615946160681,
+    "longitude": -48.07907719849101,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461256",
+    "name": "Hotel GO Inn",
+    "latitude": -18.186874334262043,
+    "longitude": -47.94602315861687,
+    "address": "Rua Geraldo Luís, 42, Catalão , Goiás ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461936",
+    "name": "Catalão Shopping",
+    "latitude": -18.172543,
+    "longitude": -47.927671,
+    "address": "R. Jocelim, R. Juscelino Gomes Píres, Nossa Senhora de Fátima, Catalão, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266227",
+    "name": "SAU 6 - Eco 050 - Servico Apoio Usuario",
+    "latitude": -18.70494023099667,
+    "longitude": -48.19026863838894,
+    "address": "BR-050, Araguari, Goias",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266711",
+    "name": "SAU 4 - Eco050 - Servico Apoio Usuario",
+    "latitude": -18.084394780603844,
+    "longitude": -47.86994604066615,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312273",
+    "name": "CDI",
+    "latitude": -18.988844445304963,
+    "longitude": -49.45696929157225,
+    "address": "Avenida Nove, 454, Ituiutaba , mg",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461333",
+    "name": "Ponto de Apoio - Pacaembu",
+    "latitude": -18.881192219177397,
+    "longitude": -48.2946744888536,
+    "address": "Av. Sete de Setembro 989, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461334",
+    "name": "Eletroposto SA",
+    "latitude": -18.946927233108493,
+    "longitude": -48.35017812358971,
+    "address": "Av. Tonico Rezende, 80, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191086",
+    "name": "(re)energisa - Alsol Energias Renováveis",
+    "latitude": -18.879340066968552,
+    "longitude": -48.246967402756894,
+    "address": "Avenida Maria Silva Garcia, Uberlandia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460427",
+    "name": "[80kW] OAG - Granja Marileusa",
+    "latitude": -18.879764634306184,
+    "longitude": -48.24617494695019,
+    "address": "Av. Maria Silva Garcia, 385, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461332",
+    "name": "[40kW] OTM Energia Solar",
+    "latitude": -18.87211112381052,
+    "longitude": -48.23501434310124,
+    "address": "Al. Ecológica, 3356, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260256",
+    "name": "Audi Center Uberlândia",
+    "latitude": -18.902171252952527,
+    "longitude": -48.2659923801109,
+    "address": "Avenida Afonso Pena, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461330",
+    "name": "[40kW] Village96",
+    "latitude": -18.94463642007932,
+    "longitude": -48.27276140476615,
+    "address": "Rua Rafael Marino Neto, 96, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461331",
+    "name": "[40kW] Village96",
+    "latitude": -18.94463642007932,
+    "longitude": -48.27276140476615,
+    "address": "Rua Rafael Marino Neto, 96, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461326",
+    "name": "[80kW] Pátio Vinhedos",
+    "latitude": -18.952581934903833,
+    "longitude": -48.269558419084035,
+    "address": "Av. dos VInhedos, 50, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308751",
+    "name": "Atacadão Dia a Dia - Aparecida de Goiânia",
+    "latitude": -16.8259557,
+    "longitude": -49.2428458,
+    "address": "Av. Goiás - R. Recife - Bairro Vera Cruz, Aparecida de Goiânia - GO, 74976-190, Brasil, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266594",
+    "name": "Casarão Goiano",
+    "latitude": -17.075799377875228,
+    "longitude": -49.820361174024015,
+    "address": "BR-060, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266712",
+    "name": "SAU 3 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -17.608798041593403,
+    "longitude": -47.78845805509252,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461916",
+    "name": "Portal Sul Shopping",
+    "latitude": -16.771062,
+    "longitude": -49.351919,
+    "address": "Av. Água Limpa, GO 040, Jardins Lisboa, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461931",
+    "name": "Clínica Veterinária Titiu Goiânia",
+    "latitude": -16.726037,
+    "longitude": -49.2622074,
+    "address": "Av. 4ª Radial, 1732, St. Pedro Ludovico, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461901",
+    "name": "Posto Alpha YellotMob",
+    "latitude": -16.7145363,
+    "longitude": -49.20163527,
+    "address": "Res. Alphaville Flamboyant, 20, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459259",
+    "name": "Posto Z+Z T-63 FastCharger",
+    "latitude": -16.714314,
+    "longitude": -49.269014,
+    "address": "Av. T-63, 1077, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461840",
+    "name": "Órion Business Térreo",
+    "latitude": -16.69723099984317,
+    "longitude": -49.269693759609254,
+    "address": "Av. Portugal, 1148 - St. Marista, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461932",
+    "name": "Arena Botanic",
+    "latitude": -16.6930259,
+    "longitude": -49.2522574,
+    "address": "R. 90, 265, St. Sul, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461924",
+    "name": "Eletroposto Marcelo Soyer Fastcharger",
+    "latitude": -16.6909376,
+    "longitude": -49.2617464,
+    "address": "Av. 85, 1049, Setor Sul, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461933",
+    "name": "Supermercado NSA",
+    "latitude": -16.6855236,
+    "longitude": -49.2747571,
+    "address": "R. R 17, 140, Setor Oeste, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  }
+]

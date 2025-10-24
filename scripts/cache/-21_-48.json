@@ -1,0 +1,210 @@
+[
+  {
+    "id": "ocm_462171",
+    "name": "Eletroposto Kinsol Dom Pedro",
+    "latitude": -21.151442502468274,
+    "longitude": -47.82489361374516,
+    "address": "Av. Dom Pedro I, 1470 - Ipiranga, Ribeirão Preto - SP, 14055-630, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191083",
+    "name": "EDP | Graal Trevo (Plug&GO)",
+    "latitude": -21.10163448256307,
+    "longitude": -47.787021334984615,
+    "address": "Posto Graal Trevo, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260254",
+    "name": "Audi Center Ribeirão Preto",
+    "latitude": -21.21027364613667,
+    "longitude": -47.800818200960634,
+    "address": "Avenida Wladimir Meirelles Ferreira, 1556, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260247",
+    "name": "Eurobike Special BYD",
+    "latitude": -21.217504918490306,
+    "longitude": -47.79358563313548,
+    "address": "Avenida Carlos Eduardo de Gasperi Consoni, 1562, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260255",
+    "name": "Thor Volvo - RP",
+    "latitude": -21.197744604512664,
+    "longitude": -47.77077886429345,
+    "address": "Avenida Presidente Castelo Branco, 1516, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260245",
+    "name": "Graal Topazio",
+    "latitude": -21.197819248751998,
+    "longitude": -47.770730323464704,
+    "address": "Avenida Presidente Castelo Branco, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459131",
+    "name": "Eletroposto Latin America Solar - Unidade Santa Maria Outlet",
+    "latitude": -21.287248,
+    "longitude": -47.750866,
+    "address": "Rodovia Anhanguera (SP-330), km 299, Cravinhos - SP, 14140-000, Cravinhos",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461239",
+    "name": "MOB ON BATATAIS",
+    "latitude": -20.89584936414964,
+    "longitude": -47.60054663300937,
+    "address": "Avenida Liberdade, 29, Batatais , São Paulo ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459130",
+    "name": "Petrobras - Posto Frango Assado - Cravinhos",
+    "latitude": -21.382807,
+    "longitude": -47.706447,
+    "address": "KM. 286,2, 0 SP-330 Zona Rural, Cravinhos - SP, 14140-000, Cravinhos",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260184",
+    "name": "Frango Assado",
+    "latitude": -21.38265729549201,
+    "longitude": -47.7042681575291,
+    "address": "Rodovia Anhanguera, Cravinhos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461712",
+    "name": "North Shopping Barretos ",
+    "latitude": -20.575007587751855,
+    "longitude": -48.55849776749437,
+    "address": "Conselheiro Antônio Prado, 1400 - Pedro Cavalini, Barretos - SP, 14784-200, Brazil, Barretos, São Paulo ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461235",
+    "name": "Vila Sete Conveniência",
+    "latitude": -20.5723474971052,
+    "longitude": -48.58027919974106,
+    "address": "Av. Eng. Necker Carvalho de Camargo, 2530 - América, Barretos - SP, 14783-080, Brazil, Barretos , São Paulo ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264459",
+    "name": "Posto Galo Branco Franca - Shell Recharge",
+    "latitude": -20.552103187423796,
+    "longitude": -47.410116551705414,
+    "address": "Av. Antônio Barbosa Filho, 101, Franca, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264457",
+    "name": "Posto BR - Pau Seco",
+    "latitude": -21.783152938628362,
+    "longitude": -48.22408714864679,
+    "address": "Rodovia Washington Luís, Araraquara, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_273350",
+    "name": "Eletroposto GoElectric",
+    "latitude": -21.780051,
+    "longitude": -47.534395,
+    "address": "Rodovia Anhanguera km 236, Santa Rita do Passa Quatro, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264458",
+    "name": "Posto Rabi Ibate",
+    "latitude": -21.907429542432,
+    "longitude": -48.05298965472264,
+    "address": "Rodovia Washington Luís, Ibate, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459126",
+    "name": "Petrobras - Posto Rabi Ibaté",
+    "latitude": -21.908388,
+    "longitude": -48.05286,
+    "address": "Rod. Washington Luiz, km 255 - rural, Ibaté - SP, 14815-000, Ibaté",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204437",
+    "name": "Volvo - Posto 6",
+    "latitude": -21.8692338749064,
+    "longitude": -47.48863053616054,
+    "address": "Av. João Martins da Silveira Sobrinho, 2101, Porto Ferreira, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303878",
+    "name": "Rodovia Washington Luís",
+    "latitude": -22.0932011481149,
+    "longitude": -47.83237714979066,
+    "address": "Rodovia Washington Luís, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_175125",
+    "name": "EDP | Graal Coral (Plug&GO)",
+    "latitude": -22.00218704250082,
+    "longitude": -47.44472068714094,
+    "address": "Pirassununga, Pirassununga, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311522",
+    "name": "Volvo - Hotel Habitat - Pirassununga, SP",
+    "latitude": -22.013799721202474,
+    "longitude": -47.437363786642294,
+    "address": "Av. Capitão, Av. Antônio Joaquim Mendes, 2397 - Jardim Carlos Gomes , Pirassununga , São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461329",
+    "name": "[80kW] Hotel Dan Inn",
+    "latitude": -19.78108646380895,
+    "longitude": -47.94528582750764,
+    "address": "Av. Filomena Cartafina, 152, Uberaba, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461328",
+    "name": "[40kW] Churrascaria Zebu",
+    "latitude": -19.778124428911326,
+    "longitude": -47.945086947240696,
+    "address": "Av. Tonico dos Santos, 668, Uberaba, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460707",
+    "name": "Cury energia ",
+    "latitude": -20.341505893142354,
+    "longitude": -49.19740781152893,
+    "address": "Rua Balbina Ribeiro Silveira 170, Icém , SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312961",
+    "name": "Eletroposto Kinsol - Rio Preto 2S",
+    "latitude": -20.820475672408467,
+    "longitude": -49.38370159936655,
+    "address": "Av. Dr. Alberto Andaló, 3942, São José do Rio Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267234",
+    "name": "ATM EVs",
+    "latitude": -20.850775099708386,
+    "longitude": -49.41283756306791,
+    "address": "Avenida Presidente Juscelino Kubitscheck de Oliveira, 3441, São José do Rio Preto, São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

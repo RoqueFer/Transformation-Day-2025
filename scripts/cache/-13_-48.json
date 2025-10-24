@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_308463",
+    "name": "Amazônia Eletrovias - Porangatu Posto Eldorado",
+    "latitude": -13.44172123794037,
+    "longitude": -49.13323158894525,
+    "address": "Posto Eldorado, R. 7 - Setor Planalto, Porangatu, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460404",
+    "name": "Volvo Eletroposto Posto Potiguar",
+    "latitude": -11.711860193619657,
+    "longitude": -47.7318532575531,
+    "address": "TO-050, s/n - Setor Ginasial, Natividade - TO, Natividade, tocantins",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ocm_203264",
+    "name": "Eletroposto Eletroposto Volvo Carga Rápida",
+    "latitude": -23.768640666562263,
+    "longitude": -45.40472315027989,
+    "address": "Avenida Manoel Hipolito do Rego 2501, São Sebastião, SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459086",
+    "name": "Marina Paraty",
+    "latitude": -23.233983,
+    "longitude": -44.706744,
+    "address": "BR Marinas Paraty - BR-101 - Boa Vista, Paraty - RJ, Brasil, Paraty",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208106",
+    "name": "Riviera Shopping Estacionamento ",
+    "latitude": -23.79839149401471,
+    "longitude": -46.02322460641881,
+    "address": "Avenida da Riviera 1256, Bertioga, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216748",
+    "name": "Frango Assado Carvalho Pinto",
+    "latitude": -23.276966777111184,
+    "longitude": -45.845073968033034,
+    "address": "Rodovia Governador Carvalho Pinto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305088",
+    "name": "Eletrograal - Graal Pinda",
+    "latitude": -22.96418,
+    "longitude": -45.42678,
+    "address": "Rodovia Presidente Dutra km 94+850, Pindamonhangaba, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188914",
+    "name": "Posto GAP São José dos Campos",
+    "latitude": -23.17996771654073,
+    "longitude": -45.84279046918016,
+    "address": "Avenida General Motors, São José dos Campos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459113",
+    "name": "Petrobras - Posto Arco-Íris Roseira",
+    "latitude": -22.909115,
+    "longitude": -45.315959,
+    "address": "Rod. Pres. Dutra, s/n - Zona Rural, Roseira - SP, 12589-899, Roseira",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_194218",
+    "name": "Posto Arco Íris Roseira",
+    "latitude": -22.908798671939024,
+    "longitude": -45.31647712427434,
+    "address": "Rodovia Presidente Dutra, Roseira, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235289",
+    "name": "Shell Recharge - Frango Assado Jacareí",
+    "latitude": -23.300970694039563,
+    "longitude": -46.01607789495341,
+    "address": "Rodovia Presidente Dutra, km-165, Jacareí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459092",
+    "name": "Marina Piratas",
+    "latitude": -23.002424,
+    "longitude": -44.300175,
+    "address": "Marina Piratas - Estrada Municipal - Praia do Jardim, Angra dos Reis - RJ, Brasil, Angra dos Reis",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459106",
+    "name": "Marina Bracuhy",
+    "latitude": -22.950549,
+    "longitude": -44.393312,
+    "address": "Marina Bracuhy JL - Rodovia Governador Mário Covas - Bracuhy, Angra dos Reis - RJ, Brasil, Angra dos Reis",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459097",
+    "name": "Marina Verolme",
+    "latitude": -22.998165,
+    "longitude": -44.249516,
+    "address": "Marina Verolme - BR-101 KM 469.5, Verolme, Jacuecanga - RJ, Brasil, Angra dos Reis ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188913",
+    "name": "Graal dos 500",
+    "latitude": -22.788962680620543,
+    "longitude": -45.15691032250237,
+    "address": "Graal dos 500, Guaratingueta, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300112",
+    "name": "Paradouro Batistella ",
+    "latitude": -23.3237703,
+    "longitude": -46.1219694,
+    "address": "Av. Gen. Porfírio da Paz, 176 , Guararema, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188915",
+    "name": "Posto Guararema",
+    "latitude": -23.332743741350427,
+    "longitude": -46.13698663379819,
+    "address": "Rodovia Presidente Dutra, Guararema, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459085",
+    "name": "Outlet Premium Grande São Paulo",
+    "latitude": -23.434238,
+    "longitude": -46.27248,
+    "address": "Estr. de São Bento, 9550 - Jardim Josely, Itaquaquecetuba - SP, 08590-315, São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "ocm_260390",
+    "name": "Posto Ipiranga Peruzzo",
+    "latitude": -27.79408326076136,
+    "longitude": -50.28392103687696,
+    "address": "Rodovia BR 232, km 216, Lages, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264454",
+    "name": "Paradouro Battistella",
+    "latitude": -27.69220249791833,
+    "longitude": -49.23151669392644,
+    "address": "BR-282, s/n - Estr. Geral Picadas, Alfredo Wagner, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312661",
+    "name": "Queijo & Cia",
+    "latitude": -28.00688554975389,
+    "longitude": -50.540948652291945,
+    "address": "BR116, Capao Alto, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260391",
+    "name": "Coopercampos",
+    "latitude": -27.388979114537293,
+    "longitude": -51.21491388591278,
+    "address": "Rodovia Cid César de Almeida Pedroso, Campos Novos, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235326",
+    "name": "Shell Recharge | Posto Agricopel 12 - Itajaí SC",
+    "latitude": -26.921904672441613,
+    "longitude": -48.70741613269445,
+    "address": "Marginal BR 101, Km 125, São Vicente, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260181",
+    "name": "Posto Ipiranga Galo (antigo posto universitário )",
+    "latitude": -26.91893099322583,
+    "longitude": -48.67029064316404,
+    "address": "Rua José Testoni, Itajaí, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303431",
+    "name": "Posto Graal Parada Sul",
+    "latitude": -26.780493627574984,
+    "longitude": -48.68520187872031,
+    "address": "BR-101 KM 102, Balneario Piçarras, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303430",
+    "name": "Posto Graal Parada Norte",
+    "latitude": -26.77939474459577,
+    "longitude": -48.6841959037032,
+    "address": "Rod BR-101 Sn Esquina Com R Manoel Ferreira, Balneario Piçarras, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313970",
+    "name": "Parada Ferretti",
+    "latitude": -26.687808049252077,
+    "longitude": -48.695148336621,
+    "address": "BR-101, Km 91, Barra Velha, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304105",
+    "name": "Posto SONHO MEU Brava",
+    "latitude": -26.957210653482214,
+    "longitude": -48.63909446049047,
+    "address": "Av. do Estado Dalmo Vieira, 133, Balneário Camboriú, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313972",
+    "name": "Centro Turístico e Comercial da Expoville",
+    "latitude": -26.298740969736606,
+    "longitude": -48.88301210780986,
+    "address": "R. XV de Novembro, 4315, Joinville , Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313973",
+    "name": "Eletroposto Celesc GutBrau",
+    "latitude": -26.296883307693662,
+    "longitude": -48.88326702551308,
+    "address": "R. XV de Novembro, 4621, Joinville , Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303432",
+    "name": "Metronorte",
+    "latitude": -26.294601266589737,
+    "longitude": -48.85937348014434,
+    "address": "Max Colin 1701, Joinville, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191178",
+    "name": "Posto Sinuelo Sentido Sul",
+    "latitude": -26.51696691793179,
+    "longitude": -48.72066765247871,
+    "address": "Rodovia Governador Mário Covas, Araquari, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313971",
+    "name": "Posto SIM Sinuelo Norte",
+    "latitude": -26.51612664395369,
+    "longitude": -48.71910983516898,
+    "address": "BR-101, Km 71, Araquari , Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313969",
+    "name": "Posto Américan Oil",
+    "latitude": -27.027322029350955,
+    "longitude": -48.60538277352714,
+    "address": "BR-101, Km 138, Balneário Camboriú, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191918",
+    "name": "Posto Angeloni Porto Belo",
+    "latitude": -27.173887366451417,
+    "longitude": -48.61113122231919,
+    "address": "Rodovia BR 101, km 156, Porto Belo, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313966",
+    "name": "Porto Belo Outlet Premium",
+    "latitude": -27.20231096708377,
+    "longitude": -48.6138152805612,
+    "address": "BR-101, KM 159, Porto Belo, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313967",
+    "name": "Di Paolo",
+    "latitude": -27.06624196398885,
+    "longitude": -48.59637396333983,
+    "address": "BR-101, km 143, 720, Itapema , Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313968",
+    "name": "Blue Sea Hotel",
+    "latitude": -27.066575627053624,
+    "longitude": -48.59523145906519,
+    "address": "R. 1106, 100, Itapema , Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279634",
+    "name": "Posto Rudnick",
+    "latitude": -26.184866151320456,
+    "longitude": -48.91007155237844,
+    "address": "R. Quinze de Outubro, 365 - Rio Bonito (Piraberaba), Joinville - SC, 89239, Brazil, Joinville , Santa Catarina ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460913",
+    "name": "Brasilis Power | Eletroposto Leal",
+    "latitude": -27.49901,
+    "longitude": -48.656409,
+    "address": "Rua Acácio Reitz, 22 - Universitários, Biguaçu",
+    "source": "OpenChargeMap"
+  }
+]

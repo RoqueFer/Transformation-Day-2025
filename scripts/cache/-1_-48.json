@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocm_235271",
+    "name": "UFPA - Castanhal",
+    "latitude": -1.299530777512686,
+    "longitude": -47.901513309904715,
+    "address": "Av. dos Universitários, s/n, Castanhal, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308824",
+    "name": "Amazônia Eletrovias - Marituba Posto Menino de Deus II",
+    "latitude": -1.3641176504857668,
+    "longitude": -48.29512625916831,
+    "address": "Posto Menino de Deus II, BR 316, Marituba, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308522",
+    "name": "Amazônia Eletrovias - Belém Posto Amazônia Nossa",
+    "latitude": -1.4427764149993152,
+    "longitude": -48.44732676791915,
+    "address": "Posto Amazônia Nossa, Avenida Perimetral, Tv. Barão do Triunfo, n° 2222 - Marco, Belém, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235270",
+    "name": "UFPA - CEAMAZON - PCT/Guamás",
+    "latitude": -1.467030778334589,
+    "longitude": -48.44685642692292,
+    "address": "Passagem Adelaide, Belem, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235269",
+    "name": "UFPA - Cidade Universitária Prof. José Silveira Netto",
+    "latitude": -1.473626071684052,
+    "longitude": -48.45557858647146,
+    "address": "R. Igarapé Tucunduba, 976, Belém, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308523",
+    "name": "Amazônia Eletrovias - Capanema Posto Garoupa",
+    "latitude": -1.2131362918443784,
+    "longitude": -47.179924452509795,
+    "address": "Posto Garoupa, BR 316, Capanema, PA., Capanema, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308521",
+    "name": "Amazônia Eletrovias - Mãe do Rio Rancho Prime",
+    "latitude": -2.0428979903099957,
+    "longitude": -47.548823112579385,
+    "address": "Rancho Prime, Av. Bernardo Sayão, 54 - Centro, Mãe do Rio, Pará",
+    "source": "OpenChargeMap"
+  }
+]

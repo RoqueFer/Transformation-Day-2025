@@ -1,0 +1,154 @@
+[
+  {
+    "id": "ocm_257186",
+    "name": "Agro Comercial Afubra Ltda",
+    "latitude": -30.849948278296566,
+    "longitude": -51.76987509530568,
+    "address": "Rua Ailton Ulguim Campos, 1907, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257187",
+    "name": "Agro Comercial Afubra Ltda",
+    "latitude": -30.849948278296566,
+    "longitude": -51.76987509530568,
+    "address": "Rua Ailton Ulguim Campos, 1907, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257185",
+    "name": "Zletric - Posto SIM Camaquã",
+    "latitude": -30.857474235184817,
+    "longitude": -51.78651997033205,
+    "address": "Rodovia General Bento Gonçalves, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257184",
+    "name": "Restaurante das Cucas",
+    "latitude": -30.431145237587373,
+    "longitude": -51.474701302591825,
+    "address": "Travessa Douradilho, Barra do Ribeiro, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274682",
+    "name": "Rota Mercosul 04 - Ufsm / Equatorial",
+    "latitude": -30.407321417735155,
+    "longitude": -51.45319560402791,
+    "address": "Rodovia General Bento Gonçalves, Barra do Ribeiro, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274683",
+    "name": "Rota Mercosul 05 - Ufsm / Equatorial",
+    "latitude": -31.016458873755617,
+    "longitude": -52.05368608442373,
+    "address": "Rodovia General Bento Gonçalves, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303182",
+    "name": "BarraShoppingSul",
+    "latitude": -30.08350509834642,
+    "longitude": -51.24530031937479,
+    "address": "Av. Diário de Notícias, 300, Porto Alegre, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311701",
+    "name": "Centro Sul",
+    "latitude": -30.025945191579336,
+    "longitude": -51.11479127145114,
+    "address": "Irmã Teresilda Steffen 506, Porto Alegre , Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_278681",
+    "name": "Viva Open Mall",
+    "latitude": -30.028753035785634,
+    "longitude": -51.15798192153784,
+    "address": "Avenida Doutor Nilo Peçanha, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308687",
+    "name": "Casco Motors - Eletroposto Zeta Uno",
+    "latitude": -30.0279441789025,
+    "longitude": -51.17175540029962,
+    "address": "Avenida Dr. Nilo Peçanha, 2061, Porto Alegre, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208304",
+    "name": "Garagem Gigante",
+    "latitude": -30.03225200371542,
+    "longitude": -51.23193656308061,
+    "address": "Rua Riachuelo, 981, Porto Alegre, Metropolitan Region of Porto Alegre",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235052",
+    "name": "Audi Center Porto Alegre",
+    "latitude": -30.002196993962777,
+    "longitude": -51.190906007259855,
+    "address": "Avenida Sertório, 1441, Porto Alegre, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274681",
+    "name": "Rota Mercosul 03 Ufsm / Equatorial",
+    "latitude": -30.012474150246824,
+    "longitude": -51.315206781703296,
+    "address": "Avenida das Indústrias, Eldorado do Sul, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313311",
+    "name": "Castelo Charge",
+    "latitude": -29.97193835063935,
+    "longitude": -51.171420217032846,
+    "address": "Jaime Vignoli 1053, Porto Alegre, rio grande do sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_209976",
+    "name": "Posto SIM Freeway - Zletric - BR-290",
+    "latitude": -29.944303542054087,
+    "longitude": -50.94738747379928,
+    "address": "Rodovia BR 290, Km 69, S/N - Sítio Gaúcho, Gravataí, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311273",
+    "name": "Posto Charrua",
+    "latitude": -30.131128967912552,
+    "longitude": -51.97186155024235,
+    "address": "Br 290 Km 175, Butia, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208305",
+    "name": "IESA RENAULT",
+    "latitude": -29.888446678255,
+    "longitude": -50.276230202702266,
+    "address": "BR-101, 1100 , Osório, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274688",
+    "name": "Rota Mercosul 02 - Ufsm / Equatorial",
+    "latitude": -29.85201952230647,
+    "longitude": -50.24702267535784,
+    "address": "Rodovia Governador Mário Covas, Osório, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_209978",
+    "name": "Fashion Outlet Novo Hamburgo",
+    "latitude": -29.663541425765796,
+    "longitude": -51.14242583068132,
+    "address": "BR-116, KM 236, Novo Hamburgo, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_460059",
+    "name": "Carregador Volvo",
+    "latitude": -20.296656427210948,
+    "longitude": -42.476901797155506,
+    "address": "BR 262, Km 96, Abre Campo, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460061",
+    "name": "Educarregadores 60kW",
+    "latitude": -20.380392020120198,
+    "longitude": -41.02627509675784,
+    "address": "BR 262, Km 90, Pedra Azul, ES",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235284",
+    "name": "Posto Senna",
+    "latitude": -20.857012,
+    "longitude": -41.121292,
+    "address": "Avenida Francisco Lacerda de Aguiar, 350, Cachoeiro de Itapemirim, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235285",
+    "name": "EDP Cachoeiro de Itapemirim",
+    "latitude": -20.848715682581044,
+    "longitude": -41.11212814833232,
+    "address": "Praça Jerônimo Monteiro, Cachoeiro de Itapemirim, Espírito Santo",
+    "source": "OpenChargeMap"
+  }
+]

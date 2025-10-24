@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_459118",
+    "name": "Hotel Insólito - Búzios",
+    "latitude": -22.769723,
+    "longitude": -41.882934,
+    "address": "R. E Dois Lot Pr Ferradura, 66 - Pr Ferradura, Búzios - RJ, 28950-000, Búzios",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459117",
+    "name": "Petrobras - Centro Automotivo Novo Búzios",
+    "latitude": -22.775087,
+    "longitude": -41.925041,
+    "address": " Avenida Jose Bento Ribeiro Dantas, Manguinhos, Armação Dos Búzios - 28950000, Búzios",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459119",
+    "name": "Marina Búzios",
+    "latitude": -22.748723,
+    "longitude": -41.956629,
+    "address": "Alameda Andorinhas - Lot. Praia Baia Formosa, Búzios - RJ, 28950-000, Búzios",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459125",
+    "name": "SHOPSOLAR MACAÉ",
+    "latitude": -22.381707,
+    "longitude": -41.777387,
+    "address": "R Teixeira de Gouveia , 1487 cajueiros Macaé, Macaé",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459124",
+    "name": "Supermarket - Macaé",
+    "latitude": -22.391107,
+    "longitude": -41.808895,
+    "address": "Av. Aluizio da Silva Gomes, 787 - Glória, Macaé - RJ, 27930-560, Macaé",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235286",
+    "name": "Restaurante Armazém Rota 106",
+    "latitude": -22.43107418128588,
+    "longitude": -41.86470629161883,
+    "address": "Avenida Ásia, Rio das Ostras, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459120",
+    "name": "Supermarket - Cabo Frio",
+    "latitude": -22.678997,
+    "longitude": -42.008718,
+    "address": "Rod. Amaral Peixoto, 10324-10358 - Unamar, Cabo Frio - RJ, 28298-542, Cabo Frio",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459129",
+    "name": "Reserva Caruara",
+    "latitude": -21.7368,
+    "longitude": -41.025117,
+    "address": "Avenida Atlantica Iquipari, SN - Grussaí, São João da Barra - RJ, 28200-000, São João da Barra",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459128",
+    "name": "Petrobras - Posto Líder 1",
+    "latitude": -21.743383,
+    "longitude": -41.33485,
+    "address": "Posto Líder - Av. ⅩⅤ de Novembro, 563 - Caju, Campos dos Goytacazes - RJ, Brasil, Campos dos Goytacazes",
+    "source": "OpenChargeMap"
+  }
+]

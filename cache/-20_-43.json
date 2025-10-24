@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocm_460059",
+    "name": "Carregador Volvo",
+    "latitude": -20.296656427210948,
+    "longitude": -42.476901797155506,
+    "address": "BR 262, Km 96, Abre Campo, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459133",
+    "name": "Cond. Caesar Business",
+    "latitude": -19.976583,
+    "longitude": -43.948901,
+    "address": "Rod. Stael Mary Bicalho Motta Magalhães, 421 - Belvedere, Belo Horizonte - MG, 30320-570, Belo Horizonte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260273",
+    "name": "Audi Center BH",
+    "latitude": -19.967103394583077,
+    "longitude": -43.95384432967768,
+    "address": "Rua Amoroso Costa, 348, Belo Horizonte, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260274",
+    "name": "Volvo EuroVille",
+    "latitude": -19.95884183540582,
+    "longitude": -43.95701621462638,
+    "address": "Avenida Professor Sylvio Vasconcelos, 22, Belo Horizonte, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460920",
+    "name": "Petrobras - Curva Do Retiro",
+    "latitude": -20.077168,
+    "longitude": -43.982534,
+    "address": " Posto Curva do Retiro - Rod BR 40 km 548 S/N - Jardim Canada, Nova Lima - MG, Brasil, Nova Lima",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459134",
+    "name": "Hotel Ibis - Betim",
+    "latitude": -19.959982,
+    "longitude": -44.071813,
+    "address": "Km 482 - Rod. Fernão Dias, Sn - Dom I. Jardim Piemonte / Sul, Betim - MG, 32689-898, Betim",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460157",
+    "name": "GDC Mobi - Matriz",
+    "latitude": -19.975628608320832,
+    "longitude": -44.200510586784674,
+    "address": "Av sebastião Dayrell De Lima, 267, Betim, brasileia",
+    "source": "OpenChargeMap"
+  }
+]

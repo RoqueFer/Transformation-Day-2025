@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ocm_189499",
+    "name": "Posto San Remo",
+    "latitude": -22.116068,
+    "longitude": -45.057035,
+    "address": "Avenida Dom Pedro II, 668, São Lourenço, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311297",
+    "name": "EcoCharge - Posto San Remo",
+    "latitude": -22.116102918265398,
+    "longitude": -45.057419300176235,
+    "address": "Av Dom Pedro II, 668, São Lourenço , MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304159",
+    "name": "Eletrograal Alemão",
+    "latitude": -22.547581814219285,
+    "longitude": -44.807601112531756,
+    "address": "Rodovia Presidente Dutra, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188912",
+    "name": "Eletroposto Graal Estrela",
+    "latitude": -22.530017457216232,
+    "longitude": -44.75135473405874,
+    "address": "Rodovia Presidente Dutra, Queluz, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266805",
+    "name": "Posto Moinho I",
+    "latitude": -21.945385422291466,
+    "longitude": -45.62093585343945,
+    "address": "Rod. Fernão Dias, São Gonçalo do Sapucaí, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306634",
+    "name": "Graal Itatiaia",
+    "latitude": -22.484474307185636,
+    "longitude": -44.5473375400652,
+    "address": "Rodovia Presidente Dutra km 322, Itatiaia, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307383",
+    "name": "Incharge",
+    "latitude": -22.257665,
+    "longitude": -45.6936231,
+    "address": "Rua Dalton Luiz Teles,115, Santa Rita Do Sapucaí , minas gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460521",
+    "name": "Graal Embaixador - Eletrograal",
+    "latitude": -22.454802304811395,
+    "longitude": -44.38937065393475,
+    "address": "Rod. Presidente Dutra,  199, Resende, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188913",
+    "name": "Graal dos 500",
+    "latitude": -22.788962680620543,
+    "longitude": -45.15691032250237,
+    "address": "Graal dos 500, Guaratingueta, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260426",
+    "name": "Volvo Posto Crossville",
+    "latitude": -21.108317985612615,
+    "longitude": -45.092387102002306,
+    "address": "Rodovia Fernão Dias, Perdões, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_194218",
+    "name": "Posto Arco Íris Roseira",
+    "latitude": -22.908798671939024,
+    "longitude": -45.31647712427434,
+    "address": "Rodovia Presidente Dutra, Roseira, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459113",
+    "name": "Petrobras - Posto Arco-Íris Roseira",
+    "latitude": -22.909115,
+    "longitude": -45.315959,
+    "address": "Rod. Pres. Dutra, s/n - Zona Rural, Roseira - SP, 12589-899, Roseira",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_272804",
+    "name": "Rodovia Presidente Dutra - Pista Lateral",
+    "latitude": -22.561235294142037,
+    "longitude": -44.15657687276848,
+    "address": "Rodovia Presidente Dutra - Pista Lateral, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459121",
+    "name": "Posto Aliança - Volta Redonda",
+    "latitude": -22.517253,
+    "longitude": -44.10856,
+    "address": "Rua Vinte e Três, n:08 - Vila Santa Cecília - Volta Redonda, RJ, Volta Redonda",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305088",
+    "name": "Eletrograal - Graal Pinda",
+    "latitude": -22.96418,
+    "longitude": -45.42678,
+    "address": "Rodovia Presidente Dutra km 94+850, Pindamonhangaba, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307516",
+    "name": "EcoCharge - Posto Tamandaré",
+    "latitude": -21.444412787222532,
+    "longitude": -45.9503100900605,
+    "address": "Rua Tocantins, 94, Alfenas, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459106",
+    "name": "Marina Bracuhy",
+    "latitude": -22.950549,
+    "longitude": -44.393312,
+    "address": "Marina Bracuhy JL - Rodovia Governador Mário Covas - Bracuhy, Angra dos Reis - RJ, Brasil, Angra dos Reis",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460275",
+    "name": "LIBER ENERGIA - ADEMICON SJDR",
+    "latitude": -21.1095463046926,
+    "longitude": -44.232423409763044,
+    "address": "AVENIDA 31 DE MARÇO 620, SÃO JOÃO DEL REI, MINAS GERAIS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_189498",
+    "name": "Rua Maria de Freitas 639",
+    "latitude": -21.120077,
+    "longitude": -44.170421,
+    "address": "Rua Maria de Freitas 639, Tiradentes, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188911",
+    "name": "Posto Mamão",
+    "latitude": -22.63071918951171,
+    "longitude": -43.910158171776175,
+    "address": "Casa do Mamão, Piraí, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188910",
+    "name": "Posto Nacional",
+    "latitude": -22.629952,
+    "longitude": -43.909382,
+    "address": "Presidente Dutra 237, Piraí, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459092",
+    "name": "Marina Piratas",
+    "latitude": -23.002424,
+    "longitude": -44.300175,
+    "address": "Marina Piratas - Estrada Municipal - Praia do Jardim, Angra dos Reis - RJ, Brasil, Angra dos Reis",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459097",
+    "name": "Marina Verolme",
+    "latitude": -22.998165,
+    "longitude": -44.249516,
+    "address": "Marina Verolme - BR-101 KM 469.5, Verolme, Jacuecanga - RJ, Brasil, Angra dos Reis ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459086",
+    "name": "Marina Paraty",
+    "latitude": -23.233983,
+    "longitude": -44.706744,
+    "address": "BR Marinas Paraty - BR-101 - Boa Vista, Paraty - RJ, Brasil, Paraty",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460579",
+    "name": "Posto Jua",
+    "latitude": -20.73210111196103,
+    "longitude": -44.77313503827929,
+    "address": "BR 381 km 606, Oliveira, Minas Gerais",
+    "source": "OpenChargeMap"
+  }
+]

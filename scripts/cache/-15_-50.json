@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ocm_459260",
+    "name": "Pousada Vila Boa",
+    "latitude": -15.935812,
+    "longitude": -50.142762,
+    "address": "R. 15 de Novembro, St. Central, 21, Goiás, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460525",
+    "name": "Zap Charge Br153 Km 353",
+    "latitude": -15.698202715346511,
+    "longitude": -49.336317152939955,
+    "address": "Br 153 Km 353, Jaragua, goias",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308710",
+    "name": "Amazônia Eletrovias - Barro Alto Posto Brascom",
+    "latitude": -14.978156343042713,
+    "longitude": -48.9249100433409,
+    "address": "R. Pedra de Fogo, Barro Alto, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459264",
+    "name": "Divina Pousada",
+    "latitude": -15.853862,
+    "longitude": -48.9678014,
+    "address": "Alto da Lapa, 1, Pirenópolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459267",
+    "name": "Chico de Sá Pirenópolis",
+    "latitude": -15.849538,
+    "longitude": -48.957508,
+    "address": "Centro, Pirenópolis, Goiás",
+    "source": "OpenChargeMap"
+  }
+]

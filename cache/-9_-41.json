@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_302216",
+    "name": "Planeta Charge - Topazio Park Hotel",
+    "latitude": -8.514987152564672,
+    "longitude": -41.00606839750526,
+    "address": "Rua Coronel Jubilino de Araújo, Afrânio, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267271",
+    "name": "Novo Centro Hotel",
+    "latitude": -9.39701420558599,
+    "longitude": -40.48115370472249,
+    "address": "Rod BR 203, 11, Petrolina, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302215",
+    "name": "Planeta Charge - Rapport Hotel",
+    "latitude": -9.423961893095225,
+    "longitude": -40.4996138758527,
+    "address": "Juazeiro, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_308463",
+    "name": "Amazônia Eletrovias - Porangatu Posto Eldorado",
+    "latitude": -13.44172123794037,
+    "longitude": -49.13323158894525,
+    "address": "Posto Eldorado, R. 7 - Setor Planalto, Porangatu, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308683",
+    "name": "Amazônia Eletrovias - Gurupi Hotel Mutucão",
+    "latitude": -11.754271358014208,
+    "longitude": -49.09210409927914,
+    "address": "Hotel Mutucão, Rodovia BR 153, Km 665, Gurupi, Tocantins",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,746 @@
+[
+  {
+    "id": "ocm_188914",
+    "name": "Posto GAP São José dos Campos",
+    "latitude": -23.17996771654073,
+    "longitude": -45.84279046918016,
+    "address": "Avenida General Motors, São José dos Campos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235289",
+    "name": "Shell Recharge - Frango Assado Jacareí",
+    "latitude": -23.300970694039563,
+    "longitude": -46.01607789495341,
+    "address": "Rodovia Presidente Dutra, km-165, Jacareí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216748",
+    "name": "Frango Assado Carvalho Pinto",
+    "latitude": -23.276966777111184,
+    "longitude": -45.845073968033034,
+    "address": "Rodovia Governador Carvalho Pinto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300112",
+    "name": "Paradouro Batistella ",
+    "latitude": -23.3237703,
+    "longitude": -46.1219694,
+    "address": "Av. Gen. Porfírio da Paz, 176 , Guararema, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188915",
+    "name": "Posto Guararema",
+    "latitude": -23.332743741350427,
+    "longitude": -46.13698663379819,
+    "address": "Rodovia Presidente Dutra, Guararema, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459085",
+    "name": "Outlet Premium Grande São Paulo",
+    "latitude": -23.434238,
+    "longitude": -46.27248,
+    "address": "Estr. de São Bento, 9550 - Jardim Josely, Itaquaquecetuba - SP, 08590-315, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305088",
+    "name": "Eletrograal - Graal Pinda",
+    "latitude": -22.96418,
+    "longitude": -45.42678,
+    "address": "Rodovia Presidente Dutra km 94+850, Pindamonhangaba, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459087",
+    "name": "Hotel Bourbon Atibaia",
+    "latitude": -23.107962,
+    "longitude": -46.57259,
+    "address": "Rod. Fernão Dias, Km 37,5 - Parque das Nações, Atibaia - SP, 12954-904, Atibaia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_194218",
+    "name": "Posto Arco Íris Roseira",
+    "latitude": -22.908798671939024,
+    "longitude": -45.31647712427434,
+    "address": "Rodovia Presidente Dutra, Roseira, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459113",
+    "name": "Petrobras - Posto Arco-Íris Roseira",
+    "latitude": -22.909115,
+    "longitude": -45.315959,
+    "address": "Rod. Pres. Dutra, s/n - Zona Rural, Roseira - SP, 12589-899, Roseira",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459084",
+    "name": "Hotel Mercure Guarulhos",
+    "latitude": -23.473188,
+    "longitude": -46.53199,
+    "address": "R. Barão de Mauá, 450 - Centro, Guarulhos - SP, 07012-040, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312960",
+    "name": "Eletroposto Kinsol - Puglia",
+    "latitude": -23.4851750654032,
+    "longitude": -46.53915115585931,
+    "address": "Via Lateral-Norte, 775, Guarulhos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459080",
+    "name": "Eletroposto Penha",
+    "latitude": -23.519517,
+    "longitude": -46.546305,
+    "address": "R. Lourdes, 28-98 - Vila Sao Geraldo, São Paulo - SP, 03607-050, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235314",
+    "name": "Movida Tatuapé",
+    "latitude": -23.528501624957784,
+    "longitude": -46.5820379296955,
+    "address": "Avenida Condessa Elisabeth de Robiano, 1750, Tatuapé, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459075",
+    "name": "Estacionamento Barcelos Office",
+    "latitude": -23.547077,
+    "longitude": -46.57106,
+    "address": "R. Emílio Mallet, 317 - Vila Gomes Cardim, São Paulo - SP, 03320-000, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460919",
+    "name": "Trevo Brasília Corporate Santana",
+    "latitude": -23.498308,
+    "longitude": -46.625262,
+    "address": "R. Voluntários da Pátria, 2468 / 2490 - Santana, São Paulo - SP,, São Paulo ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312959",
+    "name": "Eletroposto Kinsol - Mourisco",
+    "latitude": -23.558646887487882,
+    "longitude": -46.567517246674285,
+    "address": "Avenida Regente Feijó, 1111, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235315",
+    "name": "Eletroposto EZVolt / 99 - 100% elétrico",
+    "latitude": -23.559970126858673,
+    "longitude": -46.5676144657279,
+    "address": "Rua Oiti, 68, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235316",
+    "name": "EZVolt Canindé",
+    "latitude": -23.525331839031068,
+    "longitude": -46.61824130456199,
+    "address": "Rua Araguaia, 450, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303255",
+    "name": "Posto Calopysita",
+    "latitude": -23.02277896344208,
+    "longitude": -46.842399114129876,
+    "address": "Av Castelo Branco 761, Itatiba, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311271",
+    "name": "Energygardi",
+    "latitude": -22.48453073250846,
+    "longitude": -46.63528178514093,
+    "address": "Av Nacoes Unidas 1830, Aguas De Lindoia, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_210034",
+    "name": "Hub EZVolt",
+    "latitude": -23.575537,
+    "longitude": -46.592306,
+    "address": "Rua Domingos da Fonseca 34, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307383",
+    "name": "Incharge",
+    "latitude": -22.257665,
+    "longitude": -45.6936231,
+    "address": "Rua Dalton Luiz Teles,115, Santa Rita Do Sapucaí , minas gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208106",
+    "name": "Riviera Shopping Estacionamento ",
+    "latitude": -23.79839149401471,
+    "longitude": -46.02322460641881,
+    "address": "Avenida da Riviera 1256, Bertioga, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459079",
+    "name": "Think Business Center",
+    "latitude": -23.521619,
+    "longitude": -46.66221,
+    "address": "Av. Marquês de São Vicente, 230 - Várzea da Barra Funda, São Paulo - SP, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204432",
+    "name": "Shell Recharge - Posto Papa",
+    "latitude": -23.513169606914204,
+    "longitude": -46.67205640241309,
+    "address": "Av. Prof. Celestino Bourroul, 34, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_280028",
+    "name": "Shell Recharge - Zarp Limão (Carrefour)",
+    "latitude": -23.512731845813946,
+    "longitude": -46.67522751942326,
+    "address": "Avenida Otaviano Alves De Lima 1824, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188913",
+    "name": "Graal dos 500",
+    "latitude": -22.788962680620543,
+    "longitude": -45.15691032250237,
+    "address": "Graal dos 500, Guaratingueta, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216749",
+    "name": "Posto Campeão 28",
+    "latitude": -23.39529398434665,
+    "longitude": -46.76765484366189,
+    "address": "Rodovia dos Bandeirantes, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459077",
+    "name": "HOUSI - Turiassu",
+    "latitude": -23.530254,
+    "longitude": -46.676761,
+    "address": "R. Turiassu, 1473 - Perdizes, São Paulo - SP, 05005-001, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188927",
+    "name": "Shopping Cidade São Paulo",
+    "latitude": -23.563426311792043,
+    "longitude": -46.65262563995975,
+    "address": "1230 Avenida Paulista, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459074",
+    "name": "Cond. Haddock Offices",
+    "latitude": -23.55792,
+    "longitude": -46.662059,
+    "address": "Alameda Santos, 2326 - Jardim Paulista, São Paulo - SP, Brasil, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459073",
+    "name": "Hotel Renaissance São Paulo",
+    "latitude": -23.55865,
+    "longitude": -46.662117,
+    "address": "Alameda Santos, 2233 - Jardim Paulista, São Paulo - SP, 01419-002, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459072",
+    "name": "HOUSI - Bela Cintra",
+    "latitude": -23.558693,
+    "longitude": -46.664027,
+    "address": " R. Bela Cintra, 1425 - Cerqueira César, São Paulo - SP, 01415-001, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306486",
+    "name": "Eletroposto Kinsol - Alicante",
+    "latitude": -23.61894885913506,
+    "longitude": -46.60213080816925,
+    "address": "Rod Ancheita, 1954, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188928",
+    "name": "Pão de Açúcar Jardim Paulista",
+    "latitude": -23.573323,
+    "longitude": -46.654959,
+    "address": "Avenida Brigadeiro Luís Antônio, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459065",
+    "name": "Estacionamento Gallery Offices",
+    "latitude": -23.597703,
+    "longitude": -46.629607,
+    "address": " Rua Santa Cruz, 722 - Vila Mariana, São Paulo - SP, Brasil, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459070",
+    "name": "Hotel Novotel SP Jardins",
+    "latitude": -23.572494,
+    "longitude": -46.659518,
+    "address": "Alameda Campinas, 1435 - Jardim Paulista, São Paulo - SP, 01404-002, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459066",
+    "name": "Estacionamento EZ Mark",
+    "latitude": -23.595483,
+    "longitude": -46.636218,
+    "address": "Rua Domingos de Morais, 2187, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459082",
+    "name": "Cond. GoodStorage - Lapa Flex",
+    "latitude": -23.513454,
+    "longitude": -46.71698,
+    "address": "R. Bartolomeu Paes, 136 - Vila Anastácio, São Paulo - SP, 05092-000, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267260",
+    "name": "Maxi Shopping Jundiai",
+    "latitude": -23.170261323533296,
+    "longitude": -46.892392358941265,
+    "address": "Av. Antônio Frederico Ozanan, 6000 - Vila Rio Branco, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208605",
+    "name": "Ibis Jundiaí Shopping ",
+    "latitude": -23.1973506042565,
+    "longitude": -46.88930244157916,
+    "address": "Rua Luis de Jesus, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460916",
+    "name": "Atlas Estacionamentos - Ibirapuera",
+    "latitude": -23.592811,
+    "longitude": -46.652129,
+    "address": "R. Sena Madureira, 1355 - bloco 1 - Ibirapuera, São Paulo - SP, 04021-051, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459081",
+    "name": "Cond. GoodStorage - Park Vila Anastácio",
+    "latitude": -23.517031,
+    "longitude": -46.724506,
+    "address": "R. João Tibiriçá, 958 - Vila Anastácio, São Paulo - SP, 05077-000 , São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208604",
+    "name": "3333 Avenida Nove de Julho",
+    "latitude": -23.199628335130782,
+    "longitude": -46.890283229170905,
+    "address": "3333 Avenida Nove de Julho, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208603",
+    "name": "Avenida Nove de Julho",
+    "latitude": -23.201969763240598,
+    "longitude": -46.891877367280586,
+    "address": "Avenida Nove de Julho, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_297691",
+    "name": "Cluster Go Electric - Cajamar",
+    "latitude": -23.343242183188508,
+    "longitude": -46.840568279004515,
+    "address": "Avenida Alfonso Leopoldo Vogel, Cajamar, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_278516",
+    "name": "Avenida da Liberdade",
+    "latitude": -23.17111085171034,
+    "longitude": -46.900472357411786,
+    "address": "Avenida da Liberdade, Jundiaí , São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459860",
+    "name": "Eletroposto 80kw Empório Dom Olivio Jundiaí",
+    "latitude": -23.186808454754285,
+    "longitude": -46.89858099927869,
+    "address": "Rua do Retiro, 925 - Vila Virginia , Jundiaí , SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_280026",
+    "name": "Shell Recharge - Posto Shell São Gualter",
+    "latitude": -23.54340530469868,
+    "longitude": -46.71149398946048,
+    "address": "Av. São Gualter, 918 - Pinheiros, São Paulo, SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459071",
+    "name": "Netpark - Arquiteto Roberto Bratke",
+    "latitude": -23.567441,
+    "longitude": -46.69369,
+    "address": "R. dos Pinheiros, 1673 - Pinheiros, São Paulo - SP, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460380",
+    "name": "Teld Eco Eletropost - Faria Lima",
+    "latitude": -23.581259431961428,
+    "longitude": -46.68497482483744,
+    "address": "Av. Brg. Faria Lima, 2812, Jardim Europa, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459068",
+    "name": "NetPark - HL Faria Lima",
+    "latitude": -23.586971,
+    "longitude": -46.680929,
+    "address": "Rua Horácio Lafer 160, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459078",
+    "name": "Cond. GoodStorage - Park VILA Leopoldina",
+    "latitude": -23.523348,
+    "longitude": -46.740629,
+    "address": "Rua Major Paladino, 128 - Vila Leopoldina, São Paulo - SP, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459063",
+    "name": "Hotel Mercure SP Ibirapuera Privilege",
+    "latitude": -23.604465,
+    "longitude": -46.665315,
+    "address": "Av. Macuco, 579 - Moema, São Paulo - SP, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459069",
+    "name": "NetPark - Eldorado Business Tower",
+    "latitude": -23.573492,
+    "longitude": -46.697787,
+    "address": "Av. Dra. Ruth Cardoso, 8501 - Pinheiros, São Paulo - SP, 05425-070, Pinheiros",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460917",
+    "name": "NetPark - JK",
+    "latitude": -23.591373,
+    "longitude": -46.682652,
+    "address": "Av. Pres. Juscelino Kubitschek, 1455 - Itaim Bibi, São Paulo - SP, 04544-140, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459067",
+    "name": "HOUSI - VN Faria Lima",
+    "latitude": -23.595457,
+    "longitude": -46.679966,
+    "address": " Av. Brg. Faria Lima, 4540 - Itaim Bibi, São Paulo - SP, 04545-004, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459064",
+    "name": "Eletroposto Vila Olímpia",
+    "latitude": -23.601724,
+    "longitude": -46.68087,
+    "address": "R. Alvorada, 700 - Vila Olímpia, São Paulo - SP, 08582-785, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_280027",
+    "name": "Shell Recharge - Posto Arinella Bandeirantes",
+    "latitude": -23.602552949226933,
+    "longitude": -46.680920547220495,
+    "address": "Avenida dos Bandeirantes 1365, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260325",
+    "name": "Porsche Center São Paulo - Stuttgart",
+    "latitude": -23.597102776156603,
+    "longitude": -46.687928655473,
+    "address": "Av. Doutor Cardoso de Melo 1507, São Paulo, SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459061",
+    "name": "Hotel Ibis Congonhas",
+    "latitude": -23.62481,
+    "longitude": -46.662287,
+    "address": "Ibis São Paulo Congonhas - R. Baronesa de Bela Vista, 801 - Vila Congonhas, São Paulo - SP, 04612-002, Brasil, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460950",
+    "name": "Teld Eletroposto - Campo Belo",
+    "latitude": -23.616317199274988,
+    "longitude": -46.6737152819976,
+    "address": "Av. Ver. José Diniz, 3670, Santo Amaro, São Paulo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299982",
+    "name": "Eletroposto Solar Louveira - Usina Solar Fotovoltaica",
+    "latitude": -23.090910288471534,
+    "longitude": -46.94709433941193,
+    "address": "Rua Catharina Calssavara Caldana,122, Louveira , SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304279",
+    "name": "Graal 56",
+    "latitude": -23.204803825697013,
+    "longitude": -46.92776021725456,
+    "address": "Rod. dos Bandeirantes, Km 56, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299856",
+    "name": "Eletrograal 67",
+    "latitude": -23.135770967341102,
+    "longitude": -46.94499625514425,
+    "address": "Avenida Caminho de Goiás, Jundiai, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459062",
+    "name": "NetPark - Parque da Cidade",
+    "latitude": -23.623532,
+    "longitude": -46.704023,
+    "address": "Av. das Nações Unidas, 14401 - Chácara Santo Antônio, São Paulo - SP, 04794-000, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459060",
+    "name": "Trevo Neo Corporate Offices",
+    "latitude": -23.627272,
+    "longitude": -46.700797,
+    "address": "R. Enxovia, 472 - Vila Sao Francisco (Zona Sul), São Francisco - SP, 04711-030, São Francisco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260326",
+    "name": "Porsche Service | Body & Paint Stuttgart",
+    "latitude": -23.635482262990976,
+    "longitude": -46.7184944540779,
+    "address": "Av. das Nações Unidas, 16.427, São Paulo, SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300185",
+    "name": "Hub de Recarga Go Electric - Riacho Grande",
+    "latitude": -23.777805738791685,
+    "longitude": -46.52909857095193,
+    "address": "R. Heinrich Nordoff, 61 - Rio Grande, São Bernardo do Campo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193564",
+    "name": "Eletroposto Tupinambá - Shopping Tamboré",
+    "latitude": -23.504573961679867,
+    "longitude": -46.833734279267674,
+    "address": "Avenida Piracema, 669, Barueri, Região Metropolitana de São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193563",
+    "name": "Eletropostos Volvo - Shopping Tamboré",
+    "latitude": -23.50463574761126,
+    "longitude": -46.834237110159734,
+    "address": "Avenida Piracema, 669, Barueri, Região Metropolitana de São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299465",
+    "name": "Avenida Interlagos",
+    "latitude": -23.676008,
+    "longitude": -46.677134,
+    "address": "Avenida Interlagos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460918",
+    "name": "Cond. Office Tamboré",
+    "latitude": -23.506065,
+    "longitude": -46.835005,
+    "address": "Av. Marcos Penteado de Ulhoa Rodrigues, 1119 - Tamboré, Barueri - SP, 06460-040, Barueri",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459083",
+    "name": "Burger King Alphaville",
+    "latitude": -23.485638,
+    "longitude": -46.856953,
+    "address": "Av. Alphaville, 630, Barueri",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_203264",
+    "name": "Eletroposto Eletroposto Volvo Carga Rápida",
+    "latitude": -23.768640666562263,
+    "longitude": -45.40472315027989,
+    "address": "Avenida Manoel Hipolito do Rego 2501, São Sebastião, SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459110",
+    "name": "Petrobras - Posto Guarani",
+    "latitude": -22.910939,
+    "longitude": -47.047213,
+    "address": "Av. Princesa D'Oeste, 1440 - Vila Lemos, Campinas - SP, 13026-137, Campinas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_210195",
+    "name": "CPFL",
+    "latitude": -22.85761962201481,
+    "longitude": -47.04463261044555,
+    "address": "140, Rod. Gov. Dr. Adhemar Pereira de Barros - Parque São Quirino, Campinas, São paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260183",
+    "name": "Posto Jardim do Trevo",
+    "latitude": -22.93011102684582,
+    "longitude": -47.07063727595198,
+    "address": "Avenida Benedito Campos, 109, Campinas, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266805",
+    "name": "Posto Moinho I",
+    "latitude": -21.945385422291466,
+    "longitude": -45.62093585343945,
+    "address": "Rod. Fernão Dias, São Gonçalo do Sapucaí, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306272",
+    "name": "Eletroposto Shell - GTMaxEnergy",
+    "latitude": -23.076712617129914,
+    "longitude": -47.209358698166966,
+    "address": "Avenida Conceição, 2960, Indaiatuba - SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304159",
+    "name": "Eletrograal Alemão",
+    "latitude": -22.547581814219285,
+    "longitude": -44.807601112531756,
+    "address": "Rodovia Presidente Dutra, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459086",
+    "name": "Marina Paraty",
+    "latitude": -23.233983,
+    "longitude": -44.706744,
+    "address": "BR Marinas Paraty - BR-101 - Boa Vista, Paraty - RJ, Brasil, Paraty",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300479",
+    "name": "GTMaxEnergy - Margutti Multimarcas",
+    "latitude": -22.75129428253902,
+    "longitude": -47.312385402296144,
+    "address": "Rua do Vidraceiro, 192, Americana, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300497",
+    "name": "GTMaxEnergy - Margutti Multimarcas",
+    "latitude": -22.751751201127377,
+    "longitude": -47.31257463581514,
+    "address": "Rua do Vidraceiro, 192, Americana, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311297",
+    "name": "EcoCharge - Posto San Remo",
+    "latitude": -22.116102918265398,
+    "longitude": -45.057419300176235,
+    "address": "Av Dom Pedro II, 668, São Lourenço , MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_189499",
+    "name": "Posto San Remo",
+    "latitude": -22.116068,
+    "longitude": -45.057035,
+    "address": "Avenida Dom Pedro II, 668, São Lourenço, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188912",
+    "name": "Eletroposto Graal Estrela",
+    "latitude": -22.530017457216232,
+    "longitude": -44.75135473405874,
+    "address": "Rodovia Presidente Dutra, Queluz, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260393",
+    "name": "Frango Assado Itu - Tupinambá",
+    "latitude": -23.408866653174428,
+    "longitude": -47.287253528689064,
+    "address": "Rod. Castelo Branco 102, Itu, Sp",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312962",
+    "name": "Graal 125 Norte",
+    "latitude": -22.820229323033573,
+    "longitude": -47.378672041598406,
+    "address": "Rodovia dos Bandeirantes , Santa Bárbara d'Oeste, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191084",
+    "name": "EDP | Graal 125 Sul (Plug&GO)",
+    "latitude": -22.819867578279855,
+    "longitude": -47.381476648869125,
+    "address": "Santa Bárbara d'Oeste, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303877",
+    "name": "Rodovia Anhanguera",
+    "latitude": -22.62912131814457,
+    "longitude": -47.337456601861334,
+    "address": "Rodovia Anhanguera, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_175122",
+    "name": "EDP | Graal Topázio (Plug&GO)",
+    "latitude": -22.614671702946467,
+    "longitude": -47.356908583240454,
+    "address": "Rodovia Anhanguera, São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

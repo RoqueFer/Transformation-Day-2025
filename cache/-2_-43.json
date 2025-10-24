@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_299165",
+    "name": "Amazonia Plug - Posto Rota das Dunas",
+    "latitude": -2.5240701947104895,
+    "longitude": -43.26475554571721,
+    "address": "MA-320, Santo Amaro do Maranhão, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308526",
+    "name": "Amazônia Plug - Vale Gastronomia",
+    "latitude": -2.7811942785482415,
+    "longitude": -42.81837438326886,
+    "address": "MA 315, Vale Gastronomia, Barreirinhas, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308524",
+    "name": "Amazônia Plug - Restaurante O Capote",
+    "latitude": -2.7723571129879474,
+    "longitude": -42.44777024354954,
+    "address": "Restaurante O Capote, MA 315, Tutóia, Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

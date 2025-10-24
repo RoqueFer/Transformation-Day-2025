@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ocm_260426",
+    "name": "Volvo Posto Crossville",
+    "latitude": -21.108317985612615,
+    "longitude": -45.092387102002306,
+    "address": "Rodovia Fernão Dias, Perdões, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460579",
+    "name": "Posto Jua",
+    "latitude": -20.73210111196103,
+    "longitude": -44.77313503827929,
+    "address": "BR 381 km 606, Oliveira, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460275",
+    "name": "LIBER ENERGIA - ADEMICON SJDR",
+    "latitude": -21.1095463046926,
+    "longitude": -44.232423409763044,
+    "address": "AVENIDA 31 DE MARÇO 620, SÃO JOÃO DEL REI, MINAS GERAIS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_189498",
+    "name": "Rua Maria de Freitas 639",
+    "latitude": -21.120077,
+    "longitude": -44.170421,
+    "address": "Rua Maria de Freitas 639, Tiradentes, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_273546",
+    "name": "AGL Eletrônicos do Brasil",
+    "latitude": -20.16959165239392,
+    "longitude": -44.92007580694127,
+    "address": "Rua Ferrovário Anizio Viriato, 300, Divinópolis, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307516",
+    "name": "EcoCharge - Posto Tamandaré",
+    "latitude": -21.444412787222532,
+    "longitude": -45.9503100900605,
+    "address": "Rua Tocantins, 94, Alfenas, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266805",
+    "name": "Posto Moinho I",
+    "latitude": -21.945385422291466,
+    "longitude": -45.62093585343945,
+    "address": "Rod. Fernão Dias, São Gonçalo do Sapucaí, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_189499",
+    "name": "Posto San Remo",
+    "latitude": -22.116068,
+    "longitude": -45.057035,
+    "address": "Avenida Dom Pedro II, 668, São Lourenço, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311297",
+    "name": "EcoCharge - Posto San Remo",
+    "latitude": -22.116102918265398,
+    "longitude": -45.057419300176235,
+    "address": "Av Dom Pedro II, 668, São Lourenço , MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305038",
+    "name": "Nosso Pão de Queijo 60 KW",
+    "latitude": -21.21093745815452,
+    "longitude": -43.7490435706905,
+    "address": "BR-040, km701 - Caicaras, Barbacena, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305120",
+    "name": "Cabana da Mantiqueira",
+    "latitude": -21.21950982688064,
+    "longitude": -43.74390967174179,
+    "address": "BR-040, 702 - Caiçaras, Barbacena, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460157",
+    "name": "GDC Mobi - Matriz",
+    "latitude": -19.975628608320832,
+    "longitude": -44.200510586784674,
+    "address": "Av sebastião Dayrell De Lima, 267, Betim, brasileia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460920",
+    "name": "Petrobras - Curva Do Retiro",
+    "latitude": -20.077168,
+    "longitude": -43.982534,
+    "address": " Posto Curva do Retiro - Rod BR 40 km 548 S/N - Jardim Canada, Nova Lima - MG, Brasil, Nova Lima",
+    "source": "OpenChargeMap"
+  }
+]

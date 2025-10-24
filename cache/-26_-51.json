@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocm_204435",
+    "name": "Copel - Anila Hotel e Restaurante",
+    "latitude": -25.46366711314856,
+    "longitude": -50.56869555885402,
+    "address": "BR-277, km 233, Fernandes Pinheiro, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301461",
+    "name": "Posto Copa & Restaurante Panorâmico (APP On Charge)",
+    "latitude": -25.344027813342237,
+    "longitude": -51.44153370318844,
+    "address": "Avenida Prefeito Antônio Lustosa Oliveira, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301460",
+    "name": "Shopping Cidade Dos Lagos",
+    "latitude": -25.34876803855046,
+    "longitude": -51.47397453851838,
+    "address": "Avenida Guarapuava, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193474",
+    "name": "Restaurante Três Pinheiros",
+    "latitude": -25.459472057008384,
+    "longitude": -51.951417551671625,
+    "address": "BR-277 km 118, Candói, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312772",
+    "name": "Estação Guapo | APP On Charge (CCS2 - 80kW)",
+    "latitude": -25.431391340138774,
+    "longitude": -49.99427107595773,
+    "address": "R. José Antônio Bordignon, 400, Palmeira, PR",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204434",
+    "name": "Copel - Maranello Palmeira",
+    "latitude": -25.434341154212206,
+    "longitude": -49.9921110056751,
+    "address": "Km 169 - BR-277, Palmeira, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312771",
+    "name": "Letts Road - 9GCHARGE",
+    "latitude": -25.415088018360677,
+    "longitude": -49.77552094073914,
+    "address": "BR-376, km 548 - Colônia Witmarsum, Palmeira, Parana",
+    "source": "OpenChargeMap"
+  }
+]

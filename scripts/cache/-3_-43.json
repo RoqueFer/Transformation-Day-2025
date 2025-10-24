@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocm_308526",
+    "name": "Amazônia Plug - Vale Gastronomia",
+    "latitude": -2.7811942785482415,
+    "longitude": -42.81837438326886,
+    "address": "MA 315, Vale Gastronomia, Barreirinhas, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299165",
+    "name": "Amazonia Plug - Posto Rota das Dunas",
+    "latitude": -2.5240701947104895,
+    "longitude": -43.26475554571721,
+    "address": "MA-320, Santo Amaro do Maranhão, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308524",
+    "name": "Amazônia Plug - Restaurante O Capote",
+    "latitude": -2.7723571129879474,
+    "longitude": -42.44777024354954,
+    "address": "Restaurante O Capote, MA 315, Tutóia, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308525",
+    "name": "Amazônia Eletrovias - Chapadinha Posto Grande",
+    "latitude": -3.7445889545223707,
+    "longitude": -43.343161158143175,
+    "address": "Posto Grande, MA 230, Chapadinha, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299164",
+    "name": "BR Super Carga - VM Marina Clube / Faustino Restaurante",
+    "latitude": -2.9091295519228453,
+    "longitude": -41.78858523953477,
+    "address": "Rua Doutor João Goulart, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312056",
+    "name": "Amazônia Eletrovias - São Luís Posto Confiança",
+    "latitude": -2.560302467828606,
+    "longitude": -44.247159560935756,
+    "address": "Posto Confiança Av. dos Franceses, 25 - Tirirical, São Luís, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308511",
+    "name": "Amazônia Eletrovias - São Luís Posto HD 35",
+    "latitude": -2.6890976125267656,
+    "longitude": -44.299633906808026,
+    "address": "Posto HD 35, BR-135, São Luís - MA, São Luís , Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

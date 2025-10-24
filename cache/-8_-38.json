@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_299166",
+    "name": "Volvo - Salgueiro Plaza Hotel",
+    "latitude": -8.065653541387832,
+    "longitude": -39.13080125627832,
+    "address": "Rua Antonio Alves da Cruz, Salgueiro, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267283",
+    "name": "Hotel Imperador",
+    "latitude": -8.07220266242608,
+    "longitude": -39.13397206212187,
+    "address": "R. Antônio Nogueira de Melo, Salgueiro, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306690",
+    "name": "VAPT Cajazeiras | Grupo Barbosa Home Center ",
+    "latitude": -6.90123354,
+    "longitude": -38.56828009,
+    "address": "BR-230, Km-507, Cajazeiras, PB",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299167",
+    "name": "Volvo - Posto Chabocão",
+    "latitude": -6.778683676082736,
+    "longitude": -38.240498493714,
+    "address": "Rodovia Governador Antônio Mariz, Sousa, Paraíba",
+    "source": "OpenChargeMap"
+  }
+]

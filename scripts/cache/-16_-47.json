@@ -1,0 +1,154 @@
+[
+  {
+    "id": "ocm_460355",
+    "name": "Super Adega Jd. Botânico FastCharger",
+    "latitude": -15.8896732,
+    "longitude": -47.7976531,
+    "address": "Av. Bela Vista, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461929",
+    "name": "Life Box Lago Sul",
+    "latitude": -15.8194607,
+    "longitude": -47.8353896,
+    "address": "SCES Trecho 2 Beira Lago, St. de Clubes Esportivos, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_190149",
+    "name": "Câmara dos Deputados",
+    "latitude": -15.801949215599066,
+    "longitude": -47.86581646032528,
+    "address": "Via S 2 Leste, Brasília, Federal District",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460278",
+    "name": "BSB Zoológico 1",
+    "latitude": -15.850890298288363,
+    "longitude": -47.939390598826435,
+    "address": "Brasília",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460078",
+    "name": "Assaí Brasília Park",
+    "latitude": -15.833956920797005,
+    "longitude": -47.95035191977622,
+    "address": "SMAS Trecho 03 Guará, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460279",
+    "name": "BSB Nissan 1",
+    "latitude": -15.853201314064265,
+    "longitude": -47.95597434415083,
+    "address": "Brasília",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296262",
+    "name": "SAGA BYD",
+    "latitude": -15.823557344489913,
+    "longitude": -47.952420770737774,
+    "address": "SGCV Lt 10/11 Ae, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460170",
+    "name": "ASSAÍ BRASÍLIA SIA",
+    "latitude": -15.794377979695836,
+    "longitude": -47.946204352408884,
+    "address": "Trecho 12 Lote 15, S/Nº, Brasília,  Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460356",
+    "name": "Super Adega",
+    "latitude": -15.794429,
+    "longitude": -47.947566,
+    "address": "Atacadista Super Adega, Guará, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460360",
+    "name": "Ity Hotel e Restaurante",
+    "latitude": -16.767032,
+    "longitude": -47.615085,
+    "address": "R. Amazonas, Qd 51 Lt 01, Setor Noroeste, Cristalina, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461327",
+    "name": "[40kW] Posto Lammar Rota 050",
+    "latitude": -16.769097682327185,
+    "longitude": -47.61737095218921,
+    "address": "Rua Tocantins, 1091, Cristalina, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460359",
+    "name": "Super Adega Taguatinga FastCharger",
+    "latitude": -15.874419,
+    "longitude": -48.030779,
+    "address": "CSG 20, Lote 02, Taguatinga Sul, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460357",
+    "name": "Super Adega Gama",
+    "latitude": -15.999137,
+    "longitude": -48.052119,
+    "address": "Sle Q 45, St. Leste Área Industrial, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459137",
+    "name": "NetPark - Connect Towers",
+    "latitude": -15.835942,
+    "longitude": -48.048117,
+    "address": "QS1 Rua 212 Lote 19,21,23 bloco D - Estacionamento NetPark , Brasília",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460358",
+    "name": "Super Adega QNL Taguatinga",
+    "latitude": -15.834348,
+    "longitude": -48.072864,
+    "address": "QNL 02 Área Especial, 3, Taguatinga, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_190150",
+    "name": "Administração Regional de Samambaia",
+    "latitude": -15.880703253214236,
+    "longitude": -48.086535840385125,
+    "address": "Centro urbano, Samambaia, Federal District",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266714",
+    "name": "SAU 1 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -16.91983622156762,
+    "longitude": -47.69680186386796,
+    "address": "BR-050, Ipameri, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_259680",
+    "name": "Setor Tradicional Q16",
+    "latitude": -15.681943807031786,
+    "longitude": -48.20401439976098,
+    "address": "Setor Tradicional Q16, Brazlândia, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266715",
+    "name": "Hotel e Restaurante Sonho Verde",
+    "latitude": -16.994855261117905,
+    "longitude": -47.753626856379014,
+    "address": "BR-050, Ipameri, Goiás",
+    "source": "OpenChargeMap"
+  }
+]

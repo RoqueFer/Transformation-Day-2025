@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ocm_279237",
+    "name": "Eletroposto Parque da Cidadania",
+    "latitude": -5.080838557450534,
+    "longitude": -42.80465692471819,
+    "address": "Rua Juliano Moreira, Teresina, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300179",
+    "name": "BR Super Carga - VMachado Zona Leste",
+    "latitude": -5.062881432754494,
+    "longitude": -42.79499014283854,
+    "address": "Rua Visconde da Parnaíba, Teresina, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308432",
+    "name": "TEM CARREGADOR - EUROBUSINESS RAUL LOPES TERESINA",
+    "latitude": -5.077145,
+    "longitude": -42.79694,
+    "address": "Av. Jóquei Clube, 299 Jóquei, , Teresina, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235035",
+    "name": "Audi Center Teresina",
+    "latitude": -5.080204188168381,
+    "longitude": -42.783784209741015,
+    "address": "Avenida João XXIII, 1545, Teresina, Piaui",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306747",
+    "name": "Hotel Arrey Express",
+    "latitude": -5.081587131707479,
+    "longitude": -42.7638407836472,
+    "address": "Av. João XXIII, 3800, Teresina, PI",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300180",
+    "name": "Lagom Volvo",
+    "latitude": -5.080606241618796,
+    "longitude": -42.76013190763351,
+    "address": "Avenida João XXIII, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235034",
+    "name": "Posto Mais Riachao",
+    "latitude": -4.834175004700114,
+    "longitude": -43.48054794453458,
+    "address": "BR 316, KM 536, Caxias, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300181",
+    "name": "BR Super Carga - Restaurante Carnauba",
+    "latitude": -4.842615263231565,
+    "longitude": -42.18761583558066,
+    "address": "Avenida Santo Antônio, Campo Maior, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_295938",
+    "name": "Lili Doces - Estaca Zero",
+    "latitude": -5.7635721069712105,
+    "longitude": -42.611766711697555,
+    "address": "BR-316, Lagoinha do Piaui, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307780",
+    "name": "TEM CARREGADOR - Lanchonete O Sales",
+    "latitude": -5.8919242,
+    "longitude": -42.6458396,
+    "address": "BR-343, 365, Água Branca, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307782",
+    "name": "TEM CARREGADORES - LANCHONETE O SALES",
+    "latitude": -5.892237723663399,
+    "longitude": -42.64569020132754,
+    "address": "BR-343, 365, Água Branca - PI, 64460-000, Teresina, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300182",
+    "name": "Pousada La Muralha - Planeta Charge",
+    "latitude": -4.465344837455632,
+    "longitude": -41.94499851054766,
+    "address": "Avenida Santos Dumont, Capitão de Campos, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308525",
+    "name": "Amazônia Eletrovias - Chapadinha Posto Grande",
+    "latitude": -3.7445889545223707,
+    "longitude": -43.343161158143175,
+    "address": "Posto Grande, MA 230, Chapadinha, Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

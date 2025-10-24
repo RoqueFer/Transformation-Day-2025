@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_308518",
+    "name": "Amazônia Eletrovias - Guaraí Hotel Soledade",
+    "latitude": -8.847257630353965,
+    "longitude": -48.50993218119845,
+    "address": "Hotel Soledade, Av. Bernardo Sayão, 3207 - St. Aeroporto, Guaraí, Tocantins",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308517",
+    "name": "Amazônia Eletrovias - Araguaína Brii Hotel",
+    "latitude": -7.202350103393755,
+    "longitude": -48.2384812323792,
+    "address": "Brii Hotel / Posto Shell Rede K, Av. Bernardo Sayão, 600, Araguaína, Tocantins",
+    "source": "OpenChargeMap"
+  }
+]

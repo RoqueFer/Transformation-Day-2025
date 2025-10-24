@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_312661",
+    "name": "Queijo & Cia",
+    "latitude": -28.00688554975389,
+    "longitude": -50.540948652291945,
+    "address": "BR116, Capao Alto, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264453",
+    "name": "Posto Gloria",
+    "latitude": -28.50000316116656,
+    "longitude": -50.950593956354965,
+    "address": "BR-285, Vacaria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260391",
+    "name": "Coopercampos",
+    "latitude": -27.388979114537293,
+    "longitude": -51.21491388591278,
+    "address": "Rodovia Cid César de Almeida Pedroso, Campos Novos, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260390",
+    "name": "Posto Ipiranga Peruzzo",
+    "latitude": -27.79408326076136,
+    "longitude": -50.28392103687696,
+    "address": "Rodovia BR 232, km 216, Lages, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460676",
+    "name": "UCS Teatro",
+    "latitude": -29.162226443357902,
+    "longitude": -51.15249714513328,
+    "address": "Francisco Getulio Vargas 1130, Caxias do Sul, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460674",
+    "name": "UCS",
+    "latitude": -29.16284855232839,
+    "longitude": -51.1501356423712,
+    "address": "Franciso Getulio Vargas 1130, Caxias do Sul, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264452",
+    "name": "Audi Caxias do Sul",
+    "latitude": -29.171835482404994,
+    "longitude": -51.21108100919571,
+    "address": "Avenida Ruben Bento Alves, 8065, Caxias do Sul, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235328",
+    "name": "Posto SIM Caxias do Sul - Zletric",
+    "latitude": -29.174835231435416,
+    "longitude": -51.21402930064727,
+    "address": "Rua João Nichele, 2227, Caxias do Sul, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460000",
+    "name": "Grill Hall Panorâmico",
+    "latitude": -28.2370351998304,
+    "longitude": -52.37645804506485,
+    "address": "rua Verdi de Cezaro 185, Paso Fundo, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311792",
+    "name": "Carregador",
+    "latitude": -28.249724545808284,
+    "longitude": -52.413254232778115,
+    "address": "Rua Bento Gonçalves, 168 - Centro, Passo Fundo - RS",
+    "source": "OpenChargeMap"
+  }
+]

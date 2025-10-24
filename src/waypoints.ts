@@ -24,14 +24,40 @@ const END_COORDS: [number, number] = [-46.6333, -23.5505];
 // Chave de API para o OpenChargeMap (obtenha uma gratuitamente em openchargemap.io)
 const OCM_API_KEY = "813110e4-2f26-4b74-9fc8-da2269128a94";
 
+
+interface Config {
+  SEARCH_RADIUS_KM: number;
+  WAYPOINT_STEP: number;
+  BATCH_SIZE: number;
+  MAX_CONCURRENT_REQUESTS: number;
+  FETCH_TIMEOUT_MS: number;
+  adapt: {
+    maxRate429: number;
+    maxEmptyBatches: number;
+    adjustInterval: number;
+  };
+}
+
 // Configurações de busca
-const WAYPOINT_STEP = 25; // Espaçamento entre pontos na rota (quanto menor, mais postos mas mais lento)
-const BATCH_SIZE = 5; // Aumentado para 10 com buffer no bbox (reduz requests sem perda)
-const MAX_CONCURRENT_REQUESTS = 1; // Reduzido para 1 para evitar 429 (aumente devagar se ok)
-const FETCH_TIMEOUT_MS = 5000; // Reduzido para 5s como sugerido para desempenho
-const SEARCH_RADIUS_KM = 1.5; // Raio de busca em quilômetros ao redor de cada ponto
-const BBOX_BUFFER_DEG = 0.02; // Buffer ~1km para expandir bbox (permite batches maiores)
-const MAX_RETRY_ATTEMPTS = 3; // AJUSTE PARA RETRY/CACHE: Máximo de tentativas para batches falhados
+const config: Config = {
+  SEARCH_RADIUS_KM: 1.5,
+  WAYPOINT_STEP: 25,
+  BATCH_SIZE: 5,
+  MAX_CONCURRENT_REQUESTS: 1,
+  FETCH_TIMEOUT_MS: 5000,
+  adapt: {
+    maxRate429: 0.2,
+    maxEmptyBatches: 0.5,
+    adjustInterval: 3,
+  },
+};
+
+const metrics = {
+  totalRequests: 0,
+  rate429: 0,
+  emptyBatches: 0,
+  lastAdjust: Date.now(),
+};
 
 // =============== INTERFACES E TIPOS ===============
 /**
@@ -56,26 +82,70 @@ interface Eletroposto {
  * Calcula a distância entre dois pontos geográficos usando a fórmula de Haversine
  * @returns Distância em quilômetros
  */
-function calcularDistancia(
-  lat1: number,
-  lon1: number,
-  lat2: number,
-  lon2: number
-): number {
-  const converterParaRadianos = (graus: number) => (graus * Math.PI) / 180;
-  const RAIO_TERRA_KM = 6371;
-
-  const dLat = converterParaRadianos(lat2 - lat1);
-  const dLon = converterParaRadianos(lon2 - lon1);
-
+function calcularDistancia(lat1: number, lon1: number, lat2: number, lon2: number) {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
   const a =
     Math.sin(dLat / 2) ** 2 +
-    Math.cos(converterParaRadianos(lat1)) *
-      Math.cos(converterParaRadianos(lat2)) *
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
       Math.sin(dLon / 2) ** 2;
-
-  return 2 * RAIO_TERRA_KM * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
 }
+
+function identificarPostosDuplicados(postos: Eletroposto[], raioDuplicacaoMetros = 10) {
+  const unicos: Eletroposto[] = [];
+  for (const posto of postos) {
+    const duplicado = unicos.find((p) => {
+      const d = calcularDistancia(p.latitude, p.longitude, posto.latitude, posto.longitude);
+      return d * 1000 < raioDuplicacaoMetros;
+    });
+    if (!duplicado) unicos.push(posto);
+  }
+  return unicos;
+}
+
+function logToFile(message: string) {
+  const dir = path.join(process.cwd(), "src", "logs");
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  const logPath = path.join(dir, "eletropostos.log");
+  const timestamp = new Date().toISOString();
+  fs.appendFileSync(logPath, `[${timestamp}] ${message}\n`);
+}
+
+function autoCalibrate() {
+  const rate429 = metrics.rate429 / metrics.totalRequests;
+  const emptyRate = metrics.emptyBatches / metrics.totalRequests;
+
+  if (rate429 > config.adapt.maxRate429) {
+    config.MAX_CONCURRENT_REQUESTS = Math.max(1, config.MAX_CONCURRENT_REQUESTS - 1);
+    log(`🔧 Reduzindo concorrência: ${config.MAX_CONCURRENT_REQUESTS}`);
+  } else if (rate429 === 0 && config.MAX_CONCURRENT_REQUESTS < 3) {
+    config.MAX_CONCURRENT_REQUESTS++;
+    log(`⚙️ Aumentando concorrência: ${config.MAX_CONCURRENT_REQUESTS}`);
+  }
+
+  if (emptyRate > config.adapt.maxEmptyBatches) {
+    config.SEARCH_RADIUS_KM = Math.min(config.SEARCH_RADIUS_KM * 1.3, 5);
+    log(`📈 Aumentando raio: ${config.SEARCH_RADIUS_KM.toFixed(2)} km`);
+  } else if (emptyRate < 0.1 && config.SEARCH_RADIUS_KM > 1) {
+    config.SEARCH_RADIUS_KM = Math.max(config.SEARCH_RADIUS_KM * 0.8, 1);
+    log(`📉 Reduzindo raio: ${config.SEARCH_RADIUS_KM.toFixed(2)} km`);
+  }
+
+  log(
+    `📊 Ajuste automático concluído | rate429=${(rate429 * 100).toFixed(1)}% | empty=${(
+      emptyRate * 100
+    ).toFixed(1)}%`
+  );
+
+  metrics.totalRequests = 0;
+  metrics.rate429 = 0;
+  metrics.emptyBatches = 0;
+  metrics.lastAdjust = Date.now();
+}
+
 
 /**
  * Calcula o bounding box (min/max lat/lon) para um array de coordenadas, com buffer
@@ -89,10 +159,10 @@ function calcularBoundingBox(waypoints: [number, number][]): [number, number, nu
     maxLon = Math.max(maxLon, lon);
   });
   // Adiciona buffer para cobrir mais área, permitindo batches maiores
-  minLat -= BBOX_BUFFER_DEG;
-  maxLat += BBOX_BUFFER_DEG;
-  minLon -= BBOX_BUFFER_DEG;
-  maxLon += BBOX_BUFFER_DEG;
+  minLat -= config.BBOX_BUFFER_DEG;
+  maxLat += config.BBOX_BUFFER_DEG;
+  minLon -= config.BBOX_BUFFER_DEG;
+  maxLon += config.BBOX_BUFFER_DEG;
   return [minLat, minLon, maxLat, maxLon]; // south, west, north, east
 }
 
@@ -209,7 +279,7 @@ async function buscarOpenChargeMapBBox(
       {
         headers: { "X-API-Key": OCM_API_KEY },
       },
-      FETCH_TIMEOUT_MS
+      config.FETCH_TIMEOUT_MS
     );
 
     if (!resposta.ok) {
@@ -284,7 +354,7 @@ async function buscarOpenStreetMapBBox(
         },
         body: query,
       },
-      FETCH_TIMEOUT_MS,
+      config.FETCH_TIMEOUT_MS,
       3,
       mirrors
     );
@@ -349,6 +419,169 @@ async function buscarOpenStreetMapBBox(
   }
 }
 
+import fs from "fs";
+import path from "path";
+import pLimit from "p-limit";
+import retry from "p-retry";
+import { getRoute } from "./openRouteService";
+import { Eletroposto } from "../types/eletroposto";
+import { amostrarWaypointsComMenorDistancia } from "./amostrarPontos";
+import { buscarEletropostos } from "./overpassApi";
+import { salvarPostosCSV } from "./salvarPostosCSV";
+import { delay } from "./delay";
+
+interface Config {
+  SEARCH_RADIUS_KM: number;
+  WAYPOINT_STEP: number;
+  BATCH_SIZE: number;
+  MAX_CONCURRENT_REQUESTS: number;
+  FETCH_TIMEOUT_MS: number;
+  adapt: {
+    maxRate429: number;
+    maxEmptyBatches: number;
+    adjustInterval: number;
+  };
+}
+
+function log(message: string) {
+  console.log(message);
+  logToFile(message);
+}
+
+function autoCalibrate() {
+  const rate429 = metrics.rate429 / metrics.totalRequests;
+  const emptyRate = metrics.emptyBatches / metrics.totalRequests;
+
+  if (rate429 > config.adapt.maxRate429) {
+    config.MAX_CONCURRENT_REQUESTS = Math.max(1, config.MAX_CONCURRENT_REQUESTS - 1);
+    log(`🔧 Reduzindo concorrência: ${config.MAX_CONCURRENT_REQUESTS}`);
+  } else if (rate429 === 0 && config.MAX_CONCURRENT_REQUESTS < 3) {
+    config.MAX_CONCURRENT_REQUESTS++;
+    log(`⚙️ Aumentando concorrência: ${config.MAX_CONCURRENT_REQUESTS}`);
+  }
+
+  if (emptyRate > config.adapt.maxEmptyBatches) {
+    config.SEARCH_RADIUS_KM = Math.min(config.SEARCH_RADIUS_KM * 1.3, 5);
+    log(`📈 Aumentando raio: ${config.SEARCH_RADIUS_KM.toFixed(2)} km`);
+  } else if (emptyRate < 0.1 && config.SEARCH_RADIUS_KM > 1) {
+    config.SEARCH_RADIUS_KM = Math.max(config.SEARCH_RADIUS_KM * 0.8, 1);
+    log(`📉 Reduzindo raio: ${config.SEARCH_RADIUS_KM.toFixed(2)} km`);
+  }
+
+  log(
+    `📊 Ajuste automático concluído | rate429=${(rate429 * 100).toFixed(1)}% | empty=${(
+      emptyRate * 100
+    ).toFixed(1)}%`
+  );
+
+  metrics.totalRequests = 0;
+  metrics.rate429 = 0;
+  metrics.emptyBatches = 0;
+  metrics.lastAdjust = Date.now();
+}
+
+async function buscarEletropostosNoBatch(
+  waypoints: [number, number][],
+  batchIndex: number
+): Promise<Eletroposto[]> {
+  const limit = pLimit(config.MAX_CONCURRENT_REQUESTS);
+
+  const resultados = await Promise.all(
+    waypoints.map(([lon, lat]) =>
+      limit(() =>
+        retry(
+          async () => {
+            metrics.totalRequests++;
+
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), config.FETCH_TIMEOUT_MS);
+
+            try {
+              const postosDentroDoRaio = await buscarEletropostos(
+                lat,
+                lon,
+                config.SEARCH_RADIUS_KM
+              );
+              clearTimeout(timeout);
+
+              if (!postosDentroDoRaio.length) metrics.emptyBatches++;
+
+              log(`✅ Batch ${batchIndex + 1}: ${postosDentroDoRaio.length} postos encontrados`);
+              await delay(1000);
+              return postosDentroDoRaio;
+            } catch (err: any) {
+              clearTimeout(timeout);
+
+              if (err.message.includes("429")) {
+                metrics.rate429++;
+                log(`⚠️ 429 detectado no batch ${batchIndex + 1}`);
+                throw err;
+              }
+
+              log(`❌ Erro no batch ${batchIndex + 1}: ${err.message || err}`);
+              throw err;
+            }
+          },
+          {
+            retries: 3,
+            onFailedAttempt: async (error) => {
+              const status = (error as any).message?.match(/status (\d+)/)?.[1] || "desconhecido";
+              log(`Tentativa ${error.attemptNumber} falhou (status ${status}).`);
+              await delay(1000 * error.attemptNumber);
+            },
+          }
+        )
+      )
+    )
+  );
+
+  return resultados.flat();
+}
+
+export async function buscarEletropostosNaRota(
+  coordenadas: [number, number][],
+  nomeArquivo: string
+): Promise<Eletroposto[]> {
+  log("🚗 Obtendo rota...");
+  const route = await getRoute(coordenadas);
+  const waypointsAmostrados = amostrarWaypointsComMenorDistancia(route, config.WAYPOINT_STEP);
+  log(`🧭 ${waypointsAmostrados.length} pontos amostrados.`);
+
+  const totalBatches = Math.ceil(waypointsAmostrados.length / config.BATCH_SIZE);
+  const allEletropostos: Eletroposto[] = [];
+
+  for (let i = 0; i < totalBatches; i++) {
+    const start = i * config.BATCH_SIZE;
+    const end = start + config.BATCH_SIZE;
+    const batchWaypoints = waypointsAmostrados.slice(start, end);
+
+    log(`🚀 Processando batch ${i + 1}/${totalBatches}...`);
+    const postosBatch = await buscarEletropostosNoBatch(batchWaypoints, i);
+    allEletropostos.push(...postosBatch);
+
+    if ((i + 1) % config.adapt.adjustInterval === 0) autoCalibrate();
+
+    const progresso = (((i + 1) / totalBatches) * 100).toFixed(1);
+    log(`📊 Progresso: ${progresso}%`);
+  }
+
+  const postosUnicos = identificarPostosDuplicados(allEletropostos);
+  log(`🔍 ${postosUnicos.length} eletropostos únicos após deduplicação.`);
+
+  const dir = path.join(process.cwd(), "src", "data");
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+
+  const outputPath = path.join(dir, nomeArquivo);
+  fs.writeFileSync(outputPath, JSON.stringify(postosUnicos, null, 2));
+  log(`💾 Salvo em ${outputPath}`);
+
+  await salvarPostosCSV(postosUnicos, nomeArquivo.replace(".json", ".csv"));
+
+  log("✅ Concluído.");
+  return postosUnicos;
+}
+
+
 // =============== LÓGICA PRINCIPAL ===============
 /**
  * Busca eletropostos em um batch de waypoints usando todas as APIs
@@ -357,66 +590,62 @@ async function buscarOpenStreetMapBBox(
  * @returns {postos: Eletroposto[], success: boolean} // AJUSTE PARA RETRY/CACHE: Retorna sucesso para identificar falhas
  */
 async function buscarEletropostosNoBatch(
-  batchWaypoints: [number, number][],
-  indiceBatch: number
-): Promise<{postos: Eletroposto[], success: boolean}> {
-  if (batchWaypoints.length === 0) return {postos: [], success: true};
+  waypoints: [number, number][],
+  batchIndex: number
+): Promise<Eletroposto[]> {
+  const limit = pLimit(config.MAX_CONCURRENT_REQUESTS);
 
-  console.log(
-    `🎯 Batch ${indiceBatch} [${batchWaypoints.length} waypoints, bbox: ${batchWaypoints[0][1].toFixed(4)},${batchWaypoints[0][0].toFixed(4)} → ${batchWaypoints[batchWaypoints.length-1][1].toFixed(4)},${batchWaypoints[batchWaypoints.length-1][0].toFixed(4)}]`
+  const resultados = await Promise.all(
+    waypoints.map(([lon, lat]) =>
+      limit(() =>
+        retry(
+          async () => {
+            metrics.totalRequests++;
+
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), config.FETCH_TIMEOUT_MS);
+
+            try {
+              const postosDentroDoRaio = await buscarEletropostos(
+                lat,
+                lon,
+                config.SEARCH_RADIUS_KM
+              );
+              clearTimeout(timeout);
+
+              if (!postosDentroDoRaio.length) metrics.emptyBatches++;
+
+              log(`✅ Batch ${batchIndex + 1}: ${postosDentroDoRaio.length} postos encontrados`);
+              await delay(1000);
+              return postosDentroDoRaio;
+            } catch (err: any) {
+              clearTimeout(timeout);
+
+              if (err.message.includes("429")) {
+                metrics.rate429++;
+                log(`⚠️ 429 detectado no batch ${batchIndex + 1}`);
+                throw err;
+              }
+
+              log(`❌ Erro no batch ${batchIndex + 1}: ${err.message || err}`);
+              throw err;
+            }
+          },
+          {
+            retries: 3,
+            onFailedAttempt: async (error) => {
+              const status = (error as any).message?.match(/status (\d+)/)?.[1] || "desconhecido";
+              log(`Tentativa ${error.attemptNumber} falhou (status ${status}).`);
+              await delay(1000 * error.attemptNumber);
+            },
+          }
+        )
+      )
+    )
   );
 
-  const bbox = calcularBoundingBox(batchWaypoints);
-
-  const [resultadoOCM, resultadoOSM] = await Promise.allSettled([
-    buscarOpenChargeMapBBox(bbox),
-    buscarOpenStreetMapBBox(bbox),
-  ]);
-
-  const postos: Eletroposto[] = [];
-
-  let success = true;
-
-  if (resultadoOCM.status === "fulfilled") {
-    postos.push(...resultadoOCM.value);
-    console.log(`   ✅ OpenChargeMap: ${resultadoOCM.value.length} postos`);
-  } else {
-    console.log(`   ❌ OpenChargeMap: Falhou - ${resultadoOCM.reason}`);
-    success = false;
-  }
-
-  if (resultadoOSM.status === "fulfilled") {
-    postos.push(...resultadoOSM.value);
-    console.log(`   ✅ OpenStreetMap: ${resultadoOSM.value.length} postos`);
-  } else {
-    console.log(`   ❌ OpenStreetMap: Falhou - ${resultadoOSM.reason}`);
-    success = false;
-  }
-
-  const postosDentroDoRaio = postos
-    .map((posto) => {
-      const distancia = distanciaMinimaAoBatch(posto.latitude, posto.longitude, batchWaypoints);
-      posto.distanceFromRoute = distancia;
-      return posto;
-    })
-    .filter((posto) => posto.distanceFromRoute! <= SEARCH_RADIUS_KM);
-
-  for (const posto of postosDentroDoRaio) {
-    if (!idsRegistrados.has(posto.id)) {
-      idsRegistrados.add(posto.id);
-      postosParciais.push(posto);
-    }
-  }
-
-  await salvarParcial();
-
-  console.log(`   📍 Total válidos: ${postosDentroDoRaio.length}`);
-
-  
-
-  return {postos: postosDentroDoRaio, success};
+  return resultados.flat();
 }
-
 const PONTOS_CHAVE_API: Record<string, string> = {
   florianopolis: "-48.5583,-27.5935",
   curitiba: "-49.2733,-25.4284",
@@ -445,7 +674,7 @@ async function getRouteWaypoints(
   endCoords: string
 ): Promise<[number, number][]> {
   const urlOSRM = `https://router.project-osrm.org/route/v1/driving/${startCoords};${endCoords}?overview=full&geometries=geojson`;
-  const respostaRota = await requisicaoComRetry(urlOSRM, {}, FETCH_TIMEOUT_MS, 3);
+  const respostaRota = await requisicaoComRetry(urlOSRM, {}, config.FETCH_TIMEOUT_MS, 3);
 
   if (!respostaRota.ok) {
     throw new Error(`Erro ao obter rota (${startCoords} → ${endCoords}): ${respostaRota.status}`);
@@ -453,7 +682,7 @@ async function getRouteWaypoints(
 
   const dadosRota = await respostaRota.json();
   const waypoints: [number, number][] = dadosRota.routes[0].geometry.coordinates;
-  return waypoints.filter((_, i) => i % WAYPOINT_STEP === 0);
+  return waypoints.filter((_, i) => i % config.WAYPOINT_STEP === 0);
 }
 
 /**
@@ -466,7 +695,7 @@ async function main() {
     "🔑 APIs usadas: OpenChargeMap (sua chave) + OpenStreetMap (gratuita)"
   );
   console.log(
-    `⚙️  Configurações: raio ${SEARCH_RADIUS_KM}km, passo ${WAYPOINT_STEP}, batch ${BATCH_SIZE}, concurrent ${MAX_CONCURRENT_REQUESTS}, timeout ${FETCH_TIMEOUT_MS}ms, retries ${MAX_RETRY_ATTEMPTS}`
+    `⚙️  Configurações: raio ${config.SEARCH_RADIUS_KM}km, passo ${config.WAYPOINT_STEP}, batch ${config.BATCH_SIZE}, concurrent ${config.MAX_CONCURRENT_REQUESTS}, timeout ${config.FETCH_TIMEOUT_MS}ms, retries ${config.MAX_RETRY_ATTEMPTS}`
   );
 
   // Obtém a rota da API OSRM
@@ -477,7 +706,7 @@ async function main() {
   const respostaRota = await requisicaoComRetry(
     urlOSRM,
     {},
-    FETCH_TIMEOUT_MS,
+    config.FETCH_TIMEOUT_MS,
     3
   );
 
@@ -489,7 +718,7 @@ async function main() {
   const waypoints: [number, number][] =
     dadosRota.routes[0].geometry.coordinates;
   const waypointsAmostrados = waypoints.filter(
-    (_, i) => i % WAYPOINT_STEP === 0
+    (_, i) => i % config.WAYPOINT_STEP === 0
   );
 
   console.log(`📍 Total de pontos na rota: ${waypoints.length}`);
@@ -499,8 +728,8 @@ async function main() {
 
   // Agrupa waypoints em batches
   const batches: [number, number][][] = [];
-  for (let i = 0; i < waypointsAmostrados.length; i += BATCH_SIZE) {
-    batches.push(waypointsAmostrados.slice(i, i + BATCH_SIZE));
+  for (let i = 0; i < waypointsAmostrados.length; i += config.BATCH_SIZE) {
+    batches.push(waypointsAmostrados.slice(i, i + config.BATCH_SIZE));
   }
   console.log(`📦 Total de batches: ${batches.length}`);
 
@@ -509,8 +738,8 @@ async function main() {
   let attempt = 1;
 
   // AJUSTE PARA RETRY/CACHE: Loop de retry para batches falhados
-  while (attempt <= MAX_RETRY_ATTEMPTS) {
-    console.log(`\n🔄 Tentativa global ${attempt}/${MAX_RETRY_ATTEMPTS}`);
+  while (attempt <= config.MAX_RETRY_ATTEMPTS) {
+    console.log(`\n🔄 Tentativa global ${attempt}/${config.MAX_RETRY_ATTEMPTS}`);
     const failedBatches: number[] = []; // Coleta falhas nesta tentativa
 
     let batchesProcessados = batchCache.size; // Começa com cacheados
@@ -518,14 +747,14 @@ async function main() {
     for (
       let i = 0;
       i < batches.length;
-      i += MAX_CONCURRENT_REQUESTS
+      i += config.MAX_CONCURRENT_REQUESTS
     ) {
-      const loteBatches = batches.slice(i, i + MAX_CONCURRENT_REQUESTS).filter((_, idx) => !batchCache.has(i + idx)); // Skip cacheados
+      const loteBatches = batches.slice(i, i + config.MAX_CONCURRENT_REQUESTS).filter((_, idx) => !batchCache.has(i + idx)); // Skip cacheados
       if (loteBatches.length === 0) continue; // Nada para processar
 
-      const numeroLote = Math.floor(i / MAX_CONCURRENT_REQUESTS) + 1;
+      const numeroLote = Math.floor(i / config.MAX_CONCURRENT_REQUESTS) + 1;
       const totalLotes = Math.ceil(
-        batches.length / MAX_CONCURRENT_REQUESTS
+        batches.length / config.MAX_CONCURRENT_REQUESTS
       );
 
       console.log(
@@ -567,7 +796,7 @@ async function main() {
       );
 
       // Pausa entre lotes para evitar sobrecarga das APIs
-      if (i + MAX_CONCURRENT_REQUESTS < batches.length) {
+      if (i + config.MAX_CONCURRENT_REQUESTS < batches.length) {
         console.log("⏳ Aguardando 5000ms antes do próximo lote..."); // AJUSTE PARA RETRY/CACHE: Aumentado para 5s
         await new Promise((resolver) => setTimeout(resolver, 5000));
       }
@@ -587,7 +816,7 @@ async function main() {
     console.log("📁 Cache parcial salvo em: batch_cache_parcial.json");
 
     attempt++;
-    if (attempt <= MAX_RETRY_ATTEMPTS) {
+    if (attempt <= config.MAX_RETRY_ATTEMPTS) {
       await new Promise((resolver) => setTimeout(resolver, 10000)); // Espera 10s antes de nova tentativa global
     }
   }
@@ -683,10 +912,10 @@ async function main() {
     configuracao: {
       origem: "Curitiba [-49.2733, -25.4284]",
       destino: "São Paulo [-46.6333, -23.5505]",
-      waypointStep: WAYPOINT_STEP,
-      batchSize: BATCH_SIZE,
-      raioKm: SEARCH_RADIUS_KM,
-      concurrent: MAX_CONCURRENT_REQUESTS,
+      waypointStep: config.WAYPOINT_STEP,
+      batchSize: config.BATCH_SIZE,
+      raioKm: config.SEARCH_RADIUS_KM,
+      concurrent: config.MAX_CONCURRENT_REQUESTS,
     },
     estatisticas: {
       porFonte,

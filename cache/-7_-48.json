@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_308517",
+    "name": "Amazônia Eletrovias - Araguaína Brii Hotel",
+    "latitude": -7.202350103393755,
+    "longitude": -48.2384812323792,
+    "address": "Brii Hotel / Posto Shell Rede K, Av. Bernardo Sayão, 600, Araguaína, Tocantins",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308516",
+    "name": "Amazônia Eletrovias - Carolina Posto Moreira",
+    "latitude": -7.326532941632536,
+    "longitude": -47.443320749147574,
+    "address": "Posto Moreira, BR 010, 03, Carolina - MA, Carolina, Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

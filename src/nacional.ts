@@ -3,7 +3,6 @@ import fs from "fs";
 import { writeFile as writeFileAsync, readFile as readFileAsync } from "fs/promises";
 import cliProgress from "cli-progress";
 
-
 // ===============================
 // CONFIGURAÇÃO
 // ===============================
@@ -14,6 +13,16 @@ type Eletroposto = {
   latitude: number;
   longitude: number;
   address?: string;
+  source: string;
+};
+
+type POI = {
+  id: string;
+  name: string;
+  latitude: number;
+  longitude: number;
+  address?: string;
+  type: string;
   source: string;
 };
 
@@ -28,34 +37,62 @@ const LON_MAX = -34;
 const STEP = 1;
 
 const OCM_API_KEY = "813110e4-2f26-4b74-9fc8-da2269128a94";
-const RADIUS_KM = 150;
-
-// ANEEL + GOOGLE
+const GOOGLE_API_KEY = "AIzaSyDBCTWl8x73zEo236biO6ZsSRgIIU43Yuk";
+const GOOGLE_PLACES_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json";
 const ANEEL_URL =
   "https://dadosabertos.aneel.gov.br/dataset/4c2a50f2-d3a1-40b9-b4c8-4f087dc72ff0/resource/03f3914a-2bb0-4f6e-aadf-9e0bcf42e2d7/download/eletropostos-brasil.json";
-const GOOGLE_API_KEY = "SUA_CHAVE_AQUI";
-const GOOGLE_PLACES_URL =
-  "https://maps.googleapis.com/maps/api/place/nearbysearch/json";
 
-// Auto-calibração
-let batchSize = 3;
-const MAX_BATCH = 11;
-const MIN_BATCH = 1;
+const RADIUS_KM = 150;
 
-let interBatchDelay = 1500;
-const MAX_DELAY = 60000;
-const MIN_DELAY = 530;
+// ===============================
+// AUTO-CALIBRAÇÃO GENÉRICA
+// ===============================
+const config = {
+  batchSize: 3,
+  interBatchDelay: 1500,
+  maxBatch: 11,
+  minBatch: 1,
+  maxDelay: 60000,
+  minDelay: 530,
+  stableOkBatches: 0,
+  stableIncreaseThreshold: 3,
+};
 
-const STABLE_INCREASE_THRESHOLD = 3;
-let stableOkBatches = 0;
+function ajustarCalibracao(statuses: number[], cfg = config) {
+  const count429 = statuses.filter((s) => s === 429).length;
+  const count403 = statuses.filter((s) => s === 403).length;
+  const countOk = statuses.filter((s) => s === 200).length;
+  const total = statuses.length;
 
+  if (count429 > 0) {
+    cfg.batchSize = Math.max(cfg.minBatch, Math.floor(cfg.batchSize / 2));
+    cfg.interBatchDelay = Math.min(cfg.maxDelay, cfg.interBatchDelay * 1.5);
+    cfg.stableOkBatches = 0;
+  } else if (count403 > 0) {
+    cfg.batchSize = Math.max(cfg.minBatch, Math.floor(cfg.batchSize / 2));
+    cfg.interBatchDelay = Math.min(cfg.maxDelay, cfg.interBatchDelay * 4);
+    cfg.stableOkBatches = 0;
+  } else if (countOk === total) {
+    cfg.stableOkBatches++;
+    if (cfg.stableOkBatches >= cfg.stableIncreaseThreshold) {
+      cfg.batchSize = Math.min(cfg.maxBatch, cfg.batchSize + 1);
+      cfg.interBatchDelay = Math.max(cfg.minDelay, Math.floor(cfg.interBatchDelay * 0.9));
+      cfg.stableOkBatches = 0;
+    }
+  } else {
+    cfg.stableOkBatches = 0;
+  }
+}
+
+// ===============================
+// VARIÁVEIS GLOBAIS
+// ===============================
 let postos: Eletroposto[] = [];
 const idsRegistrados = new Set<string>();
 
 // ===============================
 // FUNÇÕES BÁSICAS
 // ===============================
-
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
 }
@@ -87,8 +124,9 @@ async function fetchWithTimeout(url: string, options: any = {}, timeoutMs = 1000
 }
 
 // ===============================
-// FUNÇÃO: OPENCHARGEMAP
+// FONTES DE DADOS
 // ===============================
+
 async function buscarEletropostosTile(
   lat: number,
   lon: number
@@ -99,9 +137,7 @@ async function buscarEletropostosTile(
       const raw = await readFileAsync(cachePath, "utf-8");
       const parsed = JSON.parse(raw);
       return { status: 200, postos: parsed as Eletroposto[] };
-    } catch {
-      // se cache corrompido, ignora
-    }
+    } catch {}
   }
 
   const url = `https://api.openchargemap.io/v3/poi/?output=json&countrycode=BR&latitude=${lat}&longitude=${lon}&distance=${RADIUS_KM}&distanceunit=KM&maxresults=500`;
@@ -112,26 +148,14 @@ async function buscarEletropostosTile(
     const res = await fetchWithTimeout(url, { headers }, 15000);
 
     const retryAfterHeader = res.headers.get("Retry-After");
-
-    if (res.status === 429) {
-      console.log(
-        `⚠️ 429 em tile [${lat},${lon}]${retryAfterHeader ? ` (Retry-After: ${retryAfterHeader}s)` : ""}`
-      );
+    if (res.status === 429)
       return { status: 429, postos: [] };
-    }
-
-    if (res.status === 403) {
-      console.log(`⛔ 403 em tile [${lat},${lon}] — verifique API key / bloqueio de IP`);
+    if (res.status === 403)
       return { status: 403, postos: [] };
-    }
-
-    if (!res.ok) {
-      console.log(`❌ HTTP ${res.status} em tile [${lat},${lon}]`);
+    if (!res.ok)
       return { status: res.status, postos: [] };
-    }
 
     const data = await res.json();
-
     const postos: Eletroposto[] = (data || []).map((p: any) => ({
       id: `ocm_${p.ID}`,
       name: p.AddressInfo?.Title || "Sem nome",
@@ -144,28 +168,18 @@ async function buscarEletropostosTile(
     }));
 
     await writeFileAsync(cachePath, JSON.stringify(postos, null, 2), "utf-8");
-
     return { status: 200, postos };
   } catch (err: any) {
-    if (err.name === "AbortError") {
-      console.log(`⏱️ Timeout em tile [${lat},${lon}]`);
-      return { status: 408, postos: [] };
-    }
-    console.log(`❌ Erro fetch em tile [${lat},${lon}]: ${err.message}`);
     return { status: 500, postos: [] };
   }
 }
 
-// ===============================
-// FUNÇÃO: ANEEL
-// ===============================
 async function buscarEletropostosANEEL(): Promise<Eletroposto[]> {
-  console.log("🔌 Buscando eletropostos da base ANEEL...");
   try {
     const res = await fetchWithTimeout(ANEEL_URL, {}, 20000);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    const postosANEEL: Eletroposto[] = data
+    return data
       .filter((p: any) => p.Latitude && p.Longitude)
       .map((p: any, i: number) => ({
         id: `aneel_${i}`,
@@ -175,19 +189,12 @@ async function buscarEletropostosANEEL(): Promise<Eletroposto[]> {
         address: p.Municipio || "",
         source: "ANEEL",
       }));
-    console.log(`✅ ANEEL: ${postosANEEL.length} registros`);
-    return postosANEEL;
-  } catch (err: any) {
-    console.error("⚠️ Erro ao buscar ANEEL:", err.message);
+  } catch {
     return [];
   }
 }
 
-// ===============================
-// FUNÇÃO: GOOGLE PLACES
-// ===============================
 async function buscarEletropostosGoogle(): Promise<Eletroposto[]> {
-  console.log("🌐 Buscando eletropostos via Google Places...");
   const cidades = [
     { nome: "São Paulo", lat: -23.5505, lon: -46.6333 },
     { nome: "Rio de Janeiro", lat: -22.9068, lon: -43.1729 },
@@ -218,13 +225,113 @@ async function buscarEletropostosGoogle(): Promise<Eletroposto[]> {
           });
         }
       }
-    } catch (err: any) {
-      console.warn(`⚠️ Falha em ${c.nome}: ${err.message}`);
-    }
+    } catch {}
   }
-
-  console.log(`✅ Google Places: ${todos.length} registros`);
   return todos;
+}
+
+// ===============================
+// POIs (Google + OSM)
+// ===============================
+async function buscarPOIsGoogle(lat: number, lon: number, radius = 50000): Promise<POI[]> {
+  const tipos = ["gas_station", "restaurant", "hotel", "shopping_mall", "parking", "supermarket"];
+  const pois: POI[] = [];
+  for (const tipo of tipos) {
+    const url = `${GOOGLE_PLACES_URL}?location=${lat},${lon}&radius=${radius}&type=${tipo}&key=${GOOGLE_API_KEY}&language=pt-BR`;
+    try {
+      const res = await fetchWithTimeout(url, {}, 15000);
+      if (!res.ok) continue;
+      const data = await res.json();
+      for (const r of data.results || []) {
+        const loc = r.geometry?.location;
+        if (!loc) continue;
+        pois.push({
+          id: `gpoi_${r.place_id}`,
+          name: r.name || tipo,
+          latitude: loc.lat,
+          longitude: loc.lng,
+          address: r.vicinity || "",
+          type: tipo,
+          source: "GooglePlaces",
+        });
+      }
+    } catch {}
+  }
+  return pois;
+}
+
+async function buscarPOIsOSM(lat: number, lon: number, radiusKm = 50): Promise<POI[]> {
+  const url = `https://overpass-api.de/api/interpreter`;
+  const query = `
+    [out:json][timeout:25];
+    (
+      node["amenity"~"restaurant|fuel|parking"](around:${radiusKm * 1000},${lat},${lon});
+      node["tourism"="hotel"](around:${radiusKm * 1000},${lat},${lon});
+      node["shop"="mall"](around:${radiusKm * 1000},${lat},${lon});
+      node["shop"="supermarket"](around:${radiusKm * 1000},${lat},${lon});
+    );
+    out center;`;
+
+  try {
+    const res = await fetchWithTimeout(url, { method: "POST", body: query }, 20000);
+    if (!res.ok) return [];
+    const data = await res.json();
+    return (data.elements || []).map((e: any) => ({
+      id: `osm_${e.id}`,
+      name: e.tags?.name || "POI OSM",
+      latitude: e.lat,
+      longitude: e.lon,
+      address: e.tags?.addr_full || "",
+      type: e.tags?.amenity || e.tags?.tourism || e.tags?.shop || "unknown",
+      source: "OpenStreetMap",
+    }));
+  } catch {
+    return [];
+  }
+}
+
+// ===============================
+// FILTROS DE RELEVÂNCIA
+// ===============================
+function filtrarPOIsRelevantes(pois: POI[]): POI[] {
+  const tiposRelevantes = [
+    "parking",
+    "fuel",
+    "gas_station",
+    "supermarket",
+    "shopping_mall",
+    "hotel",
+    "motel",
+    "rest_area",
+  ];
+  const vistos = new Set<string>();
+  return pois.filter((p) => {
+    const tipo = p.type?.toLowerCase() || "";
+    if (!tiposRelevantes.some((t) => tipo.includes(t))) return false;
+    const chave = `${Math.round(p.latitude * 1000)}_${Math.round(p.longitude * 1000)}`;
+    if (vistos.has(chave)) return false;
+    vistos.add(chave);
+    return true;
+  });
+}
+
+function filtrarPOIsPorDensidade(pois: POI[], postosExistentes: Eletroposto[]): POI[] {
+  const RAIO_DE_EXCLUSAO_KM = 20;
+  return pois.filter((p) => {
+    const perto = postosExistentes.some((e) => {
+      const dLat = (p.latitude - e.latitude) * (Math.PI / 180);
+      const dLon = (p.longitude - e.longitude) * (Math.PI / 180);
+      const a =
+        Math.sin(dLat / 2) ** 2 +
+        Math.cos(p.latitude * (Math.PI / 180)) *
+          Math.cos(e.latitude * (Math.PI / 180)) *
+          Math.sin(dLon / 2) ** 2;
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      const dist = 6371 * c;
+      return dist < RAIO_DE_EXCLUSAO_KM;
+    });
+    return !perto;
+  });
 }
 
 // ===============================
@@ -233,12 +340,10 @@ async function buscarEletropostosGoogle(): Promise<Eletroposto[]> {
 async function main() {
   console.log("🗺️ Iniciando crawler autocalibrável (Brasil)...");
   const grid = gerarGrid();
-  console.log(`📍 Total tiles: ${grid.length}`);
 
-  // 👉 Criar a barra de progresso
   const bar = new cliProgress.SingleBar(
     {
-      format: "Progresso |{bar}| {percentage}% | Tiles: {value}/{total} | BatchSize: {batchSize}",
+      format: "Progresso |{bar}| {percentage}% | Tiles: {value}/{total} | Batch: {batchSize}",
       barCompleteChar: "█",
       barIncompleteChar: "-",
       hideCursor: true,
@@ -246,7 +351,7 @@ async function main() {
     cliProgress.Presets.shades_classic
   );
 
-  bar.start(grid.length, 0, { batchSize });
+  bar.start(grid.length, 0, { batchSize: config.batchSize });
 
   if (fs.existsSync(OUTPUT_PATH)) {
     try {
@@ -259,80 +364,36 @@ async function main() {
 
   let idx = 0;
   while (idx < grid.length) {
-    const batch = grid.slice(idx, idx + batchSize);
-
-    const promises = batch.map((tile) =>
-      buscarEletropostosTile(tile.lat, tile.lon)
-        .then((res) => ({ tile, res }))
-        .catch(() => ({ tile, res: { status: 500, postos: [] } }))
+    const batch = grid.slice(idx, idx + config.batchSize);
+    const results = await Promise.all(
+      batch.map((tile) =>
+        buscarEletropostosTile(tile.lat, tile.lon)
+          .then((res) => ({ tile, res }))
+          .catch(() => ({ tile, res: { status: 500, postos: [] } }))
+      )
     );
 
-    const results = await Promise.all(promises);
+    const statuses = results.map((r) => r.res.status);
+    ajustarCalibracao(statuses, config);
 
-    let countOk = 0,
-      count429 = 0,
-      count403 = 0,
-      countOther = 0;
-    for (const item of results) {
-      const s = item.res.status;
-      if (s === 200) countOk++;
-      else if (s === 429) count429++;
-      else if (s === 403) count403++;
-      else countOther++;
-    }
-
-    let novosNoBatch = 0;
     for (const item of results) {
       if (item.res.status !== 200) continue;
       for (const posto of item.res.postos) {
         if (!idsRegistrados.has(posto.id)) {
           idsRegistrados.add(posto.id);
           postos.push(posto);
-          novosNoBatch++;
         }
       }
     }
 
-    if (novosNoBatch > 0) await salvarJSON();
-
-    // Atualizar a barra de progresso
+    await salvarJSON();
     idx += batch.length;
-    bar.update(idx, { batchSize });
-
-    // Adaptação automática (mantida igual)
-    if (count429 > 0) {
-      batchSize = Math.max(MIN_BATCH, Math.floor(batchSize / 2));
-      interBatchDelay = Math.min(MAX_DELAY, interBatchDelay * 1.5);
-      stableOkBatches = 0;
-      await sleep(interBatchDelay);
-      continue;
-    }
-
-    if (count403 > 0) {
-      batchSize = Math.max(MIN_BATCH, Math.floor(batchSize / 2));
-      interBatchDelay = Math.min(MAX_DELAY, interBatchDelay * 4);
-      stableOkBatches = 0;
-      await sleep(60000);
-      continue;
-    }
-
-    if (countOk === batch.length) {
-      stableOkBatches++;
-      if (stableOkBatches >= STABLE_INCREASE_THRESHOLD) {
-        batchSize = Math.min(MAX_BATCH, batchSize + 1);
-        interBatchDelay = Math.max(MIN_DELAY, Math.floor(interBatchDelay * 0.9));
-        stableOkBatches = 0;
-      }
-    } else {
-      stableOkBatches = 0;
-    }
-
-    await sleep(interBatchDelay);
+    bar.update(idx, { batchSize: config.batchSize });
+    await sleep(config.interBatchDelay);
   }
 
-  bar.stop(); // Finaliza a barra ao final do grid
+  bar.stop();
 
-  // --- NOVO: fontes externas ---
   console.log("\n🌍 Adicionando fontes extras (ANEEL + Google)...");
   const aneel = await buscarEletropostosANEEL();
   const google = await buscarEletropostosGoogle();
@@ -343,6 +404,40 @@ async function main() {
   }
   await salvarJSON();
 
+  console.log("\n🏨 Buscando POIs (Google + OSM)...");
+  const pois: POI[] = [];
+
+  let poiIdx = 0;
+  while (poiIdx < grid.length) {
+    const batch = grid.slice(poiIdx, poiIdx + config.batchSize);
+    const results = await Promise.all(
+      batch.map(async (tile) => {
+        try {
+          const [pg, po] = await Promise.all([
+            buscarPOIsGoogle(tile.lat, tile.lon),
+            buscarPOIsOSM(tile.lat, tile.lon),
+          ]);
+          return { status: 200, pois: [...pg, ...po] };
+        } catch {
+          return { status: 500, pois: [] };
+        }
+      })
+    );
+
+    const statuses = results.map((r) => r.status);
+    ajustarCalibracao(statuses, config);
+
+    for (const r of results) pois.push(...r.pois);
+    poiIdx += batch.length;
+    console.log(`Tiles: ${poiIdx}/${grid.length} | POIs acumulados: ${pois.length}`);
+    await sleep(config.interBatchDelay);
+  }
+
+  const poisFiltrados = filtrarPOIsPorDensidade(filtrarPOIsRelevantes(pois), postos);
+  await writeFileAsync("pois_brasil.json", JSON.stringify(poisFiltrados, null, 2), "utf-8");
+  console.log(`✅ POIs relevantes: ${poisFiltrados.length}`);
+
+  await salvarJSON();
   console.log(`\n✅ Crawler finalizado. Postos totais: ${postos.length}`);
 }
 

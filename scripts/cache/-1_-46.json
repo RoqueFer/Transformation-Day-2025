@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_305864",
+    "name": "Amazônia Eletrovias - Governador Nunes Freire Posto Santa Maria",
+    "latitude": -2.134730799244764,
+    "longitude": -45.88487930023274,
+    "address": "Posto Santa Maria, BR 316, Governador Nunes Freire, Governador Nunes Freire, MA",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308523",
+    "name": "Amazônia Eletrovias - Capanema Posto Garoupa",
+    "latitude": -1.2131362918443784,
+    "longitude": -47.179924452509795,
+    "address": "Posto Garoupa, BR 316, Capanema, PA., Capanema, Pará",
+    "source": "OpenChargeMap"
+  }
+]

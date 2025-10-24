@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_307967",
+    "name": "On-Charge Charging Station",
+    "latitude": -30.240208269278046,
+    "longitude": -54.96965087435075,
+    "address": "BR-290, km 485, Rosário do Sul, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_289013",
+    "name": "Bedinoto Tecnologia Energia Solar",
+    "latitude": -29.21449203528322,
+    "longitude": -54.84676300867979,
+    "address": "Av. Alceu Duarte De Carvalho 2184, Santiago, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

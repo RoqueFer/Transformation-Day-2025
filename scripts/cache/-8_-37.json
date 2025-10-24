@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_306683",
+    "name": "VAPT Toritama | Arena 104 | DELUNE",
+    "latitude": -8.0055024,
+    "longitude": -36.07505289,
+    "address": "BR 104 , Toritama, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300290",
+    "name": "BR Super Carga - Blends Conveniencia - 40kW - Garanhuns",
+    "latitude": -8.863296087059084,
+    "longitude": -36.462849532602775,
+    "address": "Rua das Alamedas, Garanhuns, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299235",
+    "name": "Volvo - Posto Ceaka",
+    "latitude": -8.310033133696862,
+    "longitude": -35.99069484754585,
+    "address": "Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309052",
+    "name": "BR Super Carga - Shopping Difusora - 4º Piso - 90kW - Caruaru",
+    "latitude": -8.278099985053117,
+    "longitude": -35.97169493970691,
+    "address": "Av. Agamenon Magalhães, 444 , Caruaru, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299168",
+    "name": "BR Super Carga - Restaurante Carreteiro",
+    "latitude": -6.937208335651704,
+    "longitude": -37.0944156333951,
+    "address": "Rodovia Governador Antônio Mariz, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299169",
+    "name": "BR Super Carga - Pagelar",
+    "latitude": -7.246365145839832,
+    "longitude": -35.88754225082596,
+    "address": "Avenida Assis Chateubriand, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306744",
+    "name": "Carajás - Campina Grande",
+    "latitude": -7.2400362767718605,
+    "longitude": -35.88792117918888,
+    "address": "Avenida Assis Chateubriand, 1261, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302404",
+    "name": "SUPER SHOCK'S- NÓS VAMOS ATÉ VOCÊ, MÓVEL ",
+    "latitude": -7.2483993,
+    "longitude": -35.872126,
+    "address": "83981922033, Campina Grande, Região Metropolitana de Campina Grande",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302403",
+    "name": "SUPER SHOCK'S- NÓS VAMOS ATÉ VOCÊ, MÓVEL ",
+    "latitude": -7.2483993,
+    "longitude": -35.872126,
+    "address": "83981922033, Campina Grande, Região Metropolitana de Campina Grande",
+    "source": "OpenChargeMap"
+  }
+]

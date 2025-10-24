@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_307967",
+    "name": "On-Charge Charging Station",
+    "latitude": -30.240208269278046,
+    "longitude": -54.96965087435075,
+    "address": "BR-290, km 485, Rosário do Sul, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274737",
+    "name": "UFSM P&D ANEEL",
+    "latitude": -29.71453,
+    "longitude": -53.716789,
+    "address": "Avenida Roraima 1000. Predio 09 E, Santa Maria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279790",
+    "name": "Praça Dr. Astrogildo  de Azevedo- Projeto P&D Aneel-Copel",
+    "latitude": -29.691468172298144,
+    "longitude": -53.80561241954848,
+    "address": "R. José Bonifácio, 2577 Santa Maria-RS, Santa Maria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

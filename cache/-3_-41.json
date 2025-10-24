@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_308528",
+    "name": "Amazônia Plug - Bistrô Kite Beach",
+    "latitude": -2.8784904481629354,
+    "longitude": -40.957033371919294,
+    "address": "Praia do Maceió, Camocim - CE, Camocim, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306007",
+    "name": "Amazônia Plug - Barraca do Gabriel",
+    "latitude": -2.9023627940058105,
+    "longitude": -41.45984336268339,
+    "address": "Praia do Maramar, Luis Correia, Piaui",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296012",
+    "name": "DCC Energy - Posto Catatau",
+    "latitude": -3.7446754429366393,
+    "longitude": -41.00943976903801,
+    "address": "BR-222, Tianguá, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299164",
+    "name": "BR Super Carga - VM Marina Clube / Faustino Restaurante",
+    "latitude": -2.9091295519228453,
+    "longitude": -41.78858523953477,
+    "address": "Rua Doutor João Goulart, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306331",
+    "name": "DCC Energy - Posto Freitas",
+    "latitude": -2.907810074504795,
+    "longitude": -40.11869563687998,
+    "address": "Av. Padre Antônio Tomás, 2300, Acaraú, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235273",
+    "name": "BR-222;BR-403",
+    "latitude": -3.7065013040540293,
+    "longitude": -40.40933368776655,
+    "address": "BR-222;BR-403, Sobral, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279121",
+    "name": "Nord Renault",
+    "latitude": -3.7015443131116257,
+    "longitude": -40.34517332978368,
+    "address": "Avenida Monsenhor Aloísio Pinto, 585, Sobral, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305461",
+    "name": "Planeta Charge - Jean da Picanha",
+    "latitude": -3.689117600703227,
+    "longitude": -40.330427694819946,
+    "address": "Av. Maria da Conceição Pontes de Azevedo, 605, Sobral, CE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_290668",
+    "name": "Estação Posto Sinhá Sabóia",
+    "latitude": -3.7062196474352476,
+    "longitude": -40.33676314087512,
+    "address": "Avenida Senador Fernandes Távora, Sobral, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300287",
+    "name": "BR Super Carga - Cafe do Rancho",
+    "latitude": -3.9030548235586764,
+    "longitude": -41.71246721045404,
+    "address": "Rua Projetada, Piracuruca, Piauí",
+    "source": "OpenChargeMap"
+  }
+]

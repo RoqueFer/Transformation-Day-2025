@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_299177",
+    "name": "Volvo - Hotel Serra do Rio",
+    "latitude": -12.17586239811881,
+    "longitude": -43.21058419533915,
+    "address": "Rodovia Milton Santos, Ibotirama, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299178",
+    "name": "Volvo - AutoPosto DDD 242",
+    "latitude": -12.419914881971906,
+    "longitude": -41.838995187935154,
+    "address": "Rodovia Milton Santos, Seabra, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267071",
+    "name": "Hotel Conceito",
+    "latitude": -13.255199498075001,
+    "longitude": -43.417047040319176,
+    "address": "Rua Guanabara, 53, Bom Jesus da Lapa, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

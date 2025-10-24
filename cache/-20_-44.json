@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ocm_459133",
+    "name": "Cond. Caesar Business",
+    "latitude": -19.976583,
+    "longitude": -43.948901,
+    "address": "Rod. Stael Mary Bicalho Motta Magalhães, 421 - Belvedere, Belo Horizonte - MG, 30320-570, Belo Horizonte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260273",
+    "name": "Audi Center BH",
+    "latitude": -19.967103394583077,
+    "longitude": -43.95384432967768,
+    "address": "Rua Amoroso Costa, 348, Belo Horizonte, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260274",
+    "name": "Volvo EuroVille",
+    "latitude": -19.95884183540582,
+    "longitude": -43.95701621462638,
+    "address": "Avenida Professor Sylvio Vasconcelos, 22, Belo Horizonte, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459134",
+    "name": "Hotel Ibis - Betim",
+    "latitude": -19.959982,
+    "longitude": -44.071813,
+    "address": "Km 482 - Rod. Fernão Dias, Sn - Dom I. Jardim Piemonte / Sul, Betim - MG, 32689-898, Betim",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460920",
+    "name": "Petrobras - Curva Do Retiro",
+    "latitude": -20.077168,
+    "longitude": -43.982534,
+    "address": " Posto Curva do Retiro - Rod BR 40 km 548 S/N - Jardim Canada, Nova Lima - MG, Brasil, Nova Lima",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460157",
+    "name": "GDC Mobi - Matriz",
+    "latitude": -19.975628608320832,
+    "longitude": -44.200510586784674,
+    "address": "Av sebastião Dayrell De Lima, 267, Betim, brasileia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_273546",
+    "name": "AGL Eletrônicos do Brasil",
+    "latitude": -20.16959165239392,
+    "longitude": -44.92007580694127,
+    "address": "Rua Ferrovário Anizio Viriato, 300, Divinópolis, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460579",
+    "name": "Posto Jua",
+    "latitude": -20.73210111196103,
+    "longitude": -44.77313503827929,
+    "address": "BR 381 km 606, Oliveira, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460275",
+    "name": "LIBER ENERGIA - ADEMICON SJDR",
+    "latitude": -21.1095463046926,
+    "longitude": -44.232423409763044,
+    "address": "AVENIDA 31 DE MARÇO 620, SÃO JOÃO DEL REI, MINAS GERAIS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_189498",
+    "name": "Rua Maria de Freitas 639",
+    "latitude": -21.120077,
+    "longitude": -44.170421,
+    "address": "Rua Maria de Freitas 639, Tiradentes, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305038",
+    "name": "Nosso Pão de Queijo 60 KW",
+    "latitude": -21.21093745815452,
+    "longitude": -43.7490435706905,
+    "address": "BR-040, km701 - Caicaras, Barbacena, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305120",
+    "name": "Cabana da Mantiqueira",
+    "latitude": -21.21950982688064,
+    "longitude": -43.74390967174179,
+    "address": "BR-040, 702 - Caiçaras, Barbacena, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260272",
+    "name": "JBA Energia Solar e Carros Eletricos",
+    "latitude": -18.78876095211956,
+    "longitude": -44.45513355510775,
+    "address": "Av. Esperança, 960, Curvelo, Minas Gerais",
+    "source": "OpenChargeMap"
+  }
+]

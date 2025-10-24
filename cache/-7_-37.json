@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_299168",
+    "name": "BR Super Carga - Restaurante Carreteiro",
+    "latitude": -6.937208335651704,
+    "longitude": -37.0944156333951,
+    "address": "Rodovia Governador Antônio Mariz, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306746",
+    "name": "BR Super Carga - Sol Energy - 30kW - Caicó",
+    "latitude": -6.469961,
+    "longitude": -37.086246,
+    "address": "Avenida Coronel Martiniano, 2059, Caicó, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306744",
+    "name": "Carajás - Campina Grande",
+    "latitude": -7.2400362767718605,
+    "longitude": -35.88792117918888,
+    "address": "Avenida Assis Chateubriand, 1261, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299169",
+    "name": "BR Super Carga - Pagelar",
+    "latitude": -7.246365145839832,
+    "longitude": -35.88754225082596,
+    "address": "Avenida Assis Chateubriand, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306689",
+    "name": "VAPT Campina Grande | Club do Trato",
+    "latitude": -7.2213914,
+    "longitude": -35.87546424,
+    "address": "Canal, 134, Campina Grande, PB",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309053",
+    "name": "Partage Shopping - Piso E2",
+    "latitude": -7.234945842109994,
+    "longitude": -35.86922984117473,
+    "address": "Av. Pref. Severino Bezerra Cabral, 1050, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302403",
+    "name": "SUPER SHOCK'S- NÓS VAMOS ATÉ VOCÊ, MÓVEL ",
+    "latitude": -7.2483993,
+    "longitude": -35.872126,
+    "address": "83981922033, Campina Grande, Região Metropolitana de Campina Grande",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302404",
+    "name": "SUPER SHOCK'S- NÓS VAMOS ATÉ VOCÊ, MÓVEL ",
+    "latitude": -7.2483993,
+    "longitude": -35.872126,
+    "address": "83981922033, Campina Grande, Região Metropolitana de Campina Grande",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302402",
+    "name": "SUPER SHOCK'S- NÓS VAMOS ATÉ VOCÊ, MÓVEL, ZAP:83981922032 ",
+    "latitude": -7.24307270876011,
+    "longitude": -35.870800643914095,
+    "address": "83981922032, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299167",
+    "name": "Volvo - Posto Chabocão",
+    "latitude": -6.778683676082736,
+    "longitude": -38.240498493714,
+    "address": "Rodovia Governador Antônio Mariz, Sousa, Paraíba",
+    "source": "OpenChargeMap"
+  }
+]

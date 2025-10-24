@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocm_290861",
+    "name": "Planeta Charge",
+    "latitude": -5.992899183476339,
+    "longitude": -40.29601581295509,
+    "address": "Rua Francisca Clotilde, Tauá, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296956",
+    "name": "BR Super Carga - Ello Hotel",
+    "latitude": -6.384189690217653,
+    "longitude": -39.26638807967288,
+    "address": "CE-060, Iguatu, CE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299161",
+    "name": "Planeta Net Telecom - Estacionamento",
+    "latitude": -5.192727089178163,
+    "longitude": -40.66709405297058,
+    "address": "R. Francisco De Sousa Torres, 105, Crateús, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274689",
+    "name": "Restaurante Divino 88 - Br Super Carga",
+    "latitude": -5.1926120157410764,
+    "longitude": -39.29015188055803,
+    "address": "Rua Antonio Pinto de Mendonça, Quixeramobim, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267298",
+    "name": "Auto Posto e Pousada O Barateiro",
+    "latitude": -6.403549007584716,
+    "longitude": -38.890320243600236,
+    "address": "Rodovia Deputado Tarcísio Monteiro, Icó, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264466",
+    "name": "Hotel Ribeira dos Icos",
+    "latitude": -6.401033038486688,
+    "longitude": -38.876579281730756,
+    "address": "Rua Paraíba C, 1000, Ico, Ceara",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307511",
+    "name": "Restaurante Pé de Serra",
+    "latitude": -5.045644128440188,
+    "longitude": -39.04841594258312,
+    "address": "Rod. Br-122 Pres. Costa e Silva, Quixadá, CE",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ocm_238225",
+    "name": "Hotel Pousada Itajuipe",
+    "latitude": -14.819402362816817,
+    "longitude": -39.30421170361603,
+    "address": "BR-415, Itabuna, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264464",
+    "name": "Solarchio Energia Solar",
+    "latitude": -14.865480391234996,
+    "longitude": -40.82755556347104,
+    "address": "Av. Jorge Teixeira, 798, Vitoria da Conquista, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305901",
+    "name": "BYD Conquista",
+    "latitude": -14.858631979441654,
+    "longitude": -40.83130821888099,
+    "address": "Avenida Rosa Cruz, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305984",
+    "name": "Elesol",
+    "latitude": -14.869585642257292,
+    "longitude": -40.84433595905773,
+    "address": "Av. Juracy Magalhães, 530, Vitória da Conquista, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305998",
+    "name": "Elesol Energia e Tecnologia ",
+    "latitude": -14.869371942571334,
+    "longitude": -40.84441355311594,
+    "address": "Avenida Juracy Magalhães, 530, Recreio , Vitória Da Conquista , Bahia ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302213",
+    "name": "PluGreen Ponto de Apoio 2 Irmaos",
+    "latitude": -13.8605976715358,
+    "longitude": -40.113712791381005,
+    "address": "Avenida Governador Aurélio Viana, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

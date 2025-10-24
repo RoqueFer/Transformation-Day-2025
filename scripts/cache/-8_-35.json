@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ocm_296952",
+    "name": "Avenida Barão de Bonito",
+    "latitude": -8.036723084015819,
+    "longitude": -34.949935080520106,
+    "address": "Avenida Barão de Bonito, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299171",
+    "name": "Audi Center",
+    "latitude": -8.113457666186221,
+    "longitude": -34.90469086607948,
+    "address": "Rua Muniz Freire, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235038",
+    "name": "Posto Pichilau Jaboatão - Corredor Verde Neoenergia",
+    "latitude": -8.177431411374073,
+    "longitude": -34.949388268137625,
+    "address": "Rodovia Governador Mário Covas, Jaboatao dos Guararapes, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299170",
+    "name": "Shell Recharge - Posto Costa Dourada",
+    "latitude": -8.298729934860035,
+    "longitude": -35.02534947248466,
+    "address": "Rua Cento e Sessenta e Quatro, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235039",
+    "name": "Posto Pichilau Escada - Corredor Verde Neoenergia",
+    "latitude": -8.392643093138048,
+    "longitude": -35.25872236334192,
+    "address": "Rod. Prestes Maia, 3375, Escada, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235037",
+    "name": "Posto Pichilau João Pessoa - Corredor Verde Neoenergia",
+    "latitude": -7.17373954069015,
+    "longitude": -34.89814248658547,
+    "address": "Rua Luiz Carlos Crispim Pimentel, 483, Joao Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306550",
+    "name": "BR Super Carga - Carajás - 90kW - João Pessoa",
+    "latitude": -7.171412933325499,
+    "longitude": -34.870808281023415,
+    "address": "Rua Motorista Aldovandro Amâncio Pereira, João Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306687",
+    "name": "VAPT João Pessoa | Grupo Centry",
+    "latitude": -7.1244542,
+    "longitude": -34.87325013,
+    "address": "Camilo de Holanda,670, João Pessoa, PB",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460214",
+    "name": "Tcharge - Altiplano",
+    "latitude": -7.128250821296135,
+    "longitude": -34.82679572263214,
+    "address": "Rua Desportista José Eduardo de Holanda, 578, João Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306584",
+    "name": "VAPT João Pessoa | Intense Body Center",
+    "latitude": -7.11418477,
+    "longitude": -34.85349432,
+    "address": "Av. Piauí, 623, João Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459310",
+    "name": "Tcharge - Parque Parahyba 3",
+    "latitude": -7.086524,
+    "longitude": -34.840483,
+    "address": "Rua Maria José Noronha Teixeira S/N - Aeroclube, João Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459304",
+    "name": "Tcharge 24h - Eletroposto",
+    "latitude": -7.0864628105968706,
+    "longitude": -34.84046732384553,
+    "address": "Rua Professora Maria Jose Noronha Teixeira, João Pessoa, paraiba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306635",
+    "name": "BR Super Carga - Carajás - 60kW - Cabedelo",
+    "latitude": -7.039607047609621,
+    "longitude": -34.845729522519036,
+    "address": "Rua Mar do Caribe, Cabedelo, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309052",
+    "name": "BR Super Carga - Shopping Difusora - 4º Piso - 90kW - Caruaru",
+    "latitude": -8.278099985053117,
+    "longitude": -35.97169493970691,
+    "address": "Av. Agamenon Magalhães, 444 , Caruaru, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299235",
+    "name": "Volvo - Posto Ceaka",
+    "latitude": -8.310033133696862,
+    "longitude": -35.99069484754585,
+    "address": "Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313359",
+    "name": "Nordeste Eletropostos ",
+    "latitude": -9.018363572776636,
+    "longitude": -35.22523563782511,
+    "address": "Avenida Arnon De Melo, 33 - Maragogi - Alagoas ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306683",
+    "name": "VAPT Toritama | Arena 104 | DELUNE",
+    "latitude": -8.0055024,
+    "longitude": -36.07505289,
+    "address": "BR 104 , Toritama, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302403",
+    "name": "SUPER SHOCK'S- NÓS VAMOS ATÉ VOCÊ, MÓVEL ",
+    "latitude": -7.2483993,
+    "longitude": -35.872126,
+    "address": "83981922033, Campina Grande, Região Metropolitana de Campina Grande",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302404",
+    "name": "SUPER SHOCK'S- NÓS VAMOS ATÉ VOCÊ, MÓVEL ",
+    "latitude": -7.2483993,
+    "longitude": -35.872126,
+    "address": "83981922033, Campina Grande, Região Metropolitana de Campina Grande",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302402",
+    "name": "SUPER SHOCK'S- NÓS VAMOS ATÉ VOCÊ, MÓVEL, ZAP:83981922032 ",
+    "latitude": -7.24307270876011,
+    "longitude": -35.870800643914095,
+    "address": "83981922032, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309053",
+    "name": "Partage Shopping - Piso E2",
+    "latitude": -7.234945842109994,
+    "longitude": -35.86922984117473,
+    "address": "Av. Pref. Severino Bezerra Cabral, 1050, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299169",
+    "name": "BR Super Carga - Pagelar",
+    "latitude": -7.246365145839832,
+    "longitude": -35.88754225082596,
+    "address": "Avenida Assis Chateubriand, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306744",
+    "name": "Carajás - Campina Grande",
+    "latitude": -7.2400362767718605,
+    "longitude": -35.88792117918888,
+    "address": "Avenida Assis Chateubriand, 1261, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306689",
+    "name": "VAPT Campina Grande | Club do Trato",
+    "latitude": -7.2213914,
+    "longitude": -35.87546424,
+    "address": "Canal, 134, Campina Grande, PB",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306608",
+    "name": "VAPT Guarabira | LM Telecom",
+    "latitude": -6.8648503999113615,
+    "longitude": -35.49621937742074,
+    "address": "Rua Luís Porpino da Silva, Região Metropolitana de Guarabira, Região Metropolitana de Guarabira",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ocm_307516",
+    "name": "EcoCharge - Posto Tamandaré",
+    "latitude": -21.444412787222532,
+    "longitude": -45.9503100900605,
+    "address": "Rua Tocantins, 94, Alfenas, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260426",
+    "name": "Volvo Posto Crossville",
+    "latitude": -21.108317985612615,
+    "longitude": -45.092387102002306,
+    "address": "Rodovia Fernão Dias, Perdões, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266805",
+    "name": "Posto Moinho I",
+    "latitude": -21.945385422291466,
+    "longitude": -45.62093585343945,
+    "address": "Rod. Fernão Dias, São Gonçalo do Sapucaí, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460579",
+    "name": "Posto Jua",
+    "latitude": -20.73210111196103,
+    "longitude": -44.77313503827929,
+    "address": "BR 381 km 606, Oliveira, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307383",
+    "name": "Incharge",
+    "latitude": -22.257665,
+    "longitude": -45.6936231,
+    "address": "Rua Dalton Luiz Teles,115, Santa Rita Do Sapucaí , minas gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_273546",
+    "name": "AGL Eletrônicos do Brasil",
+    "latitude": -20.16959165239392,
+    "longitude": -44.92007580694127,
+    "address": "Rua Ferrovário Anizio Viriato, 300, Divinópolis, Minas Gerais",
+    "source": "OpenChargeMap"
+  }
+]

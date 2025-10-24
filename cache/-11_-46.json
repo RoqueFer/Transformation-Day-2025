@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_313270",
+    "name": "TEM CARREGADOR DC 30 KW - CORRENTE/PI - POSTO PRIMAVERA",
+    "latitude": -10.44055009806074,
+    "longitude": -45.1669795410875,
+    "address": "R. Des. Amaral, 974 - Centro, Corrente - PI, 64980-000, CORRENTE/PI",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264460",
+    "name": "Icon Business Mall",
+    "latitude": -12.090826880343798,
+    "longitude": -45.78092207409952,
+    "address": "Rua Glauber Rocha 602, Luis Eduardo Magalhaes, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264461",
+    "name": "Office 661",
+    "latitude": -12.091424105403618,
+    "longitude": -45.780651590756634,
+    "address": "Rua 13 de Maio 661, Luis Eduardo Magalhaes, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

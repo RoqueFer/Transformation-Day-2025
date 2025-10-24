@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ocm_460171",
+    "name": "Posto Vale Ouro Morro Do Chapeu",
+    "latitude": -11.55759971096822,
+    "longitude": -41.157542493639085,
+    "address": "Rodovia BA 052, Tv. Valê Ouro, KM 269, Morro do Chapéu - BA, 44850-000, Morro Do Chapeú, bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264463",
+    "name": "Hotel Canto das Aguas - Estacoes Porsche",
+    "latitude": -12.561341757019065,
+    "longitude": -41.388339233783825,
+    "address": "Av. Sr. dos Passos, 1, Lençois, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460141",
+    "name": "Volvo Posto Santa Helea",
+    "latitude": -12.51767816012773,
+    "longitude": -40.285841061034034,
+    "address": "Rodovia BR 242, Km 88, s/n Sede, Itaberaba - BA, 46880-000, Itaberaba, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299178",
+    "name": "Volvo - AutoPosto DDD 242",
+    "latitude": -12.419914881971906,
+    "longitude": -41.838995187935154,
+    "address": "Rodovia Milton Santos, Seabra, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302214",
+    "name": "Planeta Charger - LC Palace Hotel",
+    "latitude": -11.38141875016818,
+    "longitude": -40.00752375615835,
+    "address": "Avenida Luis Eduardo Magalhães, Capim Grosso, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459908",
+    "name": "Auto Posto São Joao - Ipirá",
+    "latitude": -12.162745409332942,
+    "longitude": -39.744123253114935,
+    "address": "BA-052, S/N - Km 85 - Centro, Ipirá - BA, 44600-000, Ipirá, bahia",
+    "source": "OpenChargeMap"
+  }
+]

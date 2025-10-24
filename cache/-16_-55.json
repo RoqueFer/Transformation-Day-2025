@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_260258",
+    "name": "Audi Center Cuiabá",
+    "latitude": -15.611660714374665,
+    "longitude": -56.076786740367766,
+    "address": "Rua 31 de Março, Cuiabá, Mato Grosso",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260259",
+    "name": "Estocolmo Volvo Cars",
+    "latitude": -15.60651969608152,
+    "longitude": -56.08272915987027,
+    "address": "Avenida Fernando Corrêa da Costa, Cuiabá, Mato Grosso",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ocm_313359",
+    "name": "Nordeste Eletropostos ",
+    "latitude": -9.018363572776636,
+    "longitude": -35.22523563782511,
+    "address": "Avenida Arnon De Melo, 33 - Maragogi - Alagoas ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235039",
+    "name": "Posto Pichilau Escada - Corredor Verde Neoenergia",
+    "latitude": -8.392643093138048,
+    "longitude": -35.25872236334192,
+    "address": "Rod. Prestes Maia, 3375, Escada, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299170",
+    "name": "Shell Recharge - Posto Costa Dourada",
+    "latitude": -8.298729934860035,
+    "longitude": -35.02534947248466,
+    "address": "Rua Cento e Sessenta e Quatro, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235038",
+    "name": "Posto Pichilau Jaboatão - Corredor Verde Neoenergia",
+    "latitude": -8.177431411374073,
+    "longitude": -34.949388268137625,
+    "address": "Rodovia Governador Mário Covas, Jaboatao dos Guararapes, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299171",
+    "name": "Audi Center",
+    "latitude": -8.113457666186221,
+    "longitude": -34.90469086607948,
+    "address": "Rua Muniz Freire, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235040",
+    "name": "Posto Pichilau Pioneiro - Corredor Verde Neoenergia",
+    "latitude": -9.408963578859002,
+    "longitude": -35.83982563187578,
+    "address": "Rodovia Governador Mário Covas, Rio Largo, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305755",
+    "name": "BR Super Carga - Panaderia Ponta Verde - 60kW - Maceió",
+    "latitude": -9.656556731909674,
+    "longitude": -35.701381659698654,
+    "address": "Rua Lourenço Moreira da Silva, Maceio, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306551",
+    "name": "BR Super Carga - Carajás Tabuleiro do Martins - 90kW - Maceió",
+    "latitude": -9.590148174881335,
+    "longitude": -35.76098671422119,
+    "address": "Avenida Sebastião Correia da Rocha, Maceió, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306226",
+    "name": "BR Super Carga - Volvo Gama - 40kW - Maceió",
+    "latitude": -9.617361740728214,
+    "longitude": -35.73960430359767,
+    "address": "Av. Fernandes Lima, 3595, Maceió, AL",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299172",
+    "name": "BR Super Carga - Carajas Maceio Mangabeiras - 180kW - Maceió",
+    "latitude": -9.64496215704365,
+    "longitude": -35.71553018094289,
+    "address": "Avenida Comendador Gustavo Paiva, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296952",
+    "name": "Avenida Barão de Bonito",
+    "latitude": -8.036723084015819,
+    "longitude": -34.949935080520106,
+    "address": "Avenida Barão de Bonito, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308688",
+    "name": "BR Super Carga - Posto Comendador Praia - 40kW - Maceió",
+    "latitude": -9.672378740154628,
+    "longitude": -35.747156649002704,
+    "address": "Av. Assis Chateaubriand, 3164, Maceió, AL",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300289",
+    "name": "BR Super Carga - Carajas Marechal Deodoro - 60kW - Marechal Deodoro",
+    "latitude": -9.7277412813811,
+    "longitude": -35.87819781257568,
+    "address": "AL-101, Marechal Deodoro, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299235",
+    "name": "Volvo - Posto Ceaka",
+    "latitude": -8.310033133696862,
+    "longitude": -35.99069484754585,
+    "address": "Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309052",
+    "name": "BR Super Carga - Shopping Difusora - 4º Piso - 90kW - Caruaru",
+    "latitude": -8.278099985053117,
+    "longitude": -35.97169493970691,
+    "address": "Av. Agamenon Magalhães, 444 , Caruaru, Pernambuco",
+    "source": "OpenChargeMap"
+  }
+]

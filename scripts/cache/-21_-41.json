@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_235284",
+    "name": "Posto Senna",
+    "latitude": -20.857012,
+    "longitude": -41.121292,
+    "address": "Avenida Francisco Lacerda de Aguiar, 350, Cachoeiro de Itapemirim, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235285",
+    "name": "EDP Cachoeiro de Itapemirim",
+    "latitude": -20.848715682581044,
+    "longitude": -41.11212814833232,
+    "address": "Praça Jerônimo Monteiro, Cachoeiro de Itapemirim, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235283",
+    "name": "EDP Nova Orla de Guarapari",
+    "latitude": -20.669583818357083,
+    "longitude": -40.49935559608696,
+    "address": "Rua Pedro Ramos, 604, Guarapari, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460061",
+    "name": "Educarregadores 60kW",
+    "latitude": -20.380392020120198,
+    "longitude": -41.02627509675784,
+    "address": "BR 262, Km 90, Pedra Azul, ES",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459129",
+    "name": "Reserva Caruara",
+    "latitude": -21.7368,
+    "longitude": -41.025117,
+    "address": "Avenida Atlantica Iquipari, SN - Grussaí, São João da Barra - RJ, 28200-000, São João da Barra",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459128",
+    "name": "Petrobras - Posto Líder 1",
+    "latitude": -21.743383,
+    "longitude": -41.33485,
+    "address": "Posto Líder - Av. ⅩⅤ de Novembro, 563 - Caju, Campos dos Goytacazes - RJ, Brasil, Campos dos Goytacazes",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235049",
+    "name": "Audi Center Vitoria",
+    "latitude": -20.297153716359773,
+    "longitude": -40.30053114431507,
+    "address": "Avenida Nossa Senhora da Penha, 1615, Vitória, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459132",
+    "name": "Petrobras - Auto Posto Escola Vitória",
+    "latitude": -20.303706,
+    "longitude": -40.291904,
+    "address": "Av. Américo Buaiz, 1285 - Enseada do Suá, Vitória - ES, 29050-463, Brasil, Vitória",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235048",
+    "name": "Eletroposto EDP - Praia de Camburi",
+    "latitude": -20.28055629353534,
+    "longitude": -40.28803086076789,
+    "address": "Avenida Dante Michelini, 15700, Vitória, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459135",
+    "name": "Petrobras - Posto Parada Ibiraçu",
+    "latitude": -19.831853,
+    "longitude": -40.379495,
+    "address": "ROD BR-CENTO E UM SN, KM-213, IBIRAÇU - ES, Ibiraçu",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "ocm_307969",
+    "name": "Creluz Charging Station",
+    "latitude": -27.92234923835155,
+    "longitude": -53.314338346915456,
+    "address": "R. Paranambi, 3369 - Palmeira das Missões, RS, 98300-000, Brazil, Palmeira das Missões, Río Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307970",
+    "name": "Creluz Eletroposto Boa Vista das Missões",
+    "latitude": -27.687790618985048,
+    "longitude": -53.306760974212835,
+    "address": "8M6V+V8 Trentin, Jaboticaba - RS, Brazil, Boa Vista das Missões, Río Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459997",
+    "name": "Creluz - Cooperativa de Distribuição de Energia Pinhal",
+    "latitude": -27.512535303500556,
+    "longitude": -53.21359324709914,
+    "address": "Av. Treze de Maio, 1348, Pinhal, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459996",
+    "name": "Creluz - Cooperativa de Distribuição de Energia",
+    "latitude": -27.47200920682063,
+    "longitude": -53.171355613845776,
+    "address": "Rua Getúlio Vargas, 8, Rodeio Bonito, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459994",
+    "name": "Creluz Eletroposto Rodeio Bonito",
+    "latitude": -27.472827225471207,
+    "longitude": -53.18926350108535,
+    "address": "GRG6 V8 Rodeio Bonito, Rodeio Bonito, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311792",
+    "name": "Carregador",
+    "latitude": -28.249724545808284,
+    "longitude": -52.413254232778115,
+    "address": "Rua Bento Gonçalves, 168 - Centro, Passo Fundo - RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460000",
+    "name": "Grill Hall Panorâmico",
+    "latitude": -28.2370351998304,
+    "longitude": -52.37645804506485,
+    "address": "rua Verdi de Cezaro 185, Paso Fundo, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_280230",
+    "name": "Creluz - Usina Solar Amerista do Sul",
+    "latitude": -27.35837071920436,
+    "longitude": -53.19713137432208,
+    "address": "RS-591, 16 - Ametista do Sul, RS, 98465-000, Brazil, Ametista Do Sul, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459993",
+    "name": "Creluz Eletroposto Frederico Westphalen",
+    "latitude": -27.409960711214154,
+    "longitude": -53.41506180717556,
+    "address": "Rod. Gov. Leonel de Moura Brizola, 4960 - Bela Vista,, Frederico Westphalen, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_462351",
+    "name": "Bedinoto Tecnología Cruz Alta",
+    "latitude": -28.64845291370878,
+    "longitude": -53.589618451832905,
+    "address": "R. Nossa Sra. Auxiliadora, Cruz Alta, Rio Grande del sur",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307966",
+    "name": "Unijui",
+    "latitude": -28.38835640682798,
+    "longitude": -53.929912641540184,
+    "address": "R. Lulú Ilgenfritz, 507 - São Geraldo, Ijuí - RS, 98700-000, Brazil, Ijui, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459998",
+    "name": "Posto Milão - COULOMB Energia",
+    "latitude": -27.095983929255617,
+    "longitude": -52.66784828693875,
+    "address": "Av. Sen. Atilio Fontana, 2050, Chapecó, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459999",
+    "name": "CAF STOP Carga Rápida",
+    "latitude": -27.078508440909786,
+    "longitude": -52.620762354084604,
+    "address": "R. Dom Joaquim Domingues de Oliveira, 100, Chapecó, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459992",
+    "name": "Cemacon - Eletroposto",
+    "latitude": -27.852803099754638,
+    "longitude": -54.47617859591655,
+    "address": "Av. Tuparendi, 1660 - Glória, Santa Rosa, RS",
+    "source": "OpenChargeMap"
+  }
+]

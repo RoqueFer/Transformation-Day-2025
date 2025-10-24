@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_267283",
+    "name": "Hotel Imperador",
+    "latitude": -8.07220266242608,
+    "longitude": -39.13397206212187,
+    "address": "R. Antônio Nogueira de Melo, Salgueiro, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299166",
+    "name": "Volvo - Salgueiro Plaza Hotel",
+    "latitude": -8.065653541387832,
+    "longitude": -39.13080125627832,
+    "address": "Rua Antonio Alves da Cruz, Salgueiro, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302217",
+    "name": "Volvo - Posto Real Canudos",
+    "latitude": -9.970159374459868,
+    "longitude": -39.16313133381436,
+    "address": "Rodovia Santos Dumont, Canudos, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

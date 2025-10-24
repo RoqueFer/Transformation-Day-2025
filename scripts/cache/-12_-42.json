@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_299178",
+    "name": "Volvo - AutoPosto DDD 242",
+    "latitude": -12.419914881971906,
+    "longitude": -41.838995187935154,
+    "address": "Rodovia Milton Santos, Seabra, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264463",
+    "name": "Hotel Canto das Aguas - Estacoes Porsche",
+    "latitude": -12.561341757019065,
+    "longitude": -41.388339233783825,
+    "address": "Av. Sr. dos Passos, 1, Lençois, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460171",
+    "name": "Posto Vale Ouro Morro Do Chapeu",
+    "latitude": -11.55759971096822,
+    "longitude": -41.157542493639085,
+    "address": "Rodovia BA 052, Tv. Valê Ouro, KM 269, Morro do Chapéu - BA, 44850-000, Morro Do Chapeú, bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299177",
+    "name": "Volvo - Hotel Serra do Rio",
+    "latitude": -12.17586239811881,
+    "longitude": -43.21058419533915,
+    "address": "Rodovia Milton Santos, Ibotirama, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_302212",
+    "name": "Auto Posto DDD",
+    "latitude": -14.4605466,
+    "longitude": -46.4787514,
+    "address": "BR-020, Simolândia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266841",
+    "name": "Hotel Schiavini",
+    "latitude": -13.95166814705081,
+    "longitude": -46.19826670671284,
+    "address": "Correntina, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266864",
+    "name": "Hotel J&M",
+    "latitude": -13.954607049635484,
+    "longitude": -46.195412290436934,
+    "address": "Loteamento Eldorado, Correntina, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

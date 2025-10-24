@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ocm_235043",
+    "name": "Posto Petrobras Estancia - Corredor Verde Neoenergia",
+    "latitude": -11.269030733548831,
+    "longitude": -37.44327196590689,
+    "address": "Avenida Rubens Alves da Silva, 1663, Estância, Sergipe",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235044",
+    "name": "Posto Linha Verde Petrobras - Corredor Verde Neoenergia",
+    "latitude": -12.302227333136301,
+    "longitude": -37.89994262205079,
+    "address": "BA-099, Linha Verde, Entre Rios, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306823",
+    "name": "BR Super Carga - Pisolar Tancredo Neves - 60kW - Aracaju",
+    "latitude": -10.95308145226079,
+    "longitude": -37.054674048171336,
+    "address": "Avenida Presidente Tancredo Neves, Aracaju, Sergipe",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235042",
+    "name": "Audi Center Aracaju",
+    "latitude": -10.950696322202532,
+    "longitude": -37.06423261628109,
+    "address": "Avenida Presidente Tancredo Neves, 1254, Aracaju, Sergipe",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311782",
+    "name": "BR Super Carga - RioMar Shopping - 60Kw - Aracaju",
+    "latitude": -10.945947930511863,
+    "longitude": -37.04674997050918,
+    "address": "Av. Delmiro Gouveia, 400 - Coroa do Meio, Aracaju, SE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235045",
+    "name": "Atacadão Hiperideal - Corredor Verde Neoenergia",
+    "latitude": -12.564564237397335,
+    "longitude": -38.0177653141717,
+    "address": "BA 099 KM 54, Mata de São João, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

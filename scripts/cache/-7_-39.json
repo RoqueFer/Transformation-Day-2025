@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_299955",
+    "name": "BR Super Carga - Auto Posto Kariri",
+    "latitude": -7.181971294398849,
+    "longitude": -39.30993640610555,
+    "address": "Avenida do Agricultor, 88, Juazeiro do Norte, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300184",
+    "name": "Cariri Solar Energia Solar",
+    "latitude": -7.2163520142044035,
+    "longitude": -39.31783416839005,
+    "address": "R Das Flores 224, Juazeiro do Norte, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306690",
+    "name": "VAPT Cajazeiras | Grupo Barbosa Home Center ",
+    "latitude": -6.90123354,
+    "longitude": -38.56828009,
+    "address": "BR-230, Km-507, Cajazeiras, PB",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267298",
+    "name": "Auto Posto e Pousada O Barateiro",
+    "latitude": -6.403549007584716,
+    "longitude": -38.890320243600236,
+    "address": "Rodovia Deputado Tarcísio Monteiro, Icó, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264466",
+    "name": "Hotel Ribeira dos Icos",
+    "latitude": -6.401033038486688,
+    "longitude": -38.876579281730756,
+    "address": "Rua Paraíba C, 1000, Ico, Ceara",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296956",
+    "name": "BR Super Carga - Ello Hotel",
+    "latitude": -6.384189690217653,
+    "longitude": -39.26638807967288,
+    "address": "CE-060, Iguatu, CE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299167",
+    "name": "Volvo - Posto Chabocão",
+    "latitude": -6.778683676082736,
+    "longitude": -38.240498493714,
+    "address": "Rodovia Governador Antônio Mariz, Sousa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299166",
+    "name": "Volvo - Salgueiro Plaza Hotel",
+    "latitude": -8.065653541387832,
+    "longitude": -39.13080125627832,
+    "address": "Rua Antonio Alves da Cruz, Salgueiro, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267283",
+    "name": "Hotel Imperador",
+    "latitude": -8.07220266242608,
+    "longitude": -39.13397206212187,
+    "address": "R. Antônio Nogueira de Melo, Salgueiro, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304815",
+    "name": "BR Super Carga - Auto Posto 405",
+    "latitude": -6.151940300986098,
+    "longitude": -38.20589911717258,
+    "address": "Rua Rota do Sol Dr. Nilton Figueiredo, 64, Pau dos Ferros, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  }
+]

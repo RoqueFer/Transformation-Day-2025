@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_311399",
+    "name": "Amazônia Eletrovias - Presidente Dutra Hotel Brasil",
+    "latitude": -5.299420497884782,
+    "longitude": -44.48648289838104,
+    "address": "Av. Oton Gonçalves de Sá, 1913, Presidente Dutra, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299163",
+    "name": "BR Super Carga - Hotel Rio Parnaiba",
+    "latitude": -6.774338899801734,
+    "longitude": -43.00952732860304,
+    "address": "Avenida Doutor José Ribamar Pacheco, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235034",
+    "name": "Posto Mais Riachao",
+    "latitude": -4.834175004700114,
+    "longitude": -43.48054794453458,
+    "address": "BR 316, KM 536, Caxias, Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

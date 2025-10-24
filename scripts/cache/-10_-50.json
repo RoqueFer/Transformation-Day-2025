@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_308531",
+    "name": "Amazônia Eletrovias - Posto Serra Dourada",
+    "latitude": -10.1777744,
+    "longitude": -48.8827037,
+    "address": "Av. Bernardo Sayão, 484 - Centro, Paraíso do Tocantins - TO, Paraíso do Tocantins, Tocantins",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308519",
+    "name": "Amazônia Eletrovias - Paraíso do Tocantins Posto Serra Dourada",
+    "latitude": -10.17784541544114,
+    "longitude": -48.88246528053571,
+    "address": "Posto Serra Dourada, Av. Bernardo Sayão, 484 - Centro, Paraíso do Tocantins, Tocantins",
+    "source": "OpenChargeMap"
+  }
+]

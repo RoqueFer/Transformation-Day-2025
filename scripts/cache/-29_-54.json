@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocm_462351",
+    "name": "Bedinoto Tecnología Cruz Alta",
+    "latitude": -28.64845291370878,
+    "longitude": -53.589618451832905,
+    "address": "R. Nossa Sra. Auxiliadora, Cruz Alta, Rio Grande del sur",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307966",
+    "name": "Unijui",
+    "latitude": -28.38835640682798,
+    "longitude": -53.929912641540184,
+    "address": "R. Lulú Ilgenfritz, 507 - São Geraldo, Ijuí - RS, 98700-000, Brazil, Ijui, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279790",
+    "name": "Praça Dr. Astrogildo  de Azevedo- Projeto P&D Aneel-Copel",
+    "latitude": -29.691468172298144,
+    "longitude": -53.80561241954848,
+    "address": "R. José Bonifácio, 2577 Santa Maria-RS, Santa Maria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274737",
+    "name": "UFSM P&D ANEEL",
+    "latitude": -29.71453,
+    "longitude": -53.716789,
+    "address": "Avenida Roraima 1000. Predio 09 E, Santa Maria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_289013",
+    "name": "Bedinoto Tecnologia Energia Solar",
+    "latitude": -29.21449203528322,
+    "longitude": -54.84676300867979,
+    "address": "Av. Alceu Duarte De Carvalho 2184, Santiago, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459992",
+    "name": "Cemacon - Eletroposto",
+    "latitude": -27.852803099754638,
+    "longitude": -54.47617859591655,
+    "address": "Av. Tuparendi, 1660 - Glória, Santa Rosa, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307969",
+    "name": "Creluz Charging Station",
+    "latitude": -27.92234923835155,
+    "longitude": -53.314338346915456,
+    "address": "R. Paranambi, 3369 - Palmeira das Missões, RS, 98300-000, Brazil, Palmeira das Missões, Río Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

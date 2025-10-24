@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ocm_273520",
+    "name": "Posto Branquinho",
+    "latitude": -19.6013817515624,
+    "longitude": -46.93976891040268,
+    "address": "Avenida Senador Montandon, 950, Araxá, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_280057",
+    "name": "Posto Petrobull",
+    "latitude": -19.601538177158076,
+    "longitude": -46.929697954779385,
+    "address": "Avenida Wilson Borges, 485, Araxá, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461236",
+    "name": "Carregador Volvo HG",
+    "latitude": -19.65740126978031,
+    "longitude": -46.213143945461525,
+    "address": "BR-262, 1 - Campos Altos, MG, 38970-000, Brazil, Campos Altos , Minas Gerais ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460616",
+    "name": "Volvo - Posto Caxuxa II - Uberaba - MG",
+    "latitude": -19.5836927,
+    "longitude": -48.0300057,
+    "address": "Rod BR 50 KM 151 200 MTS, Uberaba, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266227",
+    "name": "SAU 6 - Eco 050 - Servico Apoio Usuario",
+    "latitude": -18.70494023099667,
+    "longitude": -48.19026863838894,
+    "address": "BR-050, Araguari, Goias",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461332",
+    "name": "[40kW] OTM Energia Solar",
+    "latitude": -18.87211112381052,
+    "longitude": -48.23501434310124,
+    "address": "Al. Ecológica, 3356, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266710",
+    "name": "SAU 5 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -18.41615946160681,
+    "longitude": -48.07907719849101,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461328",
+    "name": "[40kW] Churrascaria Zebu",
+    "latitude": -19.778124428911326,
+    "longitude": -47.945086947240696,
+    "address": "Av. Tonico dos Santos, 668, Uberaba, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460427",
+    "name": "[80kW] OAG - Granja Marileusa",
+    "latitude": -18.879764634306184,
+    "longitude": -48.24617494695019,
+    "address": "Av. Maria Silva Garcia, 385, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461329",
+    "name": "[80kW] Hotel Dan Inn",
+    "latitude": -19.78108646380895,
+    "longitude": -47.94528582750764,
+    "address": "Av. Filomena Cartafina, 152, Uberaba, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191086",
+    "name": "(re)energisa - Alsol Energias Renováveis",
+    "latitude": -18.879340066968552,
+    "longitude": -48.246967402756894,
+    "address": "Avenida Maria Silva Garcia, Uberlandia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260256",
+    "name": "Audi Center Uberlândia",
+    "latitude": -18.902171252952527,
+    "longitude": -48.2659923801109,
+    "address": "Avenida Afonso Pena, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461326",
+    "name": "[80kW] Pátio Vinhedos",
+    "latitude": -18.952581934903833,
+    "longitude": -48.269558419084035,
+    "address": "Av. dos VInhedos, 50, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461330",
+    "name": "[40kW] Village96",
+    "latitude": -18.94463642007932,
+    "longitude": -48.27276140476615,
+    "address": "Rua Rafael Marino Neto, 96, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461331",
+    "name": "[40kW] Village96",
+    "latitude": -18.94463642007932,
+    "longitude": -48.27276140476615,
+    "address": "Rua Rafael Marino Neto, 96, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461936",
+    "name": "Catalão Shopping",
+    "latitude": -18.172543,
+    "longitude": -47.927671,
+    "address": "R. Jocelim, R. Juscelino Gomes Píres, Nossa Senhora de Fátima, Catalão, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461256",
+    "name": "Hotel GO Inn",
+    "latitude": -18.186874334262043,
+    "longitude": -47.94602315861687,
+    "address": "Rua Geraldo Luís, 42, Catalão , Goiás ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461333",
+    "name": "Ponto de Apoio - Pacaembu",
+    "latitude": -18.881192219177397,
+    "longitude": -48.2946744888536,
+    "address": "Av. Sete de Setembro 989, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266711",
+    "name": "SAU 4 - Eco050 - Servico Apoio Usuario",
+    "latitude": -18.084394780603844,
+    "longitude": -47.86994604066615,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461334",
+    "name": "Eletroposto SA",
+    "latitude": -18.946927233108493,
+    "longitude": -48.35017812358971,
+    "address": "Av. Tonico Rezende, 80, Uberlândia, Minas Gerais",
+    "source": "OpenChargeMap"
+  }
+]

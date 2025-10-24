@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ocm_235276",
+    "name": "Posto Flecha",
+    "latitude": -17.017222540079032,
+    "longitude": -39.54264635371919,
+    "address": "BR-101, Rodovia Governador Mário Covas, 38, Itamaraju, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299236",
+    "name": "Volvo - Novo Posto Verao",
+    "latitude": -16.372521640393686,
+    "longitude": -39.56257368485706,
+    "address": "Rua Doutor Soares Lopes, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_238336",
+    "name": "Hotel Oceania",
+    "latitude": -16.373960631538907,
+    "longitude": -39.574885778639896,
+    "address": "Avenida Antônio Carlos Magalhães, Eunápolis, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264465",
+    "name": "Plaza Hotel",
+    "latitude": -16.375192479332114,
+    "longitude": -39.58159128413854,
+    "address": "Rua Lourenço, 690, Eunapolis, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_256705",
+    "name": "Hotel Pioneiro",
+    "latitude": -17.53426599999736,
+    "longitude": -39.75144899999776,
+    "address": "Av. Pres. Getúlio Vargas, 4882, Teixeira de Freitas, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301970",
+    "name": "Trevo Posto da Mata",
+    "latitude": -17.891735249368807,
+    "longitude": -39.818876162391916,
+    "address": "Rodovia Governador Mário Covas, Nova Viçosa, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

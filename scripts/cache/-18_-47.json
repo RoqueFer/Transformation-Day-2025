@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_266711",
+    "name": "SAU 4 - Eco050 - Servico Apoio Usuario",
+    "latitude": -18.084394780603844,
+    "longitude": -47.86994604066615,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266712",
+    "name": "SAU 3 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -17.608798041593403,
+    "longitude": -47.78845805509252,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461936",
+    "name": "Catalão Shopping",
+    "latitude": -18.172543,
+    "longitude": -47.927671,
+    "address": "R. Jocelim, R. Juscelino Gomes Píres, Nossa Senhora de Fátima, Catalão, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461256",
+    "name": "Hotel GO Inn",
+    "latitude": -18.186874334262043,
+    "longitude": -47.94602315861687,
+    "address": "Rua Geraldo Luís, 42, Catalão , Goiás ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266713",
+    "name": "SAU 2 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -17.28504093939128,
+    "longitude": -47.757596088071466,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266710",
+    "name": "SAU 5 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -18.41615946160681,
+    "longitude": -48.07907719849101,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266715",
+    "name": "Hotel e Restaurante Sonho Verde",
+    "latitude": -16.994855261117905,
+    "longitude": -47.753626856379014,
+    "address": "BR-050, Ipameri, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266714",
+    "name": "SAU 1 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -16.91983622156762,
+    "longitude": -47.69680186386796,
+    "address": "BR-050, Ipameri, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266227",
+    "name": "SAU 6 - Eco 050 - Servico Apoio Usuario",
+    "latitude": -18.70494023099667,
+    "longitude": -48.19026863838894,
+    "address": "BR-050, Araguari, Goias",
+    "source": "OpenChargeMap"
+  }
+]

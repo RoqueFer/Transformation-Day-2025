@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_313270",
+    "name": "TEM CARREGADOR DC 30 KW - CORRENTE/PI - POSTO PRIMAVERA",
+    "latitude": -10.44055009806074,
+    "longitude": -45.1669795410875,
+    "address": "R. Des. Amaral, 974 - Centro, Corrente - PI, 64980-000, CORRENTE/PI",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311938",
+    "name": "TEM CARREGADOR DC 30 KW - BOM JESUS PI - POSTO CAFÉ",
+    "latitude": -9.0719662,
+    "longitude": -44.3445193,
+    "address": "BR-135, Bom Jesus, Piauí",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ocm_266594",
+    "name": "Casarão Goiano",
+    "latitude": -17.075799377875228,
+    "longitude": -49.820361174024015,
+    "address": "BR-060, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459261",
+    "name": "Basílica do Divino Pai Eterno",
+    "latitude": -16.660258,
+    "longitude": -49.485476,
+    "address": "Rua Dom Pedro II, St. Central, Trindade, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461916",
+    "name": "Portal Sul Shopping",
+    "latitude": -16.771062,
+    "longitude": -49.351919,
+    "address": "Av. Água Limpa, GO 040, Jardins Lisboa, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308751",
+    "name": "Atacadão Dia a Dia - Aparecida de Goiânia",
+    "latitude": -16.8259557,
+    "longitude": -49.2428458,
+    "address": "Av. Goiás - R. Recife - Bairro Vera Cruz, Aparecida de Goiânia - GO, 74976-190, Brasil, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459259",
+    "name": "Posto Z+Z T-63 FastCharger",
+    "latitude": -16.714314,
+    "longitude": -49.269014,
+    "address": "Av. T-63, 1077, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461931",
+    "name": "Clínica Veterinária Titiu Goiânia",
+    "latitude": -16.726037,
+    "longitude": -49.2622074,
+    "address": "Av. 4ª Radial, 1732, St. Pedro Ludovico, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461840",
+    "name": "Órion Business Térreo",
+    "latitude": -16.69723099984317,
+    "longitude": -49.269693759609254,
+    "address": "Av. Portugal, 1148 - St. Marista, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461933",
+    "name": "Supermercado NSA",
+    "latitude": -16.6855236,
+    "longitude": -49.2747571,
+    "address": "R. R 17, 140, Setor Oeste, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461924",
+    "name": "Eletroposto Marcelo Soyer Fastcharger",
+    "latitude": -16.6909376,
+    "longitude": -49.2617464,
+    "address": "Av. 85, 1049, Setor Sul, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461932",
+    "name": "Arena Botanic",
+    "latitude": -16.6930259,
+    "longitude": -49.2522574,
+    "address": "R. 90, 265, St. Sul, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461906",
+    "name": "Passeio das Águas Shopping",
+    "latitude": -16.629482,
+    "longitude": -49.278707,
+    "address": "Av. Perimetral Norte, 8303, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461837",
+    "name": "Shopping Estação",
+    "latitude": -16.661547898991117,
+    "longitude": -49.26159133202009,
+    "address": "Av. Goiás, 2151 - Centro, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461937",
+    "name": "Shopping Gallo",
+    "latitude": -16.66168,
+    "longitude": -49.255057,
+    "address": "R. 67-A, St. Central, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461901",
+    "name": "Posto Alpha YellotMob",
+    "latitude": -16.7145363,
+    "longitude": -49.20163527,
+    "address": "Res. Alphaville Flamboyant, 20, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461838",
+    "name": "Drogaria Aldeia Guanabara",
+    "latitude": -16.623473803050828,
+    "longitude": -49.21916758590709,
+    "address": "Av. Vera Cruz, 874 - Jardim Guanabara, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459260",
+    "name": "Pousada Vila Boa",
+    "latitude": -15.935812,
+    "longitude": -50.142762,
+    "address": "R. 15 de Novembro, St. Central, 21, Goiás, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461839",
+    "name": "Ecosol",
+    "latitude": -16.334583060684736,
+    "longitude": -48.95214120988868,
+    "address": "Av. Brasil Sul, 560 - Sala 3 - Vila Jussara, , Anápolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459262",
+    "name": "Empório Gourmet",
+    "latitude": -16.334354,
+    "longitude": -48.940649,
+    "address": "Av. Pinheiro Chagas, 726, Jundiaí, Anápolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311703",
+    "name": "Amazônia Eletrovias - Anápolis Posto São João",
+    "latitude": -16.27454467842493,
+    "longitude": -48.96834327166775,
+    "address": "BR 153, 171, Posto São João, Brascom, Anápolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459277",
+    "name": "Posto Alvorada ",
+    "latitude": -18.133497465215328,
+    "longitude": -49.28516020489417,
+    "address": "BR 153, Km 670, Goiatuba, Goiás",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ocm_299164",
+    "name": "BR Super Carga - VM Marina Clube / Faustino Restaurante",
+    "latitude": -2.9091295519228453,
+    "longitude": -41.78858523953477,
+    "address": "Rua Doutor João Goulart, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308524",
+    "name": "Amazônia Plug - Restaurante O Capote",
+    "latitude": -2.7723571129879474,
+    "longitude": -42.44777024354954,
+    "address": "Restaurante O Capote, MA 315, Tutóia, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306007",
+    "name": "Amazônia Plug - Barraca do Gabriel",
+    "latitude": -2.9023627940058105,
+    "longitude": -41.45984336268339,
+    "address": "Praia do Maramar, Luis Correia, Piaui",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308526",
+    "name": "Amazônia Plug - Vale Gastronomia",
+    "latitude": -2.7811942785482415,
+    "longitude": -42.81837438326886,
+    "address": "MA 315, Vale Gastronomia, Barreirinhas, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300287",
+    "name": "BR Super Carga - Cafe do Rancho",
+    "latitude": -3.9030548235586764,
+    "longitude": -41.71246721045404,
+    "address": "Rua Projetada, Piracuruca, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308528",
+    "name": "Amazônia Plug - Bistrô Kite Beach",
+    "latitude": -2.8784904481629354,
+    "longitude": -40.957033371919294,
+    "address": "Praia do Maceió, Camocim - CE, Camocim, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296012",
+    "name": "DCC Energy - Posto Catatau",
+    "latitude": -3.7446754429366393,
+    "longitude": -41.00943976903801,
+    "address": "BR-222, Tianguá, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235272",
+    "name": "BR Super Carga - GutGut Conveniência - 60kW - Piripiri/PI",
+    "latitude": -4.317456425677436,
+    "longitude": -41.78023437099657,
+    "address": "BR-343, KM 190, Piripiri, Piauí",
+    "source": "OpenChargeMap"
+  }
+]

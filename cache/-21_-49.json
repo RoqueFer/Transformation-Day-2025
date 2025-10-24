@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ocm_312961",
+    "name": "Eletroposto Kinsol - Rio Preto 2S",
+    "latitude": -20.820475672408467,
+    "longitude": -49.38370159936655,
+    "address": "Av. Dr. Alberto Andaló, 3942, São José do Rio Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267234",
+    "name": "ATM EVs",
+    "latitude": -20.850775099708386,
+    "longitude": -49.41283756306791,
+    "address": "Avenida Presidente Juscelino Kubitscheck de Oliveira, 3441, São José do Rio Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461235",
+    "name": "Vila Sete Conveniência",
+    "latitude": -20.5723474971052,
+    "longitude": -48.58027919974106,
+    "address": "Av. Eng. Necker Carvalho de Camargo, 2530 - América, Barretos - SP, 14783-080, Brazil, Barretos , São Paulo ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461712",
+    "name": "North Shopping Barretos ",
+    "latitude": -20.575007587751855,
+    "longitude": -48.55849776749437,
+    "address": "Conselheiro Antônio Prado, 1400 - Pedro Cavalini, Barretos - SP, 14784-200, Brazil, Barretos, São Paulo ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460707",
+    "name": "Cury energia ",
+    "latitude": -20.341505893142354,
+    "longitude": -49.19740781152893,
+    "address": "Rua Balbina Ribeiro Silveira 170, Icém , SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264457",
+    "name": "Posto BR - Pau Seco",
+    "latitude": -21.783152938628362,
+    "longitude": -48.22408714864679,
+    "address": "Rodovia Washington Luís, Araraquara, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_462171",
+    "name": "Eletroposto Kinsol Dom Pedro",
+    "latitude": -21.151442502468274,
+    "longitude": -47.82489361374516,
+    "address": "Av. Dom Pedro I, 1470 - Ipiranga, Ribeirão Preto - SP, 14055-630, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191083",
+    "name": "EDP | Graal Trevo (Plug&GO)",
+    "latitude": -21.10163448256307,
+    "longitude": -47.787021334984615,
+    "address": "Posto Graal Trevo, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260254",
+    "name": "Audi Center Ribeirão Preto",
+    "latitude": -21.21027364613667,
+    "longitude": -47.800818200960634,
+    "address": "Avenida Wladimir Meirelles Ferreira, 1556, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260247",
+    "name": "Eurobike Special BYD",
+    "latitude": -21.217504918490306,
+    "longitude": -47.79358563313548,
+    "address": "Avenida Carlos Eduardo de Gasperi Consoni, 1562, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260255",
+    "name": "Thor Volvo - RP",
+    "latitude": -21.197744604512664,
+    "longitude": -47.77077886429345,
+    "address": "Avenida Presidente Castelo Branco, 1516, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260245",
+    "name": "Graal Topazio",
+    "latitude": -21.197819248751998,
+    "longitude": -47.770730323464704,
+    "address": "Avenida Presidente Castelo Branco, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459131",
+    "name": "Eletroposto Latin America Solar - Unidade Santa Maria Outlet",
+    "latitude": -21.287248,
+    "longitude": -47.750866,
+    "address": "Rodovia Anhanguera (SP-330), km 299, Cravinhos - SP, 14140-000, Cravinhos",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264458",
+    "name": "Posto Rabi Ibate",
+    "latitude": -21.907429542432,
+    "longitude": -48.05298965472264,
+    "address": "Rodovia Washington Luís, Ibate, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459130",
+    "name": "Petrobras - Posto Frango Assado - Cravinhos",
+    "latitude": -21.382807,
+    "longitude": -47.706447,
+    "address": "KM. 286,2, 0 SP-330 Zona Rural, Cravinhos - SP, 14140-000, Cravinhos",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459126",
+    "name": "Petrobras - Posto Rabi Ibaté",
+    "latitude": -21.908388,
+    "longitude": -48.05286,
+    "address": "Rod. Washington Luiz, km 255 - rural, Ibaté - SP, 14815-000, Ibaté",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260184",
+    "name": "Frango Assado",
+    "latitude": -21.38265729549201,
+    "longitude": -47.7042681575291,
+    "address": "Rodovia Anhanguera, Cravinhos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461239",
+    "name": "MOB ON BATATAIS",
+    "latitude": -20.89584936414964,
+    "longitude": -47.60054663300937,
+    "address": "Avenida Liberdade, 29, Batatais , São Paulo ",
+    "source": "OpenChargeMap"
+  }
+]

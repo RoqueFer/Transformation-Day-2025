@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_208106",
+    "name": "Riviera Shopping Estacionamento ",
+    "latitude": -23.79839149401471,
+    "longitude": -46.02322460641881,
+    "address": "Avenida da Riviera 1256, Bertioga, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300185",
+    "name": "Hub de Recarga Go Electric - Riacho Grande",
+    "latitude": -23.777805738791685,
+    "longitude": -46.52909857095193,
+    "address": "R. Heinrich Nordoff, 61 - Rio Grande, São Bernardo do Campo, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_203264",
+    "name": "Eletroposto Eletroposto Volvo Carga Rápida",
+    "latitude": -23.768640666562263,
+    "longitude": -45.40472315027989,
+    "address": "Avenida Manoel Hipolito do Rego 2501, São Sebastião, SP",
+    "source": "OpenChargeMap"
+  }
+]

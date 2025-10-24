@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_308524",
+    "name": "Amazônia Plug - Restaurante O Capote",
+    "latitude": -2.7723571129879474,
+    "longitude": -42.44777024354954,
+    "address": "Restaurante O Capote, MA 315, Tutóia, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299164",
+    "name": "BR Super Carga - VM Marina Clube / Faustino Restaurante",
+    "latitude": -2.9091295519228453,
+    "longitude": -41.78858523953477,
+    "address": "Rua Doutor João Goulart, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306007",
+    "name": "Amazônia Plug - Barraca do Gabriel",
+    "latitude": -2.9023627940058105,
+    "longitude": -41.45984336268339,
+    "address": "Praia do Maramar, Luis Correia, Piaui",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308526",
+    "name": "Amazônia Plug - Vale Gastronomia",
+    "latitude": -2.7811942785482415,
+    "longitude": -42.81837438326886,
+    "address": "MA 315, Vale Gastronomia, Barreirinhas, Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

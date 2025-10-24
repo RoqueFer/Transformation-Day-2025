@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_288938",
+    "name": "Parador Grupo Iesa Xangri-la",
+    "latitude": -29.779824025856634,
+    "longitude": -50.02926997837051,
+    "address": "Avenida Paraguassu 4525, Xangri-la",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235327",
+    "name": "Rota Mercosul 01 - Ufsm / Equatorial",
+    "latitude": -29.344258722302705,
+    "longitude": -49.78808797931194,
+    "address": "Rodovia Governador Mário Covas, BR-101, Km 5, Torres, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279840",
+    "name": "Posto BR - TERRA NOVA  -  Torres - RS",
+    "latitude": -29.33136820744874,
+    "longitude": -49.78514509646598,
+    "address": "BR-101, 3701 - R. Belvedere, Torres, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235051",
+    "name": "Zletric - Posto SIM Paradouro Litoral",
+    "latitude": -29.443718774339438,
+    "longitude": -49.907901694855525,
+    "address": "Avenida Inácio José Schaeffer, Três Cachoeiras, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274735",
+    "name": "Shell Recharge / Posto Japones",
+    "latitude": -29.102898423345486,
+    "longitude": -49.63642654677,
+    "address": "Rua Francisco Possamai, 1474, Sombrio, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274688",
+    "name": "Rota Mercosul 02 - Ufsm / Equatorial",
+    "latitude": -29.85201952230647,
+    "longitude": -50.24702267535784,
+    "address": "Rodovia Governador Mário Covas, Osório, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208305",
+    "name": "IESA RENAULT",
+    "latitude": -29.888446678255,
+    "longitude": -50.276230202702266,
+    "address": "BR-101, 1100 , Osório, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460909",
+    "name": "Petrobras - Autoposto Brambila",
+    "latitude": -28.874695,
+    "longitude": -49.454283,
+    "address": "Rod. Governador Mário Covas, Maracajá - SC, 88915-000, Maracajá",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191920",
+    "name": "Eletroposto Celesc - Posto Petrosimon",
+    "latitude": -28.86786188339657,
+    "longitude": -49.45010760381592,
+    "address": "BR-101, Km 401, Maracajá, SC",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ocm_460059",
+    "name": "Carregador Volvo",
+    "latitude": -20.296656427210948,
+    "longitude": -42.476901797155506,
+    "address": "BR 262, Km 96, Abre Campo, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235284",
+    "name": "Posto Senna",
+    "latitude": -20.857012,
+    "longitude": -41.121292,
+    "address": "Avenida Francisco Lacerda de Aguiar, 350, Cachoeiro de Itapemirim, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235285",
+    "name": "EDP Cachoeiro de Itapemirim",
+    "latitude": -20.848715682581044,
+    "longitude": -41.11212814833232,
+    "address": "Praça Jerônimo Monteiro, Cachoeiro de Itapemirim, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459128",
+    "name": "Petrobras - Posto Líder 1",
+    "latitude": -21.743383,
+    "longitude": -41.33485,
+    "address": "Posto Líder - Av. ⅩⅤ de Novembro, 563 - Caju, Campos dos Goytacazes - RJ, Brasil, Campos dos Goytacazes",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303254",
+    "name": "SAU EcoRioMinas Além Paraíba",
+    "latitude": -21.748901897549757,
+    "longitude": -42.730227462845846,
+    "address": "773C+76 - Angustura, Além Paraíba, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303253",
+    "name": "Hotel Evidence",
+    "latitude": -21.88120118944778,
+    "longitude": -42.684585117408176,
+    "address": "BR 393 KM 104, Sapucaia - RJ, 25880-000, Sapucaia, RJ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460061",
+    "name": "Educarregadores 60kW",
+    "latitude": -20.380392020120198,
+    "longitude": -41.02627509675784,
+    "address": "BR 262, Km 90, Pedra Azul, ES",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459129",
+    "name": "Reserva Caruara",
+    "latitude": -21.7368,
+    "longitude": -41.025117,
+    "address": "Avenida Atlantica Iquipari, SN - Grussaí, São João da Barra - RJ, 28200-000, São João da Barra",
+    "source": "OpenChargeMap"
+  }
+]

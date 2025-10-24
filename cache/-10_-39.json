@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ocm_302217",
+    "name": "Volvo - Posto Real Canudos",
+    "latitude": -9.970159374459868,
+    "longitude": -39.16313133381436,
+    "address": "Rodovia Santos Dumont, Canudos, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299237",
+    "name": "Volvo - Posto Ralene",
+    "latitude": -10.4963678240333,
+    "longitude": -39.014084759567254,
+    "address": "Rodovia Santos Dumont, Euclides da Cunha, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267262",
+    "name": "Magma Hotel",
+    "latitude": -11.032000187164044,
+    "longitude": -38.79410070460955,
+    "address": "Av. Gov. Lomanto Júnior, 446-466, Tucano, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267261",
+    "name": "Hotel Paraiso das Aguas",
+    "latitude": -11.037085782607154,
+    "longitude": -38.794183424262776,
+    "address": "Av. Mal. Castelo Branco, 88, Tucano, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299175",
+    "name": "Volvo - Posto Caninde",
+    "latitude": -9.6660135085056,
+    "longitude": -37.79348663977248,
+    "address": "Avenida Ananias Fernandes, Canindé de São Francisco, Sergipe",
+    "source": "OpenChargeMap"
+  }
+]

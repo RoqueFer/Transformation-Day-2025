@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_299161",
+    "name": "Planeta Net Telecom - Estacionamento",
+    "latitude": -5.192727089178163,
+    "longitude": -40.66709405297058,
+    "address": "R. Francisco De Sousa Torres, 105, Crateús, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299160",
+    "name": "BR Super Carga - AutoPosto Uniao",
+    "latitude": -4.32361543991702,
+    "longitude": -40.146958398040795,
+    "address": "Av Jose Emidio Sales, 627, Santa Quitéria, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274689",
+    "name": "Restaurante Divino 88 - Br Super Carga",
+    "latitude": -5.1926120157410764,
+    "longitude": -39.29015188055803,
+    "address": "Rua Antonio Pinto de Mendonça, Quixeramobim, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299158",
+    "name": "Planeta Charger - Super Feirao do Lar",
+    "latitude": -4.354778610880743,
+    "longitude": -39.3103744589892,
+    "address": "Rua João Pinto Damasceno, Canindé, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307511",
+    "name": "Restaurante Pé de Serra",
+    "latitude": -5.045644128440188,
+    "longitude": -39.04841594258312,
+    "address": "Rod. Br-122 Pres. Costa e Silva, Quixadá, CE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_290861",
+    "name": "Planeta Charge",
+    "latitude": -5.992899183476339,
+    "longitude": -40.29601581295509,
+    "address": "Rua Francisca Clotilde, Tauá, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299159",
+    "name": "DCC Energy - Guaramiranga Parque",
+    "latitude": -4.261679551542727,
+    "longitude": -38.94825375792692,
+    "address": "Rodovia Deputado Peixoto de Alencar, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_290668",
+    "name": "Estação Posto Sinhá Sabóia",
+    "latitude": -3.7062196474352476,
+    "longitude": -40.33676314087512,
+    "address": "Avenida Senador Fernandes Távora, Sobral, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279121",
+    "name": "Nord Renault",
+    "latitude": -3.7015443131116257,
+    "longitude": -40.34517332978368,
+    "address": "Avenida Monsenhor Aloísio Pinto, 585, Sobral, Ceará",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ocm_267070",
+    "name": "Hotel Portal Premium",
+    "latitude": -14.21626936046188,
+    "longitude": -41.682612581869876,
+    "address": "Avenida Centenário, 1418, Brumado, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305999",
+    "name": "Elesol Energia - Solar Livre ",
+    "latitude": -14.05965065533914,
+    "longitude": -42.521079550433114,
+    "address": "Avenida 01, SN, Brás , Caetité, Bahia ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305998",
+    "name": "Elesol Energia e Tecnologia ",
+    "latitude": -14.869371942571334,
+    "longitude": -40.84441355311594,
+    "address": "Avenida Juracy Magalhães, 530, Recreio , Vitória Da Conquista , Bahia ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305984",
+    "name": "Elesol",
+    "latitude": -14.869585642257292,
+    "longitude": -40.84433595905773,
+    "address": "Av. Juracy Magalhães, 530, Vitória da Conquista, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305901",
+    "name": "BYD Conquista",
+    "latitude": -14.858631979441654,
+    "longitude": -40.83130821888099,
+    "address": "Avenida Rosa Cruz, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264464",
+    "name": "Solarchio Energia Solar",
+    "latitude": -14.865480391234996,
+    "longitude": -40.82755556347104,
+    "address": "Av. Jorge Teixeira, 798, Vitoria da Conquista, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

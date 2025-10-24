@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_235043",
+    "name": "Posto Petrobras Estancia - Corredor Verde Neoenergia",
+    "latitude": -11.269030733548831,
+    "longitude": -37.44327196590689,
+    "address": "Avenida Rubens Alves da Silva, 1663, Estância, Sergipe",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267262",
+    "name": "Magma Hotel",
+    "latitude": -11.032000187164044,
+    "longitude": -38.79410070460955,
+    "address": "Av. Gov. Lomanto Júnior, 446-466, Tucano, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267261",
+    "name": "Hotel Paraiso das Aguas",
+    "latitude": -11.037085782607154,
+    "longitude": -38.794183424262776,
+    "address": "Av. Mal. Castelo Branco, 88, Tucano, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235042",
+    "name": "Audi Center Aracaju",
+    "latitude": -10.950696322202532,
+    "longitude": -37.06423261628109,
+    "address": "Avenida Presidente Tancredo Neves, 1254, Aracaju, Sergipe",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306823",
+    "name": "BR Super Carga - Pisolar Tancredo Neves - 60kW - Aracaju",
+    "latitude": -10.95308145226079,
+    "longitude": -37.054674048171336,
+    "address": "Avenida Presidente Tancredo Neves, Aracaju, Sergipe",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311782",
+    "name": "BR Super Carga - RioMar Shopping - 60Kw - Aracaju",
+    "latitude": -10.945947930511863,
+    "longitude": -37.04674997050918,
+    "address": "Av. Delmiro Gouveia, 400 - Coroa do Meio, Aracaju, SE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299237",
+    "name": "Volvo - Posto Ralene",
+    "latitude": -10.4963678240333,
+    "longitude": -39.014084759567254,
+    "address": "Rodovia Santos Dumont, Euclides da Cunha, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299174",
+    "name": "Volvo - Posto Petrobahia",
+    "latitude": -12.166733057883206,
+    "longitude": -38.42240088486102,
+    "address": "Rodovia Governador Mário Covas, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235044",
+    "name": "Posto Linha Verde Petrobras - Corredor Verde Neoenergia",
+    "latitude": -12.302227333136301,
+    "longitude": -37.89994262205079,
+    "address": "BA-099, Linha Verde, Entre Rios, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

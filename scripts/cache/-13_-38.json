@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_235046",
+    "name": "Senai Cimatec - Corredor Verde Neoenergia",
+    "latitude": -12.938945021076691,
+    "longitude": -38.38708045357967,
+    "address": "Avenida Orlando Gomes, 1845, Salvador, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459426",
+    "name": "Carregador Byd Parvi Paralela",
+    "latitude": -12.941559714550635,
+    "longitude": -38.417319738012594,
+    "address": "Avenida Luis Viana Filho, 6178, Salvador, bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460033",
+    "name": "Posto CIA",
+    "latitude": -12.823036934385769,
+    "longitude": -38.39901924794515,
+    "address": "entrada do Posto shell - Posto itapagipe BA 526 est. CIA Aeroporto BA 526 KM10, BA-526, Simões Filho - BA, 43700-000, Simoes Filho,  Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235045",
+    "name": "Atacadão Hiperideal - Corredor Verde Neoenergia",
+    "latitude": -12.564564237397335,
+    "longitude": -38.0177653141717,
+    "address": "BA 099 KM 54, Mata de São João, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299176",
+    "name": "Posto Escola Petrobras",
+    "latitude": -12.98184740487254,
+    "longitude": -38.44990593949501,
+    "address": "Avenida Tancredo Neves, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459138",
+    "name": "HOUSI - Alive Vitória BA",
+    "latitude": -12.990551,
+    "longitude": -38.524543,
+    "address": "Av. Sete de Setembro, 1883 - Vitória, Salvador - BA, 40080-004, Vitória",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235044",
+    "name": "Posto Linha Verde Petrobras - Corredor Verde Neoenergia",
+    "latitude": -12.302227333136301,
+    "longitude": -37.89994262205079,
+    "address": "BA-099, Linha Verde, Entre Rios, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299174",
+    "name": "Volvo - Posto Petrobahia",
+    "latitude": -12.166733057883206,
+    "longitude": -38.42240088486102,
+    "address": "Rodovia Governador Mário Covas, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460044",
+    "name": "Posto Gasauto Noide",
+    "latitude": -12.256895582042517,
+    "longitude": -38.92886473943736,
+    "address": "Av. Noide Ferreira De Cerqueira, 4301 - Lagoa Salgada, Feira de Santana - BA, 44082-225, Feira De Santana, bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_238156",
+    "name": "Pena Branca Hotel e Eventos",
+    "latitude": -12.975356,
+    "longitude": -39.276573,
+    "address": "BR101, KM262, Rua do Amparo, Santo Antonio de Jesus, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

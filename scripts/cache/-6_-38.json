@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ocm_304815",
+    "name": "BR Super Carga - Auto Posto 405",
+    "latitude": -6.151940300986098,
+    "longitude": -38.20589911717258,
+    "address": "Rua Rota do Sol Dr. Nilton Figueiredo, 64, Pau dos Ferros, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267311",
+    "name": "Auto Posto e Churrascaria Mateus",
+    "latitude": -5.734406699353485,
+    "longitude": -38.5128731127478,
+    "address": "Rodovia Santos Dumont, Jaguaribara, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299167",
+    "name": "Volvo - Posto Chabocão",
+    "latitude": -6.778683676082736,
+    "longitude": -38.240498493714,
+    "address": "Rodovia Governador Antônio Mariz, Sousa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299156",
+    "name": "BR Super Carga - Murano Center Hotel",
+    "latitude": -5.152898794163292,
+    "longitude": -38.10080368938989,
+    "address": "Rua Sindulfo Chaves, 1567, Limoeiro do Norte, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264466",
+    "name": "Hotel Ribeira dos Icos",
+    "latitude": -6.401033038486688,
+    "longitude": -38.876579281730756,
+    "address": "Rua Paraíba C, 1000, Ico, Ceara",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267298",
+    "name": "Auto Posto e Pousada O Barateiro",
+    "latitude": -6.403549007584716,
+    "longitude": -38.890320243600236,
+    "address": "Rodovia Deputado Tarcísio Monteiro, Icó, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306746",
+    "name": "BR Super Carga - Sol Energy - 30kW - Caicó",
+    "latitude": -6.469961,
+    "longitude": -37.086246,
+    "address": "Avenida Coronel Martiniano, 2059, Caicó, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299155",
+    "name": "BR Super Carga - Bela Vista Empresarial",
+    "latitude": -5.181140330072438,
+    "longitude": -37.377506042725884,
+    "address": "Av Conde de Tamandaré, Mossoro, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235275",
+    "name": "Alpha Garage Full Service and Performance",
+    "latitude": -5.215160999992094,
+    "longitude": -37.33084600000018,
+    "address": "Rua Aquino de Morais, 170, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279236",
+    "name": "Renault Gamboa",
+    "latitude": -5.18624898684277,
+    "longitude": -37.35387821049676,
+    "address": "Avenida João da Escóssia, 925, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_278524",
+    "name": "BR Super Carga - Estação Mossoró - Transfusão",
+    "latitude": -5.192814170670644,
+    "longitude": -37.34507704948939,
+    "address": "Av. Alberto Maranhão, 1585-1649, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216881",
+    "name": "Vitoria Palace Hotel",
+    "latitude": -5.172976391519384,
+    "longitude": -37.362740424178384,
+    "address": "Rua Lucas Evangelista de Morais, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306690",
+    "name": "VAPT Cajazeiras | Grupo Barbosa Home Center ",
+    "latitude": -6.90123354,
+    "longitude": -38.56828009,
+    "address": "BR-230, Km-507, Cajazeiras, PB",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299168",
+    "name": "BR Super Carga - Restaurante Carreteiro",
+    "latitude": -6.937208335651704,
+    "longitude": -37.0944156333951,
+    "address": "Rodovia Governador Antônio Mariz, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296956",
+    "name": "BR Super Carga - Ello Hotel",
+    "latitude": -6.384189690217653,
+    "longitude": -39.26638807967288,
+    "address": "CE-060, Iguatu, CE",
+    "source": "OpenChargeMap"
+  }
+]

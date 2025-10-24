@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_302216",
+    "name": "Planeta Charge - Topazio Park Hotel",
+    "latitude": -8.514987152564672,
+    "longitude": -41.00606839750526,
+    "address": "Rua Coronel Jubilino de Araújo, Afrânio, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311949",
+    "name": "BR Super Carga - Coxinha Gaúcha - 40kW - Araripina",
+    "latitude": -7.5808878914449735,
+    "longitude": -40.50878431328684,
+    "address": "BR-316, 22, Araripina, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299162",
+    "name": "BR Super Carga - Entre Rios Hotel",
+    "latitude": -7.079931816230044,
+    "longitude": -41.45969266916384,
+    "address": "Avenida Senador Helvídio Nunes, Piauí",
+    "source": "OpenChargeMap"
+  }
+]

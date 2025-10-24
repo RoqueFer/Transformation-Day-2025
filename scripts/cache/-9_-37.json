@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_300290",
+    "name": "BR Super Carga - Blends Conveniencia - 40kW - Garanhuns",
+    "latitude": -8.863296087059084,
+    "longitude": -36.462849532602775,
+    "address": "Rua das Alamedas, Garanhuns, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311221",
+    "name": "BR Super Carga - Partage Shopping - 120kW - Arapiraca",
+    "latitude": -9.73524408406935,
+    "longitude": -36.655235216970624,
+    "address": "R. José Jaílson Nunes, 493 , Arapiraca, AL",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306227",
+    "name": "BR Super Carga - Carajás - 60kW - Arapiraca",
+    "latitude": -9.75900590841836,
+    "longitude": -36.64884994950992,
+    "address": "R. Mal. Deodoro da Fonseca, 690, Arapiraca, AL",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299175",
+    "name": "Volvo - Posto Caninde",
+    "latitude": -9.6660135085056,
+    "longitude": -37.79348663977248,
+    "address": "Avenida Ananias Fernandes, Canindé de São Francisco, Sergipe",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299173",
+    "name": "BR Super Carga - Café Engenho do Queijo - 60kW - Junqueiro",
+    "latitude": -9.897658046899792,
+    "longitude": -36.45005361172113,
+    "address": "Rodovia Governador Mário Covas, Junqueiro, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299235",
+    "name": "Volvo - Posto Ceaka",
+    "latitude": -8.310033133696862,
+    "longitude": -35.99069484754585,
+    "address": "Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235040",
+    "name": "Posto Pichilau Pioneiro - Corredor Verde Neoenergia",
+    "latitude": -9.408963578859002,
+    "longitude": -35.83982563187578,
+    "address": "Rodovia Governador Mário Covas, Rio Largo, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309052",
+    "name": "BR Super Carga - Shopping Difusora - 4º Piso - 90kW - Caruaru",
+    "latitude": -8.278099985053117,
+    "longitude": -35.97169493970691,
+    "address": "Av. Agamenon Magalhães, 444 , Caruaru, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300289",
+    "name": "BR Super Carga - Carajas Marechal Deodoro - 60kW - Marechal Deodoro",
+    "latitude": -9.7277412813811,
+    "longitude": -35.87819781257568,
+    "address": "AL-101, Marechal Deodoro, Alagoas",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ocm_306746",
+    "name": "BR Super Carga - Sol Energy - 30kW - Caicó",
+    "latitude": -6.469961,
+    "longitude": -37.086246,
+    "address": "Avenida Coronel Martiniano, 2059, Caicó, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299154",
+    "name": "BR Super Carga - Churrascaria Guaiba - 60kW - Lajes",
+    "latitude": -5.704601242649915,
+    "longitude": -36.25184491056268,
+    "address": "BR-104;BR-304;RN-104, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235275",
+    "name": "Alpha Garage Full Service and Performance",
+    "latitude": -5.215160999992094,
+    "longitude": -37.33084600000018,
+    "address": "Rua Aquino de Morais, 170, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_278524",
+    "name": "BR Super Carga - Estação Mossoró - Transfusão",
+    "latitude": -5.192814170670644,
+    "longitude": -37.34507704948939,
+    "address": "Av. Alberto Maranhão, 1585-1649, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279236",
+    "name": "Renault Gamboa",
+    "latitude": -5.18624898684277,
+    "longitude": -37.35387821049676,
+    "address": "Avenida João da Escóssia, 925, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299155",
+    "name": "BR Super Carga - Bela Vista Empresarial",
+    "latitude": -5.181140330072438,
+    "longitude": -37.377506042725884,
+    "address": "Av Conde de Tamandaré, Mossoro, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216881",
+    "name": "Vitoria Palace Hotel",
+    "latitude": -5.172976391519384,
+    "longitude": -37.362740424178384,
+    "address": "Rua Lucas Evangelista de Morais, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299168",
+    "name": "BR Super Carga - Restaurante Carreteiro",
+    "latitude": -6.937208335651704,
+    "longitude": -37.0944156333951,
+    "address": "Rodovia Governador Antônio Mariz, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304814",
+    "name": "BR Super Carga - Estação Tibau - Tibau",
+    "latitude": -4.842669781293623,
+    "longitude": -37.25745103808788,
+    "address": "R. Gov. Tarcísio Maia, 1003, Tibau, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304815",
+    "name": "BR Super Carga - Auto Posto 405",
+    "latitude": -6.151940300986098,
+    "longitude": -38.20589911717258,
+    "address": "Rua Rota do Sol Dr. Nilton Figueiredo, 64, Pau dos Ferros, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307119",
+    "name": "VAPT Tangará | Alvorada Veiculos :: Recarga Rápida",
+    "latitude": -6.1737574,
+    "longitude": -35.76541414,
+    "address": "BR-226, S/N, Tangará, RN",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_460706",
+    "name": "TEM CARREGADORES DC 20KW - SÃO RAIMUNDO NONATO",
+    "latitude": -9.01379110063017,
+    "longitude": -42.69293166655967,
+    "address": "Tv. Amadeu Rubem, 554, São Raimundo Nonato, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311937",
+    "name": "TEM CARREGADOR DC 30 KW - COLONIA DO GURGUEIA PI - POSTO PORTAL DO CERRADO",
+    "latitude": -8.19603088191164,
+    "longitude": -43.792659453825536,
+    "address": "BR-135, Col. do Gurguéia - PI, 64885-000, Col. do Gurguéia, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311692",
+    "name": "TEM CARREGADOR DC 30 KW - COLONIA DO GURGUEIA PI - POSTO PORTAL DO CERRADO",
+    "latitude": -8.195898066485924,
+    "longitude": -43.79254748466127,
+    "address": "BR-135, Col. do Gurguéia, PI",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311938",
+    "name": "TEM CARREGADOR DC 30 KW - BOM JESUS PI - POSTO CAFÉ",
+    "latitude": -9.0719662,
+    "longitude": -44.3445193,
+    "address": "BR-135, Bom Jesus, Piauí",
+    "source": "OpenChargeMap"
+  }
+]

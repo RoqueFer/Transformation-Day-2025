@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_267234",
+    "name": "ATM EVs",
+    "latitude": -20.850775099708386,
+    "longitude": -49.41283756306791,
+    "address": "Avenida Presidente Juscelino Kubitscheck de Oliveira, 3441, São José do Rio Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312961",
+    "name": "Eletroposto Kinsol - Rio Preto 2S",
+    "latitude": -20.820475672408467,
+    "longitude": -49.38370159936655,
+    "address": "Av. Dr. Alberto Andaló, 3942, São José do Rio Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460707",
+    "name": "Cury energia ",
+    "latitude": -20.341505893142354,
+    "longitude": -49.19740781152893,
+    "address": "Rua Balbina Ribeiro Silveira 170, Icém , SP",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ocm_264454",
+    "name": "Paradouro Battistella",
+    "latitude": -27.69220249791833,
+    "longitude": -49.23151669392644,
+    "address": "BR-282, s/n - Estr. Geral Picadas, Alfredo Wagner, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260180",
+    "name": "Posto SIM Paradouro Camarão",
+    "latitude": -28.42311689851337,
+    "longitude": -48.79826183945869,
+    "address": "Marginal da BR-101, km 311, Laguna, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191919",
+    "name": "Eletroposto Celesc - Posto Cabeçudas",
+    "latitude": -28.44043810288335,
+    "longitude": -48.823688475843426,
+    "address": "Rua Antônio da Silva Fernandes, 982–1238, Laguna, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313962",
+    "name": "Posto BR Nienkotter",
+    "latitude": -27.6186329081173,
+    "longitude": -48.64707120419928,
+    "address": "BR 101, KM 210, SAO JOSE, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313963",
+    "name": "Shell Recharge | Angeloni Kobrasol",
+    "latitude": -27.594021717229694,
+    "longitude": -48.61824395453118,
+    "address": "Rua Cassol, 503, São José, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313964",
+    "name": "Zurich - Meu Cantinho",
+    "latitude": -27.59305215650359,
+    "longitude": -48.617541583479124,
+    "address": "R. José Gonzaga R. de Lima, 400, Kobrasol, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313965",
+    "name": "Posto Galo Shopping Itaguaçu",
+    "latitude": -27.583606727462772,
+    "longitude": -48.614744262110435,
+    "address": "R. Gerôncio Thives, 1099, São José, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460910",
+    "name": "Brasilis Power | Eletroposto SC",
+    "latitude": -27.601375,
+    "longitude": -48.545876,
+    "address": "Rua Silva Jardim, 73 - Centro, Florianópolis ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460911",
+    "name": "Brasilis Power | Eletroposto MD",
+    "latitude": -27.590268,
+    "longitude": -48.5463,
+    "address": "Rua Almirante Alvim, 515 - Centro, Florianópolis",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460913",
+    "name": "Brasilis Power | Eletroposto Leal",
+    "latitude": -27.49901,
+    "longitude": -48.656409,
+    "address": "Rua Acácio Reitz, 22 - Universitários, Biguaçu",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460912",
+    "name": "Brasilis Power | Eletroposto Avenida",
+    "latitude": -27.575681,
+    "longitude": -48.530158,
+    "address": "Rua Delminda Silveira, 485 - Agronômica, Florianópolis ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_154528",
+    "name": "Estação Posto Ilhabela",
+    "latitude": -27.578138960692,
+    "longitude": -48.510338084656,
+    "address": "Rod. Admar Gonzaga, 500 – Itacorubi, Florianópolis, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_154527",
+    "name": "Floripa Shopping",
+    "latitude": -27.534450652309026,
+    "longitude": -48.509559003948254,
+    "address": "SC-401, 3116 – Saco Grande, Florianópolis – SC, Florianópolis, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460914",
+    "name": "Brasilis Power | Eletroposto JUSC",
+    "latitude": -27.443258,
+    "longitude": -48.506664,
+    "address": "Av. dos Dourados, 481 - Jurerê Internacional, Florianópolis",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460915",
+    "name": "Brasilis Power | Eletroposto Beach",
+    "latitude": -27.425474,
+    "longitude": -48.439738,
+    "address": "Av. Luiz Boiteux Piazza, 2099 - Cachoeira do Bom Jesus, Florianópolis",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313966",
+    "name": "Porto Belo Outlet Premium",
+    "latitude": -27.20231096708377,
+    "longitude": -48.6138152805612,
+    "address": "BR-101, KM 159, Porto Belo, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191918",
+    "name": "Posto Angeloni Porto Belo",
+    "latitude": -27.173887366451417,
+    "longitude": -48.61113122231919,
+    "address": "Rodovia BR 101, km 156, Porto Belo, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191920",
+    "name": "Eletroposto Celesc - Posto Petrosimon",
+    "latitude": -28.86786188339657,
+    "longitude": -49.45010760381592,
+    "address": "BR-101, Km 401, Maracajá, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460909",
+    "name": "Petrobras - Autoposto Brambila",
+    "latitude": -28.874695,
+    "longitude": -49.454283,
+    "address": "Rod. Governador Mário Covas, Maracajá - SC, 88915-000, Maracajá",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313967",
+    "name": "Di Paolo",
+    "latitude": -27.06624196398885,
+    "longitude": -48.59637396333983,
+    "address": "BR-101, km 143, 720, Itapema , Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313968",
+    "name": "Blue Sea Hotel",
+    "latitude": -27.066575627053624,
+    "longitude": -48.59523145906519,
+    "address": "R. 1106, 100, Itapema , Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313969",
+    "name": "Posto Américan Oil",
+    "latitude": -27.027322029350955,
+    "longitude": -48.60538277352714,
+    "address": "BR-101, Km 138, Balneário Camboriú, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304105",
+    "name": "Posto SONHO MEU Brava",
+    "latitude": -26.957210653482214,
+    "longitude": -48.63909446049047,
+    "address": "Av. do Estado Dalmo Vieira, 133, Balneário Camboriú, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235326",
+    "name": "Shell Recharge | Posto Agricopel 12 - Itajaí SC",
+    "latitude": -26.921904672441613,
+    "longitude": -48.70741613269445,
+    "address": "Marginal BR 101, Km 125, São Vicente, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260181",
+    "name": "Posto Ipiranga Galo (antigo posto universitário )",
+    "latitude": -26.91893099322583,
+    "longitude": -48.67029064316404,
+    "address": "Rua José Testoni, Itajaí, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260390",
+    "name": "Posto Ipiranga Peruzzo",
+    "latitude": -27.79408326076136,
+    "longitude": -50.28392103687696,
+    "address": "Rodovia BR 232, km 216, Lages, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274735",
+    "name": "Shell Recharge / Posto Japones",
+    "latitude": -29.102898423345486,
+    "longitude": -49.63642654677,
+    "address": "Rua Francisco Possamai, 1474, Sombrio, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303431",
+    "name": "Posto Graal Parada Sul",
+    "latitude": -26.780493627574984,
+    "longitude": -48.68520187872031,
+    "address": "BR-101 KM 102, Balneario Piçarras, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303430",
+    "name": "Posto Graal Parada Norte",
+    "latitude": -26.77939474459577,
+    "longitude": -48.6841959037032,
+    "address": "Rod BR-101 Sn Esquina Com R Manoel Ferreira, Balneario Piçarras, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313970",
+    "name": "Parada Ferretti",
+    "latitude": -26.687808049252077,
+    "longitude": -48.695148336621,
+    "address": "BR-101, Km 91, Barra Velha, Santa Catarina",
+    "source": "OpenChargeMap"
+  }
+]

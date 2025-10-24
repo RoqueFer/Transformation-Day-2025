@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_460404",
+    "name": "Volvo Eletroposto Posto Potiguar",
+    "latitude": -11.711860193619657,
+    "longitude": -47.7318532575531,
+    "address": "TO-050, s/n - Setor Ginasial, Natividade - TO, Natividade, tocantins",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264460",
+    "name": "Icon Business Mall",
+    "latitude": -12.090826880343798,
+    "longitude": -45.78092207409952,
+    "address": "Rua Glauber Rocha 602, Luis Eduardo Magalhaes, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264461",
+    "name": "Office 661",
+    "latitude": -12.091424105403618,
+    "longitude": -45.780651590756634,
+    "address": "Rua 13 de Maio 661, Luis Eduardo Magalhaes, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

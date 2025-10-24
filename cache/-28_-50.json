@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ocm_260390",
+    "name": "Posto Ipiranga Peruzzo",
+    "latitude": -27.79408326076136,
+    "longitude": -50.28392103687696,
+    "address": "Rodovia BR 232, km 216, Lages, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312661",
+    "name": "Queijo & Cia",
+    "latitude": -28.00688554975389,
+    "longitude": -50.540948652291945,
+    "address": "BR116, Capao Alto, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264454",
+    "name": "Paradouro Battistella",
+    "latitude": -27.69220249791833,
+    "longitude": -49.23151669392644,
+    "address": "BR-282, s/n - Estr. Geral Picadas, Alfredo Wagner, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264453",
+    "name": "Posto Gloria",
+    "latitude": -28.50000316116656,
+    "longitude": -50.950593956354965,
+    "address": "BR-285, Vacaria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191920",
+    "name": "Eletroposto Celesc - Posto Petrosimon",
+    "latitude": -28.86786188339657,
+    "longitude": -49.45010760381592,
+    "address": "BR-101, Km 401, Maracajá, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460909",
+    "name": "Petrobras - Autoposto Brambila",
+    "latitude": -28.874695,
+    "longitude": -49.454283,
+    "address": "Rod. Governador Mário Covas, Maracajá - SC, 88915-000, Maracajá",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191919",
+    "name": "Eletroposto Celesc - Posto Cabeçudas",
+    "latitude": -28.44043810288335,
+    "longitude": -48.823688475843426,
+    "address": "Rua Antônio da Silva Fernandes, 982–1238, Laguna, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260180",
+    "name": "Posto SIM Paradouro Camarão",
+    "latitude": -28.42311689851337,
+    "longitude": -48.79826183945869,
+    "address": "Marginal da BR-101, km 311, Laguna, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274735",
+    "name": "Shell Recharge / Posto Japones",
+    "latitude": -29.102898423345486,
+    "longitude": -49.63642654677,
+    "address": "Rua Francisco Possamai, 1474, Sombrio, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260391",
+    "name": "Coopercampos",
+    "latitude": -27.388979114537293,
+    "longitude": -51.21491388591278,
+    "address": "Rodovia Cid César de Almeida Pedroso, Campos Novos, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313962",
+    "name": "Posto BR Nienkotter",
+    "latitude": -27.6186329081173,
+    "longitude": -48.64707120419928,
+    "address": "BR 101, KM 210, SAO JOSE, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313963",
+    "name": "Shell Recharge | Angeloni Kobrasol",
+    "latitude": -27.594021717229694,
+    "longitude": -48.61824395453118,
+    "address": "Rua Cassol, 503, São José, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313964",
+    "name": "Zurich - Meu Cantinho",
+    "latitude": -27.59305215650359,
+    "longitude": -48.617541583479124,
+    "address": "R. José Gonzaga R. de Lima, 400, Kobrasol, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460913",
+    "name": "Brasilis Power | Eletroposto Leal",
+    "latitude": -27.49901,
+    "longitude": -48.656409,
+    "address": "Rua Acácio Reitz, 22 - Universitários, Biguaçu",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313965",
+    "name": "Posto Galo Shopping Itaguaçu",
+    "latitude": -27.583606727462772,
+    "longitude": -48.614744262110435,
+    "address": "R. Gerôncio Thives, 1099, São José, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312820",
+    "name": "Café Pasqualotto",
+    "latitude": -29.268593104967685,
+    "longitude": -50.302425313709705,
+    "address": "RS453 - Rota Do Sol, Cambará Do Sul, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279840",
+    "name": "Posto BR - TERRA NOVA  -  Torres - RS",
+    "latitude": -29.33136820744874,
+    "longitude": -49.78514509646598,
+    "address": "BR-101, 3701 - R. Belvedere, Torres, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460910",
+    "name": "Brasilis Power | Eletroposto SC",
+    "latitude": -27.601375,
+    "longitude": -48.545876,
+    "address": "Rua Silva Jardim, 73 - Centro, Florianópolis ",
+    "source": "OpenChargeMap"
+  }
+]

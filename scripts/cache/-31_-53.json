@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_274683",
+    "name": "Rota Mercosul 05 - Ufsm / Equatorial",
+    "latitude": -31.016458873755617,
+    "longitude": -52.05368608442373,
+    "address": "Rodovia General Bento Gonçalves, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274684",
+    "name": "Rota Mercosul 06 - Ufsm / Equatorial - Paradouro Barragem",
+    "latitude": -31.72043835781156,
+    "longitude": -52.37965365011061,
+    "address": "Avenida Um, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257188",
+    "name": "DLinea Villato Moveis Pelotas",
+    "latitude": -31.737285407734085,
+    "longitude": -52.32764680997684,
+    "address": "Avenida República do Líbano, 565, Pelotas, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257190",
+    "name": "Hotel Jacques George Tower",
+    "latitude": -31.769159783661095,
+    "longitude": -52.336626128726095,
+    "address": "Rua Almirante Barroso, 2069, Pelotas, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257189",
+    "name": "Shopping Pelotas",
+    "latitude": -31.760818599602686,
+    "longitude": -52.318595533287294,
+    "address": "Avenida Ferreira Viana, 1526, Pelotas, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257185",
+    "name": "Zletric - Posto SIM Camaquã",
+    "latitude": -30.857474235184817,
+    "longitude": -51.78651997033205,
+    "address": "Rodovia General Bento Gonçalves, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257186",
+    "name": "Agro Comercial Afubra Ltda",
+    "latitude": -30.849948278296566,
+    "longitude": -51.76987509530568,
+    "address": "Rua Ailton Ulguim Campos, 1907, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257187",
+    "name": "Agro Comercial Afubra Ltda",
+    "latitude": -30.849948278296566,
+    "longitude": -51.76987509530568,
+    "address": "Rua Ailton Ulguim Campos, 1907, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274685",
+    "name": "Rota Mercosul 08 - Ifsm / Equatorial",
+    "latitude": -31.942033523424158,
+    "longitude": -52.31105472057487,
+    "address": "Rodovia Marginal, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311273",
+    "name": "Posto Charrua",
+    "latitude": -30.131128967912552,
+    "longitude": -51.97186155024235,
+    "address": "Br 290 Km 175, Butia, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_305864",
+    "name": "Amazônia Eletrovias - Governador Nunes Freire Posto Santa Maria",
+    "latitude": -2.134730799244764,
+    "longitude": -45.88487930023274,
+    "address": "Posto Santa Maria, BR 316, Governador Nunes Freire, Governador Nunes Freire, MA",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305863",
+    "name": "Amazônia Eletrovias - Santa Inês Posto São Lázaro",
+    "latitude": -3.6749963898707563,
+    "longitude": -45.37060784300013,
+    "address": "Posto São Lazaro, BR-316, Santa Inês - MA, Santa Inês, MA",
+    "source": "OpenChargeMap"
+  }
+]

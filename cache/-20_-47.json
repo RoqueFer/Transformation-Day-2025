@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_273520",
+    "name": "Posto Branquinho",
+    "latitude": -19.6013817515624,
+    "longitude": -46.93976891040268,
+    "address": "Avenida Senador Montandon, 950, Araxá, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_280057",
+    "name": "Posto Petrobull",
+    "latitude": -19.601538177158076,
+    "longitude": -46.929697954779385,
+    "address": "Avenida Wilson Borges, 485, Araxá, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264459",
+    "name": "Posto Galo Branco Franca - Shell Recharge",
+    "latitude": -20.552103187423796,
+    "longitude": -47.410116551705414,
+    "address": "Av. Antônio Barbosa Filho, 101, Franca, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461236",
+    "name": "Carregador Volvo HG",
+    "latitude": -19.65740126978031,
+    "longitude": -46.213143945461525,
+    "address": "BR-262, 1 - Campos Altos, MG, 38970-000, Brazil, Campos Altos , Minas Gerais ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461329",
+    "name": "[80kW] Hotel Dan Inn",
+    "latitude": -19.78108646380895,
+    "longitude": -47.94528582750764,
+    "address": "Av. Filomena Cartafina, 152, Uberaba, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461328",
+    "name": "[40kW] Churrascaria Zebu",
+    "latitude": -19.778124428911326,
+    "longitude": -47.945086947240696,
+    "address": "Av. Tonico dos Santos, 668, Uberaba, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460616",
+    "name": "Volvo - Posto Caxuxa II - Uberaba - MG",
+    "latitude": -19.5836927,
+    "longitude": -48.0300057,
+    "address": "Rod BR 50 KM 151 200 MTS, Uberaba, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461239",
+    "name": "MOB ON BATATAIS",
+    "latitude": -20.89584936414964,
+    "longitude": -47.60054663300937,
+    "address": "Avenida Liberdade, 29, Batatais , São Paulo ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191083",
+    "name": "EDP | Graal Trevo (Plug&GO)",
+    "latitude": -21.10163448256307,
+    "longitude": -47.787021334984615,
+    "address": "Posto Graal Trevo, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

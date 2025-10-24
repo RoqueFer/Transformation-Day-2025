@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_304814",
+    "name": "BR Super Carga - Estação Tibau - Tibau",
+    "latitude": -4.842669781293623,
+    "longitude": -37.25745103808788,
+    "address": "R. Gov. Tarcísio Maia, 1003, Tibau, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235275",
+    "name": "Alpha Garage Full Service and Performance",
+    "latitude": -5.215160999992094,
+    "longitude": -37.33084600000018,
+    "address": "Rua Aquino de Morais, 170, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_278524",
+    "name": "BR Super Carga - Estação Mossoró - Transfusão",
+    "latitude": -5.192814170670644,
+    "longitude": -37.34507704948939,
+    "address": "Av. Alberto Maranhão, 1585-1649, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279236",
+    "name": "Renault Gamboa",
+    "latitude": -5.18624898684277,
+    "longitude": -37.35387821049676,
+    "address": "Avenida João da Escóssia, 925, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216881",
+    "name": "Vitoria Palace Hotel",
+    "latitude": -5.172976391519384,
+    "longitude": -37.362740424178384,
+    "address": "Rua Lucas Evangelista de Morais, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299155",
+    "name": "BR Super Carga - Bela Vista Empresarial",
+    "latitude": -5.181140330072438,
+    "longitude": -37.377506042725884,
+    "address": "Av Conde de Tamandaré, Mossoro, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235274",
+    "name": "Hotel Jaguarindia - Estação Urbeletric",
+    "latitude": -4.4180727386169,
+    "longitude": -37.770488734181185,
+    "address": "R. Praia Canoe, Gleba 14, Fortim, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299157",
+    "name": "DCC Energy - Posto Fortim BR",
+    "latitude": -4.452258656111681,
+    "longitude": -37.81177596922984,
+    "address": "Rodovia Deputado Federal Jackson Pereira, Fortim, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299154",
+    "name": "BR Super Carga - Churrascaria Guaiba - 60kW - Lajes",
+    "latitude": -5.704601242649915,
+    "longitude": -36.25184491056268,
+    "address": "BR-104;BR-304;RN-104, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299156",
+    "name": "BR Super Carga - Murano Center Hotel",
+    "latitude": -5.152898794163292,
+    "longitude": -38.10080368938989,
+    "address": "Rua Sindulfo Chaves, 1567, Limoeiro do Norte, Ceará",
+    "source": "OpenChargeMap"
+  }
+]

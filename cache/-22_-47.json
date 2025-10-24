@@ -1,0 +1,354 @@
+[
+  {
+    "id": "ocm_311522",
+    "name": "Volvo - Hotel Habitat - Pirassununga, SP",
+    "latitude": -22.013799721202474,
+    "longitude": -47.437363786642294,
+    "address": "Av. Capitão, Av. Antônio Joaquim Mendes, 2397 - Jardim Carlos Gomes , Pirassununga , São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_175125",
+    "name": "EDP | Graal Coral (Plug&GO)",
+    "latitude": -22.00218704250082,
+    "longitude": -47.44472068714094,
+    "address": "Pirassununga, Pirassununga, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204436",
+    "name": "Zletric - Rancho Empyero",
+    "latitude": -22.235765471343242,
+    "longitude": -47.39050854380298,
+    "address": "Rodovia Anhanguera, km 183, Leme, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204437",
+    "name": "Volvo - Posto 6",
+    "latitude": -21.8692338749064,
+    "longitude": -47.48863053616054,
+    "address": "Av. João Martins da Silveira Sobrinho, 2101, Porto Ferreira, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_273350",
+    "name": "Eletroposto GoElectric",
+    "latitude": -21.780051,
+    "longitude": -47.534395,
+    "address": "Rodovia Anhanguera km 236, Santa Rita do Passa Quatro, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311271",
+    "name": "Energygardi",
+    "latitude": -22.48453073250846,
+    "longitude": -46.63528178514093,
+    "address": "Av Nacoes Unidas 1830, Aguas De Lindoia, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_175122",
+    "name": "EDP | Graal Topázio (Plug&GO)",
+    "latitude": -22.614671702946467,
+    "longitude": -47.356908583240454,
+    "address": "Rodovia Anhanguera, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303877",
+    "name": "Rodovia Anhanguera",
+    "latitude": -22.62912131814457,
+    "longitude": -47.337456601861334,
+    "address": "Rodovia Anhanguera, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303878",
+    "name": "Rodovia Washington Luís",
+    "latitude": -22.0932011481149,
+    "longitude": -47.83237714979066,
+    "address": "Rodovia Washington Luís, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300479",
+    "name": "GTMaxEnergy - Margutti Multimarcas",
+    "latitude": -22.75129428253902,
+    "longitude": -47.312385402296144,
+    "address": "Rua do Vidraceiro, 192, Americana, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300497",
+    "name": "GTMaxEnergy - Margutti Multimarcas",
+    "latitude": -22.751751201127377,
+    "longitude": -47.31257463581514,
+    "address": "Rua do Vidraceiro, 192, Americana, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_210195",
+    "name": "CPFL",
+    "latitude": -22.85761962201481,
+    "longitude": -47.04463261044555,
+    "address": "140, Rod. Gov. Dr. Adhemar Pereira de Barros - Parque São Quirino, Campinas, São paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312962",
+    "name": "Graal 125 Norte",
+    "latitude": -22.820229323033573,
+    "longitude": -47.378672041598406,
+    "address": "Rodovia dos Bandeirantes , Santa Bárbara d'Oeste, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191084",
+    "name": "EDP | Graal 125 Sul (Plug&GO)",
+    "latitude": -22.819867578279855,
+    "longitude": -47.381476648869125,
+    "address": "Santa Bárbara d'Oeste, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260184",
+    "name": "Frango Assado",
+    "latitude": -21.38265729549201,
+    "longitude": -47.7042681575291,
+    "address": "Rodovia Anhanguera, Cravinhos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459130",
+    "name": "Petrobras - Posto Frango Assado - Cravinhos",
+    "latitude": -21.382807,
+    "longitude": -47.706447,
+    "address": "KM. 286,2, 0 SP-330 Zona Rural, Cravinhos - SP, 14140-000, Cravinhos",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459110",
+    "name": "Petrobras - Posto Guarani",
+    "latitude": -22.910939,
+    "longitude": -47.047213,
+    "address": "Av. Princesa D'Oeste, 1440 - Vila Lemos, Campinas - SP, 13026-137, Campinas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260183",
+    "name": "Posto Jardim do Trevo",
+    "latitude": -22.93011102684582,
+    "longitude": -47.07063727595198,
+    "address": "Avenida Benedito Campos, 109, Campinas, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459126",
+    "name": "Petrobras - Posto Rabi Ibaté",
+    "latitude": -21.908388,
+    "longitude": -48.05286,
+    "address": "Rod. Washington Luiz, km 255 - rural, Ibaté - SP, 14815-000, Ibaté",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264458",
+    "name": "Posto Rabi Ibate",
+    "latitude": -21.907429542432,
+    "longitude": -48.05298965472264,
+    "address": "Rodovia Washington Luís, Ibate, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459131",
+    "name": "Eletroposto Latin America Solar - Unidade Santa Maria Outlet",
+    "latitude": -21.287248,
+    "longitude": -47.750866,
+    "address": "Rodovia Anhanguera (SP-330), km 299, Cravinhos - SP, 14140-000, Cravinhos",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303255",
+    "name": "Posto Calopysita",
+    "latitude": -23.02277896344208,
+    "longitude": -46.842399114129876,
+    "address": "Av Castelo Branco 761, Itatiba, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260247",
+    "name": "Eurobike Special BYD",
+    "latitude": -21.217504918490306,
+    "longitude": -47.79358563313548,
+    "address": "Avenida Carlos Eduardo de Gasperi Consoni, 1562, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260245",
+    "name": "Graal Topazio",
+    "latitude": -21.197819248751998,
+    "longitude": -47.770730323464704,
+    "address": "Avenida Presidente Castelo Branco, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260255",
+    "name": "Thor Volvo - RP",
+    "latitude": -21.197744604512664,
+    "longitude": -47.77077886429345,
+    "address": "Avenida Presidente Castelo Branco, 1516, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260254",
+    "name": "Audi Center Ribeirão Preto",
+    "latitude": -21.21027364613667,
+    "longitude": -47.800818200960634,
+    "address": "Avenida Wladimir Meirelles Ferreira, 1556, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299982",
+    "name": "Eletroposto Solar Louveira - Usina Solar Fotovoltaica",
+    "latitude": -23.090910288471534,
+    "longitude": -46.94709433941193,
+    "address": "Rua Catharina Calssavara Caldana,122, Louveira , SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306272",
+    "name": "Eletroposto Shell - GTMaxEnergy",
+    "latitude": -23.076712617129914,
+    "longitude": -47.209358698166966,
+    "address": "Avenida Conceição, 2960, Indaiatuba - SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307516",
+    "name": "EcoCharge - Posto Tamandaré",
+    "latitude": -21.444412787222532,
+    "longitude": -45.9503100900605,
+    "address": "Rua Tocantins, 94, Alfenas, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299856",
+    "name": "Eletrograal 67",
+    "latitude": -23.135770967341102,
+    "longitude": -46.94499625514425,
+    "address": "Avenida Caminho de Goiás, Jundiai, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_462171",
+    "name": "Eletroposto Kinsol Dom Pedro",
+    "latitude": -21.151442502468274,
+    "longitude": -47.82489361374516,
+    "address": "Av. Dom Pedro I, 1470 - Ipiranga, Ribeirão Preto - SP, 14055-630, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264457",
+    "name": "Posto BR - Pau Seco",
+    "latitude": -21.783152938628362,
+    "longitude": -48.22408714864679,
+    "address": "Rodovia Washington Luís, Araraquara, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191083",
+    "name": "EDP | Graal Trevo (Plug&GO)",
+    "latitude": -21.10163448256307,
+    "longitude": -47.787021334984615,
+    "address": "Posto Graal Trevo, Ribeirão Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267260",
+    "name": "Maxi Shopping Jundiai",
+    "latitude": -23.170261323533296,
+    "longitude": -46.892392358941265,
+    "address": "Av. Antônio Frederico Ozanan, 6000 - Vila Rio Branco, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_278516",
+    "name": "Avenida da Liberdade",
+    "latitude": -23.17111085171034,
+    "longitude": -46.900472357411786,
+    "address": "Avenida da Liberdade, Jundiaí , São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459087",
+    "name": "Hotel Bourbon Atibaia",
+    "latitude": -23.107962,
+    "longitude": -46.57259,
+    "address": "Rod. Fernão Dias, Km 37,5 - Parque das Nações, Atibaia - SP, 12954-904, Atibaia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459860",
+    "name": "Eletroposto 80kw Empório Dom Olivio Jundiaí",
+    "latitude": -23.186808454754285,
+    "longitude": -46.89858099927869,
+    "address": "Rua do Retiro, 925 - Vila Virginia , Jundiaí , SP",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208605",
+    "name": "Ibis Jundiaí Shopping ",
+    "latitude": -23.1973506042565,
+    "longitude": -46.88930244157916,
+    "address": "Rua Luis de Jesus, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208604",
+    "name": "3333 Avenida Nove de Julho",
+    "latitude": -23.199628335130782,
+    "longitude": -46.890283229170905,
+    "address": "3333 Avenida Nove de Julho, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208603",
+    "name": "Avenida Nove de Julho",
+    "latitude": -23.201969763240598,
+    "longitude": -46.891877367280586,
+    "address": "Avenida Nove de Julho, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304279",
+    "name": "Graal 56",
+    "latitude": -23.204803825697013,
+    "longitude": -46.92776021725456,
+    "address": "Rod. dos Bandeirantes, Km 56, Jundiaí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307383",
+    "name": "Incharge",
+    "latitude": -22.257665,
+    "longitude": -45.6936231,
+    "address": "Rua Dalton Luiz Teles,115, Santa Rita Do Sapucaí , minas gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461239",
+    "name": "MOB ON BATATAIS",
+    "latitude": -20.89584936414964,
+    "longitude": -47.60054663300937,
+    "address": "Avenida Liberdade, 29, Batatais , São Paulo ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266805",
+    "name": "Posto Moinho I",
+    "latitude": -21.945385422291466,
+    "longitude": -45.62093585343945,
+    "address": "Rod. Fernão Dias, São Gonçalo do Sapucaí, Minas Gerais",
+    "source": "OpenChargeMap"
+  }
+]

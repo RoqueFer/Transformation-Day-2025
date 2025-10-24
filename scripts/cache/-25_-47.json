@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_259628",
+    "name": "Posto Fase Quattro",
+    "latitude": -24.33100568490397,
+    "longitude": -47.630335244289085,
+    "address": "Rodovia Régis Bittencourt (BR-116) km 413,8, Juquiá, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204433",
+    "name": "Volvo Charger - Posto Ongaratto 500",
+    "latitude": -24.78074397448374,
+    "longitude": -48.18600783359733,
+    "address": "Rod. Régis Bittencourt, 500, Cajati, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300185",
+    "name": "Hub de Recarga Go Electric - Riacho Grande",
+    "latitude": -23.777805738791685,
+    "longitude": -46.52909857095193,
+    "address": "R. Heinrich Nordoff, 61 - Rio Grande, São Bernardo do Campo, São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

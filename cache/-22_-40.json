@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_459129",
+    "name": "Reserva Caruara",
+    "latitude": -21.7368,
+    "longitude": -41.025117,
+    "address": "Avenida Atlantica Iquipari, SN - Grussaí, São João da Barra - RJ, 28200-000, São João da Barra",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459128",
+    "name": "Petrobras - Posto Líder 1",
+    "latitude": -21.743383,
+    "longitude": -41.33485,
+    "address": "Posto Líder - Av. ⅩⅤ de Novembro, 563 - Caju, Campos dos Goytacazes - RJ, Brasil, Campos dos Goytacazes",
+    "source": "OpenChargeMap"
+  }
+]

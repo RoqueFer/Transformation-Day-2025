@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ocm_460357",
+    "name": "Super Adega Gama",
+    "latitude": -15.999137,
+    "longitude": -48.052119,
+    "address": "Sle Q 45, St. Leste Área Industrial, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460359",
+    "name": "Super Adega Taguatinga FastCharger",
+    "latitude": -15.874419,
+    "longitude": -48.030779,
+    "address": "CSG 20, Lote 02, Taguatinga Sul, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_190150",
+    "name": "Administração Regional de Samambaia",
+    "latitude": -15.880703253214236,
+    "longitude": -48.086535840385125,
+    "address": "Centro urbano, Samambaia, Federal District",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460279",
+    "name": "BSB Nissan 1",
+    "latitude": -15.853201314064265,
+    "longitude": -47.95597434415083,
+    "address": "Brasília",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460278",
+    "name": "BSB Zoológico 1",
+    "latitude": -15.850890298288363,
+    "longitude": -47.939390598826435,
+    "address": "Brasília",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459137",
+    "name": "NetPark - Connect Towers",
+    "latitude": -15.835942,
+    "longitude": -48.048117,
+    "address": "QS1 Rua 212 Lote 19,21,23 bloco D - Estacionamento NetPark , Brasília",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460078",
+    "name": "Assaí Brasília Park",
+    "latitude": -15.833956920797005,
+    "longitude": -47.95035191977622,
+    "address": "SMAS Trecho 03 Guará, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460358",
+    "name": "Super Adega QNL Taguatinga",
+    "latitude": -15.834348,
+    "longitude": -48.072864,
+    "address": "QNL 02 Área Especial, 3, Taguatinga, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296262",
+    "name": "SAGA BYD",
+    "latitude": -15.823557344489913,
+    "longitude": -47.952420770737774,
+    "address": "SGCV Lt 10/11 Ae, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460356",
+    "name": "Super Adega",
+    "latitude": -15.794429,
+    "longitude": -47.947566,
+    "address": "Atacadista Super Adega, Guará, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460170",
+    "name": "ASSAÍ BRASÍLIA SIA",
+    "latitude": -15.794377979695836,
+    "longitude": -47.946204352408884,
+    "address": "Trecho 12 Lote 15, S/Nº, Brasília,  Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460355",
+    "name": "Super Adega Jd. Botânico FastCharger",
+    "latitude": -15.8896732,
+    "longitude": -47.7976531,
+    "address": "Av. Bela Vista, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_190149",
+    "name": "Câmara dos Deputados",
+    "latitude": -15.801949215599066,
+    "longitude": -47.86581646032528,
+    "address": "Via S 2 Leste, Brasília, Federal District",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461929",
+    "name": "Life Box Lago Sul",
+    "latitude": -15.8194607,
+    "longitude": -47.8353896,
+    "address": "SCES Trecho 2 Beira Lago, St. de Clubes Esportivos, Brasília, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_259680",
+    "name": "Setor Tradicional Q16",
+    "latitude": -15.681943807031786,
+    "longitude": -48.20401439976098,
+    "address": "Setor Tradicional Q16, Brazlândia, Distrito Federal",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459275",
+    "name": "Restaurante Sabor Goiano II ",
+    "latitude": -16.190886235233876,
+    "longitude": -48.67160950854168,
+    "address": "BR-060, Abadiânia , GO",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459263",
+    "name": "Route 60",
+    "latitude": -16.184978,
+    "longitude": -48.688626,
+    "address": "BR-060, Zona Rural, Abadiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_190151",
+    "name": "Jerivá",
+    "latitude": -16.184184748937696,
+    "longitude": -48.69013074450595,
+    "address": "BR-060, Abadiânia, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460360",
+    "name": "Ity Hotel e Restaurante",
+    "latitude": -16.767032,
+    "longitude": -47.615085,
+    "address": "R. Amazonas, Qd 51 Lt 01, Setor Noroeste, Cristalina, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461327",
+    "name": "[40kW] Posto Lammar Rota 050",
+    "latitude": -16.769097682327185,
+    "longitude": -47.61737095218921,
+    "address": "Rua Tocantins, 1091, Cristalina, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459267",
+    "name": "Chico de Sá Pirenópolis",
+    "latitude": -15.849538,
+    "longitude": -48.957508,
+    "address": "Centro, Pirenópolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459264",
+    "name": "Divina Pousada",
+    "latitude": -15.853862,
+    "longitude": -48.9678014,
+    "address": "Alto da Lapa, 1, Pirenópolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459262",
+    "name": "Empório Gourmet",
+    "latitude": -16.334354,
+    "longitude": -48.940649,
+    "address": "Av. Pinheiro Chagas, 726, Jundiaí, Anápolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266714",
+    "name": "SAU 1 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -16.91983622156762,
+    "longitude": -47.69680186386796,
+    "address": "BR-050, Ipameri, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311703",
+    "name": "Amazônia Eletrovias - Anápolis Posto São João",
+    "latitude": -16.27454467842493,
+    "longitude": -48.96834327166775,
+    "address": "BR 153, 171, Posto São João, Brascom, Anápolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461839",
+    "name": "Ecosol",
+    "latitude": -16.334583060684736,
+    "longitude": -48.95214120988868,
+    "address": "Av. Brasil Sul, 560 - Sala 3 - Vila Jussara, , Anápolis, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266715",
+    "name": "Hotel e Restaurante Sonho Verde",
+    "latitude": -16.994855261117905,
+    "longitude": -47.753626856379014,
+    "address": "BR-050, Ipameri, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266713",
+    "name": "SAU 2 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -17.28504093939128,
+    "longitude": -47.757596088071466,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460525",
+    "name": "Zap Charge Br153 Km 353",
+    "latitude": -15.698202715346511,
+    "longitude": -49.336317152939955,
+    "address": "Br 153 Km 353, Jaragua, goias",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461838",
+    "name": "Drogaria Aldeia Guanabara",
+    "latitude": -16.623473803050828,
+    "longitude": -49.21916758590709,
+    "address": "Av. Vera Cruz, 874 - Jardim Guanabara, Goiânia, Goiás",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_308515",
+    "name": "Amazônia Eletrovias - Imperatriz Posto Ecodrive",
+    "latitude": -5.542314711357619,
+    "longitude": -47.46556159555905,
+    "address": "Posto Ecodrive, BR-010, Imperatriz - MA, Imperatriz, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308514",
+    "name": "Amazônia Eletrovias - Imperatriz Posto Santa Tereza",
+    "latitude": -5.482171307076371,
+    "longitude": -47.472407707787454,
+    "address": "Posto Santa Tereza, BR 010, Coco Grande, Imperatriz - MA, 65909-170, Imperatriz, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308517",
+    "name": "Amazônia Eletrovias - Araguaína Brii Hotel",
+    "latitude": -7.202350103393755,
+    "longitude": -48.2384812323792,
+    "address": "Brii Hotel / Posto Shell Rede K, Av. Bernardo Sayão, 600, Araguaína, Tocantins",
+    "source": "OpenChargeMap"
+  }
+]

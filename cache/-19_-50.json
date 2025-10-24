@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_312273",
+    "name": "CDI",
+    "latitude": -18.988844445304963,
+    "longitude": -49.45696929157225,
+    "address": "Avenida Nove, 454, Ituiutaba , mg",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306489",
+    "name": "BR-153",
+    "latitude": -18.421580212336238,
+    "longitude": -49.19422573985224,
+    "address": "BR-153, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459277",
+    "name": "Posto Alvorada ",
+    "latitude": -18.133497465215328,
+    "longitude": -49.28516020489417,
+    "address": "BR 153, Km 670, Goiatuba, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266595",
+    "name": "Hotel Sul",
+    "latitude": -19.669764309542117,
+    "longitude": -51.19263646050024,
+    "address": "Rua Maria Candida Freitas, 1195, Paranaíba, Mato Grosso do Sul",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ocm_460360",
+    "name": "Ity Hotel e Restaurante",
+    "latitude": -16.767032,
+    "longitude": -47.615085,
+    "address": "R. Amazonas, Qd 51 Lt 01, Setor Noroeste, Cristalina, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461327",
+    "name": "[40kW] Posto Lammar Rota 050",
+    "latitude": -16.769097682327185,
+    "longitude": -47.61737095218921,
+    "address": "Rua Tocantins, 1091, Cristalina, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266714",
+    "name": "SAU 1 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -16.91983622156762,
+    "longitude": -47.69680186386796,
+    "address": "BR-050, Ipameri, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266715",
+    "name": "Hotel e Restaurante Sonho Verde",
+    "latitude": -16.994855261117905,
+    "longitude": -47.753626856379014,
+    "address": "BR-050, Ipameri, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266713",
+    "name": "SAU 2 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -17.28504093939128,
+    "longitude": -47.757596088071466,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266712",
+    "name": "SAU 3 - Eco050 - Servico Atendimento Usuario",
+    "latitude": -17.608798041593403,
+    "longitude": -47.78845805509252,
+    "address": "BR-050, Goiás",
+    "source": "OpenChargeMap"
+  }
+]

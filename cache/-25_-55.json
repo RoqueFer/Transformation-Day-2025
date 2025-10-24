@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_193479",
+    "name": "Centro de Recepção de Visitantes Itaipu",
+    "latitude": -25.447631023271455,
+    "longitude": -54.58478914190316,
+    "address": "Avenida Tancredo Neves 12138, Foz do Iguaçu, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193478",
+    "name": "Auto Posto Matelandia Ipiranga",
+    "latitude": -25.24312364701521,
+    "longitude": -53.97937417173915,
+    "address": "Av. Juscelino Kubitscheck de Oliveira, 1200, Matelândia, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_298884",
+    "name": "Posto GMAXX - Cia Charge ",
+    "latitude": -24.08415334464796,
+    "longitude": -54.24520031724592,
+    "address": "Rua João Guimarães Rosa, Guaíra, Paraná",
+    "source": "OpenChargeMap"
+  }
+]

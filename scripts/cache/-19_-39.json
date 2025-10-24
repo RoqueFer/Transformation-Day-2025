@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ocm_235278",
+    "name": "ibis Styles São Mateus",
+    "latitude": -18.725342757874955,
+    "longitude": -39.861009635822455,
+    "address": "Rodovia Governador Mário Covas, 335, São Mateus, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235277",
+    "name": "EDP São Mateus",
+    "latitude": -18.715444813205963,
+    "longitude": -39.85846291855441,
+    "address": "Rua Manoel de Andrade, 13, São Mateus, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235281",
+    "name": "Supermercado Sempre Tem",
+    "latitude": -19.394432064646793,
+    "longitude": -40.064110094894886,
+    "address": "Avenida Presidente Getulio Vargas, 410, Linhares, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235279",
+    "name": "EDP - Linhares (#003)",
+    "latitude": -19.398606173588675,
+    "longitude": -40.06484708239873,
+    "address": "Avenida Rui Barbosa, 179, Linhares, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235280",
+    "name": "Sorveteria 40 Sabores Linhares",
+    "latitude": -19.39457931463501,
+    "longitude": -40.067004471900674,
+    "address": "Avenida Rui Barbosa, 1294, Linhares, Espírito Santo",
+    "source": "OpenChargeMap"
+  }
+]

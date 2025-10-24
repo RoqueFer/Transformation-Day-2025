@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ocm_312772",
+    "name": "Estação Guapo | APP On Charge (CCS2 - 80kW)",
+    "latitude": -25.431391340138774,
+    "longitude": -49.99427107595773,
+    "address": "R. José Antônio Bordignon, 400, Palmeira, PR",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204434",
+    "name": "Copel - Maranello Palmeira",
+    "latitude": -25.434341154212206,
+    "longitude": -49.9921110056751,
+    "address": "Km 169 - BR-277, Palmeira, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312771",
+    "name": "Letts Road - 9GCHARGE",
+    "latitude": -25.415088018360677,
+    "longitude": -49.77552094073914,
+    "address": "BR-376, km 548 - Colônia Witmarsum, Palmeira, Parana",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312757",
+    "name": "City Center Outlet - Weg",
+    "latitude": -25.444668373654793,
+    "longitude": -49.56994126479711,
+    "address": "R. João Bertoja, 1995, Campo Largo, Parana",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204435",
+    "name": "Copel - Anila Hotel e Restaurante",
+    "latitude": -25.46366711314856,
+    "longitude": -50.56869555885402,
+    "address": "BR-277, km 233, Fernandes Pinheiro, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304035",
+    "name": "Plasticos Paraná",
+    "latitude": -25.432298783975696,
+    "longitude": -49.36339247467453,
+    "address": "Avenida Juscelino Kubitschek de Oliveira (Marginal Leste), Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191634",
+    "name": "Copel Telecomunicações",
+    "latitude": -25.432603925814988,
+    "longitude": -49.339198023151965,
+    "address": "Rua José Izidoro Biazetto, 158, Curitiba, PR",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306612",
+    "name": "Posto Luz da Lua - InWatts",
+    "latitude": -25.46926759912884,
+    "longitude": -49.35278832712896,
+    "address": "Rua Juarez Bertolini, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235318",
+    "name": "Open Point Volvo Cars - Grupo Servopa",
+    "latitude": -25.439376897734718,
+    "longitude": -49.300986875145384,
+    "address": "Rua Jerônimo Durski, 925, Curitiba, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260182",
+    "name": "Audi Center Alto da XV",
+    "latitude": -25.42092894575275,
+    "longitude": -49.24840947936934,
+    "address": "Rua Padre Germano Mayer, 1629, Curitiba, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235321",
+    "name": "Alumifix Solar",
+    "latitude": -25.49194425292336,
+    "longitude": -49.27577016669113,
+    "address": "Rua Major Vicente Castro, 2777, Curitiba, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303434",
+    "name": "Vale Sul",
+    "latitude": -25.51911340490797,
+    "longitude": -49.199901546163346,
+    "address": "Av Das Torres, 1680, São José Dos Pinhais, paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191277",
+    "name": "Hotel Slaviero Essential - Zletric",
+    "latitude": -25.53602154104199,
+    "longitude": -49.1939222861522,
+    "address": "Avenida das Torres, 3450, São José dos Pinhais, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_259809",
+    "name": "Posto Tulio Caraguatá",
+    "latitude": -25.329076754299123,
+    "longitude": -49.02997239096226,
+    "address": "BR-116, km 68, Campina Grande do Sul, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302563",
+    "name": "Ev Eletroposto Restaurante Serra Da Graciosa",
+    "latitude": -25.318308965398444,
+    "longitude": -49.01801328361768,
+    "address": "R. Doraci Ribeiro Prestes, 45, Quatro Barras, PR",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304138",
+    "name": "Estação Maru",
+    "latitude": -25.531005806543618,
+    "longitude": -49.086482207289464,
+    "address": "Rodovia do Café Governador Ney Braga, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313975",
+    "name": "Posto Pelanda 27",
+    "latitude": -25.67559900594678,
+    "longitude": -49.15101745747177,
+    "address": "BR-376, 485, São José dos Pinhais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313974",
+    "name": "Eletroposto CNF - Nogueira",
+    "latitude": -25.73061710889489,
+    "longitude": -49.13430282079102,
+    "address": "BR-376, s/n, São José dos Pinhais, Parana",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_459277",
+    "name": "Posto Alvorada ",
+    "latitude": -18.133497465215328,
+    "longitude": -49.28516020489417,
+    "address": "BR 153, Km 670, Goiatuba, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306489",
+    "name": "BR-153",
+    "latitude": -18.421580212336238,
+    "longitude": -49.19422573985224,
+    "address": "BR-153, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_266594",
+    "name": "Casarão Goiano",
+    "latitude": -17.075799377875228,
+    "longitude": -49.820361174024015,
+    "address": "BR-060, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312273",
+    "name": "CDI",
+    "latitude": -18.988844445304963,
+    "longitude": -49.45696929157225,
+    "address": "Avenida Nove, 454, Ituiutaba , mg",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460534",
+    "name": "ZAP CHARGE SERRA PARK",
+    "latitude": -17.77127058738111,
+    "longitude": -48.7558673310661,
+    "address": "Rua Piaui Qdp8 Lt 14A - ESPLANADA , Rio Quente , goias ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459136",
+    "name": "Petrobras - Hot Petro Auto Posto",
+    "latitude": -17.71477,
+    "longitude": -48.677712,
+    "address": "GO-213, 55, CALDAS NOVAS – GO, Caldas Novas ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_462289",
+    "name": "Atacadão Dia a Dia ",
+    "latitude": -17.72412961098668,
+    "longitude": -48.64193848726319,
+    "address": "Área 49, Rua JB 21 Jardim Belvedere (GO-309, Caldas Novas - GO, 75680-001, Brazil, Caldas Novas , Minas Gerais ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_462295",
+    "name": "Estacionamento Caldas Novas ",
+    "latitude": -17.744608177194195,
+    "longitude": -48.63081480014415,
+    "address": "R. Machado de Assis, 410 - Termal, Caldas Novas - GO, 75680-074, Brasil, Caldas Novas , Goiás ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461935",
+    "name": "Maria Fumaça",
+    "latitude": -17.726769,
+    "longitude": -48.62768,
+    "address": "R. São Genaro, 1000, Solar de Caldas, Caldas Novas, Goiás",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460058",
+    "name": "GDC Mobi",
+    "latitude": -17.73504021923816,
+    "longitude": -48.623825486304305,
+    "address": "Av Sebastião Dayrell De Lima, 267 Brasileia, Betkm",
+    "source": "OpenChargeMap"
+  }
+]

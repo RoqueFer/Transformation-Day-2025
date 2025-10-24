@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_264462",
+    "name": "Hotel Solar das Mangueiras",
+    "latitude": -12.132049724317355,
+    "longitude": -45.014880473580945,
+    "address": "Av. Aylon Macedo, 2000, Barreiras, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313298",
+    "name": "TEM CARREGADOR DC 30 KW - BARREIRINHAS, BARREIRAS/BA - HOTEL DAS PALMEIRAS ",
+    "latitude": -12.138098710068192,
+    "longitude": -45.01179853314477,
+    "address": "Av. Aylon Macedo, 1400 - Barreirinhas, Barreiras - BA, 47810-692, Barreirinhas, Barreiras - BA",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264461",
+    "name": "Office 661",
+    "latitude": -12.091424105403618,
+    "longitude": -45.780651590756634,
+    "address": "Rua 13 de Maio 661, Luis Eduardo Magalhaes, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264460",
+    "name": "Icon Business Mall",
+    "latitude": -12.090826880343798,
+    "longitude": -45.78092207409952,
+    "address": "Rua Glauber Rocha 602, Luis Eduardo Magalhaes, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

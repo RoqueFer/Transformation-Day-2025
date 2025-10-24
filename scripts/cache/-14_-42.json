@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_267070",
+    "name": "Hotel Portal Premium",
+    "latitude": -14.21626936046188,
+    "longitude": -41.682612581869876,
+    "address": "Avenida Centenário, 1418, Brumado, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305999",
+    "name": "Elesol Energia - Solar Livre ",
+    "latitude": -14.05965065533914,
+    "longitude": -42.521079550433114,
+    "address": "Avenida 01, SN, Brás , Caetité, Bahia ",
+    "source": "OpenChargeMap"
+  }
+]

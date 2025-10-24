@@ -1,0 +1,602 @@
+[
+  {
+    "id": "ocm_303253",
+    "name": "Hotel Evidence",
+    "latitude": -21.88120118944778,
+    "longitude": -42.684585117408176,
+    "address": "BR 393 KM 104, Sapucaia - RJ, 25880-000, Sapucaia, RJ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303254",
+    "name": "SAU EcoRioMinas Além Paraíba",
+    "latitude": -21.748901897549757,
+    "longitude": -42.730227462845846,
+    "address": "773C+76 - Angustura, Além Paraíba, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461036",
+    "name": "Toca Da Cigarra",
+    "latitude": -22.388355973274173,
+    "longitude": -42.99796912599186,
+    "address": "Estrada Fraze, Teresópolis, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_272801",
+    "name": "Audi Center Juiz de Fora",
+    "latitude": -21.816686009794765,
+    "longitude": -43.37569379357285,
+    "address": "Av. Deusdedith Salgado, 5555, Juiz de Fora, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459127",
+    "name": "Petrobras - Auto Posto Aeroporto",
+    "latitude": -21.794564,
+    "longitude": -43.367619,
+    "address": "Av. Deusdedith Salgado, 2020 - Teixeiras, Juiz de Fora - MG, 36033-007, Juiz de Fora",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188890",
+    "name": "BMW Euroville",
+    "latitude": -21.80725859037888,
+    "longitude": -43.376626921312436,
+    "address": "Avenida Deusdedith Salgado, Juiz de Fora, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461226",
+    "name": "Eletroposto Le Canton",
+    "latitude": -22.384223756809433,
+    "longitude": -42.856856277807424,
+    "address": "R. Antônio da Silva, 300, Teresópolis, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_194200",
+    "name": "Teresópolis Shopping",
+    "latitude": -22.41143127179805,
+    "longitude": -42.965655579837176,
+    "address": "Rua Edmundo Bittencourt 101, Teresópolis, RJ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459123",
+    "name": "Shopping Estação Locanda Itaipava",
+    "latitude": -22.395638,
+    "longitude": -43.133188,
+    "address": "Estr. União e Indústria, 11000 - Itaipava, Petrópolis - RJ, 25730-735, Itaipava",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459803",
+    "name": "Associação Pro Energia",
+    "latitude": -22.415673988679373,
+    "longitude": -42.952489369212344,
+    "address": "R. Viriato Correia, 400 - Ermitage, Teresópolis, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188889",
+    "name": "Empório Maria Maria",
+    "latitude": -22.400894,
+    "longitude": -43.134197,
+    "address": "Estrada União e Indústria, Petrópolis, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_297869",
+    "name": "Posto Amigão de Itaipava",
+    "latitude": -22.405662755323092,
+    "longitude": -43.14273215191042,
+    "address": "Rodovia Washington Luiz, Itaipava, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459804",
+    "name": "Restaurante Rabugentos",
+    "latitude": -22.429835753625852,
+    "longitude": -42.98008346541906,
+    "address": "Av. Alberto Tôrres, 701 - Alto, Teresópolis, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459122",
+    "name": "Petrobras - Ecorodo",
+    "latitude": -22.437131,
+    "longitude": -43.177589,
+    "address": " ECORODO BR 040 COMBUSTIVEIS LTDA - BR-040 - Araras, Petrópolis - RJ, Brasil, Petrópolis",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_297868",
+    "name": "Kiosque do Alemão",
+    "latitude": -22.437571081215836,
+    "longitude": -43.17808441658872,
+    "address": "Rodovia Washington Luiz, Petrópolis, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300060",
+    "name": "Posto Amigão - Itaboraí (Casa do Alemão)",
+    "latitude": -22.747185867323793,
+    "longitude": -42.81212165150362,
+    "address": "Rodovia Governador Mário Covas, 3170, Itaboraí, Rio de Janeiro ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300061",
+    "name": "Petrobras - Posto Pesque e Pague",
+    "latitude": -22.740718627547736,
+    "longitude": -42.75593340023556,
+    "address": "Rodovia Governador Mário Covas,127, Tanguá, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235287",
+    "name": "Posto Kid Dollar",
+    "latitude": -22.61330532739018,
+    "longitude": -42.408682643118965,
+    "address": "Rodovia BR-101, KM-236, Silva Jardim, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301069",
+    "name": "Posto Galapagos - RJ",
+    "latitude": -22.802170980872532,
+    "longitude": -43.3510933222754,
+    "address": "Rodovia Presidente Dutra, 1997, Rio de Janeiro ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459115",
+    "name": "Eletroposto Av. Brasil",
+    "latitude": -22.857282,
+    "longitude": -43.247989,
+    "address": "Av. Brasil, 6355 - Bonsucesso, Rio de Janeiro - RJ, 21040-360, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188919",
+    "name": "Plaza Shopping Niterói",
+    "latitude": -22.88759,
+    "longitude": -43.124492,
+    "address": "Avenida Visconde do Rio Branco, Niterói, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267559",
+    "name": "Shooping Nova America",
+    "latitude": -22.8783375,
+    "longitude": -43.271668500000004,
+    "address": "Avenida Pastor Martin Luther King Junior 126, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459114",
+    "name": "Petrobras - Posto São Cristóvão",
+    "latitude": -22.898783,
+    "longitude": -43.222967,
+    "address": "Campo de São Cristóvão, 362 - São Cristóvão, Rio de Janeiro - RJ, 20921-440, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459112",
+    "name": "NetPark - Ventura Towers",
+    "latitude": -22.909337,
+    "longitude": -43.184494,
+    "address": "Av. República do Chile, 330 - Centro, Rio de Janeiro - RJ, 20031-170, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188905",
+    "name": "Bossa Nova Mall",
+    "latitude": -22.914307983189502,
+    "longitude": -43.16647015706479,
+    "address": "Bossa Nova Mall, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460225",
+    "name": "Campos Energia ",
+    "latitude": -22.898953,
+    "longitude": -43.2673014,
+    "address": "Rua Visconde de Itabaiana , Rio de Janeiro ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459111",
+    "name": "Petrobras - Posto Bracarense",
+    "latitude": -22.910832,
+    "longitude": -43.216849,
+    "address": "Av. Osvaldo Aranha, 11 - Maracanã, Rio de Janeiro - RJ, 20271-320, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459109",
+    "name": "Cond. Glória Trade Center",
+    "latitude": -22.920057,
+    "longitude": -43.1771,
+    "address": "R. da Glória, 344 - Glória, Rio de Janeiro - RJ, 20241-180, Brasil, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459108",
+    "name": "NetPark - Manchete",
+    "latitude": -22.924464,
+    "longitude": -43.173578,
+    "address": "R. do Russel, 804 - Glória, Rio de Janeiro - RJ, 22210-010, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_272803",
+    "name": "Eletroposto Novo Pedágio",
+    "latitude": -22.719701,
+    "longitude": -43.687328,
+    "address": "Rodovia Presidente Dutra Km 204, Seropédica, RJ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235050",
+    "name": "Shell Recharge - Posto Iate Botafogo",
+    "latitude": -22.949492226615334,
+    "longitude": -43.17785817033453,
+    "address": "Avenida Repórter Nestor Moreira, 41, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459105",
+    "name": "RIOSUL Shopping Center",
+    "latitude": -22.957244,
+    "longitude": -43.179451,
+    "address": "Av. Lauro Sodré, 445 - Lj 401 - Botafogo, Rio de Janeiro - RJ, 22290-070, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459104",
+    "name": "Cond. Pulse Offices",
+    "latitude": -22.964902,
+    "longitude": -43.217787,
+    "address": "R. Jardim Botânico, 657 - Jardim Botânico, Rio de Janeiro - RJ, 20040-007, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459102",
+    "name": "Petrobras - Posto Agora BR 40 Anos",
+    "latitude": -22.972711,
+    "longitude": -43.203523,
+    "address": "Av. Epitácio Pessoa, s/n, Rio de Janeiro, RJ 22471-003, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_47502",
+    "name": "BR Mania",
+    "latitude": -22.97294,
+    "longitude": -43.20274,
+    "address": "Av. Epitácio Pessoa, 2900 - Lagoa, Rio de Janeiro, Too de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_54983",
+    "name": "Posto BR Mania",
+    "latitude": -22.97294,
+    "longitude": -43.20274,
+    "address": "Av. Epitácio Pessoa, 2900 - Lagoa, Rio de Janeiro, Too de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_46680",
+    "name": "BR Mania",
+    "latitude": -22.97294,
+    "longitude": -43.20274,
+    "address": "Av. Epitácio Pessoa, 2900 - Lagoa, Rio de Janeiro, Too de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_44983",
+    "name": "BR Mania",
+    "latitude": -22.97294,
+    "longitude": -43.20274,
+    "address": "Av. Epitácio Pessoa, 2900 - Lagoa, Rio de Janeiro, Too de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188888",
+    "name": "Shopping Metropolitano Barra",
+    "latitude": -22.971199425657645,
+    "longitude": -43.37246720567265,
+    "address": "1300 Avenida Embaixador Abelardo Bueno, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459103",
+    "name": "Universe Empresarial",
+    "latitude": -22.972091,
+    "longitude": -43.369819,
+    "address": "Av. Alm. Júlio de Sá Bierrenbach, 65 - Jacarepaguá, Rio de Janeiro - RJ, 22775-028, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188909",
+    "name": "Dimension Office",
+    "latitude": -22.97430834824084,
+    "longitude": -43.3653438751428,
+    "address": "Avenida Embaixador Abelardo Bueno, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459101",
+    "name": "Cond. Península Way Office",
+    "latitude": -22.987068,
+    "longitude": -43.358333,
+    "address": "Av. João Cabral de Mello Neto, 610 - Barra da Tijuca, Rio de Janeiro - RJ, 22775-057, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305120",
+    "name": "Cabana da Mantiqueira",
+    "latitude": -21.21950982688064,
+    "longitude": -43.74390967174179,
+    "address": "BR-040, 702 - Caiçaras, Barbacena, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459091",
+    "name": "WeWork - Helios Seelinger 155",
+    "latitude": -23.005436,
+    "longitude": -43.313219,
+    "address": "Rua Helios Seelinger, 155 - Barra da Tijuca, Rio de Janeiro - RJ, 22640-040, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188906",
+    "name": "Posto Ipiranga Freeway Barra",
+    "latitude": -22.999860992491833,
+    "longitude": -43.335969976226636,
+    "address": "Avenida das Américas, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459099",
+    "name": "Casa Shopping",
+    "latitude": -22.992763,
+    "longitude": -43.363645,
+    "address": "Av. Ayrton Senna, 2150 - Barra da Tijuca, Rio de Janeiro - RJ, 22775-900, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459088",
+    "name": "Petrobras - Posto Quebramar",
+    "latitude": -23.011311,
+    "longitude": -43.301481,
+    "address": "Av. Min. Ivan Lins, 516 - Barra da Tijuca, Rio de Janeiro - RJ, 22620-110, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459100",
+    "name": "Americas Medical City",
+    "latitude": -22.992569,
+    "longitude": -43.370121,
+    "address": "Americas Medical City - Avenida Jorge Curi - Barra da Tijuca, Rio de Janeiro - RJ, Brasil, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459089",
+    "name": "Dannemann Siemsen",
+    "latitude": -23.008788,
+    "longitude": -43.316512,
+    "address": "Av. Rodolfo Amoedo, 300 - Barra da Tijuca, Rio de Janeiro - RJ, 22620-350, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188907",
+    "name": "Shopping Village Mall Barra",
+    "latitude": -22.99900288137502,
+    "longitude": -43.351272608746,
+    "address": "3900 Avenida das Américas, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188910",
+    "name": "Posto Nacional",
+    "latitude": -22.629952,
+    "longitude": -43.909382,
+    "address": "Presidente Dutra 237, Piraí, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188904",
+    "name": "Barra Shopping",
+    "latitude": -22.997463500000002,
+    "longitude": -43.358823,
+    "address": "4666 Avenida das Américas, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_15468",
+    "name": "Petrobras Future Station Service",
+    "latitude": -23.000385,
+    "longitude": -43.35085379999998,
+    "address": "Av. das Américas 3757 - Barra da Tijuca, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188911",
+    "name": "Posto Mamão",
+    "latitude": -22.63071918951171,
+    "longitude": -43.910158171776175,
+    "address": "Casa do Mamão, Piraí, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305038",
+    "name": "Nosso Pão de Queijo 60 KW",
+    "latitude": -21.21093745815452,
+    "longitude": -43.7490435706905,
+    "address": "BR-040, km701 - Caicaras, Barbacena, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459098",
+    "name": "Carrefour Barra",
+    "latitude": -22.997769,
+    "longitude": -43.362851,
+    "address": " Av. das Américas, 5150 - Barra da Tijuca, Rio de Janeiro - RJ, 22640-102, Brasil, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459093",
+    "name": "Shopping Car",
+    "latitude": -23.000677,
+    "longitude": -43.359593,
+    "address": "Avenida das Américas, 4485 - Barra da Tijuca, Rio de Janeiro - RJ, Brasil, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_457981",
+    "name": "Eletroposto Carioca - Easy Volt",
+    "latitude": -23.00053037,
+    "longitude": -43.37656835,
+    "address": "Av. das Américas, 6161,  Rio de Janeiro, RJ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459096",
+    "name": "América Mall",
+    "latitude": -22.999698,
+    "longitude": -43.379634,
+    "address": "Av. das Américas, 6.700 - Barra da Tijuca, Rio de Janeiro - RJ, 22793-080, Brasil, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188908",
+    "name": "Supermercado Zona Sul",
+    "latitude": -22.99967863988823,
+    "longitude": -43.399359025763886,
+    "address": "Supermercado Zona Sul, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459094",
+    "name": "Burger King Riserva Golf",
+    "latitude": -23.000634,
+    "longitude": -43.405691,
+    "address": "Av. das Américas, 10033, Recreio dos Bandeirantes, Rio de Janeiro, RJ, 22793-082, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459090",
+    "name": "Supermarket - Barra da Tijuca",
+    "latitude": -23.003709,
+    "longitude": -43.428365,
+    "address": "Supermarket - Av. das Américas, 12600 - Barra da Tijuca, Rio de Janeiro - RJ, 22790-702, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235288",
+    "name": "BYD Itavema",
+    "latitude": -23.006053601412404,
+    "longitude": -43.432111951119026,
+    "address": "Avenida das Américas, 12.141, Rio de Janeiro, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459095",
+    "name": "Royal 4x4 Concept",
+    "latitude": -22.999831,
+    "longitude": -43.492637,
+    "address": "Av. das Américas, 10410 - loja A - Barra da Tijuca, Rio de Janeiro - RJ, 22793-082, Rio de Janeiro'",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460572",
+    "name": "Park Premium",
+    "latitude": -23.005652121471584,
+    "longitude": -43.483652374904864,
+    "address": "Rua Silvia Pozzano, 2820, Rio de Janeiro, RJ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235286",
+    "name": "Restaurante Armazém Rota 106",
+    "latitude": -22.43107418128588,
+    "longitude": -41.86470629161883,
+    "address": "Avenida Ásia, Rio das Ostras, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459120",
+    "name": "Supermarket - Cabo Frio",
+    "latitude": -22.678997,
+    "longitude": -42.008718,
+    "address": "Rod. Amaral Peixoto, 10324-10358 - Unamar, Cabo Frio - RJ, 28298-542, Cabo Frio",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459121",
+    "name": "Posto Aliança - Volta Redonda",
+    "latitude": -22.517253,
+    "longitude": -44.10856,
+    "address": "Rua Vinte e Três, n:08 - Vila Santa Cecília - Volta Redonda, RJ, Volta Redonda",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459124",
+    "name": "Supermarket - Macaé",
+    "latitude": -22.391107,
+    "longitude": -41.808895,
+    "address": "Av. Aluizio da Silva Gomes, 787 - Glória, Macaé - RJ, 27930-560, Macaé",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459125",
+    "name": "SHOPSOLAR MACAÉ",
+    "latitude": -22.381707,
+    "longitude": -41.777387,
+    "address": "R Teixeira de Gouveia , 1487 cajueiros Macaé, Macaé",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_272804",
+    "name": "Rodovia Presidente Dutra - Pista Lateral",
+    "latitude": -22.561235294142037,
+    "longitude": -44.15657687276848,
+    "address": "Rodovia Presidente Dutra - Pista Lateral, Rio de Janeiro",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459119",
+    "name": "Marina Búzios",
+    "latitude": -22.748723,
+    "longitude": -41.956629,
+    "address": "Alameda Andorinhas - Lot. Praia Baia Formosa, Búzios - RJ, 28950-000, Búzios",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459107",
+    "name": "Marina Itacuruçá",
+    "latitude": -22.925421,
+    "longitude": -43.899652,
+    "address": "Alameda Bons Ventos, S/N - Itacuruçá, Mangaratiba - RJ, 23860-000, Mangaratiba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459117",
+    "name": "Petrobras - Centro Automotivo Novo Búzios",
+    "latitude": -22.775087,
+    "longitude": -41.925041,
+    "address": " Avenida Jose Bento Ribeiro Dantas, Manguinhos, Armação Dos Búzios - 28950000, Búzios",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459118",
+    "name": "Hotel Insólito - Búzios",
+    "latitude": -22.769723,
+    "longitude": -41.882934,
+    "address": "R. E Dois Lot Pr Ferradura, 66 - Pr Ferradura, Búzios - RJ, 28950-000, Búzios",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ocm_306684",
+    "name": "VAPT Natal | Sacolão Maranguape",
+    "latitude": -5.76261175,
+    "longitude": -35.25315898,
+    "address": "Maranguape,65, Natal, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311219",
+    "name": "BR Super Carga - Midway Mall (G6) - 160kW - Natal",
+    "latitude": -5.811311016002136,
+    "longitude": -35.20638929038005,
+    "address": "Av. Nevaldo Rocha, 3775 - Tirol, Natal, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306688",
+    "name": "VAPT Natal | Grupo Centry",
+    "latitude": -5.81160289,
+    "longitude": -35.22604487,
+    "address": "Interventor Mário Câmara, 2101, Natal, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300288",
+    "name": "BR Super Carga - Neto Jr Equipadora - 40kW - Natal",
+    "latitude": -5.833962343906393,
+    "longitude": -35.21844800655293,
+    "address": "Avenida Prudente de Morais, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296014",
+    "name": "Audi Center Natal",
+    "latitude": -5.851855889570999,
+    "longitude": -35.20952482188517,
+    "address": "Avenida Senador Salgado Filho, 3661, Natal, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235268",
+    "name": "PG Prime Jaguar Land Rover",
+    "latitude": -5.852803073269257,
+    "longitude": -35.21108643921451,
+    "address": "Avenida Senador Salgado Filho, 3702, Natal, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300286",
+    "name": "BR Super Carga - STA Mercedes - 60kW - Natal",
+    "latitude": -5.859266384660387,
+    "longitude": -35.19471564890779,
+    "address": "Av. Eng. Roberto Freire, Natal, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306685",
+    "name": "VAPT Parnamirim | Sacolão Maria Lacerda",
+    "latitude": -5.88960119,
+    "longitude": -35.20911729,
+    "address": "Maria Lacerda Montenegro,1864, Parnamirim, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308690",
+    "name": "BR Super Carga - Subway BR101",
+    "latitude": -5.912714750310855,
+    "longitude": -35.26156659306923,
+    "address": "Av. Piloto Pereira Tim, D05/06, Parnamirim, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216884",
+    "name": "Eletroposto Posto Pichilau Parnamirim - Corredor Verde Neoenergia",
+    "latitude": -5.94987817689109,
+    "longitude": -35.26421329673491,
+    "address": "Rua Belmont, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309054",
+    "name": "BR Super Carga - Xamã Senses Hotel - 30kW - Pipa",
+    "latitude": -6.233286290956457,
+    "longitude": -35.046130364621376,
+    "address": "R. dos Cajueiros, 12, Tibau do Sul\t, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459311",
+    "name": "Tcharge Pipa",
+    "latitude": -6.240319,
+    "longitude": -35.045226,
+    "address": "Rua Imperio do Sol, 400 , Tibau do Sul, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  }
+]

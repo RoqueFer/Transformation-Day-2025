@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_193479",
+    "name": "Centro de Recepção de Visitantes Itaipu",
+    "latitude": -25.447631023271455,
+    "longitude": -54.58478914190316,
+    "address": "Avenida Tancredo Neves 12138, Foz do Iguaçu, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193478",
+    "name": "Auto Posto Matelandia Ipiranga",
+    "latitude": -25.24312364701521,
+    "longitude": -53.97937417173915,
+    "address": "Av. Juscelino Kubitscheck de Oliveira, 1200, Matelândia, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301725",
+    "name": "EV ELETROPOSTO - Hotel Franco",
+    "latitude": -26.25533521248223,
+    "longitude": -53.633326204084426,
+    "address": "Av. Paraná, n° 10 - Centro, Dionísio Cerqueira - SC, 89950-000, Dionisio Cequeira, Santa Catarina",
+    "source": "OpenChargeMap"
+  }
+]

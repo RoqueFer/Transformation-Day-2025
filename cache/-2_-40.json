@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_306331",
+    "name": "DCC Energy - Posto Freitas",
+    "latitude": -2.907810074504795,
+    "longitude": -40.11869563687998,
+    "address": "Av. Padre Antônio Tomás, 2300, Acaraú, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308528",
+    "name": "Amazônia Plug - Bistrô Kite Beach",
+    "latitude": -2.8784904481629354,
+    "longitude": -40.957033371919294,
+    "address": "Praia do Maceió, Camocim - CE, Camocim, Ceará",
+    "source": "OpenChargeMap"
+  }
+]

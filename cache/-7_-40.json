@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocm_299955",
+    "name": "BR Super Carga - Auto Posto Kariri",
+    "latitude": -7.181971294398849,
+    "longitude": -39.30993640610555,
+    "address": "Avenida do Agricultor, 88, Juazeiro do Norte, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300184",
+    "name": "Cariri Solar Energia Solar",
+    "latitude": -7.2163520142044035,
+    "longitude": -39.31783416839005,
+    "address": "R Das Flores 224, Juazeiro do Norte, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311949",
+    "name": "BR Super Carga - Coxinha Gaúcha - 40kW - Araripina",
+    "latitude": -7.5808878914449735,
+    "longitude": -40.50878431328684,
+    "address": "BR-316, 22, Araripina, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296956",
+    "name": "BR Super Carga - Ello Hotel",
+    "latitude": -6.384189690217653,
+    "longitude": -39.26638807967288,
+    "address": "CE-060, Iguatu, CE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_290861",
+    "name": "Planeta Charge",
+    "latitude": -5.992899183476339,
+    "longitude": -40.29601581295509,
+    "address": "Rua Francisca Clotilde, Tauá, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267298",
+    "name": "Auto Posto e Pousada O Barateiro",
+    "latitude": -6.403549007584716,
+    "longitude": -38.890320243600236,
+    "address": "Rodovia Deputado Tarcísio Monteiro, Icó, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264466",
+    "name": "Hotel Ribeira dos Icos",
+    "latitude": -6.401033038486688,
+    "longitude": -38.876579281730756,
+    "address": "Rua Paraíba C, 1000, Ico, Ceara",
+    "source": "OpenChargeMap"
+  }
+]

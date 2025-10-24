@@ -1,0 +1,346 @@
+[
+  {
+    "id": "ocm_279122",
+    "name": "Audi Center Fortaleza",
+    "latitude": -3.7477446240790755,
+    "longitude": -38.45234282459097,
+    "address": "Avenida Santos Dumont, 8001, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_256487",
+    "name": "Porsche Riomar Fortaleza",
+    "latitude": -3.7411783566431325,
+    "longitude": -38.47111386537847,
+    "address": "Rua Desembargador Lauro Nogueira, 1500, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_256486",
+    "name": "Pão De Açúcar",
+    "latitude": -3.7273848394303,
+    "longitude": -38.493903649279105,
+    "address": "Avenida da Abolição, 1800, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_271068",
+    "name": "55 Energy Eletropostos",
+    "latitude": -3.7248314554918096,
+    "longitude": -38.50301359203621,
+    "address": "Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308747",
+    "name": "DCC Energy - Blanc Mall",
+    "latitude": -3.739640045159902,
+    "longitude": -38.48811229347598,
+    "address": "Av. Santos Dumont, 3870 - Aldeota, Fortaleza , Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306062",
+    "name": "Eletroposto - DCC Energy",
+    "latitude": -3.736286282035991,
+    "longitude": -38.49691122247924,
+    "address": "Av. Santos Dumont, 3131 - Aldeota, Fortaleza - CE, 60150-165, Fortaleza, Ceara ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279360",
+    "name": "BR Super Carga - Centro Comercial Flávio Carneiro - 120 kW - Fortaleza",
+    "latitude": -3.736001674325678,
+    "longitude": -38.49837436289499,
+    "address": "Avenida Santos Dumont, 2849, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308746",
+    "name": "DCC Energy - BS Design",
+    "latitude": -3.736792274385678,
+    "longitude": -38.49929009805325,
+    "address": "Avenida Desembargador Moreira, 1300 - Rua Torres Câmara Torre sul, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_256485",
+    "name": "Byd Carmais",
+    "latitude": -3.738428409647497,
+    "longitude": -38.50797373048607,
+    "address": "Avenida Barão de Studart, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306063",
+    "name": "DCC Energy - Dragon Force",
+    "latitude": -3.758037756547836,
+    "longitude": -38.48499829848785,
+    "address": "Rua Alberto Feitosa Lima, 328 - Guararapes, Fortaleza, Ceara",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235036",
+    "name": "Porsche Center Fortaleza",
+    "latitude": -3.757120392958086,
+    "longitude": -38.489947076251894,
+    "address": "Avenida Washington Soares, 85A, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308748",
+    "name": "DCC - UNO | Medical & Office",
+    "latitude": -3.7516204239221054,
+    "longitude": -38.500324803757934,
+    "address": "Av. Pontes Vieira, 2340 - Dionísio Torres, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279123",
+    "name": "GWM Newhouse",
+    "latitude": -3.7601688411515255,
+    "longitude": -38.49222148431127,
+    "address": "Avenida Rogaciano Leite, 323, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_258711",
+    "name": "Estação Urbeletric - Villa Beach Tenis",
+    "latitude": -3.7650804474208144,
+    "longitude": -38.48845553744172,
+    "address": "Avenida Coronel Miguel Dias, 1010, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_256707",
+    "name": "HAUS Motors",
+    "latitude": -3.766979560601129,
+    "longitude": -38.496443081265824,
+    "address": "Avenida Rogaciano Leite, 1033, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_256706",
+    "name": "GNC Suécia - Volvo",
+    "latitude": -3.7707718052462837,
+    "longitude": -38.49794343432495,
+    "address": "Avenida Rogaciano Leite, 1815, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300183",
+    "name": "DCC Energy - Reserva Open Mall",
+    "latitude": -3.7840831830966124,
+    "longitude": -38.48194159772052,
+    "address": "Avenida Washington Soares, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306328",
+    "name": "DCC Energy - Bezerra Open Mall",
+    "latitude": -3.735709660039703,
+    "longitude": -38.56099451717162,
+    "address": "Av. Bezerra de Menezes, 1811 - São Gerardo, Fortaleza , Ceara",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311794",
+    "name": "BR Super Carga - Posto Primeira Capital - 40kW - Aquiraz",
+    "latitude": -3.7712018602422006,
+    "longitude": -38.51999535223797,
+    "address": "Rodovia CE-040 km10, Aquiraz - CE, 61760-000, Aquiraz, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311952",
+    "name": "BR Super Carga - Maori Beach ",
+    "latitude": -3.720693916112012,
+    "longitude": -38.63184118240713,
+    "address": "R. Dra. Jaqueline, 503 - Lot Praia De Tabuba, Caucaia - CE, 61618-170, Brazil, Caucaia, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309240",
+    "name": "VAPT Fortaleza | Edmilson Pneus :: Recarga Rápida",
+    "latitude": -3.84216036,
+    "longitude": -38.48354101,
+    "address": "Barão Aquiraz,1759, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311953",
+    "name": "Br Super Carga - Auto Posto Barrigudas",
+    "latitude": -3.7342521529178754,
+    "longitude": -38.65686719573591,
+    "address": "ROD CE 440 KM 12, S/N, Palestina do Norte, Meruoca, CE, 62.130-000, Meruoca, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311963",
+    "name": "Br Super Carga - Pátio Ideal Cidade Alpha",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Alameda Mediterrâneo - Coité, Eusébio - CE, 61760-000, Eusébio, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311962",
+    "name": "Br Super Carga - Partage Shopping",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Avenida João da Escócia, 1515, Nova Betânia, Mossoró/RN, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311961",
+    "name": "Br Super Carga - Partage Shopping",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "R. José Jaílson Nunes, 493 - Santa Edwiges, Arapiraca - AL, 57310-400, Brazil, Arapiraca, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311955",
+    "name": "Br Super Carga - Caxias Shopping center",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Tv. Alto da Cruz, KM 554, Caxias - MA, 65604-390, Brazil, Caxias, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311973",
+    "name": "Br Super Carga - RioMar",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Av. Delmiro Gouveia, 400, Aracaju/SE CEP 49035-500, Aracaju, Sergipe",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311960",
+    "name": "BR Super Carga - Maceió Shopping",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Av. Comendador Gustavo Paiva, 2961 - Mangabeiras, Maceió - AL, 57031-530, Brazil, Maceió, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311959",
+    "name": "Br Super Carga",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "av. saída para Tucano 432, Tucano, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311964",
+    "name": "Br Super Carga - Posto Primeira Capital",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Rodovia CE-040 km10, Aquiraz - CE, 61760-000, Aquiraz, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311956",
+    "name": "Br Super Carga - Centro Fashion",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Av. Ten. Lisboa, 463 - Jacarecanga, Fortaleza - CE, 60355-055, Brazil, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311965",
+    "name": "Br Super Carga - Posto Nobre",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Av. Pres. Arthur Bernardes, 346 - José de Alencar, Fortaleza - CE, 60830-185, Brazil, Fortaleza, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311972",
+    "name": "Br Super Carga - V Machado Praiano Nossa Sª da Conceição",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Av. Dep. Pinheiro Machado, 670 - Rodoviária, Parnaíba - PI, 64212-055, Parnaíba, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311957",
+    "name": "Br Super Carga - Coxinha Gaúcha ",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "BR-316, 22 - Araripina, PE, 56280-000, Araripina, Pernambuco",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311966",
+    "name": "Br Super Carga - Posto City",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "R. Prof. Manoel João, 183 - Doze Anos, Mossoró - RN, 59603-370, Mossoró, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311958",
+    "name": "Br Super Carga - Conveniência GutGut",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Restaurante Lili Gourmet, Rodovia Br 343, SN, Zona Rural - Km 190, Piripiri - PI, 64260-000, Piripiri, Piaui",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311954",
+    "name": "Br Super Carga - Carajás Campina Grande",
+    "latitude": -3.734478,
+    "longitude": -38.65704,
+    "address": "Av. Jorn. Assis Chateaubriand, 1261 - Liberdade, Campina Grande - PB, 58414-060, Brasil, Campina Grande, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306745",
+    "name": "BR Super Carga - Pátio Ideal - Cidade Alpha - 60kW - Eusébio",
+    "latitude": -3.881932127530419,
+    "longitude": -38.48706054750147,
+    "address": "Alameda Mediterrâneo, Eusébio, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_290670",
+    "name": "DCC Energy - Íbis Hotel",
+    "latitude": -3.657602597940354,
+    "longitude": -38.8124109314474,
+    "address": "CE-085 Rota do Sol Poente, Caucaia, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301172",
+    "name": "BR Super Carga - Grid One Beberibe - 60kW - Beberibe",
+    "latitude": -4.1927223,
+    "longitude": -38.1703133,
+    "address": "Ce-04, Km 72, Beberibe, Ceara",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_256488",
+    "name": "BR Super Carga - Invest Energia Solar",
+    "latitude": -4.1097924352889805,
+    "longitude": -38.49237115402275,
+    "address": "BR-116, Horizonte, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_288126",
+    "name": "Investy Energy - Estação Restaurante Raízes do Litoral",
+    "latitude": -3.4657319983311368,
+    "longitude": -39.159026783413935,
+    "address": "Rota do Sol Poente, Paraipaba, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279124",
+    "name": "Vila Vagalume",
+    "latitude": -3.237351688077567,
+    "longitude": -39.23795905040686,
+    "address": "Avenida Doca Malaquias, Trairi, Ceará",
+    "source": "OpenChargeMap"
+  }
+]

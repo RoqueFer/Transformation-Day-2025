@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_260391",
+    "name": "Coopercampos",
+    "latitude": -27.388979114537293,
+    "longitude": -51.21491388591278,
+    "address": "Rodovia Cid César de Almeida Pedroso, Campos Novos, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260390",
+    "name": "Posto Ipiranga Peruzzo",
+    "latitude": -27.79408326076136,
+    "longitude": -50.28392103687696,
+    "address": "Rodovia BR 232, km 216, Lages, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312661",
+    "name": "Queijo & Cia",
+    "latitude": -28.00688554975389,
+    "longitude": -50.540948652291945,
+    "address": "BR116, Capao Alto, SC",
+    "source": "OpenChargeMap"
+  }
+]

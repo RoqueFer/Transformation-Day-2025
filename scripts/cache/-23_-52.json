@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_462268",
+    "name": "OPLUG 24h",
+    "latitude": -23.44995901708917,
+    "longitude": -51.93206863767148,
+    "address": "Av cerro azul 2579, Maringa, PR",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306843",
+    "name": "Pruden Shopping",
+    "latitude": -22.115909600346214,
+    "longitude": -51.409853499282804,
+    "address": "Avenida Manoel Goulart, São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

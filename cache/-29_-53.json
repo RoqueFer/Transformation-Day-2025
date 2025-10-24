@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ocm_274736",
+    "name": "Lisaruth",
+    "latitude": -29.68423600376802,
+    "longitude": -52.33347444058376,
+    "address": "RSC-287, 10525 Linha Pinheiral, Santa Cruz do Sul, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311792",
+    "name": "Carregador",
+    "latitude": -28.249724545808284,
+    "longitude": -52.413254232778115,
+    "address": "Rua Bento Gonçalves, 168 - Centro, Passo Fundo - RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460000",
+    "name": "Grill Hall Panorâmico",
+    "latitude": -28.2370351998304,
+    "longitude": -52.37645804506485,
+    "address": "rua Verdi de Cezaro 185, Paso Fundo, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274737",
+    "name": "UFSM P&D ANEEL",
+    "latitude": -29.71453,
+    "longitude": -53.716789,
+    "address": "Avenida Roraima 1000. Predio 09 E, Santa Maria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279790",
+    "name": "Praça Dr. Astrogildo  de Azevedo- Projeto P&D Aneel-Copel",
+    "latitude": -29.691468172298144,
+    "longitude": -53.80561241954848,
+    "address": "R. José Bonifácio, 2577 Santa Maria-RS, Santa Maria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461797",
+    "name": "ELETROPOSTOGP",
+    "latitude": -29.45025,
+    "longitude": -51.96403,
+    "address": "Rua Omar Moreira Líbio, 220 Sao Cristovao, Lajeado, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307966",
+    "name": "Unijui",
+    "latitude": -28.38835640682798,
+    "longitude": -53.929912641540184,
+    "address": "R. Lulú Ilgenfritz, 507 - São Geraldo, Ijuí - RS, 98700-000, Brazil, Ijui, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_462153",
+    "name": "ELETROPOSTOGP 001-Geração Própria",
+    "latitude": -29.49320354792397,
+    "longitude": -51.92751382683173,
+    "address": "Novo Paraíso, 118 - Novo Paraíso, Estrela - RS, 95880-000, Brasil, Estrela, rio grande do sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307969",
+    "name": "Creluz Charging Station",
+    "latitude": -27.92234923835155,
+    "longitude": -53.314338346915456,
+    "address": "R. Paranambi, 3369 - Palmeira das Missões, RS, 98300-000, Brazil, Palmeira das Missões, Río Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_290826",
+    "name": "Rodovia Governador Leonel de Moura Brizola",
+    "latitude": -29.692107611323813,
+    "longitude": -51.70509274127477,
+    "address": "Rodovia Governador Leonel de Moura Brizola, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307970",
+    "name": "Creluz Eletroposto Boa Vista das Missões",
+    "latitude": -27.687790618985048,
+    "longitude": -53.306760974212835,
+    "address": "8M6V+V8 Trentin, Jaboticaba - RS, Brazil, Boa Vista das Missões, Río Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

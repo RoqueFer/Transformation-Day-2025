@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_302215",
+    "name": "Planeta Charge - Rapport Hotel",
+    "latitude": -9.423961893095225,
+    "longitude": -40.4996138758527,
+    "address": "Juazeiro, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267271",
+    "name": "Novo Centro Hotel",
+    "latitude": -9.39701420558599,
+    "longitude": -40.48115370472249,
+    "address": "Rod BR 203, 11, Petrolina, PE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302217",
+    "name": "Volvo - Posto Real Canudos",
+    "latitude": -9.970159374459868,
+    "longitude": -39.16313133381436,
+    "address": "Rodovia Santos Dumont, Canudos, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299237",
+    "name": "Volvo - Posto Ralene",
+    "latitude": -10.4963678240333,
+    "longitude": -39.014084759567254,
+    "address": "Rodovia Santos Dumont, Euclides da Cunha, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

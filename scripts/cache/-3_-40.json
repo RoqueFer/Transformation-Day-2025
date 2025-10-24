@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ocm_306331",
+    "name": "DCC Energy - Posto Freitas",
+    "latitude": -2.907810074504795,
+    "longitude": -40.11869563687998,
+    "address": "Av. Padre Antônio Tomás, 2300, Acaraú, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305461",
+    "name": "Planeta Charge - Jean da Picanha",
+    "latitude": -3.689117600703227,
+    "longitude": -40.330427694819946,
+    "address": "Av. Maria da Conceição Pontes de Azevedo, 605, Sobral, CE",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279121",
+    "name": "Nord Renault",
+    "latitude": -3.7015443131116257,
+    "longitude": -40.34517332978368,
+    "address": "Avenida Monsenhor Aloísio Pinto, 585, Sobral, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_290668",
+    "name": "Estação Posto Sinhá Sabóia",
+    "latitude": -3.7062196474352476,
+    "longitude": -40.33676314087512,
+    "address": "Avenida Senador Fernandes Távora, Sobral, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279124",
+    "name": "Vila Vagalume",
+    "latitude": -3.237351688077567,
+    "longitude": -39.23795905040686,
+    "address": "Avenida Doca Malaquias, Trairi, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_290669",
+    "name": "Restaurante Braseiro",
+    "latitude": -3.696204356434052,
+    "longitude": -39.57930196455237,
+    "address": "Rua 100, Itapajé, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235273",
+    "name": "BR-222;BR-403",
+    "latitude": -3.7065013040540293,
+    "longitude": -40.40933368776655,
+    "address": "BR-222;BR-403, Sobral, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_288126",
+    "name": "Investy Energy - Estação Restaurante Raízes do Litoral",
+    "latitude": -3.4657319983311368,
+    "longitude": -39.159026783413935,
+    "address": "Rota do Sol Poente, Paraipaba, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308528",
+    "name": "Amazônia Plug - Bistrô Kite Beach",
+    "latitude": -2.8784904481629354,
+    "longitude": -40.957033371919294,
+    "address": "Praia do Maceió, Camocim - CE, Camocim, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296955",
+    "name": "DCC Energy - Posto BR",
+    "latitude": -3.6717356960141956,
+    "longitude": -39.23321164556509,
+    "address": "Avenida Pedro Cipriano, 580, São Luís do Curu, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296012",
+    "name": "DCC Energy - Posto Catatau",
+    "latitude": -3.7446754429366393,
+    "longitude": -41.00943976903801,
+    "address": "BR-222, Tianguá, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299160",
+    "name": "BR Super Carga - AutoPosto Uniao",
+    "latitude": -4.32361543991702,
+    "longitude": -40.146958398040795,
+    "address": "Av Jose Emidio Sales, 627, Santa Quitéria, Ceará",
+    "source": "OpenChargeMap"
+  }
+]

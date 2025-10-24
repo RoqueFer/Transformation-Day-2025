@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ocm_274735",
+    "name": "Shell Recharge / Posto Japones",
+    "latitude": -29.102898423345486,
+    "longitude": -49.63642654677,
+    "address": "Rua Francisco Possamai, 1474, Sombrio, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312820",
+    "name": "Café Pasqualotto",
+    "latitude": -29.268593104967685,
+    "longitude": -50.302425313709705,
+    "address": "RS453 - Rota Do Sol, Cambará Do Sul, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_279840",
+    "name": "Posto BR - TERRA NOVA  -  Torres - RS",
+    "latitude": -29.33136820744874,
+    "longitude": -49.78514509646598,
+    "address": "BR-101, 3701 - R. Belvedere, Torres, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235327",
+    "name": "Rota Mercosul 01 - Ufsm / Equatorial",
+    "latitude": -29.344258722302705,
+    "longitude": -49.78808797931194,
+    "address": "Rodovia Governador Mário Covas, BR-101, Km 5, Torres, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235051",
+    "name": "Zletric - Posto SIM Paradouro Litoral",
+    "latitude": -29.443718774339438,
+    "longitude": -49.907901694855525,
+    "address": "Avenida Inácio José Schaeffer, Três Cachoeiras, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460909",
+    "name": "Petrobras - Autoposto Brambila",
+    "latitude": -28.874695,
+    "longitude": -49.454283,
+    "address": "Rod. Governador Mário Covas, Maracajá - SC, 88915-000, Maracajá",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191920",
+    "name": "Eletroposto Celesc - Posto Petrosimon",
+    "latitude": -28.86786188339657,
+    "longitude": -49.45010760381592,
+    "address": "BR-101, Km 401, Maracajá, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_288938",
+    "name": "Parador Grupo Iesa Xangri-la",
+    "latitude": -29.779824025856634,
+    "longitude": -50.02926997837051,
+    "address": "Avenida Paraguassu 4525, Xangri-la",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267696",
+    "name": "Kempinski Laje de Pedra",
+    "latitude": -29.380489022307806,
+    "longitude": -50.83043554234348,
+    "address": "Rua das Flores, Canela, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460001",
+    "name": "Cafe Colonial Bela Vista - On Charge",
+    "latitude": -29.371067688535483,
+    "longitude": -50.86263885902159,
+    "address": "Villa Chalés Gramado, Gramado, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235053",
+    "name": "Zletric - Posto SIM Gramado Centro",
+    "latitude": -29.37969995771963,
+    "longitude": -50.869380884317366,
+    "address": "R. João Petry, 45, Gramado, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274688",
+    "name": "Rota Mercosul 02 - Ufsm / Equatorial",
+    "latitude": -29.85201952230647,
+    "longitude": -50.24702267535784,
+    "address": "Rodovia Governador Mário Covas, Osório, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_208305",
+    "name": "IESA RENAULT",
+    "latitude": -29.888446678255,
+    "longitude": -50.276230202702266,
+    "address": "BR-101, 1100 , Osório, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264453",
+    "name": "Posto Gloria",
+    "latitude": -28.50000316116656,
+    "longitude": -50.950593956354965,
+    "address": "BR-285, Vacaria, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460674",
+    "name": "UCS",
+    "latitude": -29.16284855232839,
+    "longitude": -51.1501356423712,
+    "address": "Franciso Getulio Vargas 1130, Caxias do Sul, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460676",
+    "name": "UCS Teatro",
+    "latitude": -29.162226443357902,
+    "longitude": -51.15249714513328,
+    "address": "Francisco Getulio Vargas 1130, Caxias do Sul, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264452",
+    "name": "Audi Caxias do Sul",
+    "latitude": -29.171835482404994,
+    "longitude": -51.21108100919571,
+    "address": "Avenida Ruben Bento Alves, 8065, Caxias do Sul, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235328",
+    "name": "Posto SIM Caxias do Sul - Zletric",
+    "latitude": -29.174835231435416,
+    "longitude": -51.21402930064727,
+    "address": "Rua João Nichele, 2227, Caxias do Sul, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312661",
+    "name": "Queijo & Cia",
+    "latitude": -28.00688554975389,
+    "longitude": -50.540948652291945,
+    "address": "BR116, Capao Alto, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191919",
+    "name": "Eletroposto Celesc - Posto Cabeçudas",
+    "latitude": -28.44043810288335,
+    "longitude": -48.823688475843426,
+    "address": "Rua Antônio da Silva Fernandes, 982–1238, Laguna, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_209978",
+    "name": "Fashion Outlet Novo Hamburgo",
+    "latitude": -29.663541425765796,
+    "longitude": -51.14242583068132,
+    "address": "BR-116, KM 236, Novo Hamburgo, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260180",
+    "name": "Posto SIM Paradouro Camarão",
+    "latitude": -28.42311689851337,
+    "longitude": -48.79826183945869,
+    "address": "Marginal da BR-101, km 311, Laguna, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260390",
+    "name": "Posto Ipiranga Peruzzo",
+    "latitude": -27.79408326076136,
+    "longitude": -50.28392103687696,
+    "address": "Rodovia BR 232, km 216, Lages, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_209976",
+    "name": "Posto SIM Freeway - Zletric - BR-290",
+    "latitude": -29.944303542054087,
+    "longitude": -50.94738747379928,
+    "address": "Rodovia BR 290, Km 69, S/N - Sítio Gaúcho, Gravataí, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_209983",
+    "name": "Zletric - Posto SIM Retro",
+    "latitude": -29.625832467156254,
+    "longitude": -51.311042406904754,
+    "address": "ERS-122, 3000, São Sebastião do Caí, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

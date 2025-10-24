@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_308513",
+    "name": "Amazônia Eletrovias - Buriticupu",
+    "latitude": -4.331723813989967,
+    "longitude": -46.43484585092182,
+    "address": "Auto Posto Dois Irmãos, BR-222, Buriticupu - MA, Buriticupu, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309141",
+    "name": "Amazônia Eletrovias - Grajaú Posto Canoeiro",
+    "latitude": -5.825507067191936,
+    "longitude": -46.15901203244161,
+    "address": "BR-226, 145 - Bairro Canoeiro, Grajaú, Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

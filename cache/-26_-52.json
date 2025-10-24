@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocm_193474",
+    "name": "Restaurante Três Pinheiros",
+    "latitude": -25.459472057008384,
+    "longitude": -51.951417551671625,
+    "address": "BR-277 km 118, Candói, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193475",
+    "name": "Posto Palmeiras",
+    "latitude": -25.37785532306833,
+    "longitude": -52.3965464311197,
+    "address": "Posto Palmeiras, Laranjeiras do Sul, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301460",
+    "name": "Shopping Cidade Dos Lagos",
+    "latitude": -25.34876803855046,
+    "longitude": -51.47397453851838,
+    "address": "Avenida Guarapuava, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301461",
+    "name": "Posto Copa & Restaurante Panorâmico (APP On Charge)",
+    "latitude": -25.344027813342237,
+    "longitude": -51.44153370318844,
+    "address": "Avenida Prefeito Antônio Lustosa Oliveira, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459999",
+    "name": "CAF STOP Carga Rápida",
+    "latitude": -27.078508440909786,
+    "longitude": -52.620762354084604,
+    "address": "R. Dom Joaquim Domingues de Oliveira, 100, Chapecó, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459998",
+    "name": "Posto Milão - COULOMB Energia",
+    "latitude": -27.095983929255617,
+    "longitude": -52.66784828693875,
+    "address": "Av. Sen. Atilio Fontana, 2050, Chapecó, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193476",
+    "name": "Restaurante Choupana",
+    "latitude": -25.102012310256754,
+    "longitude": -53.041478340948174,
+    "address": "BR-277 km 540, Ibema, Paraná",
+    "source": "OpenChargeMap"
+  }
+]

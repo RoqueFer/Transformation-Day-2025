@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_460418",
+    "name": "3L Amazon Loja",
+    "latitude": -3.0749197346165413,
+    "longitude": -59.99714269520382,
+    "address": "R. Mozart Guarnieri, 141 - Parque 10 de Novembro, Manaus, Amazonas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260271",
+    "name": "Pátio Gourmet",
+    "latitude": -3.091842659700518,
+    "longitude": -59.998571450214854,
+    "address": "Av. Via Láctea, 825, Manaus, Amazonas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460419",
+    "name": "Porteira Picanharia",
+    "latitude": -3.0927064458318085,
+    "longitude": -59.98992719592987,
+    "address": "Av. Efigênio Salles, 6222 - Aleixo, Manaus, Amazonas",
+    "source": "OpenChargeMap"
+  }
+]

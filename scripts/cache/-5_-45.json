@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_311399",
+    "name": "Amazônia Eletrovias - Presidente Dutra Hotel Brasil",
+    "latitude": -5.299420497884782,
+    "longitude": -44.48648289838104,
+    "address": "Av. Oton Gonçalves de Sá, 1913, Presidente Dutra, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303601",
+    "name": "BR Super Carga - Braseiro do Rancho",
+    "latitude": -4.226737256297426,
+    "longitude": -44.77630633951867,
+    "address": "Rua Eusebio Trinta, 100, Bacabal, MA",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235032",
+    "name": "Posto Recreio",
+    "latitude": -4.279682943636132,
+    "longitude": -44.42240396434357,
+    "address": "BR-135;BR-316, 1004, Alto Alegre do Maranhão, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306748",
+    "name": "Posto Maracanã",
+    "latitude": -4.254038831471576,
+    "longitude": -44.4333869644305,
+    "address": "BR-316, Alto Alegre do Maranhão, Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

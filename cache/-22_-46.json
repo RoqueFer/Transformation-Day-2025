@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ocm_266805",
+    "name": "Posto Moinho I",
+    "latitude": -21.945385422291466,
+    "longitude": -45.62093585343945,
+    "address": "Rod. Fernão Dias, São Gonçalo do Sapucaí, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307383",
+    "name": "Incharge",
+    "latitude": -22.257665,
+    "longitude": -45.6936231,
+    "address": "Rua Dalton Luiz Teles,115, Santa Rita Do Sapucaí , minas gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307516",
+    "name": "EcoCharge - Posto Tamandaré",
+    "latitude": -21.444412787222532,
+    "longitude": -45.9503100900605,
+    "address": "Rua Tocantins, 94, Alfenas, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311271",
+    "name": "Energygardi",
+    "latitude": -22.48453073250846,
+    "longitude": -46.63528178514093,
+    "address": "Av Nacoes Unidas 1830, Aguas De Lindoia, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311297",
+    "name": "EcoCharge - Posto San Remo",
+    "latitude": -22.116102918265398,
+    "longitude": -45.057419300176235,
+    "address": "Av Dom Pedro II, 668, São Lourenço , MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_189499",
+    "name": "Posto San Remo",
+    "latitude": -22.116068,
+    "longitude": -45.057035,
+    "address": "Avenida Dom Pedro II, 668, São Lourenço, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305088",
+    "name": "Eletrograal - Graal Pinda",
+    "latitude": -22.96418,
+    "longitude": -45.42678,
+    "address": "Rodovia Presidente Dutra km 94+850, Pindamonhangaba, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_194218",
+    "name": "Posto Arco Íris Roseira",
+    "latitude": -22.908798671939024,
+    "longitude": -45.31647712427434,
+    "address": "Rodovia Presidente Dutra, Roseira, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459113",
+    "name": "Petrobras - Posto Arco-Íris Roseira",
+    "latitude": -22.909115,
+    "longitude": -45.315959,
+    "address": "Rod. Pres. Dutra, s/n - Zona Rural, Roseira - SP, 12589-899, Roseira",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188913",
+    "name": "Graal dos 500",
+    "latitude": -22.788962680620543,
+    "longitude": -45.15691032250237,
+    "address": "Graal dos 500, Guaratingueta, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188914",
+    "name": "Posto GAP São José dos Campos",
+    "latitude": -23.17996771654073,
+    "longitude": -45.84279046918016,
+    "address": "Avenida General Motors, São José dos Campos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459087",
+    "name": "Hotel Bourbon Atibaia",
+    "latitude": -23.107962,
+    "longitude": -46.57259,
+    "address": "Rod. Fernão Dias, Km 37,5 - Parque das Nações, Atibaia - SP, 12954-904, Atibaia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260426",
+    "name": "Volvo Posto Crossville",
+    "latitude": -21.108317985612615,
+    "longitude": -45.092387102002306,
+    "address": "Rodovia Fernão Dias, Perdões, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_304159",
+    "name": "Eletrograal Alemão",
+    "latitude": -22.547581814219285,
+    "longitude": -44.807601112531756,
+    "address": "Rodovia Presidente Dutra, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188912",
+    "name": "Eletroposto Graal Estrela",
+    "latitude": -22.530017457216232,
+    "longitude": -44.75135473405874,
+    "address": "Rodovia Presidente Dutra, Queluz, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216748",
+    "name": "Frango Assado Carvalho Pinto",
+    "latitude": -23.276966777111184,
+    "longitude": -45.845073968033034,
+    "address": "Rodovia Governador Carvalho Pinto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303255",
+    "name": "Posto Calopysita",
+    "latitude": -23.02277896344208,
+    "longitude": -46.842399114129876,
+    "address": "Av Castelo Branco 761, Itatiba, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_210195",
+    "name": "CPFL",
+    "latitude": -22.85761962201481,
+    "longitude": -47.04463261044555,
+    "address": "140, Rod. Gov. Dr. Adhemar Pereira de Barros - Parque São Quirino, Campinas, São paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235289",
+    "name": "Shell Recharge - Frango Assado Jacareí",
+    "latitude": -23.300970694039563,
+    "longitude": -46.01607789495341,
+    "address": "Rodovia Presidente Dutra, km-165, Jacareí, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204436",
+    "name": "Zletric - Rancho Empyero",
+    "latitude": -22.235765471343242,
+    "longitude": -47.39050854380298,
+    "address": "Rodovia Anhanguera, km 183, Leme, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300112",
+    "name": "Paradouro Batistella ",
+    "latitude": -23.3237703,
+    "longitude": -46.1219694,
+    "address": "Av. Gen. Porfírio da Paz, 176 , Guararema, Sao Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459110",
+    "name": "Petrobras - Posto Guarani",
+    "latitude": -22.910939,
+    "longitude": -47.047213,
+    "address": "Av. Princesa D'Oeste, 1440 - Vila Lemos, Campinas - SP, 13026-137, Campinas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311522",
+    "name": "Volvo - Hotel Habitat - Pirassununga, SP",
+    "latitude": -22.013799721202474,
+    "longitude": -47.437363786642294,
+    "address": "Av. Capitão, Av. Antônio Joaquim Mendes, 2397 - Jardim Carlos Gomes , Pirassununga , São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188915",
+    "name": "Posto Guararema",
+    "latitude": -23.332743741350427,
+    "longitude": -46.13698663379819,
+    "address": "Rodovia Presidente Dutra, Guararema, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_175125",
+    "name": "EDP | Graal Coral (Plug&GO)",
+    "latitude": -22.00218704250082,
+    "longitude": -47.44472068714094,
+    "address": "Pirassununga, Pirassununga, São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

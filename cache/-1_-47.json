@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_308523",
+    "name": "Amazônia Eletrovias - Capanema Posto Garoupa",
+    "latitude": -1.2131362918443784,
+    "longitude": -47.179924452509795,
+    "address": "Posto Garoupa, BR 316, Capanema, PA., Capanema, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235271",
+    "name": "UFPA - Castanhal",
+    "latitude": -1.299530777512686,
+    "longitude": -47.901513309904715,
+    "address": "Av. dos Universitários, s/n, Castanhal, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308521",
+    "name": "Amazônia Eletrovias - Mãe do Rio Rancho Prime",
+    "latitude": -2.0428979903099957,
+    "longitude": -47.548823112579385,
+    "address": "Rancho Prime, Av. Bernardo Sayão, 54 - Centro, Mãe do Rio, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308824",
+    "name": "Amazônia Eletrovias - Marituba Posto Menino de Deus II",
+    "latitude": -1.3641176504857668,
+    "longitude": -48.29512625916831,
+    "address": "Posto Menino de Deus II, BR 316, Marituba, Pará",
+    "source": "OpenChargeMap"
+  }
+]

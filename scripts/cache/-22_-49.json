@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ocm_264457",
+    "name": "Posto BR - Pau Seco",
+    "latitude": -21.783152938628362,
+    "longitude": -48.22408714864679,
+    "address": "Rodovia Washington Luís, Araraquara, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459116",
+    "name": "Petrobras - Eletroposto Plaza Santa Bárbara",
+    "latitude": -22.813037,
+    "longitude": -49.282155,
+    "address": "AVENIDA MARGINAL, S/N LOTE 1 QUADRA Z GLEBA 1 - LOT. THERMAS DE .STA BARBARA, AGUAS DE SANTA BARBARA, complemento: rodovia Castelo Branco km 292,6, Santa Bárbara",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264458",
+    "name": "Posto Rabi Ibate",
+    "latitude": -21.907429542432,
+    "longitude": -48.05298965472264,
+    "address": "Rodovia Washington Luís, Ibate, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459126",
+    "name": "Petrobras - Posto Rabi Ibaté",
+    "latitude": -21.908388,
+    "longitude": -48.05286,
+    "address": "Rod. Washington Luiz, km 255 - rural, Ibaté - SP, 14815-000, Ibaté",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264456",
+    "name": "Posto Bizungao III",
+    "latitude": -22.957545008594167,
+    "longitude": -48.865137274772565,
+    "address": "Rodovia Presidente Castelo Branco, 247, Avaré, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264455",
+    "name": "Auto Posto Orbi",
+    "latitude": -22.900472197697127,
+    "longitude": -48.45001692776441,
+    "address": "Rodovia Professor João Hipólito Martins, Botucatu, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303878",
+    "name": "Rodovia Washington Luís",
+    "latitude": -22.0932011481149,
+    "longitude": -47.83237714979066,
+    "address": "Rodovia Washington Luís, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267234",
+    "name": "ATM EVs",
+    "latitude": -20.850775099708386,
+    "longitude": -49.41283756306791,
+    "address": "Avenida Presidente Juscelino Kubitscheck de Oliveira, 3441, São José do Rio Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312961",
+    "name": "Eletroposto Kinsol - Rio Preto 2S",
+    "latitude": -20.820475672408467,
+    "longitude": -49.38370159936655,
+    "address": "Av. Dr. Alberto Andaló, 3942, São José do Rio Preto, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306844",
+    "name": "Rua Cambara",
+    "latitude": -22.986309374606847,
+    "longitude": -49.86765450478606,
+    "address": "Rua Cambara, Ourinhos , São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461892",
+    "name": "Graal Ourinhos",
+    "latitude": -22.980560848885105,
+    "longitude": -49.902910758552025,
+    "address": "Rodovia Transbrasiliana BR 153 KM345 , Ourinhos, São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

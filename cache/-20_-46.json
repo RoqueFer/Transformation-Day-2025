@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_461236",
+    "name": "Carregador Volvo HG",
+    "latitude": -19.65740126978031,
+    "longitude": -46.213143945461525,
+    "address": "BR-262, 1 - Campos Altos, MG, 38970-000, Brazil, Campos Altos , Minas Gerais ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_280057",
+    "name": "Posto Petrobull",
+    "latitude": -19.601538177158076,
+    "longitude": -46.929697954779385,
+    "address": "Avenida Wilson Borges, 485, Araxá, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_273520",
+    "name": "Posto Branquinho",
+    "latitude": -19.6013817515624,
+    "longitude": -46.93976891040268,
+    "address": "Avenida Senador Montandon, 950, Araxá, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_273546",
+    "name": "AGL Eletrônicos do Brasil",
+    "latitude": -20.16959165239392,
+    "longitude": -44.92007580694127,
+    "address": "Rua Ferrovário Anizio Viriato, 300, Divinópolis, Minas Gerais",
+    "source": "OpenChargeMap"
+  }
+]

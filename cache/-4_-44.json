@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ocm_306748",
+    "name": "Posto Maracanã",
+    "latitude": -4.254038831471576,
+    "longitude": -44.4333869644305,
+    "address": "BR-316, Alto Alegre do Maranhão, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235032",
+    "name": "Posto Recreio",
+    "latitude": -4.279682943636132,
+    "longitude": -44.42240396434357,
+    "address": "BR-135;BR-316, 1004, Alto Alegre do Maranhão, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308525",
+    "name": "Amazônia Eletrovias - Chapadinha Posto Grande",
+    "latitude": -3.7445889545223707,
+    "longitude": -43.343161158143175,
+    "address": "Posto Grande, MA 230, Chapadinha, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300178",
+    "name": "BR Super Carga - Lanchonete 3B",
+    "latitude": -3.5637782545104812,
+    "longitude": -44.584953542511556,
+    "address": "R do Comercio, 209, Miranda do Norte, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235031",
+    "name": "Posto Magnolia 04",
+    "latitude": -3.3322253857102453,
+    "longitude": -44.445553071736526,
+    "address": "BR-222, 672, Itapecuru-Mirim, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303601",
+    "name": "BR Super Carga - Braseiro do Rancho",
+    "latitude": -4.226737256297426,
+    "longitude": -44.77630633951867,
+    "address": "Rua Eusebio Trinta, 100, Bacabal, MA",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235034",
+    "name": "Posto Mais Riachao",
+    "latitude": -4.834175004700114,
+    "longitude": -43.48054794453458,
+    "address": "BR 316, KM 536, Caxias, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308511",
+    "name": "Amazônia Eletrovias - São Luís Posto HD 35",
+    "latitude": -2.6890976125267656,
+    "longitude": -44.299633906808026,
+    "address": "Posto HD 35, BR-135, São Luís - MA, São Luís , Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

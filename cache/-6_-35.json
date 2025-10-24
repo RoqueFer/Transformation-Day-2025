@@ -1,0 +1,186 @@
+[
+  {
+    "id": "ocm_306685",
+    "name": "VAPT Parnamirim | Sacolão Maria Lacerda",
+    "latitude": -5.88960119,
+    "longitude": -35.20911729,
+    "address": "Maria Lacerda Montenegro,1864, Parnamirim, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309054",
+    "name": "BR Super Carga - Xamã Senses Hotel - 30kW - Pipa",
+    "latitude": -6.233286290956457,
+    "longitude": -35.046130364621376,
+    "address": "R. dos Cajueiros, 12, Tibau do Sul\t, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300286",
+    "name": "BR Super Carga - STA Mercedes - 60kW - Natal",
+    "latitude": -5.859266384660387,
+    "longitude": -35.19471564890779,
+    "address": "Av. Eng. Roberto Freire, Natal, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459311",
+    "name": "Tcharge Pipa",
+    "latitude": -6.240319,
+    "longitude": -35.045226,
+    "address": "Rua Imperio do Sol, 400 , Tibau do Sul, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_296014",
+    "name": "Audi Center Natal",
+    "latitude": -5.851855889570999,
+    "longitude": -35.20952482188517,
+    "address": "Avenida Senador Salgado Filho, 3661, Natal, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235268",
+    "name": "PG Prime Jaguar Land Rover",
+    "latitude": -5.852803073269257,
+    "longitude": -35.21108643921451,
+    "address": "Avenida Senador Salgado Filho, 3702, Natal, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216884",
+    "name": "Eletroposto Posto Pichilau Parnamirim - Corredor Verde Neoenergia",
+    "latitude": -5.94987817689109,
+    "longitude": -35.26421329673491,
+    "address": "Rua Belmont, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300288",
+    "name": "BR Super Carga - Neto Jr Equipadora - 40kW - Natal",
+    "latitude": -5.833962343906393,
+    "longitude": -35.21844800655293,
+    "address": "Avenida Prudente de Morais, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308690",
+    "name": "BR Super Carga - Subway BR101",
+    "latitude": -5.912714750310855,
+    "longitude": -35.26156659306923,
+    "address": "Av. Piloto Pereira Tim, D05/06, Parnamirim, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311219",
+    "name": "BR Super Carga - Midway Mall (G6) - 160kW - Natal",
+    "latitude": -5.811311016002136,
+    "longitude": -35.20638929038005,
+    "address": "Av. Nevaldo Rocha, 3775 - Tirol, Natal, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306688",
+    "name": "VAPT Natal | Grupo Centry",
+    "latitude": -5.81160289,
+    "longitude": -35.22604487,
+    "address": "Interventor Mário Câmara, 2101, Natal, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306684",
+    "name": "VAPT Natal | Sacolão Maranguape",
+    "latitude": -5.76261175,
+    "longitude": -35.25315898,
+    "address": "Maranguape,65, Natal, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307119",
+    "name": "VAPT Tangará | Alvorada Veiculos :: Recarga Rápida",
+    "latitude": -6.1737574,
+    "longitude": -35.76541414,
+    "address": "BR-226, S/N, Tangará, RN",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306608",
+    "name": "VAPT Guarabira | LM Telecom",
+    "latitude": -6.8648503999113615,
+    "longitude": -35.49621937742074,
+    "address": "Rua Luís Porpino da Silva, Região Metropolitana de Guarabira, Região Metropolitana de Guarabira",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306635",
+    "name": "BR Super Carga - Carajás - 60kW - Cabedelo",
+    "latitude": -7.039607047609621,
+    "longitude": -34.845729522519036,
+    "address": "Rua Mar do Caribe, Cabedelo, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459304",
+    "name": "Tcharge 24h - Eletroposto",
+    "latitude": -7.0864628105968706,
+    "longitude": -34.84046732384553,
+    "address": "Rua Professora Maria Jose Noronha Teixeira, João Pessoa, paraiba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459310",
+    "name": "Tcharge - Parque Parahyba 3",
+    "latitude": -7.086524,
+    "longitude": -34.840483,
+    "address": "Rua Maria José Noronha Teixeira S/N - Aeroclube, João Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306584",
+    "name": "VAPT João Pessoa | Intense Body Center",
+    "latitude": -7.11418477,
+    "longitude": -34.85349432,
+    "address": "Av. Piauí, 623, João Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306687",
+    "name": "VAPT João Pessoa | Grupo Centry",
+    "latitude": -7.1244542,
+    "longitude": -34.87325013,
+    "address": "Camilo de Holanda,670, João Pessoa, PB",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460214",
+    "name": "Tcharge - Altiplano",
+    "latitude": -7.128250821296135,
+    "longitude": -34.82679572263214,
+    "address": "Rua Desportista José Eduardo de Holanda, 578, João Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235037",
+    "name": "Posto Pichilau João Pessoa - Corredor Verde Neoenergia",
+    "latitude": -7.17373954069015,
+    "longitude": -34.89814248658547,
+    "address": "Rua Luiz Carlos Crispim Pimentel, 483, Joao Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306550",
+    "name": "BR Super Carga - Carajás - 90kW - João Pessoa",
+    "latitude": -7.171412933325499,
+    "longitude": -34.870808281023415,
+    "address": "Rua Motorista Aldovandro Amâncio Pereira, João Pessoa, Paraíba",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299154",
+    "name": "BR Super Carga - Churrascaria Guaiba - 60kW - Lajes",
+    "latitude": -5.704601242649915,
+    "longitude": -36.25184491056268,
+    "address": "BR-104;BR-304;RN-104, Rio Grande do Norte",
+    "source": "OpenChargeMap"
+  }
+]

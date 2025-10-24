@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_308520",
+    "name": "Amazônia Eletrovias - Ulianópolis Posto Madeireiro",
+    "latitude": -3.7385614700931598,
+    "longitude": -47.493292475769636,
+    "address": "Posto Madeireiro, BR-010, 81, Ulianópolis, Pará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308521",
+    "name": "Amazônia Eletrovias - Mãe do Rio Rancho Prime",
+    "latitude": -2.0428979903099957,
+    "longitude": -47.548823112579385,
+    "address": "Rancho Prime, Av. Bernardo Sayão, 54 - Centro, Mãe do Rio, Pará",
+    "source": "OpenChargeMap"
+  }
+]

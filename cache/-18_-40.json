@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ocm_301970",
+    "name": "Trevo Posto da Mata",
+    "latitude": -17.891735249368807,
+    "longitude": -39.818876162391916,
+    "address": "Rodovia Governador Mário Covas, Nova Viçosa, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_256705",
+    "name": "Hotel Pioneiro",
+    "latitude": -17.53426599999736,
+    "longitude": -39.75144899999776,
+    "address": "Av. Pres. Getúlio Vargas, 4882, Teixeira de Freitas, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235277",
+    "name": "EDP São Mateus",
+    "latitude": -18.715444813205963,
+    "longitude": -39.85846291855441,
+    "address": "Rua Manoel de Andrade, 13, São Mateus, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235278",
+    "name": "ibis Styles São Mateus",
+    "latitude": -18.725342757874955,
+    "longitude": -39.861009635822455,
+    "address": "Rodovia Governador Mário Covas, 335, São Mateus, Espírito Santo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235276",
+    "name": "Posto Flecha",
+    "latitude": -17.017222540079032,
+    "longitude": -39.54264635371919,
+    "address": "BR-101, Rodovia Governador Mário Covas, 38, Itamaraju, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

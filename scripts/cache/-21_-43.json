@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ocm_305120",
+    "name": "Cabana da Mantiqueira",
+    "latitude": -21.21950982688064,
+    "longitude": -43.74390967174179,
+    "address": "BR-040, 702 - Caiçaras, Barbacena, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305038",
+    "name": "Nosso Pão de Queijo 60 KW",
+    "latitude": -21.21093745815452,
+    "longitude": -43.7490435706905,
+    "address": "BR-040, km701 - Caicaras, Barbacena, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303254",
+    "name": "SAU EcoRioMinas Além Paraíba",
+    "latitude": -21.748901897549757,
+    "longitude": -42.730227462845846,
+    "address": "773C+76 - Angustura, Além Paraíba, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460059",
+    "name": "Carregador Volvo",
+    "latitude": -20.296656427210948,
+    "longitude": -42.476901797155506,
+    "address": "BR 262, Km 96, Abre Campo, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459127",
+    "name": "Petrobras - Auto Posto Aeroporto",
+    "latitude": -21.794564,
+    "longitude": -43.367619,
+    "address": "Av. Deusdedith Salgado, 2020 - Teixeiras, Juiz de Fora - MG, 36033-007, Juiz de Fora",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_188890",
+    "name": "BMW Euroville",
+    "latitude": -21.80725859037888,
+    "longitude": -43.376626921312436,
+    "address": "Avenida Deusdedith Salgado, Juiz de Fora, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_272801",
+    "name": "Audi Center Juiz de Fora",
+    "latitude": -21.816686009794765,
+    "longitude": -43.37569379357285,
+    "address": "Av. Deusdedith Salgado, 5555, Juiz de Fora, MG",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_303253",
+    "name": "Hotel Evidence",
+    "latitude": -21.88120118944778,
+    "longitude": -42.684585117408176,
+    "address": "BR 393 KM 104, Sapucaia - RJ, 25880-000, Sapucaia, RJ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_189498",
+    "name": "Rua Maria de Freitas 639",
+    "latitude": -21.120077,
+    "longitude": -44.170421,
+    "address": "Rua Maria de Freitas 639, Tiradentes, Minas Gerais",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460275",
+    "name": "LIBER ENERGIA - ADEMICON SJDR",
+    "latitude": -21.1095463046926,
+    "longitude": -44.232423409763044,
+    "address": "AVENIDA 31 DE MARÇO 620, SÃO JOÃO DEL REI, MINAS GERAIS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460920",
+    "name": "Petrobras - Curva Do Retiro",
+    "latitude": -20.077168,
+    "longitude": -43.982534,
+    "address": " Posto Curva do Retiro - Rod BR 40 km 548 S/N - Jardim Canada, Nova Lima - MG, Brasil, Nova Lima",
+    "source": "OpenChargeMap"
+  }
+]

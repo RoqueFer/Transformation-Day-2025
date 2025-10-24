@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ocm_264463",
+    "name": "Hotel Canto das Aguas - Estacoes Porsche",
+    "latitude": -12.561341757019065,
+    "longitude": -41.388339233783825,
+    "address": "Av. Sr. dos Passos, 1, Lençois, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460141",
+    "name": "Volvo Posto Santa Helea",
+    "latitude": -12.51767816012773,
+    "longitude": -40.285841061034034,
+    "address": "Rodovia BR 242, Km 88, s/n Sede, Itaberaba - BA, 46880-000, Itaberaba, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299178",
+    "name": "Volvo - AutoPosto DDD 242",
+    "latitude": -12.419914881971906,
+    "longitude": -41.838995187935154,
+    "address": "Rodovia Milton Santos, Seabra, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_267144",
+    "name": "BR Super Carga - Pousada e Restaurante Moderno - 60kW - Milagres/BA",
+    "latitude": -12.873784406117991,
+    "longitude": -39.856543582119286,
+    "address": "Av. Lomanto Júnior, 633, Milagres, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302213",
+    "name": "PluGreen Ponto de Apoio 2 Irmaos",
+    "latitude": -13.8605976715358,
+    "longitude": -40.113712791381005,
+    "address": "Avenida Governador Aurélio Viana, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

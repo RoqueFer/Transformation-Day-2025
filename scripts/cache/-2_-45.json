@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ocm_304816",
+    "name": "BR Super Carga - Galeria A",
+    "latitude": -2.491635972918999,
+    "longitude": -44.27669133964659,
+    "address": "Avenida Sambaquis, 34, São Luis, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235030",
+    "name": "Parque do Rangedor",
+    "latitude": -2.495479124762909,
+    "longitude": -44.2618499502216,
+    "address": "Av. Avicencia, 1, São Luis, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_305864",
+    "name": "Amazônia Eletrovias - Governador Nunes Freire Posto Santa Maria",
+    "latitude": -2.134730799244764,
+    "longitude": -45.88487930023274,
+    "address": "Posto Santa Maria, BR 316, Governador Nunes Freire, Governador Nunes Freire, MA",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312056",
+    "name": "Amazônia Eletrovias - São Luís Posto Confiança",
+    "latitude": -2.560302467828606,
+    "longitude": -44.247159560935756,
+    "address": "Posto Confiança Av. dos Franceses, 25 - Tirirical, São Luís, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308511",
+    "name": "Amazônia Eletrovias - São Luís Posto HD 35",
+    "latitude": -2.6890976125267656,
+    "longitude": -44.299633906808026,
+    "address": "Posto HD 35, BR-135, São Luís - MA, São Luís , Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

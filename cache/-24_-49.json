@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_264456",
+    "name": "Posto Bizungao III",
+    "latitude": -22.957545008594167,
+    "longitude": -48.865137274772565,
+    "address": "Rodovia Presidente Castelo Branco, 247, Avaré, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_204433",
+    "name": "Volvo Charger - Posto Ongaratto 500",
+    "latitude": -24.78074397448374,
+    "longitude": -48.18600783359733,
+    "address": "Rod. Régis Bittencourt, 500, Cajati, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264455",
+    "name": "Auto Posto Orbi",
+    "latitude": -22.900472197697127,
+    "longitude": -48.45001692776441,
+    "address": "Rodovia Professor João Hipólito Martins, Botucatu, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459116",
+    "name": "Petrobras - Eletroposto Plaza Santa Bárbara",
+    "latitude": -22.813037,
+    "longitude": -49.282155,
+    "address": "AVENIDA MARGINAL, S/N LOTE 1 QUADRA Z GLEBA 1 - LOT. THERMAS DE .STA BARBARA, AGUAS DE SANTA BARBARA, complemento: rodovia Castelo Branco km 292,6, Santa Bárbara",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306844",
+    "name": "Rua Cambara",
+    "latitude": -22.986309374606847,
+    "longitude": -49.86765450478606,
+    "address": "Rua Cambara, Ourinhos , São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_259628",
+    "name": "Posto Fase Quattro",
+    "latitude": -24.33100568490397,
+    "longitude": -47.630335244289085,
+    "address": "Rodovia Régis Bittencourt (BR-116) km 413,8, Juquiá, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461892",
+    "name": "Graal Ourinhos",
+    "latitude": -22.980560848885105,
+    "longitude": -49.902910758552025,
+    "address": "Rodovia Transbrasiliana BR 153 KM345 , Ourinhos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_302563",
+    "name": "Ev Eletroposto Restaurante Serra Da Graciosa",
+    "latitude": -25.318308965398444,
+    "longitude": -49.01801328361768,
+    "address": "R. Doraci Ribeiro Prestes, 45, Quatro Barras, PR",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_259809",
+    "name": "Posto Tulio Caraguatá",
+    "latitude": -25.329076754299123,
+    "longitude": -49.02997239096226,
+    "address": "BR-116, km 68, Campina Grande do Sul, Paraná",
+    "source": "OpenChargeMap"
+  }
+]

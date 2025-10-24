@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ocm_257191",
+    "name": "Paradouro Costa Doce",
+    "latitude": -32.85311370466637,
+    "longitude": -52.70424899573396,
+    "address": "BR-471, km 664, Santa Vitória do Palmar, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274686",
+    "name": "Rota Mercosul 09 - Ufsm / Equatorial",
+    "latitude": -32.852725536459644,
+    "longitude": -52.7039725648672,
+    "address": "BR-471, Santa Vitória do Palmar, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274730",
+    "name": "Rota Mercosul 10 - Ufsm / Equatorial",
+    "latitude": -33.46020252181587,
+    "longitude": -53.27766296801503,
+    "address": "BR-471, Santa Vitória do Palmar, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274687",
+    "name": "Rota Mercosul 07 - Ufsm / Equatorial",
+    "latitude": -32.53089898115187,
+    "longitude": -53.35456678564367,
+    "address": "Rodovia General Bento Gonçalves, Jaguarão, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274685",
+    "name": "Rota Mercosul 08 - Ifsm / Equatorial",
+    "latitude": -31.942033523424158,
+    "longitude": -52.31105472057487,
+    "address": "Rodovia Marginal, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

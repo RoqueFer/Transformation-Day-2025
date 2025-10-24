@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_306843",
+    "name": "Pruden Shopping",
+    "latitude": -22.115909600346214,
+    "longitude": -51.409853499282804,
+    "address": "Avenida Manoel Goulart, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_462268",
+    "name": "OPLUG 24h",
+    "latitude": -23.44995901708917,
+    "longitude": -51.93206863767148,
+    "address": "Av cerro azul 2579, Maringa, PR",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_461892",
+    "name": "Graal Ourinhos",
+    "latitude": -22.980560848885105,
+    "longitude": -49.902910758552025,
+    "address": "Rodovia Transbrasiliana BR 153 KM345 , Ourinhos, São Paulo",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306844",
+    "name": "Rua Cambara",
+    "latitude": -22.986309374606847,
+    "longitude": -49.86765450478606,
+    "address": "Rua Cambara, Ourinhos , São Paulo",
+    "source": "OpenChargeMap"
+  }
+]

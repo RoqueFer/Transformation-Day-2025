@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_308514",
+    "name": "Amazônia Eletrovias - Imperatriz Posto Santa Tereza",
+    "latitude": -5.482171307076371,
+    "longitude": -47.472407707787454,
+    "address": "Posto Santa Tereza, BR 010, Coco Grande, Imperatriz - MA, 65909-170, Imperatriz, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308515",
+    "name": "Amazônia Eletrovias - Imperatriz Posto Ecodrive",
+    "latitude": -5.542314711357619,
+    "longitude": -47.46556159555905,
+    "address": "Posto Ecodrive, BR-010, Imperatriz - MA, Imperatriz, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308513",
+    "name": "Amazônia Eletrovias - Buriticupu",
+    "latitude": -4.331723813989967,
+    "longitude": -46.43484585092182,
+    "address": "Auto Posto Dois Irmãos, BR-222, Buriticupu - MA, Buriticupu, Maranhão",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_309141",
+    "name": "Amazônia Eletrovias - Grajaú Posto Canoeiro",
+    "latitude": -5.825507067191936,
+    "longitude": -46.15901203244161,
+    "address": "BR-226, 145 - Bairro Canoeiro, Grajaú, Maranhão",
+    "source": "OpenChargeMap"
+  }
+]

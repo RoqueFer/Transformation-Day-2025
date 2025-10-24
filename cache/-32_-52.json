@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ocm_274685",
+    "name": "Rota Mercosul 08 - Ifsm / Equatorial",
+    "latitude": -31.942033523424158,
+    "longitude": -52.31105472057487,
+    "address": "Rodovia Marginal, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257189",
+    "name": "Shopping Pelotas",
+    "latitude": -31.760818599602686,
+    "longitude": -52.318595533287294,
+    "address": "Avenida Ferreira Viana, 1526, Pelotas, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257190",
+    "name": "Hotel Jacques George Tower",
+    "latitude": -31.769159783661095,
+    "longitude": -52.336626128726095,
+    "address": "Rua Almirante Barroso, 2069, Pelotas, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257188",
+    "name": "DLinea Villato Moveis Pelotas",
+    "latitude": -31.737285407734085,
+    "longitude": -52.32764680997684,
+    "address": "Avenida República do Líbano, 565, Pelotas, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274684",
+    "name": "Rota Mercosul 06 - Ufsm / Equatorial - Paradouro Barragem",
+    "latitude": -31.72043835781156,
+    "longitude": -52.37965365011061,
+    "address": "Avenida Um, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274683",
+    "name": "Rota Mercosul 05 - Ufsm / Equatorial",
+    "latitude": -31.016458873755617,
+    "longitude": -52.05368608442373,
+    "address": "Rodovia General Bento Gonçalves, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274686",
+    "name": "Rota Mercosul 09 - Ufsm / Equatorial",
+    "latitude": -32.852725536459644,
+    "longitude": -52.7039725648672,
+    "address": "BR-471, Santa Vitória do Palmar, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257191",
+    "name": "Paradouro Costa Doce",
+    "latitude": -32.85311370466637,
+    "longitude": -52.70424899573396,
+    "address": "BR-471, km 664, Santa Vitória do Palmar, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257185",
+    "name": "Zletric - Posto SIM Camaquã",
+    "latitude": -30.857474235184817,
+    "longitude": -51.78651997033205,
+    "address": "Rodovia General Bento Gonçalves, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257187",
+    "name": "Agro Comercial Afubra Ltda",
+    "latitude": -30.849948278296566,
+    "longitude": -51.76987509530568,
+    "address": "Rua Ailton Ulguim Campos, 1907, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_257186",
+    "name": "Agro Comercial Afubra Ltda",
+    "latitude": -30.849948278296566,
+    "longitude": -51.76987509530568,
+    "address": "Rua Ailton Ulguim Campos, 1907, Camaquã, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274687",
+    "name": "Rota Mercosul 07 - Ufsm / Equatorial",
+    "latitude": -32.53089898115187,
+    "longitude": -53.35456678564367,
+    "address": "Rodovia General Bento Gonçalves, Jaguarão, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

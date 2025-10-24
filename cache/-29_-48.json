@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_260180",
+    "name": "Posto SIM Paradouro Camarão",
+    "latitude": -28.42311689851337,
+    "longitude": -48.79826183945869,
+    "address": "Marginal da BR-101, km 311, Laguna, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191919",
+    "name": "Eletroposto Celesc - Posto Cabeçudas",
+    "latitude": -28.44043810288335,
+    "longitude": -48.823688475843426,
+    "address": "Rua Antônio da Silva Fernandes, 982–1238, Laguna, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_191920",
+    "name": "Eletroposto Celesc - Posto Petrosimon",
+    "latitude": -28.86786188339657,
+    "longitude": -49.45010760381592,
+    "address": "BR-101, Km 401, Maracajá, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460909",
+    "name": "Petrobras - Autoposto Brambila",
+    "latitude": -28.874695,
+    "longitude": -49.454283,
+    "address": "Rod. Governador Mário Covas, Maracajá - SC, 88915-000, Maracajá",
+    "source": "OpenChargeMap"
+  }
+]

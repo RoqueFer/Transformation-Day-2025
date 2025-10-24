@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ocm_459999",
+    "name": "CAF STOP Carga Rápida",
+    "latitude": -27.078508440909786,
+    "longitude": -52.620762354084604,
+    "address": "R. Dom Joaquim Domingues de Oliveira, 100, Chapecó, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459998",
+    "name": "Posto Milão - COULOMB Energia",
+    "latitude": -27.095983929255617,
+    "longitude": -52.66784828693875,
+    "address": "Av. Sen. Atilio Fontana, 2050, Chapecó, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_260391",
+    "name": "Coopercampos",
+    "latitude": -27.388979114537293,
+    "longitude": -51.21491388591278,
+    "address": "Rodovia Cid César de Almeida Pedroso, Campos Novos, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_280230",
+    "name": "Creluz - Usina Solar Amerista do Sul",
+    "latitude": -27.35837071920436,
+    "longitude": -53.19713137432208,
+    "address": "RS-591, 16 - Ametista do Sul, RS, 98465-000, Brazil, Ametista Do Sul, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459996",
+    "name": "Creluz - Cooperativa de Distribuição de Energia",
+    "latitude": -27.47200920682063,
+    "longitude": -53.171355613845776,
+    "address": "Rua Getúlio Vargas, 8, Rodeio Bonito, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459994",
+    "name": "Creluz Eletroposto Rodeio Bonito",
+    "latitude": -27.472827225471207,
+    "longitude": -53.18926350108535,
+    "address": "GRG6 V8 Rodeio Bonito, Rodeio Bonito, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459997",
+    "name": "Creluz - Cooperativa de Distribuição de Energia Pinhal",
+    "latitude": -27.512535303500556,
+    "longitude": -53.21359324709914,
+    "address": "Av. Treze de Maio, 1348, Pinhal, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_460000",
+    "name": "Grill Hall Panorâmico",
+    "latitude": -28.2370351998304,
+    "longitude": -52.37645804506485,
+    "address": "rua Verdi de Cezaro 185, Paso Fundo, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_311792",
+    "name": "Carregador",
+    "latitude": -28.249724545808284,
+    "longitude": -52.413254232778115,
+    "address": "Rua Bento Gonçalves, 168 - Centro, Passo Fundo - RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459993",
+    "name": "Creluz Eletroposto Frederico Westphalen",
+    "latitude": -27.409960711214154,
+    "longitude": -53.41506180717556,
+    "address": "Rod. Gov. Leonel de Moura Brizola, 4960 - Bela Vista,, Frederico Westphalen, RS",
+    "source": "OpenChargeMap"
+  }
+]

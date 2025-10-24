@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ocm_305755",
+    "name": "BR Super Carga - Panaderia Ponta Verde - 60kW - Maceió",
+    "latitude": -9.656556731909674,
+    "longitude": -35.701381659698654,
+    "address": "Rua Lourenço Moreira da Silva, Maceio, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299172",
+    "name": "BR Super Carga - Carajas Maceio Mangabeiras - 180kW - Maceió",
+    "latitude": -9.64496215704365,
+    "longitude": -35.71553018094289,
+    "address": "Avenida Comendador Gustavo Paiva, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_308688",
+    "name": "BR Super Carga - Posto Comendador Praia - 40kW - Maceió",
+    "latitude": -9.672378740154628,
+    "longitude": -35.747156649002704,
+    "address": "Av. Assis Chateaubriand, 3164, Maceió, AL",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306226",
+    "name": "BR Super Carga - Volvo Gama - 40kW - Maceió",
+    "latitude": -9.617361740728214,
+    "longitude": -35.73960430359767,
+    "address": "Av. Fernandes Lima, 3595, Maceió, AL",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306551",
+    "name": "BR Super Carga - Carajás Tabuleiro do Martins - 90kW - Maceió",
+    "latitude": -9.590148174881335,
+    "longitude": -35.76098671422119,
+    "address": "Avenida Sebastião Correia da Rocha, Maceió, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_300289",
+    "name": "BR Super Carga - Carajas Marechal Deodoro - 60kW - Marechal Deodoro",
+    "latitude": -9.7277412813811,
+    "longitude": -35.87819781257568,
+    "address": "AL-101, Marechal Deodoro, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313359",
+    "name": "Nordeste Eletropostos ",
+    "latitude": -9.018363572776636,
+    "longitude": -35.22523563782511,
+    "address": "Avenida Arnon De Melo, 33 - Maragogi - Alagoas ",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235040",
+    "name": "Posto Pichilau Pioneiro - Corredor Verde Neoenergia",
+    "latitude": -9.408963578859002,
+    "longitude": -35.83982563187578,
+    "address": "Rodovia Governador Mário Covas, Rio Largo, Alagoas",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_216940",
+    "name": "Casa do Flávio da Galinha",
+    "latitude": -10.130196657667826,
+    "longitude": -36.17627431495732,
+    "address": "Rua do Futuro n32 - Centro, Coruripe, Alagoas",
+    "source": "OpenChargeMap"
+  }
+]

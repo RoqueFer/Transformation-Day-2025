@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_299162",
+    "name": "BR Super Carga - Entre Rios Hotel",
+    "latitude": -7.079931816230044,
+    "longitude": -41.45969266916384,
+    "address": "Avenida Senador Helvídio Nunes, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299163",
+    "name": "BR Super Carga - Hotel Rio Parnaiba",
+    "latitude": -6.774338899801734,
+    "longitude": -43.00952732860304,
+    "address": "Avenida Doutor José Ribamar Pacheco, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307782",
+    "name": "TEM CARREGADORES - LANCHONETE O SALES",
+    "latitude": -5.892237723663399,
+    "longitude": -42.64569020132754,
+    "address": "BR-343, 365, Água Branca - PI, 64460-000, Teresina, Piauí",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307780",
+    "name": "TEM CARREGADOR - Lanchonete O Sales",
+    "latitude": -5.8919242,
+    "longitude": -42.6458396,
+    "address": "BR-343, 365, Água Branca, Piauí",
+    "source": "OpenChargeMap"
+  }
+]

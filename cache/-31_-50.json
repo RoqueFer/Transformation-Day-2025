@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_208305",
+    "name": "IESA RENAULT",
+    "latitude": -29.888446678255,
+    "longitude": -50.276230202702266,
+    "address": "BR-101, 1100 , Osório, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_274688",
+    "name": "Rota Mercosul 02 - Ufsm / Equatorial",
+    "latitude": -29.85201952230647,
+    "longitude": -50.24702267535784,
+    "address": "Rodovia Governador Mário Covas, Osório, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_288938",
+    "name": "Parador Grupo Iesa Xangri-la",
+    "latitude": -29.779824025856634,
+    "longitude": -50.02926997837051,
+    "address": "Avenida Paraguassu 4525, Xangri-la",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_209976",
+    "name": "Posto SIM Freeway - Zletric - BR-290",
+    "latitude": -29.944303542054087,
+    "longitude": -50.94738747379928,
+    "address": "Rodovia BR 290, Km 69, S/N - Sítio Gaúcho, Gravataí, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

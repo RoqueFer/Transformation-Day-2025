@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ocm_301725",
+    "name": "EV ELETROPOSTO - Hotel Franco",
+    "latitude": -26.25533521248223,
+    "longitude": -53.633326204084426,
+    "address": "Av. Paraná, n° 10 - Centro, Dionísio Cerqueira - SC, 89950-000, Dionisio Cequeira, Santa Catarina",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193475",
+    "name": "Posto Palmeiras",
+    "latitude": -25.37785532306833,
+    "longitude": -52.3965464311197,
+    "address": "Posto Palmeiras, Laranjeiras do Sul, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193476",
+    "name": "Restaurante Choupana",
+    "latitude": -25.102012310256754,
+    "longitude": -53.041478340948174,
+    "address": "BR-277 km 540, Ibema, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193474",
+    "name": "Restaurante Três Pinheiros",
+    "latitude": -25.459472057008384,
+    "longitude": -51.951417551671625,
+    "address": "BR-277 km 118, Candói, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193477",
+    "name": "Posto Pra Frente Brasil",
+    "latitude": -24.99011269059423,
+    "longitude": -53.508101673792225,
+    "address": "BR-277 km 596, Cascavel, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306611",
+    "name": "BYD Cascavel",
+    "latitude": -24.954332420032742,
+    "longitude": -53.42055319105481,
+    "address": "Rua Martin Afonso de Souza, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_306610",
+    "name": "Parada do Mano Restaurante",
+    "latitude": -24.97875923409137,
+    "longitude": -53.49158696874042,
+    "address": "Rua Mylla, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_301455",
+    "name": "Bionova - Carregadores e Mobilidade Elétrica",
+    "latitude": -24.95080460430907,
+    "longitude": -53.42589163448565,
+    "address": "Rua Rio Negro, Paraná",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_312762",
+    "name": "Shopping Catuai - Cia Charge",
+    "latitude": -24.948020793977875,
+    "longitude": -53.43503541397256,
+    "address": "Av. Brasil, 3545, Cascavel, PR",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459999",
+    "name": "CAF STOP Carga Rápida",
+    "latitude": -27.078508440909786,
+    "longitude": -52.620762354084604,
+    "address": "R. Dom Joaquim Domingues de Oliveira, 100, Chapecó, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_459998",
+    "name": "Posto Milão - COULOMB Energia",
+    "latitude": -27.095983929255617,
+    "longitude": -52.66784828693875,
+    "address": "Av. Sen. Atilio Fontana, 2050, Chapecó, SC",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_193478",
+    "name": "Auto Posto Matelandia Ipiranga",
+    "latitude": -25.24312364701521,
+    "longitude": -53.97937417173915,
+    "address": "Av. Juscelino Kubitscheck de Oliveira, 1200, Matelândia, Paraná",
+    "source": "OpenChargeMap"
+  }
+]

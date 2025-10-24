@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_459992",
+    "name": "Cemacon - Eletroposto",
+    "latitude": -27.852803099754638,
+    "longitude": -54.47617859591655,
+    "address": "Av. Tuparendi, 1660 - Glória, Santa Rosa, RS",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_307966",
+    "name": "Unijui",
+    "latitude": -28.38835640682798,
+    "longitude": -53.929912641540184,
+    "address": "R. Lulú Ilgenfritz, 507 - São Geraldo, Ijuí - RS, 98700-000, Brazil, Ijui, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_289013",
+    "name": "Bedinoto Tecnologia Energia Solar",
+    "latitude": -29.21449203528322,
+    "longitude": -54.84676300867979,
+    "address": "Av. Alceu Duarte De Carvalho 2184, Santiago, Rio Grande do Sul",
+    "source": "OpenChargeMap"
+  }
+]

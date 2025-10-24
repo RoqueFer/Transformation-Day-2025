@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ocm_290861",
+    "name": "Planeta Charge",
+    "latitude": -5.992899183476339,
+    "longitude": -40.29601581295509,
+    "address": "Rua Francisca Clotilde, Tauá, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299161",
+    "name": "Planeta Net Telecom - Estacionamento",
+    "latitude": -5.192727089178163,
+    "longitude": -40.66709405297058,
+    "address": "R. Francisco De Sousa Torres, 105, Crateús, Ceará",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299162",
+    "name": "BR Super Carga - Entre Rios Hotel",
+    "latitude": -7.079931816230044,
+    "longitude": -41.45969266916384,
+    "address": "Avenida Senador Helvídio Nunes, Piauí",
+    "source": "OpenChargeMap"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ocm_235045",
+    "name": "Atacadão Hiperideal - Corredor Verde Neoenergia",
+    "latitude": -12.564564237397335,
+    "longitude": -38.0177653141717,
+    "address": "BA 099 KM 54, Mata de São João, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_235044",
+    "name": "Posto Linha Verde Petrobras - Corredor Verde Neoenergia",
+    "latitude": -12.302227333136301,
+    "longitude": -37.89994262205079,
+    "address": "BA-099, Linha Verde, Entre Rios, Bahia",
+    "source": "OpenChargeMap"
+  }
+]

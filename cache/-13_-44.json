@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ocm_267071",
+    "name": "Hotel Conceito",
+    "latitude": -13.255199498075001,
+    "longitude": -43.417047040319176,
+    "address": "Rua Guanabara, 53, Bom Jesus da Lapa, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_299177",
+    "name": "Volvo - Hotel Serra do Rio",
+    "latitude": -12.17586239811881,
+    "longitude": -43.21058419533915,
+    "address": "Rodovia Milton Santos, Ibotirama, Bahia",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_313298",
+    "name": "TEM CARREGADOR DC 30 KW - BARREIRINHAS, BARREIRAS/BA - HOTEL DAS PALMEIRAS ",
+    "latitude": -12.138098710068192,
+    "longitude": -45.01179853314477,
+    "address": "Av. Aylon Macedo, 1400 - Barreirinhas, Barreiras - BA, 47810-692, Barreirinhas, Barreiras - BA",
+    "source": "OpenChargeMap"
+  },
+  {
+    "id": "ocm_264462",
+    "name": "Hotel Solar das Mangueiras",
+    "latitude": -12.132049724317355,
+    "longitude": -45.014880473580945,
+    "address": "Av. Aylon Macedo, 2000, Barreiras, Bahia",
+    "source": "OpenChargeMap"
+  }
+]
